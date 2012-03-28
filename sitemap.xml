@@ -1,11 +1,63 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/blog/archives/</loc>
+        <loc>http://df1.github.com/blog/2012/02/12/its-time-to-blog/</loc>
+        <lastmod>2012-03-29T01:20:58+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/
+        </loc>
+        <lastmod>2012-03-29T01:21:49+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://df1.github.com/blog/2012/02/17/ext-js-4-dot-0-7-4-dot-1b2-ie8-performance-issue/
+        </loc>
+        <lastmod>2012-03-29T01:24:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://df1.github.com/blog/2012/02/24/ext-js-4-dot-1-0-beta-3-test-summary-and-ie8-performance/
+        </loc>
+        <lastmod>2012-03-29T01:22:09+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://df1.github.com/blog/2012/02/26/cross-browser-add-on-frameworks/</loc>
+        <lastmod>2012-03-29T01:22:22+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://df1.github.com/blog/2012/03/03/ext-4-dot-1b3-bug-when-grouping-template-column/
+        </loc>
+        <lastmod>2012-03-29T01:22:36+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-2010-branding/</loc>
         <lastmod>2012-03-28T18:56:41+08:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
-        <lastmod>2012-03-28T18:56:41+08:00</lastmod>
+        <loc>http://df1.github.com/blog/2012/03/21/be-a-rockstar-developer/</loc>
+        <lastmod>2012-03-29T01:23:00+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://df1.github.com/blog/2012/03/25/cool-web-slides-comparing-impress-dot-js-jmpress-dot-js-and-reveal-dot-js/
+        </loc>
+        <lastmod>2012-03-29T01:23:18+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://df1.github.com/blog/2012/03/27/cool-web-slides-comparing-impress-dot-js-jmpress-dot-js-and-reveal-dot-js/
+        </loc>
+        <lastmod>2012-03-29T01:24:27+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://df1.github.com/blog/archives/</loc>
+        <lastmod>2012-03-29T01:24:27+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://df1.github.com/</loc>
+        <lastmod>2012-03-29T01:24:27+08:00</lastmod>
     </url>
 </urlset>
