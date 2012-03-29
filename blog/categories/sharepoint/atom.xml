@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: SharePoint | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/sharepoint/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-03-30T02:40:20+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[10 Tips for SharePoint 2010 Branding]]></title>
+    <link href="http://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-2010-branding/"/>
+    <updated>2012-03-04T23:10:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-2010-branding</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>
