@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: JS | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/js/atom.xml" rel="self"/>
+  <title><![CDATA[Category: impress.js | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/impress-js/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
   <updated>2012-03-30T17:24:47+08:00</updated>
   <id>http://df1.github.com/</id>
@@ -355,38 +355,6 @@ freemium模式</div>
 <p>現在CSS跟JS的技術都有爆炸性的成長，其實還有很多更酷炫的方式來呈現簡報(如parallax scrolling的：<a href="http://layrr.com/">layrr</a>、<a href="http://www.nike.com/jumpman23/aj2012/">Nike AJ球鞋網頁</a>等等)。但是真的就流於網頁程式設計苦工了，需要評估有沒有值那個成本。</p>
 
 <p>喜歡嗎？去fork一個你的Limpress.js吧XD！ (趕風潮XD)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[跨瀏覽器add-on開發的framework]]></title>
-    <link href="http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework/"/>
-    <updated>2012-02-26T13:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework</id>
-    <content type="html"><![CDATA[<p>最近想寫一個增進工作效率的add-on，自用之餘也打算寫好之後拿來送禮餽贈同事(XD)。稍微<a href="http://stackoverflow.com/questions/4913123/cross-browser-extensions-api" style="background-color: white; font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; text-align: left;" target="_blank">survey了一下</a>之後，目前cross-browser add-on framework大概有幾種選擇：<br /></p>
-
-<br />
-
-
-<ul>
-<li><div style="text-align: left;">
-<a href="http://apps.kynetx.com/" target="_blank"><em>Kynetx</em></a>：免費的，算是<a href="http://apps.kynetx.com/" style="background-color: white; font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; text-align: left;" target="_blank">主力開發extension的公司</a>所提供的工具(有在號召developer加入，code在github)，支援IE/FF/Safari/Chrome。但是開發出來的擴充元件相依於Kynetx extension。另外，需要用他們自家的Kynetx Rules Language進行開發。</div>
-<a href="http://2.bp.blogspot.com/-8jx9UtUXdlE/T0kmJwnBlRI/AAAAAAAABcI/aq6OLGmY0hc/s1600/1.png" imageanchor="1" style="font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="70" src="http://2.bp.blogspot.com/-8jx9UtUXdlE/T0kmJwnBlRI/AAAAAAAABcI/aq6OLGmY0hc/s320/1.png" width="320" /></a></li>
-<li><div style="text-align: left;">
-<a href="http://trigger.io/" target="_blank"><em>Forge</em></a>：他本身是跨平台的App Framework。除了支援iOS跟Android之外，瀏覽器部分也支援了IE/FF/Safari/Chrome，但是瀏覽器是需要付費的(目前每月$299)。</div>
-<div style="text-align: -webkit-auto;">
-<a href="http://1.bp.blogspot.com/-BeaFOmufRck/T0kmLJlv6FI/AAAAAAAABcQ/boSn1v9MFPU/s1600/2.png" imageanchor="1" style="font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="130" src="http://1.bp.blogspot.com/-BeaFOmufRck/T0kmLJlv6FI/AAAAAAAABcQ/boSn1v9MFPU/s320/2.png" width="320" /></a></div>
-</li>
-<li><div style="text-align: left;">
-<a href="http://crossrider.com/" target="_blank"><em>CrossRider</em></a>：免費的，支援IE/FF/Chrome。他主打用jQuery開發跨瀏覽器擴充，乍看之下是有點吸引我。試用了之後覺得他設計得還不錯，也有web的開發介面。如果這市場夠大的話看似未來也會有很好的發展性跟community。最大的缺點是開發中、完成後，都要透過他們的網站發布及安裝(不然就得自己..想辦法XD(?)</div>
-<a href="http://1.bp.blogspot.com/-Fl7Sw0JZRHc/T0kmOLm89nI/AAAAAAAABcY/_3z0c9ctcF8/s1600/3.png" imageanchor="1" style="font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="243" src="http://1.bp.blogspot.com/-Fl7Sw0JZRHc/T0kmOLm89nI/AAAAAAAABcY/_3z0c9ctcF8/s320/3.png" width="320" /></a></li>
-<li><div style="text-align: left;">
-<a href="http://kangoextensions.com/" target="_blank"><em>KangoExtensions</em></a>： 免費的，支援IE/FF/Chrome/Safari/Opera。本身是一個python小程式(目前使用2.7)。稍微看了一下覺得似乎是個不錯的選擇(至少code可以自己maintain，感覺起來彈性也比上面幾個高)。目前打算先用它來試試看，之後再補心得囉。</div>
-<div style="text-align: -webkit-auto;">
-<a href="http://4.bp.blogspot.com/-VMSn7gr6hMA/T0kmPCopROI/AAAAAAAABcc/bsGdKxrXZuI/s1600/4.png" imageanchor="1" style="font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="110" src="http://4.bp.blogspot.com/-VMSn7gr6hMA/T0kmPCopROI/AAAAAAAABcc/bsGdKxrXZuI/s320/4.png" width="320" /></a></div>
-</li>
-</ul>
-
 ]]></content>
   </entry>
   

@@ -7,7 +7,7 @@
     <meta name="author" content="df1">
 
     
-    <meta name="description" content="跨瀏覽器add-on開發的framework 最近想寫一個增進工作效率的add-on，自用之餘也打算寫好之後拿來送禮餽贈同事(XD)。稍微survey了一下之後，目前cross-browser add-on framework大概有幾種選擇： Kynetx：免費的， &hellip;">
+    <meta name="description" content="Web-based Slideshows &#8211;Comparing impress.js, jmpress.js and reveal.js The story began when I was assigned with a jQuery sharing topic. Just few &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -77,6 +77,882 @@
 </script>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/">Web-based Slideshows &#8211;Comparing impress.js, jmpress.js and reveal.js</a></h1>
+    <div class="entry">
+        <p>The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="http://bartaz.github.com/impress.js">impress.js</a>, <a href="http://shama.github.com/jmpress.js">jmpress.js</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. &#8220;Why not give it a crack?&#8221; said them. And <a href="http://locust.csie.ncku.edu.tw/~changch/jquery/">here goes my output</a> with impress.js.<br /></p>
+
+<br />
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>
+</div>
+
+
+<p>Here is my brief comparison, with one of their competitors &#8211; Prezi:<br /></p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+<tbody>
+<tr style="background: #CCCCCC;">
+  <td style="text-align: left;" width="80"></td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+Prezi</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+impress.js/jmpress.js</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+reveal.js</div>
+</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Technology</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+Flash</div>
+</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+<div style="text-align: left;">
+CSS3 + JS</div>
+</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Characteristic</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+<div style="text-align: left;">
+zoom-in/out to give an overview to audience</div>
+</div>
+</td>
+  <td><div style="text-align: left;">
+provides more PowerPoint-like characteristics, also with the &#8220;basement slide&#8221;</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Presentation Usability</div>
+</td>
+  <td><div style="text-align: left;">
+mouse-scroll to zoom, drag to tilt</div>
+</td>
+  <td><div style="text-align: left;">
+mouse-scrolling/dragging do nothing</div>
+</td>
+  <td><div style="text-align: left;">
+the brand new 4-direction browsing</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+To jump to some page</div>
+</td>
+  <td><div style="text-align: left;">
+zoom out and out, and click on your destination slide once you can see it</div>
+</td>
+  <td><div style="text-align: left;">
+&#8220;URL hash&#8221; shows the ID of your page. Can be&nbsp;</div>
+</td>
+  <td><div style="text-align: left;">
+Can be linked</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Design Usability</div>
+</td>
+  <td><div style="text-align: left;">
+Very friendly UI with its prevailing &#8221;<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>&#8221;</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+You must have HTML skill!</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Extensibility</div>
+</td>
+  <td><div style="text-align: left;">
+Constrained by its OOTB themes. However you can still insert your own SWF/PDF/youtube</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+You can insert whatever you can insert in a web page!</div>
+</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Community</div>
+</td>
+  <td style="text-align: center;"><div style="text-align: left;">
+Quite a few</div>
+</td>
+  <td colspan="2" style="text-align: center;"><div style="text-align: left;">
+No community (or does github count?)</div>
+</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Compatibility</div>
+</td>
+  <td><div style="text-align: left;">
+iOS does not play flash. Though there&#8217;s iPad version, I worry about my inserted SWFs and PDFs.</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+How would you doubt the perfect HTML+CSS+JS combo? Except the bad compatibility in old browsers.</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+3D</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+N/A</div>
+</div>
+</td>
+  <td><div style="text-align: left;">
+all x-y-z position/rotation can be defined</div>
+</td>
+  <td><div style="text-align: left;">
+3D transition</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Pricing</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+freemium</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+free</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+free</div>
+</div>
+</td>
+ </tr>
+</tbody></table>
+
+
+<br />
+
+
+<br />
+
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-27T13:17:00+08:00" pubdate data-updated="true">Mar 27<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/english-post/'>English Post</a>, <a class='category' href='/blog/categories/js/'>JS</a>, <a class='category' href='/blog/categories/cool/'>cool</a>, <a class='category' href='/blog/categories/impress-js/'>impress.js</a>, <a class='category' href='/blog/categories/jquery/'>jQuery</a>, <a class='category' href='/blog/categories/jmpress-js/'>jmpress.js</a>, <a class='category' href='/blog/categories/prezi/'>prezi</a>, <a class='category' href='/blog/categories/reveal-js/'>reveal.js</a>, <a class='category' href='/blog/categories/web-slide/'>web slide</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js/">酷炫的web投影片：impress/jmpress.js與reveal.js</a></h1>
+    <div class="entry">
+        <p>一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光阿(遠目)<br /></p>
+
+<br />
+
+
+<p>Prezi的概念就是：畫布是無限大的，你可以定義每個頁面的框在畫布的哪個位置、大小；播放時候會以zoom-in/out的形式，可以帶給觀眾在單一個主題上overview與微觀的整體層次感。當初令我印象最深刻的就是某個prezi實習生做的<a href="http://prezi.com/xcit4zbat6sw/sweet-recipe-to-solving-problems/" target="_blank">Sweet recipe to solving problems</a>(真的是Epic!)。如今Prezi的知名度應該已經有相當程度的提升，也讓我跌破眼鏡的開始支援了iPad（應該是開發了flash轉CSS3？我沒iPad所以不確定）。如果還沒體驗過的話，可以直接去
+<a href="http://www.prezi.com/" target="_blank">Prezi</a>&nbsp;上逛逛別人做好的，個個都是熱情奔放、創意無限！<br /></p>
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-HFX5DC8Bf-I/T28aRi34DXI/AAAAAAAABkM/APfd36gK0RU/s1600/2012-03-25+21-14-11.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="224" src="http://1.bp.blogspot.com/-HFX5DC8Bf-I/T28aRi34DXI/AAAAAAAABkM/APfd36gK0RU/s320/2012-03-25+21-14-11.png" width="320" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Prezi的播放介面</td></tr>
+</tbody></table>
+
+
+<br />
+
+
+<div style="text-align: left;">
+最近，手上又有個關於jQuery的sharing topic。剛好在開始準備的前幾天，我看到了讓我眼睛一亮的玩意－－<a href="http://bartaz.github.com/impress.js">impress.js</a>、<a href="http://shama.github.com/jmpress.js">jmpress.js</a>和<a href="http://lab.hakim.se/reveal-js/">reveal.js</a>。因為剛好需要對jQuery的功能做live demo，如果能在slide上面就直接辦到，這是多麼美妙的一件事啊！當然是先用再說囉。</div>
+
+
+<br />
+
+
+<table align="center" cellpadding="3" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr>
+
+<td style="text-align: center;"><a href="http://bartaz.github.com/impress.js" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="150" src="http://2.bp.blogspot.com/-CcKU5md9xbE/T28aCDgXDyI/AAAAAAAABkE/esPzJ5B-BRo/s320/2012-03-25+20-27-26.png" /></a></td>
+
+<td style="text-align: center;"><a href="http://shama.github.com/jmpress.js" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="150" src="http://4.bp.blogspot.com/-JcFoEZWAFaA/T3B8DM7UAeI/AAAAAAAABkk/BFV4kDSv54s/s320/2012-03-26+22-20-42.png" /></a></td>
+
+<td style="text-align: center;"><a href="http://lab.hakim.se/reveal-js/"><img border="0" height="150" src="http://2.bp.blogspot.com/-0YfuivlNJ04/T28aA7LvzwI/AAAAAAAABj8/0Qu3IObTUs0/s320/2012-03-25+20-27-55.png" style="margin-left: auto; margin-right: auto;" /></a></td></tr>
+</tbody></table>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>
+</div>
+
+
+<br />
+
+
+<p>它們都是以CSS3+JS為主的技術來實現web投影片播放：impress.js簡單的說就是100%向prezi致敬(官網承認的)，將整個無限畫布的概念<strike><span style="color: #999999;">抄</span></strike>承襲了下來；jmpress.js則是繼續<strike><span style="color: #999999;">抄</span></strike>承襲了impress.js， 加入了jQuery/jQuery UI，強調他不只可以當作投影片，更可以拿來當成網站用；reveal.js則是比較不玩這麼fancy的東西，只提供3種轉場效果&amp;程式碼自動上色，整體播放下來的體驗會比較像PowerPoint或Keynote。比較炫的就是除了←→換頁外，還可以使用↑↓方向鍵來進入一張投影片的「地下室」(這樣講有點抽象，直接<a href="http://lab.hakim.se/reveal-js/">去玩玩看</a>就知道啦XD)<br /></p>
+
+<br />
+
+
+<br />
+
+
+<p>於是，我當然是挑了比較酷炫的impress.js來試試看(為什麼要demo jQuery卻不用jmpress.js呢？因為我做完才發現有它的存在orz)。話不多說，<a href="http://locust.csie.ncku.edu.tw/~changch/jquery/">青菜底家啦</a>(節錄版，中間還有亂入impress.js簡單介紹)<br /></p>
+
+<br />
+
+
+<p>最後，來個小小的比較(個人意見)：<br /></p>
+
+<br />
+
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+<tbody>
+<tr style="background: #CCCCCC;">
+  <td width="80"></td>
+  <td><div style="text-align: center;">
+Prezi</div>
+</td>
+  <td><div style="text-align: center;">
+impress.js/jmpress.js</div>
+</td>
+  <td><div style="text-align: center;">
+reveal.js</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">使用技術</td>
+  <td><div style="text-align: center;">
+Flash</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+CSS3 + JS</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">簡報特性</td>
+  <td colspan="2"><div style="text-align: center;">
+以zoom-in/out的形式，帶給觀眾整體感</div>
+</td>
+  <td>提供較多如PowerPoint簡報特性的功能，並提供「地下室」</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">操作性</td>
+  <td>可隨時使用滑鼠滾輪自由放大縮小；可自由拖移畫布位置</td>
+  <td>無法使用滾輪、拖移</td>
+  <td>四向方向鍵的創新模式</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">跳頁方便性(跳到很遠的投影片)</td>
+  <td>須用滾輪縮小後，點選該投影片方可跳至該頁</td>
+  <td>在URL上的#號(hash)後面會顯示該頁面ID。可以直接在網址列上修改ID跳至想要的頁面，也可以自己加上其他投影片的連結；可以用瀏覽器的上一頁/下一頁/瀏覽歷程等操作</td>
+  <td>可在頁面上自己加連結，但是一般跳頁時不會更新hash，所以重新整理之後投影片會跑掉，也不能用上一頁/下一頁</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">製作難度</td>
+  <td>提供功能相當完整的設計介面，可方便地編輯整個大畫布。他主打的「<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">斑馬環</a>」(移動/旋轉/放大縮小工具，就是prezi的logo那個圓形怪怪的東西)也是此介面的一大特色</td>
+  <td colspan="2">需有HTML基礎方能看懂其原理。目前入門的門檻相對高很多。(如：一個&lt;div
+  class=”slide”&gt;&lt;/div&gt;為一張投影片)</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">擴充性</td>
+  <td>被內建的主題限制而無法自訂字型顏色等基本屬性。但可以自行匯入flash(swf)、PDF、圖片等資源(上面提到的recipe範例就是插入了一個龐大的flash)</td>
+  <td colspan="2">只要是在網頁上可以插入的東西都可以加進來！ (要多有彈性就多有彈性，但是相對的就沒有一個良好的擴充架構)</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;">社群/網路資源</td>
+  <td style="text-align: center;">相當豐富</td>
+  <td colspan="2" style="text-align: center;">無社群 (github算嗎XD)</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;">相容性</td>
+  <td>Flash不相容於iOS。雖然有推出iPad版本，但所插入的flash、PDF等元件應該凶多吉少</td>
+  <td colspan="2">HTML+CSS+JS是未來的web標準技術。唯對舊版瀏覽器相容性仍較差</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">3D特效</td>
+  <td><div style="text-align: center;">
+目前無提供</div>
+</td>
+  <td>可以指定傾角、xyz軸位置等，做出很酷炫的3D效果</td>
+  <td>轉場時有3D特效</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">收費</td>
+  <td><div style="text-align: center;">
+freemium模式</div>
+</td>
+  <td><div style="text-align: center;">
+免費</div>
+</td>
+  <td><div style="text-align: center;">
+免費</div>
+</td>
+ </tr>
+</tbody></table>
+
+
+<br />
+
+
+<p>現在CSS跟JS的技術都有爆炸性的成長，其實還有很多更酷炫的方式來呈現簡報(如parallax scrolling的：<a href="http://layrr.com/">layrr</a>、<a href="http://www.nike.com/jumpman23/aj2012/">Nike AJ球鞋網頁</a>等等)。但是真的就流於網頁程式設計苦工了，需要評估有沒有值那個成本。</p>
+
+<p>喜歡嗎？去fork一個你的Limpress.js吧XD！ (趕風潮XD)</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-25T13:17:00+08:00" pubdate data-updated="true">Mar 25<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/js/'>JS</a>, <a class='category' href='/blog/categories/cool/'>cool</a>, <a class='category' href='/blog/categories/impress-js/'>impress.js</a>, <a class='category' href='/blog/categories/jquery/'>jQuery</a>, <a class='category' href='/blog/categories/jmpress-js/'>jmpress.js</a>, <a class='category' href='/blog/categories/prezi/'>prezi</a>, <a class='category' href='/blog/categories/reveal-js/'>reveal.js</a>, <a class='category' href='/blog/categories/web-slide/'>web slide</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/03/21/be-a-rockstar-developer/">Be a Rockstar Developer 當個搖滾開發人員</a></h1>
+    <div class="entry">
+        <p>最近在幾篇文章裡看到了Rockstar Developer這個字眼(似乎有點LAG了)，如果要翻的話就是『搖滾開發人員』這樣？
+就我的認知，指的可能是在技術社群內很活躍的名人；在一個團隊內類似『技術總監』的角色；或是簡單的說，就是你很崇拜的那種程式人員。<br /></p>
+
+<br />
+
+
+<p>來看看別人怎麼看這種人XD (以下加一點個人嘴砲)<br /></p>
+
+<br />
+
+
+<h2>
+
+
+<a href="http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">十大特質</a></h2>
+
+
+<ol>
+<li><b>Loves To Code</b><br />&#8211; 這不用說了，要有freak-out的精神！</li>
+<li><b>Gets Things Done</b><br />&#8211;&nbsp;這需要一定的毅力，如《人月神話》所說：滿足了我們潛藏於內心創造事物的渴望；但專案時程和過程中的種種瓶頸可是很難熬的。另外最近scrum等等agile methodology也是很熱的議題，對尋找最佳實務提供很多的創新解法。</li>
+<li><b>Continuously Refactors Code</b><br />&#8211;&nbsp;看了幾本書之後就很HIGH的去改以前的code</li>
+<li><b>Uses Design Patterns</b><br />&#8211;&nbsp;NPC表示：去找在那屋子裡的GoF先知吧(?)</li>
+<li><b>Writes Tests</b><br />&#8211;&nbsp;要寫得夠廣，也要考慮以後方便做regression test。目標是coverage 100%</li>
+<li><b>Leverages Existing Code</b><br />&#8211;&nbsp;Apache Commons之類的，做之前先google準沒錯</li>
+<li><b>Focuses on Usability</b><br />&#8211;&nbsp;與其被嫌了之後還要改，不如(ry</li>
+<li><b>Writes Maintainable Code</b><br />&#8211;&nbsp;架構要設計得好，還是要先去看Design Patterns</li>
+<li><b>Can Code in Any Language</b><br />&#8211;&nbsp;更廣義的說應該是快速pickup的能力?</li>
+<li><b>Knows Basic Computer Science</b><br />&#8211;&nbsp;囧 快忘光了</li>
+</ol>
+
+
+<br />
+
+
+<h2>
+
+
+
+
+<a href="http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html">What makes a ‘Rockstar’ Developer?</a></h2>
+
+
+<ol>
+<li>They don’t think of themselves as rock stars.</li>
+<li>They have a proven track record of multiple shipped products.</li>
+<li>They care more about frameworks than plumbing.</li>
+<li>They’re not willing to work for free</li>
+<li>They believe in development process and best practices to speed up their work.</li>
+<li>They have a positive attitude.</li>
+<li>They get uncomfortable when you ask about their social life.</li>
+<li>You don’t want Alphabet/Acronym soup in their technical skills.</li>
+<li>They’re involved in the community.</li>
+<li>You respect them</li>
+</ol>
+
+
+<p>第6、10點大認同<br /></p>
+
+<br />
+
+
+<h2>
+<a href="http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html">如何成為明星開發人員？</a></h2>
+
+
+<div>
+<div>
+<ol>
+<li>儘可能找一個這樣的優秀導師：他樂意批評你的程式，並傳授他是如何解決問題。當你的水準已達水準時，你可以正當地挑戰你的導師觀點，並獲得一些寶貴的辯論。</li>
+<li>經常提高你所在解決問題的難度和範圍。大多數人並沒有20年的經驗，他們只有1年的經驗，只不過反覆使用了20年。別做這種人。</li>
+<li>關注這些東西：文檔、方法名或函數名、（變數名）、廣泛寫測試案例。你的程式必須看起來專業。</li>
+<li>粗略看看所有的標準
+API&nbsp;，以便知道
+API&nbsp;中有什麼。然後，當你首次使用某個特定
+API&nbsp;時，來回地學習它。如果正好是你學過的語言，並且又有原始碼，也可以看看。</li>
+<li>如果不完全理解某寫東西，得鞭策自己去了解它，得經常深入去研究。</li>
+<li>儘可能選擇使用你的程式語言的最佳IDE。反覆了解IDE。一個優秀的IDE，對你有莫大的幫助。</li>
+<li>當面對一個新挑戰（比如說，你從沒有用SOAP/XML），在你開始寫程式之前，做些廣泛研究。在網路上找找，或者到你的API中看看，是否能找到其他人解決對應問題的最新最佳解。三思而後行。</li>
+<li>謹記，通常你正在寫的程式會交接給他人所用。和客戶經常保持聯繫。控制好他們的期望，展示出你的技能，確保他們知道你是最棒的。時刻謹記社交方面的東西。</li>
+</ol>
+</div>
+</div>
+
+
+<div>
+<br />
+這年頭，找工作還要去衝一下stackoverflow reputation還有github watch/fork數之類的年代（雖然在台灣應該不必，但是看到那類的網站開始bundle求職服務就覺得有壓力了囧）該是好好充實自己的時候了。</div>
+
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-21T13:17:00+08:00" pubdate data-updated="true">Mar 21<span>st</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/career/'>career</a>, <a class='category' href='/blog/categories/murmur/'>murmur</a>, <a class='category' href='/blog/categories/programming/'>programming</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/03/04/10-tips-for-sharepoint-branding/">SharePoint 2010 Branding 十訣</a></h1>
+    <div class="entry">
+        <p>最近突然接到一個消息：我們部門將為另外一個處(division&gt;department)開設一系列的SharePoint Sharing課程(有點拗口)。而我負責的兩個主題其中一個是關於UI Design &amp; Branding，於是便寫了這篇文節錄一些我比較有心得的部分。<br /></p>
+
+<br />
+
+
+<p>SharePoint 2010這東西，是大約去年的五月，我被徵召當UI救火隊時候開始碰的。說實在的，在這之前對於微軟的企業端solution、CMS、還有ASP.NET都完全沒有任何的接觸；不過也是因為這個task，我才算真正進入CSS以及jQuery的大門(算是一個蠻神奇的進入點orz)。<br /></p>
+
+<br />
+
+
+<p>首先簡介一下我們系統。它本身是跨公司內外的網站，但並不是一個內容取向的網站；而是主要由一個個partner-collaboration性質的AP(在這邊當然是web part形式)所構成
+－－<strike>看起來純粹是因為政治及某些人的KPI等等不關我事的因素而採用此solution</strike>。先說說我負責的範圍：<br /></p>
+
+<br />
+
+
+<ol>
+<li><b>整體UI設計及Branding：</b>意思就是把它變成完全不像SharePoint，並且可以讓客戶留下好印象、每個畫面截圖都可以拿來發press release的站。</li>
+<li><b>首頁中所有功能：</b>跟user談了首頁layout、carousel(圖文輪播)、登入框、還有額外的佈告系統。</li>
+<li><b>實作其中一個AP：</b>使用ASP.NET加上DevExpress套件的報表/圖表系統。</li>
+</ol>
+
+
+<br />
+
+
+<br />
+
+
+<p>而今天要講的就是看似最簡單，但實際上最難上手的UI這部分。當時是處於前一個assignee開天窗，進度正火燒屁股的狀態。首先，我們整個UI救火團隊一共有3人：我老闆(負責coordinate)、我(萬用programmer)、還有從其他部門借調來part-time support的美工(也是剛工作不久的)。以下是我們大略的工作流程(沒錯幾乎就是waterfall，或是你可以叫他always-sprint的一人scrum)：<br /></p>
+
+<br />
+
+
+<ul>
+<li>Identify stakeholder(老闆)、Skill pickup (我，持續進行貫串全文)</li>
+<li>Benchmarking：survey所有類似特性的網站
+(我)&nbsp;並拿出來討論(三人)</li>
+<li>談需求(三人、user)，設計wireframe(我、美)</li>
+<li>設計多個design comps <span style="font-size: xx-small;">(
+純圖片的整體設計稿)</span>(美)</li>
+<li>User決定後，做出切好的HTML單一網頁及CSS
+(美)</li>
+<li>開始沒日沒夜的master page實作及fine-tune
+&nbsp;(我)</li>
+<li>開始製作首頁功能(我)<br /><br />主體大致OK後，開始AP端部分的工作(extremely lousy)</li>
+<li>制定AP的UI/Glossary Guideline及audit機制 (三人、AP團隊)</li>
+<li>DevExpress的CSS overriding (我、美)</li>
+<li>fine-tune再
+fine-tune(我)<br /><br />接下來是最後</li>
+<li>整合之後的master page再美化：如頁面對齊、stretching、footer等JS功能(我)</li>
+<li>Deployment(我)</li>
+</ul>
+
+
+<p>其中，skill pickup無疑是最重要的部分。至少需要指派一個人來對整個架構流程進行全盤的瞭解：對於各種需求，必須知道哪些可以使用OOTB (out of the box，指原本package就有提供的功能)、哪些是需要自己慢慢刻、要如何刻等等；在真正開發過程中也須由他來扮演SD lead以及其他team的consult對象。在此我先來推一本我當初唯一的參考書：<br /></p>
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-3wYSwPCtbL4/T1NOjxjsL1I/AAAAAAAABgY/S9gQ3kP3Jto/s1600/%E5%9C%96%E7%89%8710.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="320" src="http://4.bp.blogspot.com/-3wYSwPCtbL4/T1NOjxjsL1I/AAAAAAAABgY/S9gQ3kP3Jto/s320/%E5%9C%96%E7%89%8710.png" width="253" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">書名：Professional SharePoint 2010 Branding and User Interface Design<br />
+作者：Randy Drisgill等<br />
+出版商：Wrox</td></tr>
+</tbody></table>
+
+
+<p>(P.S. 這本書看著看著會很想吃鬆餅XD)<br /></p>
+
+<br />
+
+
+<p>說十訣什麼的其實有點自以為是，不過以下這些都是綜合許多專家還有我的經驗整理出來的一些小tip，希望能減輕生master page時的痛苦。<br /></p>
+
+<br />
+
+
+<h2>Tip #1：導覽列(Navigation)</h2>
+
+
+<p>在SharePoint2007時代，上方的navigation是以巢狀表格方式render；到了2010，預設是使用&lt;ul&gt;&lt;li&gt;的形式(UseSimpleRendering=true情況下)。這使得CSS的撰寫簡單了許多。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-lLEnQbR3QrI/T1NRZDdgxdI/AAAAAAAABgg/grgW4iqvuX0/s1600/%E5%9C%96%E7%89%871.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-lLEnQbR3QrI/T1NRZDdgxdI/AAAAAAAABgg/grgW4iqvuX0/s1600/%E5%9C%96%E7%89%871.png" /></a></div>
+
+
+<br />
+
+
+<h2>Tip #2：彈出式選單</h2>
+
+
+<p>在master page可以用MaximumDynamicDisplayLevels定義最大的彈出層數。在每個sharepoint的site裡面可以個別設定navigation的形式，另外也有許多內建的sitemap可以選擇。在我們user的需求中，他們不使用彈出的形式；而是希望將所有子節點已樹狀形式攤平顯示，而這只要override少許CSS就可以搞定。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-D31iEE60sUQ/T1NE27YgohI/AAAAAAAABfY/zY9LC0dGw6o/s1600/%E5%9C%96%E7%89%872.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-D31iEE60sUQ/T1NE27YgohI/AAAAAAAABfY/zY9LC0dGw6o/s1600/%E5%9C%96%E7%89%872.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+
+
+<h2>Tip #3：不要再去發明輪子</h2>
+
+
+<p>可以使用微軟或許多前輩提供的starter master page開始做branding。裡面有非常詳盡的註解，可以讓你了解每個區段到你是做啥用的。<br /></p>
+
+<ul>
+<li>Microsoft’s Starter master page: &nbsp;http://code.msdn.microsoft.com/odcSP14StarterMaster. This Starter master page was built for SharePoint &nbsp;Foundation 2010, &nbsp;SharePoint Server 2010</li>
+<li>Randy Drisgill’s Starter master pages: &nbsp;(http://startermasterpages.codeplex.com)&nbsp;</li>
+<li>Heather&#8217;s Base Master Page: http://www.heathersolomon.com/downloads/heathersbasemasterpage.zip</li>
+</ul>
+
+
+<br />
+
+
+<div>
+<h2>Tip #4：不要亂砍master page的區段</h2>
+</div>
+
+
+<div>
+就算是不需要用的元件，也不要貿然將它直接砍掉，否則可能會造成整個站壞掉的悲劇(還是有辦法復原就是了)。可以將用不到的區段移到下圖的<span style="font-family: 'Courier New';">&lt;</span><span style="font-family: 'Courier New';">asp:Panel</span><span style="font-family: 'Courier New';">
+</span><span style="font-family: 'Courier New';">runat</span><span style="font-family: 'Courier New';">=“server”
+visible=“false”&gt;</span>區塊裡面。</div>
+
+
+<br />
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-Y5U7PTf5aGs/T1NE5ZO1j9I/AAAAAAAABfg/1TUtoIETuOs/s1600/%E5%9C%96%E7%89%873.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-Y5U7PTf5aGs/T1NE5ZO1j9I/AAAAAAAABfg/1TUtoIETuOs/s1600/%E5%9C%96%E7%89%873.png" /></a></div>
+
+
+<br />
+
+
+<h2>Tip #5：Page Layouts</h2>
+
+
+<p>如果你用的是publishing site(我們只在布告欄功能有用到)，記得設定一個預設的layout，並注意是否有設好<b>可用layout清單</b>。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-qSVsKC9H-C8/T1NE6UWZsjI/AAAAAAAABfo/3C-kaU0Xcgg/s1600/%E5%9C%96%E7%89%874.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-qSVsKC9H-C8/T1NE6UWZsjI/AAAAAAAABfo/3C-kaU0Xcgg/s1600/%E5%9C%96%E7%89%874.png" /></a></div>
+
+
+<h2>Tip #6：參考欄位</h2>
+
+
+<p>很多東西可以用server-side control來減少maintain的effort。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-dvCe8IZ_0XA/T1NE7nh8c5I/AAAAAAAABfw/CZ-AmAOZUPM/s1600/%E5%9C%96%E7%89%875.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-dvCe8IZ_0XA/T1NE7nh8c5I/AAAAAAAABfw/CZ-AmAOZUPM/s1600/%E5%9C%96%E7%89%875.png" /></a></div>
+
+
+<br />
+
+
+<h2>Tip #7：Web Part設計</h2>
+
+
+<p>儘量不要使用圓角設計<br />
+確定它們可以隨視窗放大縮小(這一句很短，但是可以想像工程非常大)<br /></p>
+
+<br />
+
+
+<h2>Tip #8：置中、延展</h2>
+
+
+<p>剛把master page做個雛型出來後雖然小有成就感，但是離<b>好看</b>可能還有一大段距離。其中最麻煩的就是每個頁面、每個user的螢幕大小都不一樣。<br />
+這是OOTB的置中方式：<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-BK-tnGypq3k/T1NE9fSmZFI/AAAAAAAABf0/YmWefjew2os/s1600/%E5%9C%96%E7%89%876.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-BK-tnGypq3k/T1NE9fSmZFI/AAAAAAAABf0/YmWefjew2os/s1600/%E5%9C%96%E7%89%876.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+這是我在master page加上的script，目的是讓所有頁面、所有大小的螢幕上的footer都保持在最下面(僅供參考，裡面許多id是我的自己的DOM裡面定義的)<a href="http://1.bp.blogspot.com/-NzGQ14E8sEE/T1NE-AEICMI/AAAAAAAABf4/2hBubOsgKcs/s1600/%E5%9C%96%E7%89%877.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-NzGQ14E8sEE/T1NE-AEICMI/AAAAAAAABf4/2hBubOsgKcs/s1600/%E5%9C%96%E7%89%877.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+
+
+<h2>Tip #9：設成預設master page</h2>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+打勾的話， 此站台以下的所有子站master page都會被覆蓋為P.master。</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-bsxX9d-qSj8/T1NGZxii34I/AAAAAAAABgQ/p56N_3vYorI/s1600/%E5%9C%96%E7%89%879.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-bsxX9d-qSj8/T1NGZxii34I/AAAAAAAABgQ/p56N_3vYorI/s1600/%E5%9C%96%E7%89%879.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+注意到上圖的設定畫面並沒有套上我們設計的master page嗎？如果不想為了_layouts裡面一堆內建功能在另外設計一個master page的話，記得去站台設定將Master Page Setting for Application _Layouts&nbsp;Pages選項選No。</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-HM61hWjzBXY/T1NYGROirzI/AAAAAAAABgo/DIfvBYhthWo/s1600/2012-03-04+19-37-37.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-HM61hWjzBXY/T1NYGROirzI/AAAAAAAABgo/DIfvBYhthWo/s1600/2012-03-04+19-37-37.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+
+
+<h2>Tip #10：部署</h2>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+因為我們的網站是一個大規模的對外站台，所有webpart程式碼都必須進SVN。上production時，deployment manager將根據deployment plan從SVN包裝wsp檔，透過指令上production。而我們的東西當然也不例外(想像一下，如果在上production時候，必須identify所有有改動的程式碼，然後用SharePoint Designer開啟UAT的站台，再將對應程式碼copy-paste到production，版本控管則由內建的document library機制紀錄之，這是何等的腦殘)。</div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+SharePoint Designer內部的所有東西也可以透過在Visual Studio的SharePoint Project形式包成wsp檔，在deploy時候會自動寫入對應資料夾。(要注意的是_layout裡面的資料無法使用此種方式部署，必須另尋它法)</div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+小結：雖然這個task距離我已經快要一年之遠，對於很多細節的印象跟許多數不清的怨言都已經開始模糊了，不過這整個過程對我來說算是相當寶貴且難忘的：我頭一次有了與美工cowork的機會，另外也讓我體會到enterprise端的龐大商機還有微軟對於這個市場所投注的心力。(附帶一提，我們部門有聘請微軟的consultant每周一天固定on-site support了大約半年之久，其一天的費用大約NT$30,000) =q=&nbsp;</div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+參考資料：<a href="http://www.slideshare.net/cbpeters/making-sharepoint-look-good" target="_blank">Making SharePoint Look Good - Cory Peters</a></div>
+
+
+<br />
+
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-04T13:17:00+08:00" pubdate data-updated="true">Mar 4<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/css/'>CSS</a>, <a class='category' href='/blog/categories/design/'>Design</a>, <a class='category' href='/blog/categories/sharepoint/'>SharePoint</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/03/03/ext-js-4-1-bug-when-group-by-template-column/">Ext 4.1b3的bug：在grid中使用template Column分群時</a></h1>
+    <div class="entry">
+        <p>更新4.1b3之後，發現在某些grid中會出現HTML亂掉的情形如下圖。
+<img src="http://3.bp.blogspot.com/-YBqydfk22z0/T1HVilgqT9I/AAAAAAAABek/tQ7XrpoEv-4/s1600/ext.gif"></p>
+
+<p>建立獨立test case之後整理出bug detail如下：</p>
+
+<ol>
+<li>建立一grid，設定具有dataindex的簡單template column如下  <br/>
+ {
+
+<pre><code> xtype: 'templatecolumn',
+ tpl: '&lt;div data-qtip="{name}"&gt;{abbr}&lt;/div&gt;',
+ dataIndex: 'abbr',
+ text: 'abbr'
+</code></pre>
+
+<p> }</p></li>
+<li>以該欄grouping之後，會出現上述之亂碼情形。</li>
+<li>若將dataindex移除，則不會有此情形，但將失去sorting等功能。</li>
+</ol>
+
+
+<p><a href="http://www.sencha.com/forum/showthread.php?184128-4.1B3-Error-when-grouping-by-a-template-column-in-a-grid">已向sencha回報</a></p>
+
+<p><img src="http://3.bp.blogspot.com/-L3VLm5q-uS4/T1HVTVdalfI/AAAAAAAABec/kQZ8KwGcn-8/s400/2012-03-03+14-14-56.png" width="400"></p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-03T13:17:00+08:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/extjs/'>ExtJS</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
 
 
     <article class="post">
