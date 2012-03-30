@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: murmur | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/murmur/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
   <updated>2012-03-30T14:23:14+08:00</updated>
   <id>http://df1.github.com/</id>
