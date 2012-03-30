@@ -1,0 +1,172 @@
+---
+layout: post
+title: "Web-based Slideshows --Comparing impress.js, jmpress.js and reveal.js"
+date: 2012-03-27 13:17
+comments: true
+categories: [cool, impress.js, jmpress.js, jQuery, JS, prezi, reveal.js, web slide, English Post]
+---
+The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="http://bartaz.github.com/impress.js">impress.js</a>, <a href="http://shama.github.com/jmpress.js">jmpress.js</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. "Why not give it a crack?" said them. And <a href="http://locust.csie.ncku.edu.tw/~changch/jquery/">here goes my output</a> with impress.js.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>
+</div>
+Here is my brief comparison, with one of their competitors -- Prezi:<br />
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+<tbody>
+<tr style="background: #CCCCCC;">
+  <td style="text-align: left;" width="80"></td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+Prezi</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+impress.js/jmpress.js</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+reveal.js</div>
+</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Technology</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+Flash</div>
+</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+<div style="text-align: left;">
+CSS3 + JS</div>
+</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Characteristic</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+<div style="text-align: left;">
+zoom-in/out to give an overview to audience</div>
+</div>
+</td>
+  <td><div style="text-align: left;">
+provides more PowerPoint-like characteristics, also with the "basement slide"</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Presentation Usability</div>
+</td>
+  <td><div style="text-align: left;">
+mouse-scroll to zoom, drag to tilt</div>
+</td>
+  <td><div style="text-align: left;">
+mouse-scrolling/dragging do nothing</div>
+</td>
+  <td><div style="text-align: left;">
+the brand new 4-direction browsing</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+To jump to some page</div>
+</td>
+  <td><div style="text-align: left;">
+zoom out and out, and click on your destination slide once you can see it</div>
+</td>
+  <td><div style="text-align: left;">
+"URL hash" shows the ID of your page. Can be&nbsp;</div>
+</td>
+  <td><div style="text-align: left;">
+Can be linked</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Design Usability</div>
+</td>
+  <td><div style="text-align: left;">
+Very friendly UI with its prevailing "<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+You must have HTML skill!</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Extensibility</div>
+</td>
+  <td><div style="text-align: left;">
+Constrained by its OOTB themes. However you can still insert your own SWF/PDF/youtube</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+You can insert whatever you can insert in a web page!</div>
+</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Community</div>
+</td>
+  <td style="text-align: center;"><div style="text-align: left;">
+Quite a few</div>
+</td>
+  <td colspan="2" style="text-align: center;"><div style="text-align: left;">
+No community (or does github count?)</div>
+</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Compatibility</div>
+</td>
+  <td><div style="text-align: left;">
+iOS does not play flash. Though there's iPad version, I worry about my inserted SWFs and PDFs.</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+How would you doubt the perfect HTML+CSS+JS combo? Except the bad compatibility in old browsers.</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+3D</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+N/A</div>
+</div>
+</td>
+  <td><div style="text-align: left;">
+all x-y-z position/rotation can be defined</div>
+</td>
+  <td><div style="text-align: left;">
+3D transition</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Pricing</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+freemium</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+free</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+free</div>
+</div>
+</td>
+ </tr>
+</tbody></table>
+<br />
+<br />

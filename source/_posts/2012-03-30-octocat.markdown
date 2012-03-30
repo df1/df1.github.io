@@ -1,0 +1,20 @@
+---
+layout: post
+title: "八爪波笛!"
+date: 2012-03-30 11:22
+comments: true
+categories: [octocat, 波笛]
+---
+{% img center /attachments/2012-03-30-octocat/octocat.png %}  
+上禮拜看到了github的『八爪貓資料庫』 -- [octodex](http://octodex.github.com/)，馬上決定要做一隻波笛版，於是就有這隻八爪波笛了XD
+
+各種格式需要請自取：
+[`Illustrator`][1], [`Flash`][2], [`SVG`][3], [`ICO`][4]
+
+[1]: /attachments/2012-03-30-octocat/octocat.ai
+[2]: /attachments/2012-03-30-octocat/octocat.fla
+[3]: /attachments/2012-03-30-octocat/octocat.svg
+[4]: /attachments/2012-03-30-octocat/octocat.ico
+
+可惜那邊只有github自家人才可以commit，殘念也(如果開放應該會亂糟糟吧)  
+下次再來介紹波笛好了XD
