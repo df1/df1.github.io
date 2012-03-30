@@ -1,0 +1,31 @@
+<html>
+<head>
+	<script type="text/javascript">
+		var redirArray = [
+			{keyword:'2012/02/test.html',dest:'/blog/2012/02/14/its-time-to-/blog/'},
+			{keyword:'2012/02/integrate-ext-designer-with-java-web.html',dest:'/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/'},
+			{keyword:'2012/02/ext-js-40741b2-ie8-performance-problem.html',dest:'/blog/2012/02/17/ext-4-performance-issue-in-ie-8/'},
+			{keyword:'2012/02/ext-js-410-beta-3-ie-performance-tuning.html',dest:'/blog/2012/02/24/ext-js-4-1b3-performance-optimization/'},
+			{keyword:'2012/02/add-onframework.html',dest:'/blog/2012/02/26/cross-browser-addon-framework/'},
+			{keyword:'2012/03/ext-41b3buggridtemplate-column.html',dest:'/blog/2012/03/03/ext-js-4-1-bug-when-group-by-template-column/'},
+			{keyword:'2012/03/sharepoint-2010-branding.html',dest:'/blog/2012/03/04/10-tips-for-sharepoint-branding/'},
+			{keyword:'2012/03/be-rockstar-developer.html',dest:'/blog/2012/03/21/be-a-rockstar-developer/'},
+			{keyword:'2012/03/impress-js-and-reveal-js-comparing-with.html',dest:'/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js/'},
+			{keyword:'2012/03/web-based-slideshows-comparing.html',dest:'/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/'}
+		];
+		var found = false;
+		for(var i=0; i<redirArray.length; i++){
+			var key = redirArray[i].keyword;
+			if(location.href.search(key)>=0){
+				location.href = redirArray[i].dest;
+				found = true;
+			}
+		}
+		if(!found){
+			location.href = '/';
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>
