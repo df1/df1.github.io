@@ -1,0 +1,36 @@
+<html>
+<head>
+	<script type="text/javascript">
+		var redirArray = [
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''},
+			{keyword:'',dest:''}
+		];
+		var found = false;
+		for(var i=0; i<redirArray.length; i++){
+			var key = redirArray[i].keyword;
+			if(location.href.search(key)>=0){
+				location.href = redirArray[i].dest;
+				found = true;
+			}
+		}
+		if(!found){
+			location.href = '/';
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>
