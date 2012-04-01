@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ext Designer | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/ext-designer/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-01T01:58:34+08:00</updated>
+  <updated>2012-04-01T19:42:55+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -105,6 +105,9 @@
 <h2>Ext Designer hands-on</h2>
 
 <p>This video from Sencha Learning covers all its features in a nutshell.<br /></p>
+
+<!--more-->
+
 
 <iframe allowfullscreen="" frameborder="0" height="225" mozallowfullscreen="" src="http://player.vimeo.com/video/17921733?title=0&amp;byline=0&amp;portrait=0&amp;color=4CC208" webkitallowfullscreen="" width="400"></iframe>
 

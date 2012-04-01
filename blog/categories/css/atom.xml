@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CSS | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-01T01:58:34+08:00</updated>
+  <updated>2012-04-01T19:42:55+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -48,6 +48,9 @@
 
 
 <p>而今天要講的就是看似最簡單，但實際上最難上手的UI這部分。當時是處於前一個assignee開天窗，進度正火燒屁股的狀態。首先，我們整個UI救火團隊一共有3人：我老闆(負責coordinate)、我(萬用programmer)、還有從其他部門借調來part-time support的美工(也是剛工作不久的)。以下是我們大略的工作流程(沒錯幾乎就是waterfall，或是你可以叫他always-sprint的一人scrum)：<br /></p>
+
+<!--more-->
+
 
 <br />
 
