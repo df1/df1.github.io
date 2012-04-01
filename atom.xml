@@ -4,7 +4,7 @@
   <title><![CDATA[Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-01T21:32:13+08:00</updated>
+  <updated>2012-04-01T21:55:42+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -61,8 +61,11 @@
 
 <h2>Octopress Resources</h2>
 
-<p><a href="https://github.com/imathis/octopress/wiki/List-Of-Octopress-Themes">所有的Octopress主題列表</a>
-<a href="https://github.com/imathis/octopress/wiki/Octopress-Sites">使用Octopress的站台列表</a></p>
+<ul>
+<li><a href="https://github.com/imathis/octopress/wiki/List-Of-Octopress-Themes">所有的Octopress主題列表</a></li>
+<li><a href="https://github.com/imathis/octopress/wiki/Octopress-Sites">使用Octopress的站台列表</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -1184,7 +1187,7 @@ Use Chrome’s debugging tool to debug ExtJS 4 dynamic-loaded classes<br />
 <code>Hobbies</code> 跑步、聽日本搖滾樂<br/>
 <code>Language</code> 中英日<br/></p>
 
-<p>目前對這邊設定的方向，大概以技術&amp;工作為主，生活&amp;個人囈語為輔。<br/>
+<p>目前對這邊設定的方向，大概以技術、工作還有<code>波笛</code>為主，生活&amp;個人囈語為輔。<br/>
 以上</p>
 ]]></content>
   </entry>
