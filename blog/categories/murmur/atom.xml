@@ -4,7 +4,7 @@
   <title><![CDATA[Category: murmur | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/murmur/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-01T20:30:05+08:00</updated>
+  <updated>2012-04-01T20:32:28+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -162,7 +162,7 @@ API&nbsp;時，來回地學習它。如果正好是你學過的語言，並且�
     <link href="http://df1.github.com/blog/2012/02/14/its-time-to-blog/"/>
     <updated>2012-02-14T13:17:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/02/14/its-time-to-blog</id>
-    <content type="html"><![CDATA[<p>{% img center /attachments/2012-02-14-its-time-to-blog/0112ie.png 300 %}<br/>
+    <content type="html"><![CDATA[<p><img class="center" src="/attachments/2012-02-14-its-time-to-blog/0112ie.png" width="300"><br/>
 前陣子，剛好專案的sprint告一段落，在過年空閒時看了不少文章和一些閒書 (雖然農忙期間的假日也是照樣去山上隱居看書這樣?) 於是發現腦袋的東西愈裝愈多，似乎又一發不可收拾之勢。在<a href="http://MindMeister.com">MindMeister</a>將想法稍作歸納之後，是夕，始覺得是時候開始耕耘一塊自己的田地，對技術社群貢獻微薄之力，順便練練文筆、讓以後的自己看看每個時候的我到底在做啥(說真的，我已經忘記我大學跟研究所平時都在幹嘛了orz)。這就是此blog誕生的近因。</p>
 
 <p>遠因呢？
