@@ -20,6 +20,7 @@ SharePoint 2010這東西，是大約去年的五月，我被徵召當UI救火隊
 <br />
 <br />
 而今天要講的就是看似最簡單，但實際上最難上手的UI這部分。當時是處於前一個assignee開天窗，進度正火燒屁股的狀態。首先，我們整個UI救火團隊一共有3人：我老闆(負責coordinate)、我(萬用programmer)、還有從其他部門借調來part-time support的美工(也是剛工作不久的)。以下是我們大略的工作流程(沒錯幾乎就是waterfall，或是你可以叫他always-sprint的一人scrum)：<br />
+<!--more-->
 <br />
 <ul>
 <li>Identify stakeholder(老闆)、Skill pickup (我，持續進行貫串全文)</li>

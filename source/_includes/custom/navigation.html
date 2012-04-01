@@ -1,6 +1,18 @@
 ﻿<ul class="main">
-<li><a href="{{ root_url }}/">Home</a></li>
-<li><a href="{{ root_url }}/blog/archives">Archives</a></li>
-<li><a href="{{ root_url }}/blog/categories/english-post/">English</a></li>
-<li><a href="{{ root_url }}/blog/categories/cat/">ボッディ</a></li>
+	<li><a href="{{ root_url }}/" title="回首頁">Home</a></li>
+	<li><a href="{{ root_url }}/blog/archives" title="網誌存檔">Archives</a></li>
+	<li><a href="{{ root_url }}/blog/categories/english-post/" title="View English Posts">English</a></li>
+	<li><a href="{{ root_url }}/blog/categories/cat/" title="波笛">ボッディ</a></li>
+	<li><a href="#" title="最近的文章">Recent</a>		
+	  <ul id="recent_posts">
+	    {% for post in site.posts limit: site.recent_posts %}
+	      <li class="post">
+	        <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+	      </li>
+	    {% endfor %}
+	  </ul>
+	</li>
+	<li><a href="#" title="類別標籤">Categories</a>
+		<ul id="category-list">{% category_list counter:true %}</ul>
+	</li>
 </ul>

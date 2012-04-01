@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "八爪波笛!"
+title: "八爪波笛"
 date: 2012-03-30 11:22
 comments: true
 categories: [octocat, 波笛, cat]

@@ -29,7 +29,7 @@ categories: [career, murmur, programming]
 <br />
 <h2>
 
-
+<!--more-->
 
 
 <a href="http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html">What makes a ‘Rockstar’ Developer?</a></h2>

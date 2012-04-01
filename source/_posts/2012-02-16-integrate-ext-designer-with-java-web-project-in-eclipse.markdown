@@ -15,6 +15,7 @@ For this time, I'm gonna share how I integrated Ext Designer to my Eclipse web p
 Ext Designer hands-on
 ----
 This video from Sencha Learning covers all its features in a nutshell.<br />
+<!--more-->
 <iframe allowfullscreen="" frameborder="0" height="225" mozallowfullscreen="" src="http://player.vimeo.com/video/17921733?title=0&amp;byline=0&amp;portrait=0&amp;color=4CC208" webkitallowfullscreen="" width="400"></iframe><br />
 <a href="http://vimeo.com/17921733">SenchaCon 2010: Advanced Techniques for Ext Designer</a> from <a href="http://vimeo.com/sencha">Sencha</a>.<br />
 <br />
