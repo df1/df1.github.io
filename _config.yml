@@ -4,11 +4,12 @@
 
 url: http://df1.github.com
 title: Orokana Pekoponjin
-subtitle: Crazy cat, boring human
+subtitle: crazy cat, boring human
 author: df1
 simple_search: http://google.com/search
 description:
-# facebook_user: orokana.bl
+pinterest_user: orokana
+# facebook_user: 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -37,7 +38,7 @@ category_dir: blog/categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 
-paginate: 10          # Posts per page on the blog index
+paginate: 5           # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
