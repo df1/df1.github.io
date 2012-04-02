@@ -16,5 +16,5 @@ categories: [octocat, 波笛, cat]
 [3]: /attachments/2012-03-30-octocat/octocat.svg
 [4]: /attachments/2012-03-30-octocat/octocat.ico
 
-可惜那邊只有github自家人才可以commit，殘念也(如果開放應該會亂糟糟吧)  
+可惜那邊只有github自家人才可以commit，殘念也（如果開放應該會亂糟糟吧）
 下次再來介紹波笛好了XD

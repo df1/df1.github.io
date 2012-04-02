@@ -40,6 +40,7 @@ header{
 			@media screen and (max-width: 600px){
 				display: none;
 			}
+			
 			>li{
 				margin-left: 20px;
 				@include inline-block;
@@ -61,6 +62,7 @@ header{
 						/* Todo */
 						&:only-child{
 							padding-right: 0;
+							background: none;
 						}
 				}
 			}
@@ -77,6 +79,16 @@ header{
 				top: 40px;
 				@include box-shadow(0 4px 8px rgba(0,0,0,0.1));
 				@include border-radius(0 0 5px 5px);
+				
+				&#category-list{					
+					left: -100px;
+					line-height: 20px;
+					width: 36em;
+					>li{
+						width: 12em;
+						float: left;
+					}
+				}
 				ul{
 					@include border-radius(0 5px 5px 5px);
 				}

@@ -7,7 +7,7 @@ categories: [cool, impress.js, jmpress.js, jQuery, JS, prezi, reveal.js, web sli
 ---
 一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光阿(遠目)<br />
 <br />
-Prezi的概念就是：畫布是無限大的，你可以定義每個頁面的框在畫布的哪個位置、大小；播放時候會以zoom-in/out的形式，可以帶給觀眾在單一個主題上overview與微觀的整體層次感。當初令我印象最深刻的就是某個prezi實習生做的<a href="http://prezi.com/xcit4zbat6sw/sweet-recipe-to-solving-problems/" target="_blank">Sweet recipe to solving problems</a>(真的是Epic!)。如今Prezi的知名度應該已經有相當程度的提升，也讓我跌破眼鏡的開始支援了iPad（應該是開發了flash轉CSS3？我沒iPad所以不確定）。如果還沒體驗過的話，可以直接去
+Prezi的概念就是：畫布是無限大的，你可以定義每個頁面的框在畫布的哪個位置、大小；播放時候會以zoom-in/out的形式，可以帶給觀眾在單一個主題上overview與微觀的整體層次感。當初令我印象最深刻的就是某個prezi實習生做的<a href="http://prezi.com/xcit4zbat6sw/sweet-recipe-to-solving-problems/" target="_blank">Sweet recipe to solving problems</a>(真的是Epic！)。如今Prezi的知名度應該已經有相當程度的提升，也讓我跌破眼鏡的開始支援了iPad（應該是開發了flash轉CSS3？我沒iPad所以不確定）。如果還沒體驗過的話，可以直接去
 <a href="http://www.prezi.com/" target="_blank">Prezi</a>&nbsp;上逛逛別人做好的，個個都是熱情奔放、創意無限！<br />
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-HFX5DC8Bf-I/T28aRi34DXI/AAAAAAAABkM/APfd36gK0RU/s1600/2012-03-25+21-14-11.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="224" src="http://1.bp.blogspot.com/-HFX5DC8Bf-I/T28aRi34DXI/AAAAAAAABkM/APfd36gK0RU/s320/2012-03-25+21-14-11.png" width="320" /></a></td></tr>
@@ -30,12 +30,12 @@ Prezi的概念就是：畫布是無限大的，你可以定義每個頁面的框
 <span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>
 </div>
 <br />
-它們都是以CSS3+JS為主的技術來實現web投影片播放：impress.js簡單的說就是100%向prezi致敬(官網承認的)，將整個無限畫布的概念<strike><span style="color: #999999;">抄</span></strike>承襲了下來；jmpress.js則是繼續<strike><span style="color: #999999;">抄</span></strike>承襲了impress.js， 加入了jQuery/jQuery UI，強調他不只可以當作投影片，更可以拿來當成網站用；reveal.js則是比較不玩這麼fancy的東西，只提供3種轉場效果&amp;程式碼自動上色，整體播放下來的體驗會比較像PowerPoint或Keynote。比較炫的就是除了←→換頁外，還可以使用↑↓方向鍵來進入一張投影片的「地下室」(這樣講有點抽象，直接<a href="http://lab.hakim.se/reveal-js/">去玩玩看</a>就知道啦XD)<br />
+它們都是以CSS3+JS為主的技術來實現web投影片播放：impress.js簡單的說就是100%向prezi致敬（官網承認的），將整個無限畫布的概念<strike><span style="color: #999999;">抄</span></strike>承襲了下來；jmpress.js則是繼續<strike><span style="color: #999999;">抄</span></strike>承襲了impress.js， 加入了jQuery/jQuery UI，強調他不只可以當作投影片，更可以拿來當成網站用；reveal.js則是比較不玩這麼fancy的東西，只提供3種轉場效果&amp;程式碼自動上色，整體播放下來的體驗會比較像PowerPoint或Keynote。比較炫的就是除了←→換頁外，還可以使用↑↓方向鍵來進入一張投影片的「地下室」（這樣講有點抽象，直接<a href="http://lab.hakim.se/reveal-js/">去玩玩看</a>就知道啦XD）<br />
 <br />
 <br />
-於是，我當然是挑了比較酷炫的impress.js來試試看(為什麼要demo jQuery卻不用jmpress.js呢？因為我做完才發現有它的存在orz)。話不多說，<a href="http://locust.csie.ncku.edu.tw/~changch/jquery/">青菜底家啦</a>(節錄版，中間還有亂入impress.js簡單介紹)<br />
+於是，我當然是挑了比較酷炫的impress.js來試試看（為什麼要demo jQuery卻不用jmpress.js呢？因為我做完才發現有它的存在orz）。
 <br />
-最後，來個小小的比較(個人意見)：<br />
+最後，來個小小的比較（個人意見）：<br />
 <br />
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
 <tbody>
@@ -125,3 +125,7 @@ freemium模式</div>
 現在CSS跟JS的技術都有爆炸性的成長，其實還有很多更酷炫的方式來呈現簡報(如parallax scrolling的：<a href="http://layrr.com/">layrr</a>、<a href="http://www.nike.com/jumpman23/aj2012/">Nike AJ球鞋網頁</a>等等)。但是真的就流於網頁程式設計苦工了，需要評估有沒有值那個成本。
 
 喜歡嗎？去fork一個你的Limpress.js吧XD！ (趕風潮XD)
+
+延伸閱讀
+----
+tutorialzine（大推此站）：[用impress.js製作產品展示](http://tutorialzine.com/2012/02/css3-product-showcase/)

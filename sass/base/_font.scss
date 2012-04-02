@@ -1,4 +1,11 @@
-$default: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+﻿$default: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, "微軟正黑體";
 $monospace: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 
 $meta-size: 0.9em;
+
+@font-face{
+	font-family: "Helvetica Neue Light";
+	src: local("Helvetica Neue Light"),
+			local("HelveticaNeue-Light"),
+			url('/fonts/MyFont01.ttf')
+}

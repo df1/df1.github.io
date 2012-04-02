@@ -3,9 +3,9 @@ layout: post
 title: "Web-based Slideshows --Comparing impress.js, jmpress.js and reveal.js"
 date: 2012-03-27 13:17
 comments: true
-categories: [cool, impress.js, jmpress.js, jQuery, JS, prezi, reveal.js, web slide, English Post]
+categories: [cool, impress.js, jmpress.js, jQuery, JS, prezi, reveal.js, web slide, CSS3, English Post]
 ---
-The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="http://bartaz.github.com/impress.js">impress.js</a>, <a href="http://shama.github.com/jmpress.js">jmpress.js</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. "Why not give it a crack?" said them. And <a href="http://locust.csie.ncku.edu.tw/~changch/jquery/">here goes my output</a> with impress.js.<br />
+The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="http://bartaz.github.com/impress.js">impress.js</a>, <a href="http://shama.github.com/jmpress.js">jmpress.js</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. "Why not give it a crack?" said them. And I decided to try impress.js out.<br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>

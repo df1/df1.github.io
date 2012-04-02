@@ -5,15 +5,15 @@ date: 2012-03-21 13:17
 comments: true
 categories: [career, murmur, programming]
 ---
-最近在幾篇文章裡看到了Rockstar Developer這個字眼(似乎有點LAG了)，如果要翻的話就是『搖滾開發人員』這樣？
+最近在幾篇文章裡看到了Rockstar Developer這個字眼（似乎有點LAG了），如果要翻的話就是『搖滾開發人員』這樣？
 就我的認知，指的可能是在技術社群內很活躍的名人；在一個團隊內類似『技術總監』的角色；或是簡單的說，就是你很崇拜的那種程式人員。<br />
 <br />
-來看看別人怎麼看這種人XD (以下加一點個人嘴砲)<br />
+來看看別人怎麼看這種人XD （以下加一點個人嘴砲）<br />
 <br />
-<h2>
 
-
-<a href="http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">十大特質</a></h2>
+##[十大特質][1]##
+出處：[Top 10 Traits of a Rockstar Software Engineer][1] By Alex Iskold
+[1]: http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php
 <ol>
 <li><b>Loves To Code</b><br />-- 這不用說了，要有freak-out的精神！</li>
 <li><b>Gets Things Done</b><br />--&nbsp;這需要一定的毅力，如《人月神話》所說：滿足了我們潛藏於內心創造事物的渴望；但專案時程和過程中的種種瓶頸可是很難熬的。另外最近scrum等等agile methodology也是很熱的議題，對尋找最佳實務提供很多的創新解法。</li>
@@ -27,12 +27,14 @@ categories: [career, murmur, programming]
 <li><b>Knows Basic Computer Science</b><br />--&nbsp;囧 快忘光了</li>
 </ol>
 <br />
-<h2>
+
 
 <!--more-->
 
 
-<a href="http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html">What makes a ‘Rockstar’ Developer?</a></h2>
+##What makes a ‘Rockstar’ Developer?##
+出處：[What makes a ‘Rockstar’ Developer?][2] By krotscheck
+[2]: http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html
 <ol>
 <li>They don’t think of themselves as rock stars.</li>
 <li>They have a proven track record of multiple shipped products.</li>
@@ -47,8 +49,9 @@ categories: [career, murmur, programming]
 </ol>
 第6、10點大認同<br />
 <br />
-<h2>
-<a href="http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html">如何成為明星開發人員？</a></h2>
+##如何成為明星開發人員?##
+出處：The question ["How does one become a "rockstar" developer?"][3] in Quora answered by Andrew Berman
+[3]: http://www.quora.com/How-does-one-become-a-rockstar-developer
 <div>
 <div>
 <ol>
