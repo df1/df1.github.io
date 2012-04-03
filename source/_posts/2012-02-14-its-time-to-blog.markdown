@@ -22,10 +22,10 @@ categories: murmur
 
 
 先來自我介紹
-*	`Name` Chang Chung Heng
-*	`Job` 22K宅宅工程師
-*	`Hobbies` 跑步、聽日本搖滾樂
-*	`Language` 中英日
+`Name` Chang Chung Heng<br/>
+`Job` 22K宅宅工程師<br/>
+`Hobbies` 跑步、聽日本搖滾樂<br/>
+`Language` 中英日<br/>
 
 目前對這邊設定的方向，大概以技術、工作還有`波笛`為主，生活&個人囈語為輔。  
 以上
