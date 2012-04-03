@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ExtJS | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/extjs/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-04T03:36:38+08:00</updated>
+  <updated>2012-04-04T03:41:09+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -19,7 +19,7 @@
     <updated>2012-03-03T13:17:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/03/03/ext-js-4-1-bug-when-group-by-template-column</id>
     <content type="html"><![CDATA[<p>更新4.1b3之後，發現在某些grid中會出現HTML亂掉的情形如下圖。
-{% img http://3.bp.blogspot.com/-YBqydfk22z0/T1HVilgqT9I/AAAAAAAABek/tQ7XrpoEv-4/s1600/ext.gif %}</p>
+<img src="http://3.bp.blogspot.com/-YBqydfk22z0/T1HVilgqT9I/AAAAAAAABek/tQ7XrpoEv-4/s1600/ext.gif"></p>
 
 <p>建立獨立test case之後整理出bug detail如下：</p>
 
@@ -41,7 +41,7 @@
 
 <p><a href="http://www.sencha.com/forum/showthread.php?184128-4.1B3-Error-when-grouping-by-a-template-column-in-a-grid">已向sencha回報</a></p>
 
-<p>{% img http://3.bp.blogspot.com/-L3VLm5q-uS4/T1HVTVdalfI/AAAAAAAABec/kQZ8KwGcn-8/s400/2012-03-03+14-14-56.png 400 %}</p>
+<p><img src="http://3.bp.blogspot.com/-L3VLm5q-uS4/T1HVTVdalfI/AAAAAAAABec/kQZ8KwGcn-8/s400/2012-03-03+14-14-56.png" width="400"></p>
 ]]></content>
   </entry>
   

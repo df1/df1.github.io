@@ -4,7 +4,7 @@
   <title><![CDATA[Category: murmur | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/murmur/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-04T03:36:38+08:00</updated>
+  <updated>2012-04-04T03:41:09+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -59,7 +59,7 @@
 <p>但是當初看他內建的預設外觀覺得很so-so，就只是暫時放在心底深處當備案。
 直到前幾天，看到一個高中生（超強！ 而且似乎是動漫圈內人XD）做的主題 --<a href="http://zespia.tw/Octopress-Theme-Slash/index_tw.html">Slash</a> 之後，我就下定決心動工了XDD（靠）</p>
 
-<p>{%img /attachments/2012-04-01-migration-completed/oro.png 來個截圖紀念XD %}</p>
+<p><img src="/attachments/2012-04-01-migration-completed/oro.png" title="來個截圖紀念XD" ></p>
 
 <p>搬是搬完了啦，不過欠好多文章orz</p>
 
@@ -175,7 +175,7 @@ API&nbsp;時，來回地學習它。如果正好是你學過的語言，並且�
     <link href="http://df1.github.com/blog/2012/02/14/its-time-to-blog/"/>
     <updated>2012-02-14T13:17:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/02/14/its-time-to-blog</id>
-    <content type="html"><![CDATA[<p>{% img center /attachments/2012-02-14-its-time-to-blog/0112ie.png 300 %}<br/>
+    <content type="html"><![CDATA[<p><img class="center" src="/attachments/2012-02-14-its-time-to-blog/0112ie.png" width="300"><br/>
 前陣子，剛好專案的sprint告一段落，在過年空閒時看了不少文章和一些閒書
 (雖然農忙期間的假日也是照樣去山上隱居看書這樣?)
 於是發現腦袋的東西愈裝愈多，似乎又一發不可收拾之勢。</p>
