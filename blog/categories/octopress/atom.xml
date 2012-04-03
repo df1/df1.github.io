@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-04T01:06:11+08:00</updated>
+  <updated>2012-04-04T03:36:38+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -59,7 +59,7 @@
 <p>但是當初看他內建的預設外觀覺得很so-so，就只是暫時放在心底深處當備案。
 直到前幾天，看到一個高中生（超強！ 而且似乎是動漫圈內人XD）做的主題 --<a href="http://zespia.tw/Octopress-Theme-Slash/index_tw.html">Slash</a> 之後，我就下定決心動工了XDD（靠）</p>
 
-<p><img src="/attachments/2012-04-01-migration-completed/oro.png" title="來個截圖紀念XD" ></p>
+<p>{%img /attachments/2012-04-01-migration-completed/oro.png 來個截圖紀念XD %}</p>
 
 <p>搬是搬完了啦，不過欠好多文章orz</p>
 
