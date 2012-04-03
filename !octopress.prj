@@ -11,5 +11,4 @@ Create Tagfile=0
 [Files]
 0=.\source\_posts\
 1=_config.yml
-2=!preview.bat
-3=.\.themes\slash\
+2=.\.themes\slash\
