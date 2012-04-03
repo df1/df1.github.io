@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: murmur | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/murmur/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-04-03T00:42:05+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[搬家完成！]]></title>
+    <link href="http://df1.github.com/blog/2012/04/01/migration-completed/"/>
+    <updated>2012-04-01T04:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/01/migration-completed</id>
+    <content type="html"><![CDATA[<p>今天終於把之前在<a href="http://orokana-bl.blogspot.com">blogger</a>那邊的文章搬得差不多了！
+說是說搬家，不過實際上大概只有十多篇（XD） 而且還是直接把HTML複製貼上的搬法orz 若是看起來礙眼就多包涵吧！
+先來談談…</p>
+
+<h2>為什麼要搬家？</h2>
+
+<ul>
+<li>因為今天愚人節</li>
+<li>因為我看了最近很流行的<strong>為什麼系列文</strong>：
+
+<ul>
+<li>Sega Cheng：<a href="http://mmdays.com/2012/03/19/why-i-left-google/">我為什麼離開 Google（台灣）</a></li>
+<li>GREG SMITH：<a href="http://www.nytimes.com/2012/03/14/opinion/why-i-am-leaving-goldman-sachs.html?_r=4&amp;pagewanted=all%3Fsrc%3Dtp&amp;smid=fb-share">我為什麼離開高盛</a></li>
+<li>XDite：<a href="http://xdite-smalltalk.tumblr.com/post/18303489993">我為什麼想創業</a></li>
+<li>James Whittaker：<a href="http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx">我為什麼離開 Google（美國）</a></li>
+<li>vgod：<a href="http://blog.vgod.tw/2012/03/20/why-i-do-phd/">我為什麼要念博士</a></li>
+<li>XDite：<a href="http://xdite-smalltalk.tumblr.com/post/17898487098/why-i-dont-get-a-master-degree">我不會念碩士</a></li>
+<li><del>XDite：<a href="http://whydonti.heroku.com">為什麼我要弄一個為什麼產生器</a></del></li>
+<li>（族繁不及備載）</li>
+</ul>
+</li>
+</ul>
+
+
+<p>好啦以上全誤，講正經的XD</p>
+
+<p>想當年，我的第一個blog是用<a href="http://zh.wikipedia.org/wiki/Wallop">wallop</a>。那是Microsoft Research在2006年推出的社群網路，
+當時也是讓我感到相當的『技術感覺良好』（誤了XD 不過當時RIA真的還是非Flash/Flex莫屬的時代阿！）
+於是還加入他們所謂的Mod Developer Network（當時就有開發者royalty機制！），貢獻了不少垃圾。而他的API聽說還在我電腦某處囧。
+但是，說時遲那時快，他以迅雷不及掩耳的速度被關掉了。幹我都還沒備份orz</p>
+
+<p>在一個多月前，我決定繼續寫廢文。在幾經思考之下，最後挑了blogger。
+（公司剛好沒擋*.blogspot.com；而且如果連Google的資料中心都不能信任...ry）</p>
+
+<p>前幾個禮拜看到<a href="http://octopress.org">Octopress</a>這東西的時候，一開始覺得他的整個nature
+（包含他是用<code>ruby</code>、 方便起local WEBrick/Rack 預覽、 可以上github控管並整合<a href="http://pages.github.com/"><code>github pages</code></a>、 <a href="http://sass-lang.com/"><code>SASS</code></a>、 採用<a href="http://markdown.tw"><code>markdown</code></a>等等） 讓我蠻心動的
+ --最重要的是那種<strong>一切都在自己掌握中</strong>的感覺啊！ <del>（謎：ﾄﾞＳ）</del></p>
+
+<p>但是當初看他內建的預設外觀覺得很so-so，就只是暫時放在心底深處當備案。
+直到前幾天，看到一個高中生（超強！ 而且似乎是動漫圈內人XD）做的主題 --<a href="http://zespia.tw/Octopress-Theme-Slash/index_tw.html">Slash</a> 之後，我就下定決心動工了XDD（靠）</p>
+
+<p><img src="/attachments/2012-04-01-migration-completed/oro.png" title="來個截圖紀念XD" ></p>
+
+<p>搬是搬完了啦，不過欠好多文章orz</p>
+
+<h2>Octopress Resources</h2>
+
+<ul>
+<li><a href="http://zespia.tw/Octopress-Theme-Slash/index_tw.html">目前套用的主題--Slash</a></li>
+<li><a href="https://github.com/imathis/octopress/wiki/List-Of-Octopress-Themes">所有的Octopress主題列表</a></li>
+<li><a href="https://github.com/imathis/octopress/wiki/Octopress-Sites">使用Octopress的站台列表</a></li>
+<li><a href="https://github.com/imathis/octopress/wiki/3rd-party-plug-ins">Octopress外掛列表</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Be a Rockstar Developer 當個搖滾開發人員]]></title>
+    <link href="http://df1.github.com/blog/2012/03/21/be-a-rockstar-developer/"/>
+    <updated>2012-03-21T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/21/be-a-rockstar-developer</id>
+    <content type="html"><![CDATA[<p>最近在幾篇文章裡看到了Rockstar Developer這個字眼（似乎有點LAG了），如果要翻的話就是『搖滾開發人員』這樣？
+就我的認知，指的可能是在技術社群內很活躍的名人；在一個團隊內類似『技術總監』的角色；或是簡單的說，就是你很崇拜的那種程式人員。<br /></p>
+
+<br />
+
+
+<p>來看看別人怎麼看這種人XD （以下加一點個人嘴砲）<br /></p>
+
+<br />
+
+
+<h2><a href="http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">十大特質</a></h2>
+
+<p>出處：<a href="http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">Top 10 Traits of a Rockstar Software Engineer</a> By Alex Iskold</p>
+
+<ol>
+<li><b>Loves To Code</b><br />-- 這不用說了，要有freak-out的精神！</li>
+<li><b>Gets Things Done</b><br />--&nbsp;這需要一定的毅力，如《人月神話》所說：滿足了我們潛藏於內心創造事物的渴望；但專案時程和過程中的種種瓶頸可是很難熬的。另外最近scrum等等agile methodology也是很熱的議題，對尋找最佳實務提供很多的創新解法。</li>
+<li><b>Continuously Refactors Code</b><br />--&nbsp;看了幾本書之後就很HIGH的去改以前的code</li>
+<li><b>Uses Design Patterns</b><br />--&nbsp;NPC表示：去找在那屋子裡的GoF先知吧(?)</li>
+<li><b>Writes Tests</b><br />--&nbsp;要寫得夠廣，也要考慮以後方便做regression test。目標是coverage 100%</li>
+<li><b>Leverages Existing Code</b><br />--&nbsp;Apache Commons之類的，做之前先google準沒錯</li>
+<li><b>Focuses on Usability</b><br />--&nbsp;與其被嫌了之後還要改，不如(ry</li>
+<li><b>Writes Maintainable Code</b><br />--&nbsp;架構要設計得好，還是要先去看Design Patterns</li>
+<li><b>Can Code in Any Language</b><br />--&nbsp;更廣義的說應該是快速pickup的能力?</li>
+<li><b>Knows Basic Computer Science</b><br />--&nbsp;囧 快忘光了</li>
+</ol>
+
+
+<br />
+
+
+
+
+<!--more-->
+
+
+<h2>What makes a ‘Rockstar’ Developer?</h2>
+
+<p>出處：<a href="http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html">What makes a ‘Rockstar’ Developer?</a> By krotscheck</p>
+
+<ol>
+<li>They don’t think of themselves as rock stars.</li>
+<li>They have a proven track record of multiple shipped products.</li>
+<li>They care more about frameworks than plumbing.</li>
+<li>They’re not willing to work for free</li>
+<li>They believe in development process and best practices to speed up their work.</li>
+<li>They have a positive attitude.</li>
+<li>They get uncomfortable when you ask about their social life.</li>
+<li>You don’t want Alphabet/Acronym soup in their technical skills.</li>
+<li>They’re involved in the community.</li>
+<li>You respect them</li>
+</ol>
+
+
+<p>第6、10點大認同<br /></p>
+
+<br />
+
+
+<h2>如何成為明星開發人員?</h2>
+
+<p>出處：The question <a href="http://www.quora.com/How-does-one-become-a-rockstar-developer">"How does one become a "rockstar" developer?"</a> in Quora answered by Andrew Berman</p>
+
+<div>
+<div>
+<ol>
+<li>儘可能找一個這樣的優秀導師：他樂意批評你的程式，並傳授他是如何解決問題。當你的水準已達水準時，你可以正當地挑戰你的導師觀點，並獲得一些寶貴的辯論。</li>
+<li>經常提高你所在解決問題的難度和範圍。大多數人並沒有20年的經驗，他們只有1年的經驗，只不過反覆使用了20年。別做這種人。</li>
+<li>關注這些東西：文檔、方法名或函數名、（變數名）、廣泛寫測試案例。你的程式必須看起來專業。</li>
+<li>粗略看看所有的標準
+API&nbsp;，以便知道
+API&nbsp;中有什麼。然後，當你首次使用某個特定
+API&nbsp;時，來回地學習它。如果正好是你學過的語言，並且又有原始碼，也可以看看。</li>
+<li>如果不完全理解某寫東西，得鞭策自己去了解它，得經常深入去研究。</li>
+<li>儘可能選擇使用你的程式語言的最佳IDE。反覆了解IDE。一個優秀的IDE，對你有莫大的幫助。</li>
+<li>當面對一個新挑戰（比如說，你從沒有用SOAP/XML），在你開始寫程式之前，做些廣泛研究。在網路上找找，或者到你的API中看看，是否能找到其他人解決對應問題的最新最佳解。三思而後行。</li>
+<li>謹記，通常你正在寫的程式會交接給他人所用。和客戶經常保持聯繫。控制好他們的期望，展示出你的技能，確保他們知道你是最棒的。時刻謹記社交方面的東西。</li>
+</ol>
+</div>
+</div>
+
+
+<div>
+<br />
+這年頭，找工作還要去衝一下stackoverflow reputation還有github watch/fork數之類的年代（雖然在台灣應該不必，但是看到那類的網站開始bundle求職服務就覺得有壓力了囧）該是好好充實自己的時候了。</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[It's Time to Blog]]></title>
+    <link href="http://df1.github.com/blog/2012/02/14/its-time-to-blog/"/>
+    <updated>2012-02-14T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/02/14/its-time-to-blog</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/attachments/2012-02-14-its-time-to-blog/0112ie.png" width="300"><br/>
+前陣子，剛好專案的sprint告一段落，在過年空閒時看了不少文章和一些閒書
+(雖然農忙期間的假日也是照樣去山上隱居看書這樣?)
+於是發現腦袋的東西愈裝愈多，似乎又一發不可收拾之勢。</p>
+
+<p>在<a href="http://MindMeister.com">MindMeister</a>將想法稍作歸納之後，
+是夕，始覺得是時候開始耕耘一塊自己的田地，對技術社群貢獻微薄之力，順便練練文筆、讓以後的自己看看每個時候的我到底在做啥
+(說真的，我已經忘記我大學跟研究所平時都在幹嘛了orz)。
+這就是此blog誕生的近因。</p>
+
+<p>遠因呢？
+我還沒想到（靠北）</p>
+
+<p>先來自我介紹
+*   <code>Name</code> Chang Chung Heng
+*   <code>Job</code> 22K宅宅工程師
+*   <code>Hobbies</code> 跑步、聽日本搖滾樂
+*   <code>Language</code> 中英日</p>
+
+<p>目前對這邊設定的方向，大概以技術、工作還有<code>波笛</code>為主，生活&amp;個人囈語為輔。<br/>
+以上</p>
+]]></content>
+  </entry>
+  
+</feed>

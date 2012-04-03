@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octocat | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/octocat/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-04-03T00:42:05+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[八爪波笛]]></title>
+    <link href="http://df1.github.com/blog/2012/03/30/octocat/"/>
+    <updated>2012-03-30T11:22:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/30/octocat</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/attachments/2012-03-30-octocat/octocat.png"><br/>
+上禮拜看到了github的『八爪貓資料庫』 -- <a href="http://octodex.github.com/">octodex</a>，馬上決定要做一隻波笛版，於是就有這隻八爪波笛了XD</p>
+
+<p>各種格式需要請自取：
+<a href="/attachments/2012-03-30-octocat/octocat.ai"><code>Illustrator</code></a>, <a href="/attachments/2012-03-30-octocat/octocat.fla"><code>Flash</code></a>, <a href="/attachments/2012-03-30-octocat/octocat.svg"><code>SVG</code></a>, <a href="/attachments/2012-03-30-octocat/octocat.ico"><code>ICO</code></a></p>
+
+<p>可惜那邊只有github自家人才可以commit，殘念也（如果開放應該會亂糟糟吧）
+下次再來介紹波笛好了XD</p>
+]]></content>
+  </entry>
+  
+</feed>

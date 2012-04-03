@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-04-03T00:42:05+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[搬家完成！]]></title>
+    <link href="http://df1.github.com/blog/2012/04/01/migration-completed/"/>
+    <updated>2012-04-01T04:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/01/migration-completed</id>
+    <content type="html"><![CDATA[<p>今天終於把之前在<a href="http://orokana-bl.blogspot.com">blogger</a>那邊的文章搬得差不多了！
+說是說搬家，不過實際上大概只有十多篇（XD） 而且還是直接把HTML複製貼上的搬法orz 若是看起來礙眼就多包涵吧！
+先來談談…</p>
+
+<h2>為什麼要搬家？</h2>
+
+<ul>
+<li>因為今天愚人節</li>
+<li>因為我看了最近很流行的<strong>為什麼系列文</strong>：
+
+<ul>
+<li>Sega Cheng：<a href="http://mmdays.com/2012/03/19/why-i-left-google/">我為什麼離開 Google（台灣）</a></li>
+<li>GREG SMITH：<a href="http://www.nytimes.com/2012/03/14/opinion/why-i-am-leaving-goldman-sachs.html?_r=4&amp;pagewanted=all%3Fsrc%3Dtp&amp;smid=fb-share">我為什麼離開高盛</a></li>
+<li>XDite：<a href="http://xdite-smalltalk.tumblr.com/post/18303489993">我為什麼想創業</a></li>
+<li>James Whittaker：<a href="http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx">我為什麼離開 Google（美國）</a></li>
+<li>vgod：<a href="http://blog.vgod.tw/2012/03/20/why-i-do-phd/">我為什麼要念博士</a></li>
+<li>XDite：<a href="http://xdite-smalltalk.tumblr.com/post/17898487098/why-i-dont-get-a-master-degree">我不會念碩士</a></li>
+<li><del>XDite：<a href="http://whydonti.heroku.com">為什麼我要弄一個為什麼產生器</a></del></li>
+<li>（族繁不及備載）</li>
+</ul>
+</li>
+</ul>
+
+
+<p>好啦以上全誤，講正經的XD</p>
+
+<p>想當年，我的第一個blog是用<a href="http://zh.wikipedia.org/wiki/Wallop">wallop</a>。那是Microsoft Research在2006年推出的社群網路，
+當時也是讓我感到相當的『技術感覺良好』（誤了XD 不過當時RIA真的還是非Flash/Flex莫屬的時代阿！）
+於是還加入他們所謂的Mod Developer Network（當時就有開發者royalty機制！），貢獻了不少垃圾。而他的API聽說還在我電腦某處囧。
+但是，說時遲那時快，他以迅雷不及掩耳的速度被關掉了。幹我都還沒備份orz</p>
+
+<p>在一個多月前，我決定繼續寫廢文。在幾經思考之下，最後挑了blogger。
+（公司剛好沒擋*.blogspot.com；而且如果連Google的資料中心都不能信任&#8230;ry）</p>
+
+<p>前幾個禮拜看到<a href="http://octopress.org">Octopress</a>這東西的時候，一開始覺得他的整個nature
+（包含他是用<code>ruby</code>、 方便起local WEBrick/Rack 預覽、 可以上github控管並整合<a href="http://pages.github.com/"><code>github pages</code></a>、 <a href="http://sass-lang.com/"><code>SASS</code></a>、 採用<a href="http://markdown.tw"><code>markdown</code></a>等等） 讓我蠻心動的
+ &#8211;最重要的是那種<strong>一切都在自己掌握中</strong>的感覺啊！ <del>（謎：ﾄﾞＳ）</del></p>
+
+<p>但是當初看他內建的預設外觀覺得很so-so，就只是暫時放在心底深處當備案。
+直到前幾天，看到一個高中生（超強！ 而且似乎是動漫圈內人XD）做的主題 &#8211;<a href="http://zespia.tw/Octopress-Theme-Slash/index_tw.html">Slash</a> 之後，我就下定決心動工了XDD（靠）</p>
+
+<p><img src="http://df1.github.com/attachments/2012-04-01-migration-completed/oro.png" title="來個截圖紀念XD" ></p>
+
+<p>搬是搬完了啦，不過欠好多文章orz</p>
+
+<h2>Octopress Resources</h2>
+
+<ul>
+<li><a href="http://zespia.tw/Octopress-Theme-Slash/index_tw.html">目前套用的主題&#8211;Slash</a></li>
+<li><a href="https://github.com/imathis/octopress/wiki/List-Of-Octopress-Themes">所有的Octopress主題列表</a></li>
+<li><a href="https://github.com/imathis/octopress/wiki/Octopress-Sites">使用Octopress的站台列表</a></li>
+<li><a href="https://github.com/imathis/octopress/wiki/3rd-party-plug-ins">Octopress外掛列表</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[八爪波笛]]></title>
+    <link href="http://df1.github.com/blog/2012/03/30/octocat/"/>
+    <updated>2012-03-30T11:22:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/30/octocat</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://df1.github.com/attachments/2012-03-30-octocat/octocat.png"><br/>
+上禮拜看到了github的『八爪貓資料庫』 &#8211; <a href="http://octodex.github.com/">octodex</a>，馬上決定要做一隻波笛版，於是就有這隻八爪波笛了XD</p>
+
+<p>各種格式需要請自取：
+<a href="http://df1.github.com/attachments/2012-03-30-octocat/octocat.ai"><code>Illustrator</code></a>, <a href="http://df1.github.com/attachments/2012-03-30-octocat/octocat.fla"><code>Flash</code></a>, <a href="http://df1.github.com/attachments/2012-03-30-octocat/octocat.svg"><code>SVG</code></a>, <a href="http://df1.github.com/attachments/2012-03-30-octocat/octocat.ico"><code>ICO</code></a></p>
+
+<p>可惜那邊只有github自家人才可以commit，殘念也（如果開放應該會亂糟糟吧）
+下次再來介紹波笛好了XD</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Web-based Slideshows --Comparing impress.js, jmpress.js and reveal.js]]></title>
+    <link href="http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/"/>
+    <updated>2012-03-27T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi</id>
+    <content type="html"><![CDATA[<p>The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="http://bartaz.github.com/impress.js">impress.js</a>, <a href="http://shama.github.com/jmpress.js">jmpress.js</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. &#8220;Why not give it a crack?&#8221; said them. And I decided to try impress.js out.<br /></p>
+
+<br />
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>
+</div>
+
+
+<p>Here is my brief comparison, with one of their competitors &#8211; Prezi:<br /></p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+<tbody>
+<tr style="background: #CCCCCC;">
+  <td style="text-align: left;" width="80"></td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+Prezi</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+impress.js/jmpress.js</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+reveal.js</div>
+</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Technology</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+Flash</div>
+</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+<div style="text-align: left;">
+CSS3 + JS</div>
+</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Characteristic</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+<div style="text-align: left;">
+zoom-in/out to give an overview to audience</div>
+</div>
+</td>
+  <td><div style="text-align: left;">
+provides more PowerPoint-like characteristics, also with the &#8220;basement slide&#8221;</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Presentation Usability</div>
+</td>
+  <td><div style="text-align: left;">
+mouse-scroll to zoom, drag to tilt</div>
+</td>
+  <td><div style="text-align: left;">
+mouse-scrolling/dragging do nothing</div>
+</td>
+  <td><div style="text-align: left;">
+the brand new 4-direction browsing</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+To jump to some page</div>
+</td>
+  <td><div style="text-align: left;">
+zoom out and out, and click on your destination slide once you can see it</div>
+</td>
+  <td><div style="text-align: left;">
+&#8220;URL hash&#8221; shows the ID of your page. Can be&nbsp;</div>
+</td>
+  <td><div style="text-align: left;">
+Can be linked</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Design Usability</div>
+</td>
+  <td><div style="text-align: left;">
+Very friendly UI with its prevailing &#8221;<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>&#8221;</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+You must have HTML skill!</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Extensibility</div>
+</td>
+  <td><div style="text-align: left;">
+Constrained by its OOTB themes. However you can still insert your own SWF/PDF/youtube</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+You can insert whatever you can insert in a web page!</div>
+</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Community</div>
+</td>
+  <td style="text-align: center;"><div style="text-align: left;">
+Quite a few</div>
+</td>
+  <td colspan="2" style="text-align: center;"><div style="text-align: left;">
+No community (or does github count?)</div>
+</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Compatibility</div>
+</td>
+  <td><div style="text-align: left;">
+iOS does not play flash. Though there&#8217;s iPad version, I worry about my inserted SWFs and PDFs.</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+How would you doubt the perfect HTML+CSS+JS combo? Except the bad compatibility in old browsers.</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+3D</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+N/A</div>
+</div>
+</td>
+  <td><div style="text-align: left;">
+all x-y-z position/rotation can be defined</div>
+</td>
+  <td><div style="text-align: left;">
+3D transition</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Pricing</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+freemium</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+free</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+free</div>
+</div>
+</td>
+ </tr>
+</tbody></table>
+
+
+<br />
+
+
+<br />
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[酷炫的web投影片：impress/jmpress.js與reveal.js]]></title>
+    <link href="http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js/"/>
+    <updated>2012-03-25T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js</id>
+    <content type="html"><![CDATA[<p>一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光阿(遠目)<br /></p>
+
+<br />
+
+
+<p>Prezi的概念就是：畫布是無限大的，你可以定義每個頁面的框在畫布的哪個位置、大小；播放時候會以zoom-in/out的形式，可以帶給觀眾在單一個主題上overview與微觀的整體層次感。當初令我印象最深刻的就是某個prezi實習生做的<a href="http://prezi.com/xcit4zbat6sw/sweet-recipe-to-solving-problems/" target="_blank">Sweet recipe to solving problems</a>(真的是Epic！)。如今Prezi的知名度應該已經有相當程度的提升，也讓我跌破眼鏡的開始支援了iPad（應該是開發了flash轉CSS3？我沒iPad所以不確定）。如果還沒體驗過的話，可以直接去
+<a href="http://www.prezi.com/" target="_blank">Prezi</a>&nbsp;上逛逛別人做好的，個個都是熱情奔放、創意無限！<br /></p>
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-HFX5DC8Bf-I/T28aRi34DXI/AAAAAAAABkM/APfd36gK0RU/s1600/2012-03-25+21-14-11.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="224" src="http://1.bp.blogspot.com/-HFX5DC8Bf-I/T28aRi34DXI/AAAAAAAABkM/APfd36gK0RU/s320/2012-03-25+21-14-11.png" width="320" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Prezi的播放介面</td></tr>
+</tbody></table>
+
+
+<br />
+
+
+<div style="text-align: left;">
+最近，手上又有個關於jQuery的sharing topic。剛好在開始準備的前幾天，我看到了讓我眼睛一亮的玩意－－<a href="http://bartaz.github.com/impress.js">impress.js</a>、<a href="http://shama.github.com/jmpress.js">jmpress.js</a>和<a href="http://lab.hakim.se/reveal-js/">reveal.js</a>。因為剛好需要對jQuery的功能做live demo，如果能在slide上面就直接辦到，這是多麼美妙的一件事啊！當然是先用再說囉。</div>
+
+
+<br />
+
+
+<table align="center" cellpadding="3" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr>
+
+<td style="text-align: center;"><a href="http://bartaz.github.com/impress.js" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="150" src="http://2.bp.blogspot.com/-CcKU5md9xbE/T28aCDgXDyI/AAAAAAAABkE/esPzJ5B-BRo/s320/2012-03-25+20-27-26.png" /></a></td>
+
+<td style="text-align: center;"><a href="http://shama.github.com/jmpress.js" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="150" src="http://4.bp.blogspot.com/-JcFoEZWAFaA/T3B8DM7UAeI/AAAAAAAABkk/BFV4kDSv54s/s320/2012-03-26+22-20-42.png" /></a></td>
+
+<td style="text-align: center;"><a href="http://lab.hakim.se/reveal-js/"><img border="0" height="150" src="http://2.bp.blogspot.com/-0YfuivlNJ04/T28aA7LvzwI/AAAAAAAABj8/0Qu3IObTUs0/s320/2012-03-25+20-27-55.png" style="margin-left: auto; margin-right: auto;" /></a></td></tr>
+</tbody></table>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>
+</div>
+
+
+<br />
+
+
+<p>它們都是以CSS3+JS為主的技術來實現web投影片播放：impress.js簡單的說就是100%向prezi致敬（官網承認的），將整個無限畫布的概念<strike><span style="color: #999999;">抄</span></strike>承襲了下來；jmpress.js則是繼續<strike><span style="color: #999999;">抄</span></strike>承襲了impress.js， 加入了jQuery/jQuery UI，強調他不只可以當作投影片，更可以拿來當成網站用；reveal.js則是比較不玩這麼fancy的東西，只提供3種轉場效果&amp;程式碼自動上色，整體播放下來的體驗會比較像PowerPoint或Keynote。比較炫的就是除了←→換頁外，還可以使用↑↓方向鍵來進入一張投影片的「地下室」（這樣講有點抽象，直接<a href="http://lab.hakim.se/reveal-js/">去玩玩看</a>就知道啦XD）<br /></p>
+
+<br />
+
+
+<br />
+
+
+<p>於是，我當然是挑了比較酷炫的impress.js來試試看（為什麼要demo jQuery卻不用jmpress.js呢？因為我做完才發現有它的存在orz）。</p>
+
+<br />
+
+
+<p>最後，來個小小的比較（個人意見）：<br /></p>
+
+<br />
+
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+<tbody>
+<tr style="background: #CCCCCC;">
+  <td width="80"></td>
+  <td><div style="text-align: center;">
+Prezi</div>
+</td>
+  <td><div style="text-align: center;">
+impress.js/jmpress.js</div>
+</td>
+  <td><div style="text-align: center;">
+reveal.js</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">使用技術</td>
+  <td><div style="text-align: center;">
+Flash</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+CSS3 + JS</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">簡報特性</td>
+  <td colspan="2"><div style="text-align: center;">
+以zoom-in/out的形式，帶給觀眾整體感</div>
+</td>
+  <td>提供較多如PowerPoint簡報特性的功能，並提供「地下室」</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">操作性</td>
+  <td>可隨時使用滑鼠滾輪自由放大縮小；可自由拖移畫布位置</td>
+  <td>無法使用滾輪、拖移</td>
+  <td>四向方向鍵的創新模式</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">跳頁方便性(跳到很遠的投影片)</td>
+  <td>須用滾輪縮小後，點選該投影片方可跳至該頁</td>
+  <td>在URL上的#號(hash)後面會顯示該頁面ID。可以直接在網址列上修改ID跳至想要的頁面，也可以自己加上其他投影片的連結；可以用瀏覽器的上一頁/下一頁/瀏覽歷程等操作</td>
+  <td>可在頁面上自己加連結，但是一般跳頁時不會更新hash，所以重新整理之後投影片會跑掉，也不能用上一頁/下一頁</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">製作難度</td>
+  <td>提供功能相當完整的設計介面，可方便地編輯整個大畫布。他主打的「<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">斑馬環</a>」(移動/旋轉/放大縮小工具，就是prezi的logo那個圓形怪怪的東西)也是此介面的一大特色</td>
+  <td colspan="2">需有HTML基礎方能看懂其原理。目前入門的門檻相對高很多。(如：一個&lt;div
+  class=”slide”&gt;&lt;/div&gt;為一張投影片)</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">擴充性</td>
+  <td>被內建的主題限制而無法自訂字型顏色等基本屬性。但可以自行匯入flash(swf)、PDF、圖片等資源(上面提到的recipe範例就是插入了一個龐大的flash)</td>
+  <td colspan="2">只要是在網頁上可以插入的東西都可以加進來！ (要多有彈性就多有彈性，但是相對的就沒有一個良好的擴充架構)</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;">社群/網路資源</td>
+  <td style="text-align: center;">相當豐富</td>
+  <td colspan="2" style="text-align: center;">無社群 (github算嗎XD)</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;">相容性</td>
+  <td>Flash不相容於iOS。雖然有推出iPad版本，但所插入的flash、PDF等元件應該凶多吉少</td>
+  <td colspan="2">HTML+CSS+JS是未來的web標準技術。唯對舊版瀏覽器相容性仍較差</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">3D特效</td>
+  <td><div style="text-align: center;">
+目前無提供</div>
+</td>
+  <td>可以指定傾角、xyz軸位置等，做出很酷炫的3D效果</td>
+  <td>轉場時有3D特效</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;">收費</td>
+  <td><div style="text-align: center;">
+freemium模式</div>
+</td>
+  <td><div style="text-align: center;">
+免費</div>
+</td>
+  <td><div style="text-align: center;">
+免費</div>
+</td>
+ </tr>
+</tbody></table>
+
+
+<br />
+
+
+<p>現在CSS跟JS的技術都有爆炸性的成長，其實還有很多更酷炫的方式來呈現簡報(如parallax scrolling的：<a href="http://layrr.com/">layrr</a>、<a href="http://www.nike.com/jumpman23/aj2012/">Nike AJ球鞋網頁</a>等等)。但是真的就流於網頁程式設計苦工了，需要評估有沒有值那個成本。</p>
+
+<p>喜歡嗎？去fork一個你的Limpress.js吧XD！ (趕風潮XD)</p>
+
+<h2>延伸閱讀</h2>
+
+<p>tutorialzine（大推此站）：<a href="http://tutorialzine.com/2012/02/css3-product-showcase/">用impress.js製作產品展示</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Be a Rockstar Developer 當個搖滾開發人員]]></title>
+    <link href="http://df1.github.com/blog/2012/03/21/be-a-rockstar-developer/"/>
+    <updated>2012-03-21T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/21/be-a-rockstar-developer</id>
+    <content type="html"><![CDATA[<p>最近在幾篇文章裡看到了Rockstar Developer這個字眼（似乎有點LAG了），如果要翻的話就是『搖滾開發人員』這樣？
+就我的認知，指的可能是在技術社群內很活躍的名人；在一個團隊內類似『技術總監』的角色；或是簡單的說，就是你很崇拜的那種程式人員。<br /></p>
+
+<br />
+
+
+<p>來看看別人怎麼看這種人XD （以下加一點個人嘴砲）<br /></p>
+
+<br />
+
+
+<h2><a href="http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">十大特質</a></h2>
+
+<p>出處：<a href="http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">Top 10 Traits of a Rockstar Software Engineer</a> By Alex Iskold</p>
+
+<ol>
+<li><b>Loves To Code</b><br />&#8211; 這不用說了，要有freak-out的精神！</li>
+<li><b>Gets Things Done</b><br />&#8211;&nbsp;這需要一定的毅力，如《人月神話》所說：滿足了我們潛藏於內心創造事物的渴望；但專案時程和過程中的種種瓶頸可是很難熬的。另外最近scrum等等agile methodology也是很熱的議題，對尋找最佳實務提供很多的創新解法。</li>
+<li><b>Continuously Refactors Code</b><br />&#8211;&nbsp;看了幾本書之後就很HIGH的去改以前的code</li>
+<li><b>Uses Design Patterns</b><br />&#8211;&nbsp;NPC表示：去找在那屋子裡的GoF先知吧(?)</li>
+<li><b>Writes Tests</b><br />&#8211;&nbsp;要寫得夠廣，也要考慮以後方便做regression test。目標是coverage 100%</li>
+<li><b>Leverages Existing Code</b><br />&#8211;&nbsp;Apache Commons之類的，做之前先google準沒錯</li>
+<li><b>Focuses on Usability</b><br />&#8211;&nbsp;與其被嫌了之後還要改，不如(ry</li>
+<li><b>Writes Maintainable Code</b><br />&#8211;&nbsp;架構要設計得好，還是要先去看Design Patterns</li>
+<li><b>Can Code in Any Language</b><br />&#8211;&nbsp;更廣義的說應該是快速pickup的能力?</li>
+<li><b>Knows Basic Computer Science</b><br />&#8211;&nbsp;囧 快忘光了</li>
+</ol>
+
+
+<br />
+
+
+
+
+<!--more-->
+
+
+<h2>What makes a ‘Rockstar’ Developer?</h2>
+
+<p>出處：<a href="http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html">What makes a ‘Rockstar’ Developer?</a> By krotscheck</p>
+
+<ol>
+<li>They don’t think of themselves as rock stars.</li>
+<li>They have a proven track record of multiple shipped products.</li>
+<li>They care more about frameworks than plumbing.</li>
+<li>They’re not willing to work for free</li>
+<li>They believe in development process and best practices to speed up their work.</li>
+<li>They have a positive attitude.</li>
+<li>They get uncomfortable when you ask about their social life.</li>
+<li>You don’t want Alphabet/Acronym soup in their technical skills.</li>
+<li>They’re involved in the community.</li>
+<li>You respect them</li>
+</ol>
+
+
+<p>第6、10點大認同<br /></p>
+
+<br />
+
+
+<h2>如何成為明星開發人員?</h2>
+
+<p>出處：The question <a href="http://www.quora.com/How-does-one-become-a-rockstar-developer">&#8220;How does one become a &#8220;rockstar&#8221; developer?&#8221;</a> in Quora answered by Andrew Berman</p>
+
+<div>
+<div>
+<ol>
+<li>儘可能找一個這樣的優秀導師：他樂意批評你的程式，並傳授他是如何解決問題。當你的水準已達水準時，你可以正當地挑戰你的導師觀點，並獲得一些寶貴的辯論。</li>
+<li>經常提高你所在解決問題的難度和範圍。大多數人並沒有20年的經驗，他們只有1年的經驗，只不過反覆使用了20年。別做這種人。</li>
+<li>關注這些東西：文檔、方法名或函數名、（變數名）、廣泛寫測試案例。你的程式必須看起來專業。</li>
+<li>粗略看看所有的標準
+API&nbsp;，以便知道
+API&nbsp;中有什麼。然後，當你首次使用某個特定
+API&nbsp;時，來回地學習它。如果正好是你學過的語言，並且又有原始碼，也可以看看。</li>
+<li>如果不完全理解某寫東西，得鞭策自己去了解它，得經常深入去研究。</li>
+<li>儘可能選擇使用你的程式語言的最佳IDE。反覆了解IDE。一個優秀的IDE，對你有莫大的幫助。</li>
+<li>當面對一個新挑戰（比如說，你從沒有用SOAP/XML），在你開始寫程式之前，做些廣泛研究。在網路上找找，或者到你的API中看看，是否能找到其他人解決對應問題的最新最佳解。三思而後行。</li>
+<li>謹記，通常你正在寫的程式會交接給他人所用。和客戶經常保持聯繫。控制好他們的期望，展示出你的技能，確保他們知道你是最棒的。時刻謹記社交方面的東西。</li>
+</ol>
+</div>
+</div>
+
+
+<div>
+<br />
+這年頭，找工作還要去衝一下stackoverflow reputation還有github watch/fork數之類的年代（雖然在台灣應該不必，但是看到那類的網站開始bundle求職服務就覺得有壓力了囧）該是好好充實自己的時候了。</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SharePoint 2010 Branding 十訣]]></title>
+    <link href="http://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-branding/"/>
+    <updated>2012-03-04T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-branding</id>
+    <content type="html"><![CDATA[<p>最近突然接到一個消息：我們部門將為另外一個處（division）開設一系列的SharePoint Sharing課程（有點拗口）。而我負責的兩個主題其中一個是關於UI Design &amp; Branding，於是便寫了這篇文節錄一些我比較有心得的部分。<br /></p>
+
+<br />
+
+
+<p>SharePoint 2010這東西，是大約去年的五月，我被徵召當UI救火隊時候開始碰的。說實在的，在這之前對於微軟的企業端solution、CMS、還有ASP.NET都完全沒有任何的接觸；不過也是因為這個task，我才算真正進入CSS以及jQuery的大門（算是一個蠻神奇的進入點orz）。<br /></p>
+
+<br />
+
+
+<p>首先簡介一下我們系統。它本身是跨公司內外的網站，但並不是一個內容取向的網站；而是主要由一個個partner-collaboration性質的AP（在這邊當然是web part形式）所構成
+－－<strike>看起來純粹是因為政治及某些人的KPI等等不關我事的因素而採用此solution</strike>。先說說我負責的範圍：<br /></p>
+
+<br />
+
+
+<ol>
+<li><b>整體UI設計及Branding：</b>意思就是把它變成完全不像SharePoint，並且可以讓客戶留下好印象、每個畫面截圖都可以拿來發press release的站。</li>
+<li><b>首頁中所有功能：</b>跟user談了首頁layout、carousel（圖文輪播）、登入框、還有額外的佈告系統。</li>
+<li><b>實作其中一個AP：</b>使用ASP.NET加上DevExpress套件的報表/圖表系統。</li>
+</ol>
+
+
+<br />
+
+
+<br />
+
+
+<p>而今天要講的就是看似最簡單，但實際上最難上手的UI這部分。當時是處於前一個assignee開天窗，進度正火燒屁股的狀態。首先，我們整個UI救火團隊一共有3人：我老闆（負責coordinate）、我（萬用programmer）、還有從其他部門借調來part-time support的美工（也是剛工作不久的）。以下是我們大略的工作流程（沒錯幾乎就是waterfall，或是你可以叫他always-sprint的一人scrum）：<br /></p>
+
+<!--more-->
+
+
+<br />
+
+
+<ul>
+<li>Identify stakeholder（老闆）、Skill pickup （我，持續進行貫串全文）</li>
+<li>Benchmarking：survey所有類似特性的網站
+（我）&nbsp;並拿出來討論（三人）</li>
+<li>談需求（三人、user），設計wireframe（我、美）</li>
+<li>設計多個design comps <span style="font-size: xx-small;">（
+純圖片的整體設計稿）</span>（美）</li>
+<li>User決定後，做出切好的HTML單一網頁及CSS
+（美）</li>
+<li>開始沒日沒夜的master page實作及fine-tune
+&nbsp;（我）</li>
+<li>開始製作首頁功能（我）<br /><br />主體大致OK後，開始AP端部分的工作（extremely lousy）</li>
+<li>制定AP的UI/Glossary Guideline及audit機制 （三人、AP團隊）</li>
+<li>DevExpress的CSS overriding （我、美）</li>
+<li>fine-tune再
+fine-tune（我）<br /><br />接下來是最後</li>
+<li>整合之後的master page再美化：如頁面對齊、stretching、footer等JS功能（我）</li>
+<li>Deployment（我）</li>
+</ul>
+
+
+<p>其中，skill pickup無疑是最重要的部分。至少需要指派一個人來對整個架構流程進行全盤的瞭解：對於各種需求，必須知道哪些可以使用OOTB （out of the box，指原本package就有提供的功能）、哪些是需要自己慢慢刻、要如何刻等等；在真正開發過程中也須由他來扮演SD lead以及其他team的consult對象。在此我先來推一本我當初唯一的參考書：<br /></p>
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-3wYSwPCtbL4/T1NOjxjsL1I/AAAAAAAABgY/S9gQ3kP3Jto/s1600/%E5%9C%96%E7%89%8710.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="320" src="http://4.bp.blogspot.com/-3wYSwPCtbL4/T1NOjxjsL1I/AAAAAAAABgY/S9gQ3kP3Jto/s320/%E5%9C%96%E7%89%8710.png" width="253" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">書名：Professional SharePoint 2010 Branding and User Interface Design<br />
+作者：Randy Drisgill等<br />
+出版商：Wrox</td></tr>
+</tbody></table>
+
+
+<p>（P.S. 這本書看著看著會很想吃鬆餅XD）<br /></p>
+
+<br />
+
+
+<p>說十訣什麼的其實有點自以為是，不過以下這些都是綜合許多專家還有我的經驗整理出來的一些小tip，希望能減輕生master page時的痛苦。<br /></p>
+
+<br />
+
+
+<h2>Tip #1：導覽列（Navigation）</h2>
+
+
+<p>在SharePoint2007時代，上方的navigation是以巢狀表格方式render；到了2010，預設是使用&lt;ul&gt;&lt;li&gt;的形式（UseSimpleRendering=true情況下）。這使得CSS的撰寫簡單了許多。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-lLEnQbR3QrI/T1NRZDdgxdI/AAAAAAAABgg/grgW4iqvuX0/s1600/%E5%9C%96%E7%89%871.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-lLEnQbR3QrI/T1NRZDdgxdI/AAAAAAAABgg/grgW4iqvuX0/s1600/%E5%9C%96%E7%89%871.png" /></a></div>
+
+
+<br />
+
+
+<h2>Tip #2：彈出式選單</h2>
+
+
+<p>在master page可以用MaximumDynamicDisplayLevels定義最大的彈出層數。在每個sharepoint的site裡面可以個別設定navigation的形式，另外也有許多內建的sitemap可以選擇。在我們user的需求中，他們不使用彈出的形式；而是希望將所有子節點已樹狀形式攤平顯示，而這只要override少許CSS就可以搞定。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://4.bp.blogspot.com/-D31iEE60sUQ/T1NE27YgohI/AAAAAAAABfY/zY9LC0dGw6o/s1600/%E5%9C%96%E7%89%872.png" width="500" /></div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+
+
+<h2>Tip #3：不要再去發明輪子</h2>
+
+
+<p>可以使用微軟或許多前輩提供的starter master page開始做branding。裡面有非常詳盡的註解，可以讓你了解每個區段到你是做啥用的。<br /></p>
+
+<ul>
+<li>Microsoft’s Starter master page: &nbsp;http://code.msdn.microsoft.com/odcSP14StarterMaster. This Starter master page was built for SharePoint &nbsp;Foundation 2010, &nbsp;SharePoint Server 2010</li>
+<li>Randy Drisgill’s Starter master pages: &nbsp;（http://startermasterpages.codeplex.com）&nbsp;</li>
+<li>Heather&#8217;s Base Master Page: http://www.heathersolomon.com/downloads/heathersbasemasterpage.zip</li>
+</ul>
+
+
+<br />
+
+
+<div>
+<h2>Tip #4：不要亂砍master page的區段</h2>
+</div>
+
+
+<div>
+就算是不需要用的元件，也不要貿然將它直接砍掉，否則可能會造成整個站壞掉的悲劇（還是有辦法復原就是了）。可以將用不到的區段移到下圖的<span style="font-family: 'Courier New';">&lt;</span><span style="font-family: 'Courier New';">asp:Panel</span><span style="font-family: 'Courier New';">
+</span><span style="font-family: 'Courier New';">runat</span><span style="font-family: 'Courier New';">=“server”
+visible=“false”&gt;</span>區塊裡面。</div>
+
+
+<br />
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-Y5U7PTf5aGs/T1NE5ZO1j9I/AAAAAAAABfg/1TUtoIETuOs/s1600/%E5%9C%96%E7%89%873.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-Y5U7PTf5aGs/T1NE5ZO1j9I/AAAAAAAABfg/1TUtoIETuOs/s1600/%E5%9C%96%E7%89%873.png" /></a></div>
+
+
+<br />
+
+
+<h2>Tip #5：Page Layouts</h2>
+
+
+<p>如果你用的是publishing site（我們只在布告欄功能有用到），記得設定一個預設的layout，並注意是否有設好<b>可用layout清單</b>。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://1.bp.blogspot.com/-qSVsKC9H-C8/T1NE6UWZsjI/AAAAAAAABfo/3C-kaU0Xcgg/s1600/%E5%9C%96%E7%89%874.png" width="500" /></div>
+
+
+<h2>Tip #6：參考欄位</h2>
+
+
+<p>很多東西可以用server-side control來減少maintain的effort。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-dvCe8IZ_0XA/T1NE7nh8c5I/AAAAAAAABfw/CZ-AmAOZUPM/s1600/%E5%9C%96%E7%89%875.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-dvCe8IZ_0XA/T1NE7nh8c5I/AAAAAAAABfw/CZ-AmAOZUPM/s1600/%E5%9C%96%E7%89%875.png" /></a></div>
+
+
+<br />
+
+
+<h2>Tip #7：Web Part設計</h2>
+
+
+<p>儘量不要使用圓角設計<br />
+確定它們可以隨視窗放大縮小（這一句很短，但是可以想像工程非常大）<br /></p>
+
+<br />
+
+
+<h2>Tip #8：置中、延展</h2>
+
+
+<p>剛把master page做個雛型出來後雖然小有成就感，但是離<b>好看</b>可能還有一大段距離。其中最麻煩的就是每個頁面、每個user的螢幕大小都不一樣。<br />
+這是OOTB的置中方式：<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-BK-tnGypq3k/T1NE9fSmZFI/AAAAAAAABf0/YmWefjew2os/s1600/%E5%9C%96%E7%89%876.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-BK-tnGypq3k/T1NE9fSmZFI/AAAAAAAABf0/YmWefjew2os/s1600/%E5%9C%96%E7%89%876.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+這是我在master page加上的script，目的是讓所有頁面、所有大小的螢幕上的footer都保持在最下面（僅供參考，裡面許多id是我的自己的DOM裡面定義的）<a href="http://1.bp.blogspot.com/-NzGQ14E8sEE/T1NE-AEICMI/AAAAAAAABf4/2hBubOsgKcs/s1600/%E5%9C%96%E7%89%877.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-NzGQ14E8sEE/T1NE-AEICMI/AAAAAAAABf4/2hBubOsgKcs/s1600/%E5%9C%96%E7%89%877.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+
+
+<h2>Tip #9：設成預設master page</h2>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+打勾的話， 此站台以下的所有子站master page都會被覆蓋為P.master。</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-bsxX9d-qSj8/T1NGZxii34I/AAAAAAAABgQ/p56N_3vYorI/s1600/%E5%9C%96%E7%89%879.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-bsxX9d-qSj8/T1NGZxii34I/AAAAAAAABgQ/p56N_3vYorI/s1600/%E5%9C%96%E7%89%879.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+注意到上圖的設定畫面並沒有套上我們設計的master page嗎？如果不想為了_layouts裡面一堆內建功能在另外設計一個master page的話，記得去站台設定將Master Page Setting for Application _Layouts&nbsp;Pages選項選No。</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-HM61hWjzBXY/T1NYGROirzI/AAAAAAAABgo/DIfvBYhthWo/s1600/2012-03-04+19-37-37.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-HM61hWjzBXY/T1NYGROirzI/AAAAAAAABgo/DIfvBYhthWo/s1600/2012-03-04+19-37-37.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+
+
+<h2>Tip #10：部署</h2>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+因為我們的網站是一個大規模的對外站台，所有webpart程式碼都必須進SVN。上production時，deployment manager將根據deployment plan從SVN包裝wsp檔，透過指令上production。而我們的東西當然也不例外（想像一下，如果在上production時候，必須identify所有有改動的程式碼，然後用SharePoint Designer開啟UAT的站台，再將對應程式碼copy-paste到production，版本控管則由內建的document library機制紀錄之，這是何等的腦殘）。</div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+SharePoint Designer內部的所有東西也可以透過在Visual Studio的SharePoint Project形式包成wsp檔，在deploy時候會自動寫入對應資料夾。（要注意的是_layout裡面的資料無法使用此種方式部署，必須另尋它法）</div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+小結：雖然這個task距離我已經快要一年之遠，對於很多細節的印象跟許多數不清的怨言都已經開始模糊了，不過這整個過程對我來說算是相當寶貴且難忘的：我頭一次有了與美工cowork的機會，另外也讓我體會到enterprise端的龐大商機還有微軟對於這個市場所投注的心力。（附帶一提，我們部門有聘請微軟的consultant每周一天固定on-site support了大約半年之久，其一天的費用大約NT$30,000） =q=&nbsp;</div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+參考資料：<a href="http://www.slideshare.net/cbpeters/making-sharepoint-look-good" target="_blank">Making SharePoint Look Good - Cory Peters</a></div>
+
+
+<br />
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ext 4.1b3的bug：在grid中使用template column分群時]]></title>
+    <link href="http://df1.github.com/blog/2012/03/03/ext-js-4-1-bug-when-group-by-template-column/"/>
+    <updated>2012-03-03T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/03/ext-js-4-1-bug-when-group-by-template-column</id>
+    <content type="html"><![CDATA[<p>更新4.1b3之後，發現在某些grid中會出現HTML亂掉的情形如下圖。
+<img src="http://3.bp.blogspot.com/-YBqydfk22z0/T1HVilgqT9I/AAAAAAAABek/tQ7XrpoEv-4/s1600/ext.gif"></p>
+
+<p>建立獨立test case之後整理出bug detail如下：</p>
+
+<ol>
+<li>建立一grid，設定具有dataindex的簡單template column如下  <br/>
+ {
+
+<pre><code> xtype: 'templatecolumn',
+ tpl: '&lt;div data-qtip="{name}"&gt;{abbr}&lt;/div&gt;',
+ dataIndex: 'abbr',
+ text: 'abbr'
+</code></pre>
+
+<p> }</p></li>
+<li>以該欄grouping之後，會出現上述之亂碼情形。</li>
+<li>若將dataindex移除，則不會有此情形，但將失去sorting等功能。</li>
+</ol>
+
+
+<p><a href="http://www.sencha.com/forum/showthread.php?184128-4.1B3-Error-when-grouping-by-a-template-column-in-a-grid">已向sencha回報</a></p>
+
+<p><img src="http://3.bp.blogspot.com/-L3VLm5q-uS4/T1HVTVdalfI/AAAAAAAABec/kQZ8KwGcn-8/s400/2012-03-03+14-14-56.png" width="400"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[跨瀏覽器add-on開發的framework]]></title>
+    <link href="http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework/"/>
+    <updated>2012-02-26T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework</id>
+    <content type="html"><![CDATA[<p>最近想寫一個增進工作效率的add-on，自用之餘也打算寫好之後拿來送禮餽贈同事(XD)。稍微<a href="http://stackoverflow.com/questions/4913123/cross-browser-extensions-api" style="background-color: white; font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; text-align: left;" target="_blank">survey了一下</a>之後，目前cross-browser add-on framework大概有幾種選擇：<br /></p>
+
+<br />
+
+
+<ul>
+<li><div style="text-align: left;">
+<a href="http://apps.kynetx.com/" target="_blank"><em>Kynetx</em></a>：免費的，算是<a href="http://apps.kynetx.com/" style="background-color: white; font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; text-align: left;" target="_blank">主力開發extension的公司</a>所提供的工具(有在號召developer加入，code在github)，支援IE/FF/Safari/Chrome。但是開發出來的擴充元件相依於Kynetx extension。另外，需要用他們自家的Kynetx Rules Language進行開發。</div>
+<a href="http://2.bp.blogspot.com/-8jx9UtUXdlE/T0kmJwnBlRI/AAAAAAAABcI/aq6OLGmY0hc/s1600/1.png" imageanchor="1" style="font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="70" src="http://2.bp.blogspot.com/-8jx9UtUXdlE/T0kmJwnBlRI/AAAAAAAABcI/aq6OLGmY0hc/s320/1.png" width="320" /></a></li>
+<li><div style="text-align: left;">
+<a href="http://trigger.io/" target="_blank"><em>Forge</em></a>：他本身是跨平台的App Framework。除了支援iOS跟Android之外，瀏覽器部分也支援了IE/FF/Safari/Chrome，但是瀏覽器是需要付費的(目前每月$299)。</div>
+<div style="text-align: -webkit-auto;">
+<a href="http://1.bp.blogspot.com/-BeaFOmufRck/T0kmLJlv6FI/AAAAAAAABcQ/boSn1v9MFPU/s1600/2.png" imageanchor="1" style="font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="130" src="http://1.bp.blogspot.com/-BeaFOmufRck/T0kmLJlv6FI/AAAAAAAABcQ/boSn1v9MFPU/s320/2.png" width="320" /></a></div>
+</li>
+<li><div style="text-align: left;">
+<a href="http://crossrider.com/" target="_blank"><em>CrossRider</em></a>：免費的，支援IE/FF/Chrome。他主打用jQuery開發跨瀏覽器擴充，乍看之下是有點吸引我。試用了之後覺得他設計得還不錯，也有web的開發介面。如果這市場夠大的話看似未來也會有很好的發展性跟community。最大的缺點是開發中、完成後，都要透過他們的網站發布及安裝(不然就得自己..想辦法XD(?)</div>
+<a href="http://1.bp.blogspot.com/-Fl7Sw0JZRHc/T0kmOLm89nI/AAAAAAAABcY/_3z0c9ctcF8/s1600/3.png" imageanchor="1" style="font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="243" src="http://1.bp.blogspot.com/-Fl7Sw0JZRHc/T0kmOLm89nI/AAAAAAAABcY/_3z0c9ctcF8/s320/3.png" width="320" /></a></li>
+<li><div style="text-align: left;">
+<a href="http://kangoextensions.com/" target="_blank"><em>KangoExtensions</em></a>： 免費的，支援IE/FF/Chrome/Safari/Opera。本身是一個python小程式(目前使用2.7)。稍微看了一下覺得似乎是個不錯的選擇(至少code可以自己maintain，感覺起來彈性也比上面幾個高)。目前打算先用它來試試看，之後再補心得囉。</div>
+<div style="text-align: -webkit-auto;">
+<a href="http://4.bp.blogspot.com/-VMSn7gr6hMA/T0kmPCopROI/AAAAAAAABcc/bsGdKxrXZuI/s1600/4.png" imageanchor="1" style="font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="110" src="http://4.bp.blogspot.com/-VMSn7gr6hMA/T0kmPCopROI/AAAAAAAABcc/bsGdKxrXZuI/s320/4.png" width="320" /></a></div>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ext JS 4.1.0 Beta 3測試心得與IE8效能測試]]></title>
+    <link href="http://df1.github.com/blog/2012/02/24/ext-js-4-1b3-performance-optimization/"/>
+    <updated>2012-02-24T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/02/24/ext-js-4-1b3-performance-optimization</id>
+    <content type="html"><![CDATA[<p><a href="http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/" target="_blank">承上篇</a>，Sencha果然在昨天台灣時間早上七八點發布了Ext JS 4.1 beta 3，於是我也從善如流(?)的把原本專案4.0.7的lib直接換成新的來測試。很麻煩的是，電腦只有IE9 (我很希望IE的F12切換瀏覽器版本功能可以連JS Engine都切換一下，造福一下developer；或是把這東西做在新的MS Expression Web SuperPreview也不錯) 所以要一直跑到同事座位借電腦測orz<br /></p>
+
+<br />
+
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-a2aV6Kgt3Z8/T0kpNoRDf6I/AAAAAAAABcw/5AnqNibBetc/s1600/IE-performance-on-4.0.7-vs-4.1.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="172" src="http://2.bp.blogspot.com/-a2aV6Kgt3Z8/T0kpNoRDf6I/AAAAAAAABcw/5AnqNibBetc/s320/IE-performance-on-4.0.7-vs-4.1.png" width="320" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><a href="http://www.sencha.com/blog/ext-js-4-1-developer-preview" target="_blank">之前官方預估</a>4.0.7至4.1的舊版IE效能提升
+</td></tr>
+</tbody></table>
+
+
+<br />
+
+
+<p>以下是測試小結：<br /></p>
+
+<ol>
+<li>4.0.7直接升級至4.1.0b3後，對原有的程式及畫面幾乎沒影響。</li>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-9nw9rAqgm8s/T07nk0v20VI/AAAAAAAABdM/f_uABMLb8G8/s1600/2012-3-1+%E4%B8%8A%E5%8D%88+10-33-53.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a></div>
+<ul>
+<li>但是community表示，afterrender事件已經不會被trigger，對某些人影響似乎很大。</li>
+<li>對我們畫面有一個impact：舉例來說，有很多component我<b>有</b>設長寬，但是他外面container的layout是設成&#8221;fit&#8221;。在4.0.7他還是會乖乖占滿整個container；在4.1他大小就真的是我們設的長寬。不過這很好改，一下就全都改好了。<br /><span style="color: #444444; font-family: helvetica, arial, verdana, sans-serif; font-size: 12px; line-height: 18px;">(As for the layout. Height and Width are obeyed in 4.1, where there were ignored in 4.0)<br /><pre class="php" style="background-color: #f9f9f9; border: 1px gray dashed; color: #222222; line-height: 14px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding: 5px; white-space: pre-wrap; word-wrap: break-word;">Ext.onReady(<span style="color: purple; font-weight: bold;">function</span>() {&nbsp;
+    <span style="color: purple; font-weight: bold;">var</span> form = Ext.create(<span style="background-color: #e7e8ec; color: teal;">'Ext.form.Panel'</span>, {
+        title: <span style="background-color: #e7e8ec; color: teal;">'panel'</span>,
+        renderTo: Ext.getBody(),
+        width: <span style="color: maroon;">600</span>,
+        height: <span style="color: maroon;">400</span>,
+        layout: <span style="background-color: #e7e8ec; color: teal;">'fit'</span>,
+        items: [
+            {
+                xtype     : <span style="background-color: #e7e8ec; color: teal;">'panel'</span>,
+                title: <span style="background-color: #e7e8ec; color: teal;">'subpanel'</span>,
+                height: <span style="color: maroon;">100</span>,  <span style="color: grey; font-style: italic;">// ignored in 4.0, obeyed in 4.1</span>
+                width: <span style="color: maroon;">100</span> <span style="color: grey; font-style: italic;">// same</span>
+            }
+        ]&nbsp;
+    });
+});</pre>
+</span></li>
+<li>Grid中如果用其中一欄的dataindex分群，而該欄又是template column的話會<a href="http://www.sencha.com/forum/showthread.php?184128-4.1B3-Error-when-grouping-by-a-template-column-in-a-grid" target="_blank">讓HTML大亂</a>。</li>
+<li>剩下還有一些是我自訂css class做一些customization的，有些behavior會跟原本不一樣，在這就不詳述了。</li>
+<li>講些正面的，之前
+combo box picker&nbsp;很嚴重的<a href="http://www.sencha.com/forum/showthread.php?154412-Combo-Box-options-appears-in-Top-Left-Corner-in-IE-9&amp;s=c9cced2a1bd237e637bacd545fc916c0" target="_blank">在IE錯位到左上角問題</a>(當時是用<a href="http://www.sencha.com/forum/showthread.php?154412-Combo-Box-options-appears-in-Top-Left-Corner-in-IE-9&amp;p=692061&amp;viewfull=1#post692061" target="_blank">這個work-around</a>)、還有<a href="http://www.sencha.com/forum/showthread.php?152324-4.0.7-ComboBox-bug-with-load-mask" target="_blank">loading mask一直不消失問題</a>，在4.1已經完全解決了。另外4.1的scroll bar也由原本很多bug的自作聰明版改成瀏覽器原生，應該就不會有<a href="http://stackoverflow.com/questions/6745395/scrollbar-in-extjs-tree-panel-does-not-work" target="_blank">tree panel scroll消失的問題</a>了。</li>
+</ul>
+<li>在程式完全不改的情況下，IE8的效能似乎有『非常微幅』的提升。(微幅到不想幫同事裝fiddler測了；不知道有沒有更好用像YSlow的測效能工具？)</li>
+<li>於是，進行了以下IE8效能調校嘗試</li>
+<ul>
+<li>把所有的store取消
+autoload&nbsp;
+(原本有設autoload的大部分是如combobox的common component等等的store)，想辦法減少占用的記憶體</li>
+<ul>
+<li>結果：效能大幅提升，但是離流暢操作還是有一大段距離。更令人遺憾的是，以目前的architecture操作到最後，該load的store還是會全load，到時候一樣會很慢。</li>
+</ul>
+<li>因為有使用Ext 4.0的dynamic loading，我儘量想辦法讓我UI的JS (主要是Ext Designer的component hierarchy)都在該用到的時候才load進來 (這是上一篇sencha support說值得嘗試的方法)</li>
+<ul>
+<li>結果：根本沒差=_______= (我的東西其實沒複雜到哪去，JS都那麼短，有差也感覺不出來orz)</li>
+</ul>
+<li>用他上次給我們的範例(裡面就是一個combo box複製很多份，然後吃一個靜態的json)來測試當資料多、元件多時對效能的影響</li>
+<ul>
+<li>結果：載入一個我認為可能是兇手的store之後(我們系統裡面的)，整個IE真的馬上變烏龜</li>
+</ul>
+</ul>
+<li>在各瀏覽器的效能依舊是</li>
+<ul>
+<li>Chrome(非常順，無時無刻超級順，不愧是V8) &gt; Firefox(有時候會頓) = IE9
+(有時候會頓) &gt;&gt; IE8 (還是根本無法接受)</li>
+</ul>
+</ol>
+
+
+<br />
+
+
+<p>至於為啥要這麼辛苦地為一個爛browser煩惱呢？<br /></p>
+
+<br />
+
+
+<p>&#8230;.orz<br /></p>
+
+<br />
+
+
+<br />
+
+
+<p>題外話，今天早上google到了一篇簡體文章「&nbsp;<a href="http://blog.csdn.net/tianxiaode/article/details/6298340" style="background-color: white; color: black; font-family: 'Microsoft YaHei'; line-height: 30px; text-align: left; text-decoration: none;"><span class="">ExtJS 4 Beta 2預覽：Ext.Brew包</span></a>&nbsp;」。興致勃勃的直接看文章內附的範例程式之後覺得霧煞煞想說：這是甚麼鬼阿，於是點了<a href="http://www.sencha.com/blog/ext-js-4-beta-2-preview-the-ext-brew-package/" target="_blank">原文連結</a>。<br /></p>
+
+<br />
+
+
+<p>靠北，這是愚人節笑話阿，這位426是認真了嗎orz (雖然我LAG了XD)<br /></p>
+
+<br />
+
+
+<p>P.S. Sencha的確是煎茶的英文音譯</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ext JS 4.0.7 (4.1b2) IE8 Performance Issue]]></title>
+    <link href="http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/"/>
+    <updated>2012-02-17T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8</id>
+    <content type="html"><![CDATA[<p><span>Our project is an Ext 4 application built with Ext Designer 1.2.2, with the 4.0.7 library. Inevitably, we faced the performance issue in IE8, while firefox and chrome work just fine and smooth. (the bad news is our company is IE8-dominating)&nbsp;</span><br />
+<span>We&#8217;ve tried out the latest ExtJS 4.1 beta 2, beside dozens of layout distortions, we still find no performance improvement.&nbsp;</span><br /></p>
+
+<br />
+
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s1600/2012-02-26+2-23-42.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="244" src="http://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s320/2012-02-26+2-23-42.png" width="320" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">oh and the support period is gonna expire</td></tr>
+</tbody></table>
+
+
+<br />
+
+
+<p><span>Here are the questions I&#8217;ve asked Sencha for support:</span><br /></p>
+
+<br />
+
+
+<p><span>1. Does the beta 2 really cover any slight or significant performance improvement? How was the benchmark and the community feedback about this?&nbsp;</span><br /></p>
+
+<br />
+
+
+<p><span>2. Is it still far from 4.1 GA? Could we expect more improvements in the future beta/GA releases, or that&#8217;s almost all?&nbsp;</span><br /></p>
+
+<br />
+
+
+<p><span>3. I use the Ext 4 dynamic loading. However for our current program, it almost loads every /store/<em>.js, /view/</em>.js and /view/ui/*.js upon initializing the main application (except the ones for pop-up windows and other run-time-created things). Regarding IE8 performance optimization, will it help if we try to eliminate the not-yet-used components as best as we can? (I wonder who makes the entire IE8 incredibly slow) Or there&#8217;s any other related threads or suggestions that would help?&nbsp;</span></p>
+
+<br />
+
+
+<p><span>Here&#8217;s the first response, within 2 hrs! So prompt!</span><br /></p>
+
+<blockquote class="tr_bq custom-blockquote" style="border: gray dotted; padding: 10px;">
+<span>Thank you for the report. Hopefully we can resolve this issue.&nbsp;</span><br />
+<br />
+<span>1) We are constantly trying to improve the performance of 4.1 with every release. There should be a new BETA release very soon, so hopefully this may help. IE is always a challenge.&nbsp;</span><br />
+<span>2) 4.1 GA is scheduled for mid-late March depending on the results from the prior releases. As mentioned, speed improvements are always a priority.&nbsp;</span><br />
+<span>3) As you mention, anything you can do to delay, or eliminate the loading of unused items will be a plus for rendering.&nbsp;</span><br />
+<br />
+<span>The issue of what is the cause of slow rendering can be a number of things.&nbsp;</span><br />
+<span>We had a case the other day where a customer was having slow rendering issues in IE7/8 and it turned out to be customer code and custom CSS.&nbsp;</span><br />
+<br />
+<span>To provide an accurate answer, we would need to see a small working example that display the problem that you see.&nbsp;</span><br />
+<span>One thing that you may try, is to create generic form that has numerous controls (including populate combos, array driven) to see if you have the same problem.&nbsp;</span><br />
+<br />
+<span>I have attached <a href="http://support.extjs.com/download.php/reply/36915/t7210.zip" target="_blank">an example</a> that you can use as a template. Please see how this renders on IE8, Please make sure to update the path to Ext in the html file.&nbsp;</span><br />
+<br />
+<span>If you have any further questions, please let us know.&nbsp;</span></blockquote>
+
+
+<br />
+
+
+<p><span>I&#8217;ll try to cope with that anyway</span><br />
+<span><br /></span><br /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Integrate Ext Designer With Java Web Project In Eclipse]]></title>
+    <link href="http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/"/>
+    <updated>2012-02-16T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse</id>
+    <content type="html"><![CDATA[<p>The mysterious <a href="http://www.sencha.com/products/designer/" target="_blank">Sencha Designer </a>2.0 announced in last year&#8217;s SenchaCon has finally <a href="http://www.sencha.com/blog/sencha-designer-2-beta-announcement/" target="_blank">released the Beta version</a> last week (without trial period limitation!) Besides the Sencha Touch support, which has been their focus, what really attracts me is it finally supports ExtJS 4 MVC, and in-line event definition.</p>
+
+<br />
+
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s640/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">M, V, C, and S (Store)</td></tr>
+</tbody></table>
+
+
+<p>For this time, I&#8217;m gonna share how I integrated Ext Designer to my Eclipse web project in the 1.2.2 era.<br /></p>
+
+<br />
+
+
+<h2>Ext Designer hands-on</h2>
+
+<p>This video from Sencha Learning covers all its features in a nutshell.<br /></p>
+
+<!--more-->
+
+
+<iframe allowfullscreen="" frameborder="0" height="225" mozallowfullscreen="" src="http://player.vimeo.com/video/17921733?title=0&amp;byline=0&amp;portrait=0&amp;color=4CC208" webkitallowfullscreen="" width="400"></iframe>
+
+
+<br />
+
+
+<p><a href="http://vimeo.com/17921733">SenchaCon 2010: Advanced Techniques for Ext Designer</a> from <a href="http://vimeo.com/sencha">Sencha</a>.<br /></p>
+
+<br />
+
+
+<h1>Eclipse Integration</h1>
+
+<hr />
+
+<p>Sorry for the sparse text content. I will give more comments later on.<br /></p>
+
+<br />
+
+
+<h2>
+<span style="font-size: large;">
+
+Code Organization</span></h2>
+
+
+<table style="background:white;"><tbody>
+<tr><td style="vertical-align: top;">&nbsp;Recommended way with ExtJS 4 &nbsp;MVC architecture<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="400" src="http://4.bp.blogspot.com/-QkWQrN0RY4Q/Tzviw7k01LI/AAAAAAAABZ4/0EYodH8mEn0/s400/%E5%9C%96%E7%89%871.png" width="265" /></div>
+<div>
+<br /></div>
+</td><td>VS</td><td style="vertical-align: top;">&nbsp;&nbsp;My way with Ext Designer integrated to entire project<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="400" src="http://4.bp.blogspot.com/-yb6xljyfnnw/Tzviyi9J-vI/AAAAAAAABaA/lwNK-BzC2C8/s400/%25E5%259C%2596%25E7%2589%25872.png" width="233" /></div>
+<br /></td></tr>
+</tbody></table>
+
+
+<h2>
+<span style="font-size: large;">
+Project Settings in Designer</span></h2>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="185" src="http://3.bp.blogspot.com/-XOJI49R0plk/TzvjLizOFnI/AAAAAAAABaQ/_SqsnBmCE7M/s320/%25E5%259C%2596%25E7%2589%25874.png" width="320" /></div>
+
+
+<div>
+<h2>
+
+<span style="font-size: large;">
+
+Project Structure in Eclipse</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="398" src="http://4.bp.blogspot.com/-7caurFKVcGM/TzvjNGGlNnI/AAAAAAAABaY/N6R3cLRZHzw/s640/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D1.png" width="640" /></div>
+<br />
+<h2>
+
+<span style="font-size: large;">
+In case of accidental tragedies…</span></h2>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><img border="0" height="262" src="http://1.bp.blogspot.com/-4Db_YUl385U/TzvdS5mFMaI/AAAAAAAABZw/URYCLc7XFoM/s320/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="320" /></td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><span style="font-size: small; text-align: -webkit-auto;">Eclipse asks you if you want to modify read-only files. Just say no.</span>
+</td></tr>
+</tbody></table>
+<br />
+<h2>
+
+<span style="font-size: large;">
+The HTML</span></h2>
+<h2>
+<img border="0" width="400" src="http://4.bp.blogspot.com/-hOFqIkTWuV4/Tzvko2-a_PI/AAAAAAAABag/53ksQ-X5gD4/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></h2>
+<br />
+<h2>
+
+<span style="font-size: large;">
+
+The designer.js</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://2.bp.blogspot.com/-TbaHWwi4wC4/TzvlTceXs2I/AAAAAAAABao/HorkoNvoeys/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<br />
+<h2>
+
+
+<span style="font-size: large;">
+
+The Implementation</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://3.bp.blogspot.com/-pFRDeiJtD5w/Tzvlnu44T7I/AAAAAAAABaw/3acOgGijilU/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<br />
+<h2>
+<span style="font-size: large;">
+
+Debugging</span></h2>
+<br />
+Use Chrome’s debugging tool to debug ExtJS 4 dynamic-loaded classes<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://4.bp.blogspot.com/-OgBbM-VqceI/Tzvl2L5zZ1I/AAAAAAAABa4/eizszoym99I/s1600/%E5%9C%96%E7%89%875.png" /></div>
+<div>
+<br /></div>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[It's Time to Blog]]></title>
+    <link href="http://df1.github.com/blog/2012/02/14/its-time-to-blog/"/>
+    <updated>2012-02-14T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/02/14/its-time-to-blog</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://df1.github.com/attachments/2012-02-14-its-time-to-blog/0112ie.png" width="300"><br/>
+前陣子，剛好專案的sprint告一段落，在過年空閒時看了不少文章和一些閒書
+(雖然農忙期間的假日也是照樣去山上隱居看書這樣?)
+於是發現腦袋的東西愈裝愈多，似乎又一發不可收拾之勢。</p>
+
+<p>在<a href="http://MindMeister.com">MindMeister</a>將想法稍作歸納之後，
+是夕，始覺得是時候開始耕耘一塊自己的田地，對技術社群貢獻微薄之力，順便練練文筆、讓以後的自己看看每個時候的我到底在做啥
+(說真的，我已經忘記我大學跟研究所平時都在幹嘛了orz)。
+這就是此blog誕生的近因。</p>
+
+<p>遠因呢？
+我還沒想到（靠北）</p>
+
+<p>先來自我介紹
+*   <code>Name</code> Chang Chung Heng
+*   <code>Job</code> 22K宅宅工程師
+*   <code>Hobbies</code> 跑步、聽日本搖滾樂
+*   <code>Language</code> 中英日</p>
+
+<p>目前對這邊設定的方向，大概以技術、工作還有<code>波笛</code>為主，生活&amp;個人囈語為輔。<br/>
+以上</p>
+]]></content>
+  </entry>
+  
+</feed>

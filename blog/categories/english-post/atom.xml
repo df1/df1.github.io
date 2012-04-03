@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: English Post | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/english-post/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-04-03T00:42:05+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Web-based Slideshows --Comparing impress.js, jmpress.js and reveal.js]]></title>
+    <link href="http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/"/>
+    <updated>2012-03-27T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi</id>
+    <content type="html"><![CDATA[<p>The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="http://bartaz.github.com/impress.js">impress.js</a>, <a href="http://shama.github.com/jmpress.js">jmpress.js</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. "Why not give it a crack?" said them. And I decided to try impress.js out.<br /></p>
+
+<br />
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>
+</div>
+
+
+<p>Here is my brief comparison, with one of their competitors -- Prezi:<br /></p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+<tbody>
+<tr style="background: #CCCCCC;">
+  <td style="text-align: left;" width="80"></td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+Prezi</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+impress.js/jmpress.js</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+reveal.js</div>
+</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Technology</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+Flash</div>
+</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+<div style="text-align: left;">
+CSS3 + JS</div>
+</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Characteristic</div>
+</td>
+  <td colspan="2"><div style="text-align: center;">
+<div style="text-align: left;">
+zoom-in/out to give an overview to audience</div>
+</div>
+</td>
+  <td><div style="text-align: left;">
+provides more PowerPoint-like characteristics, also with the "basement slide"</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Presentation Usability</div>
+</td>
+  <td><div style="text-align: left;">
+mouse-scroll to zoom, drag to tilt</div>
+</td>
+  <td><div style="text-align: left;">
+mouse-scrolling/dragging do nothing</div>
+</td>
+  <td><div style="text-align: left;">
+the brand new 4-direction browsing</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+To jump to some page</div>
+</td>
+  <td><div style="text-align: left;">
+zoom out and out, and click on your destination slide once you can see it</div>
+</td>
+  <td><div style="text-align: left;">
+"URL hash" shows the ID of your page. Can be&nbsp;</div>
+</td>
+  <td><div style="text-align: left;">
+Can be linked</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Design Usability</div>
+</td>
+  <td><div style="text-align: left;">
+Very friendly UI with its prevailing "<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+You must have HTML skill!</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Extensibility</div>
+</td>
+  <td><div style="text-align: left;">
+Constrained by its OOTB themes. However you can still insert your own SWF/PDF/youtube</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+You can insert whatever you can insert in a web page!</div>
+</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Community</div>
+</td>
+  <td style="text-align: center;"><div style="text-align: left;">
+Quite a few</div>
+</td>
+  <td colspan="2" style="text-align: center;"><div style="text-align: left;">
+No community (or does github count?)</div>
+</td>
+</tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Compatibility</div>
+</td>
+  <td><div style="text-align: left;">
+iOS does not play flash. Though there's iPad version, I worry about my inserted SWFs and PDFs.</div>
+</td>
+  <td colspan="2"><div style="text-align: left;">
+How would you doubt the perfect HTML+CSS+JS combo? Except the bad compatibility in old browsers.</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+3D</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+N/A</div>
+</div>
+</td>
+  <td><div style="text-align: left;">
+all x-y-z position/rotation can be defined</div>
+</td>
+  <td><div style="text-align: left;">
+3D transition</div>
+</td>
+ </tr>
+<tr>
+  <td style="background: #CCCCCC;"><div style="text-align: left;">
+Pricing</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+freemium</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+free</div>
+</div>
+</td>
+  <td><div style="text-align: center;">
+<div style="text-align: left;">
+free</div>
+</div>
+</td>
+ </tr>
+</tbody></table>
+
+
+<br />
+
+
+<br />
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ext JS 4.0.7 (4.1b2) IE8 Performance Issue]]></title>
+    <link href="http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/"/>
+    <updated>2012-02-17T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8</id>
+    <content type="html"><![CDATA[<p><span>Our project is an Ext 4 application built with Ext Designer 1.2.2, with the 4.0.7 library. Inevitably, we faced the performance issue in IE8, while firefox and chrome work just fine and smooth. (the bad news is our company is IE8-dominating)&nbsp;</span><br />
+<span>We've tried out the latest ExtJS 4.1 beta 2, beside dozens of layout distortions, we still find no performance improvement.&nbsp;</span><br /></p>
+
+<br />
+
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s1600/2012-02-26+2-23-42.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="244" src="http://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s320/2012-02-26+2-23-42.png" width="320" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">oh and the support period is gonna expire</td></tr>
+</tbody></table>
+
+
+<br />
+
+
+<p><span>Here are the questions I've asked Sencha for support:</span><br /></p>
+
+<br />
+
+
+<p><span>1. Does the beta 2 really cover any slight or significant performance improvement? How was the benchmark and the community feedback about this?&nbsp;</span><br /></p>
+
+<br />
+
+
+<p><span>2. Is it still far from 4.1 GA? Could we expect more improvements in the future beta/GA releases, or that's almost all?&nbsp;</span><br /></p>
+
+<br />
+
+
+<p><span>3. I use the Ext 4 dynamic loading. However for our current program, it almost loads every /store/<em>.js, /view/</em>.js and /view/ui/*.js upon initializing the main application (except the ones for pop-up windows and other run-time-created things). Regarding IE8 performance optimization, will it help if we try to eliminate the not-yet-used components as best as we can? (I wonder who makes the entire IE8 incredibly slow) Or there's any other related threads or suggestions that would help?&nbsp;</span></p>
+
+<br />
+
+
+<p><span>Here's the first response, within 2 hrs! So prompt!</span><br /></p>
+
+<blockquote class="tr_bq custom-blockquote" style="border: gray dotted; padding: 10px;">
+<span>Thank you for the report. Hopefully we can resolve this issue.&nbsp;</span><br />
+<br />
+<span>1) We are constantly trying to improve the performance of 4.1 with every release. There should be a new BETA release very soon, so hopefully this may help. IE is always a challenge.&nbsp;</span><br />
+<span>2) 4.1 GA is scheduled for mid-late March depending on the results from the prior releases. As mentioned, speed improvements are always a priority.&nbsp;</span><br />
+<span>3) As you mention, anything you can do to delay, or eliminate the loading of unused items will be a plus for rendering.&nbsp;</span><br />
+<br />
+<span>The issue of what is the cause of slow rendering can be a number of things.&nbsp;</span><br />
+<span>We had a case the other day where a customer was having slow rendering issues in IE7/8 and it turned out to be customer code and custom CSS.&nbsp;</span><br />
+<br />
+<span>To provide an accurate answer, we would need to see a small working example that display the problem that you see.&nbsp;</span><br />
+<span>One thing that you may try, is to create generic form that has numerous controls (including populate combos, array driven) to see if you have the same problem.&nbsp;</span><br />
+<br />
+<span>I have attached <a href="http://support.extjs.com/download.php/reply/36915/t7210.zip" target="_blank">an example</a> that you can use as a template. Please see how this renders on IE8, Please make sure to update the path to Ext in the html file.&nbsp;</span><br />
+<br />
+<span>If you have any further questions, please let us know.&nbsp;</span></blockquote>
+
+
+<br />
+
+
+<p><span>I'll try to cope with that anyway</span><br />
+<span><br /></span><br /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Integrate Ext Designer With Java Web Project In Eclipse]]></title>
+    <link href="http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/"/>
+    <updated>2012-02-16T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse</id>
+    <content type="html"><![CDATA[<p>The mysterious <a href="http://www.sencha.com/products/designer/" target="_blank">Sencha Designer </a>2.0 announced in last year's SenchaCon has finally <a href="http://www.sencha.com/blog/sencha-designer-2-beta-announcement/" target="_blank">released the Beta version</a> last week (without trial period limitation!) Besides the Sencha Touch support, which has been their focus, what really attracts me is it finally supports ExtJS 4 MVC, and in-line event definition.</p>
+
+<br />
+
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s640/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">M, V, C, and S (Store)</td></tr>
+</tbody></table>
+
+
+<p>For this time, I'm gonna share how I integrated Ext Designer to my Eclipse web project in the 1.2.2 era.<br /></p>
+
+<br />
+
+
+<h2>Ext Designer hands-on</h2>
+
+<p>This video from Sencha Learning covers all its features in a nutshell.<br /></p>
+
+<!--more-->
+
+
+<iframe allowfullscreen="" frameborder="0" height="225" mozallowfullscreen="" src="http://player.vimeo.com/video/17921733?title=0&amp;byline=0&amp;portrait=0&amp;color=4CC208" webkitallowfullscreen="" width="400"></iframe>
+
+
+<br />
+
+
+<p><a href="http://vimeo.com/17921733">SenchaCon 2010: Advanced Techniques for Ext Designer</a> from <a href="http://vimeo.com/sencha">Sencha</a>.<br /></p>
+
+<br />
+
+
+<h1>Eclipse Integration</h1>
+
+<hr />
+
+<p>Sorry for the sparse text content. I will give more comments later on.<br /></p>
+
+<br />
+
+
+<h2>
+<span style="font-size: large;">
+
+Code Organization</span></h2>
+
+
+<table style="background:white;"><tbody>
+<tr><td style="vertical-align: top;">&nbsp;Recommended way with ExtJS 4 &nbsp;MVC architecture<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="400" src="http://4.bp.blogspot.com/-QkWQrN0RY4Q/Tzviw7k01LI/AAAAAAAABZ4/0EYodH8mEn0/s400/%E5%9C%96%E7%89%871.png" width="265" /></div>
+<div>
+<br /></div>
+</td><td>VS</td><td style="vertical-align: top;">&nbsp;&nbsp;My way with Ext Designer integrated to entire project<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="400" src="http://4.bp.blogspot.com/-yb6xljyfnnw/Tzviyi9J-vI/AAAAAAAABaA/lwNK-BzC2C8/s400/%25E5%259C%2596%25E7%2589%25872.png" width="233" /></div>
+<br /></td></tr>
+</tbody></table>
+
+
+<h2>
+<span style="font-size: large;">
+Project Settings in Designer</span></h2>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="185" src="http://3.bp.blogspot.com/-XOJI49R0plk/TzvjLizOFnI/AAAAAAAABaQ/_SqsnBmCE7M/s320/%25E5%259C%2596%25E7%2589%25874.png" width="320" /></div>
+
+
+<div>
+<h2>
+
+<span style="font-size: large;">
+
+Project Structure in Eclipse</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="398" src="http://4.bp.blogspot.com/-7caurFKVcGM/TzvjNGGlNnI/AAAAAAAABaY/N6R3cLRZHzw/s640/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D1.png" width="640" /></div>
+<br />
+<h2>
+
+<span style="font-size: large;">
+In case of accidental tragedies…</span></h2>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><img border="0" height="262" src="http://1.bp.blogspot.com/-4Db_YUl385U/TzvdS5mFMaI/AAAAAAAABZw/URYCLc7XFoM/s320/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="320" /></td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><span style="font-size: small; text-align: -webkit-auto;">Eclipse asks you if you want to modify read-only files. Just say no.</span>
+</td></tr>
+</tbody></table>
+<br />
+<h2>
+
+<span style="font-size: large;">
+The HTML</span></h2>
+<h2>
+<img border="0" width="400" src="http://4.bp.blogspot.com/-hOFqIkTWuV4/Tzvko2-a_PI/AAAAAAAABag/53ksQ-X5gD4/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></h2>
+<br />
+<h2>
+
+<span style="font-size: large;">
+
+The designer.js</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://2.bp.blogspot.com/-TbaHWwi4wC4/TzvlTceXs2I/AAAAAAAABao/HorkoNvoeys/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<br />
+<h2>
+
+
+<span style="font-size: large;">
+
+The Implementation</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://3.bp.blogspot.com/-pFRDeiJtD5w/Tzvlnu44T7I/AAAAAAAABaw/3acOgGijilU/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<br />
+<h2>
+<span style="font-size: large;">
+
+Debugging</span></h2>
+<br />
+Use Chrome’s debugging tool to debug ExtJS 4 dynamic-loaded classes<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://4.bp.blogspot.com/-OgBbM-VqceI/Tzvl2L5zZ1I/AAAAAAAABa4/eizszoym99I/s1600/%E5%9C%96%E7%89%875.png" /></div>
+<div>
+<br /></div>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>
