@@ -11,7 +11,7 @@ categories: [career, murmur, programming]
 來看看別人怎麼看這種人XD （以下加一點個人嘴砲）<br />
 <br />
 
-##[十大特質][1]##
+##[十大特質][1]
 出處：[Top 10 Traits of a Rockstar Software Engineer][1] By Alex Iskold
 [1]: http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php
 <ol>
@@ -32,7 +32,7 @@ categories: [career, murmur, programming]
 <!--more-->
 
 
-##What makes a ‘Rockstar’ Developer?##
+##What makes a ‘Rockstar’ Developer?
 出處：[What makes a ‘Rockstar’ Developer?][2] By krotscheck
 [2]: http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html
 <ol>
@@ -49,7 +49,7 @@ categories: [career, murmur, programming]
 </ol>
 第6、10點大認同<br />
 <br />
-##如何成為明星開發人員?##
+##如何成為明星開發人員?
 出處：The question ["How does one become a "rockstar" developer?"][3] in Quora answered by Andrew Berman
 [3]: http://www.quora.com/How-does-one-become-a-rockstar-developer
 <div>

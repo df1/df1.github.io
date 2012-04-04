@@ -9,7 +9,7 @@ categories: [murmur, octopress]
 說是說搬家，不過實際上大概只有十多篇（XD） 而且還是直接把HTML複製貼上的搬法orz 若是看起來礙眼就多包涵吧！
 先來談談…
 
-##為什麼要搬家？##
+##為什麼要搬家？
 - 因為今天愚人節
 - 因為我看了最近很流行的**為什麼系列文**：
 	- Sega Cheng：[我為什麼離開 Google（台灣）][1]
@@ -57,7 +57,7 @@ categories: [murmur, octopress]
 
 搬是搬完了啦，不過欠好多文章orz
 
-##Octopress Resources##
+##Octopress Resources
 -	[目前套用的主題--Slash][Slash]
 -	[所有的Octopress主題列表](https://github.com/imathis/octopress/wiki/List-Of-Octopress-Themes)
 -	[使用Octopress的站台列表](https://github.com/imathis/octopress/wiki/Octopress-Sites)

@@ -5,7 +5,8 @@ date: 2012-03-25 13:17
 comments: true
 categories: [cool, impress.js, jmpress.js, jQuery, JS, prezi, reveal.js, web slide]
 ---
-一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光阿(遠目)<br />
+一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，
+向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光，也是多麼糟糕的時光阿(遠目)<br />
 <br />
 Prezi的概念就是：畫布是無限大的，你可以定義每個頁面的框在畫布的哪個位置、大小；播放時候會以zoom-in/out的形式，可以帶給觀眾在單一個主題上overview與微觀的整體層次感。當初令我印象最深刻的就是某個prezi實習生做的<a href="http://prezi.com/xcit4zbat6sw/sweet-recipe-to-solving-problems/" target="_blank">Sweet recipe to solving problems</a>(真的是Epic！)。如今Prezi的知名度應該已經有相當程度的提升，也讓我跌破眼鏡的開始支援了iPad（應該是開發了flash轉CSS3？我沒iPad所以不確定）。如果還沒體驗過的話，可以直接去
 <a href="http://www.prezi.com/" target="_blank">Prezi</a>&nbsp;上逛逛別人做好的，個個都是熱情奔放、創意無限！<br />
