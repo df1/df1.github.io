@@ -4,7 +4,7 @@
   <title><![CDATA[Category: startup | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/startup/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-07T18:22:32+08:00</updated>
+  <updated>2012-04-07T18:29:43+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -61,7 +61,7 @@
 
 <p>這部分雖然只是聽Kirby用喇賽的形式稍微cover了一下，不過聽了之後對整個stack還是有一點畫面啦，如果講錯或是要補充再糾正我吧XD</p>
 
-<p>Hosting部分，是使用皇家禮炮等級的Amazon EC2；server端是使用python（django／nginx等等）；DB則是使用mongo db；前端方面能用的工具技術就相當多了，至少有jQuery跟blueprint css（原本看prototybe猜應該有bootstrap不過應該沒有XD）；在官網則是用wordpress跟drupal當CMS。行動端的技術就不太清楚，總之都很屌（靠）</p>
+<p>Hosting部分，是使用皇家禮炮等級的Amazon EC2；server端是使用python（django／nginx等等）；DB則是使用mongo db；前端方面能用的工具技術就相當多了，至少有jQuery跟blueprint css（原本看prototype猜應該有bootstrap不過應該沒有XD）；在官網則是用wordpress跟drupal當CMS。行動端的技術就不太清楚，總之都很屌（靠）</p>
 
 <p>幹超羨慕的，基本上幾乎就是把最新最好玩的玩具都拿來玩了啊！反觀我本身是在大公司工作，所用的solution都比較是偏企業端的技術，思考模式也是。來了之後才知道<strong>貴的玩具跟好玩的玩具的差別</strong>（彷彿別人都在玩變形金剛，自己卻在拼很貴的樂高這樣無誤XD 改天再來寫個工作近兩年心得好了，應該有很多東西可以寫XD）</p>
 
