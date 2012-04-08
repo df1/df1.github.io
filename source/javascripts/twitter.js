@@ -53,8 +53,8 @@
 
 		if ($(window).width() > 600){
 			var url = 'https://api.twitter.com/1/statuses/user_timeline/'+userid+'.json?count='+count+'&exclude_replies='+(reply ? '0' : '1')+'&trim_user=true&callback=?';
-			banner.show();
 			$.getJSON(url, function(json){
+				banner.slideDown();
 				var length = json.length,
 					fragment = document.createDocumentFragment(),
 					counts = 0,

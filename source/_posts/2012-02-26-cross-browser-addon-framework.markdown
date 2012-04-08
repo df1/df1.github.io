@@ -5,7 +5,11 @@ date: 2012-02-26 13:17
 comments: true
 categories: [chrome extension, cross-browser, firefox add-on, JS]
 ---
-最近想寫一個增進工作效率的add-on，自用之餘也打算寫好之後拿來送禮餽贈同事(XD)。稍微<a href="http://stackoverflow.com/questions/4913123/cross-browser-extensions-api" style="background-color: white; font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; text-align: left;" target="_blank">survey了一下</a>之後，目前cross-browser add-on framework大概有幾種選擇：<br />
+最近想寫一個增進工作效率的add-on，自用之餘也打算寫好之後拿來送禮餽贈同事(XD)。
+不過我希望對各種不同瀏覽器可以只maintain一支code，有點類似瀏覽器版的PhoneGap的概念。
+（好像真的有[BrowserGap](https://github.com/joaoe/BrowserGap/)這東西，不過似乎已經沒有再maintain？）
+稍微<a href="http://stackoverflow.com/questions/4913123/cross-browser-extensions-api">survey了一下</a>，
+目前community有推薦的cross-browser add-on framework大概有幾種選擇：<br />
 <br />
 <ul>
 <li><div style="text-align: left;">
