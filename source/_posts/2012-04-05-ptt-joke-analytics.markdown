@@ -26,7 +26,7 @@ categories: [boring, ptt, analytics]
 {%img /attachments/2012-04-05-ptt-joke-analytics/g03.jpg %}
 
 
-##系統（PC）
+##系統
 {%img /attachments/2012-04-05-ptt-joke-analytics/d01.jpg %}
 {%img /attachments/2012-04-05-ptt-joke-analytics/d02.jpg %}
 {%img /attachments/2012-04-05-ptt-joke-analytics/d03.jpg %}

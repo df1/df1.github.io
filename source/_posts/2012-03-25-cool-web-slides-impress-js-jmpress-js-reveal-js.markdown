@@ -129,4 +129,5 @@ freemium模式</div>
 
 延伸閱讀
 ----
-tutorialzine（大推此站）：[用impress.js製作產品展示](http://tutorialzine.com/2012/02/css3-product-showcase/)
+*	[用impress.js製作產品展示網站](http://tutorialzine.com/2012/02/css3-product-showcase/) - tutorialzine（大推此站）
+*	（2012/04/05更新）[使用jmpress.js製作商品展示網站](http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/) - codrops
