@@ -4,7 +4,7 @@
   <title><![CDATA[Category: reveal.js | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/reveal-js/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-10T00:56:22+08:00</updated>
+  <updated>2012-04-10T01:37:48+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -359,7 +359,11 @@ freemium模式</div>
 
 <h2>延伸閱讀</h2>
 
-<p>tutorialzine（大推此站）：<a href="http://tutorialzine.com/2012/02/css3-product-showcase/">用impress.js製作產品展示</a></p>
+<ul>
+<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">用impress.js製作產品展示網站</a> - tutorialzine（大推此站）</li>
+<li>（2012/04/05更新）<a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">使用jmpress.js製作商品展示網站</a> - codrops</li>
+</ul>
+
 ]]></content>
   </entry>
   

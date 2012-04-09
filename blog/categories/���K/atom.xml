@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 網摘 | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/網摘/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-10T00:56:22+08:00</updated>
+  <updated>2012-04-10T01:37:48+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -51,6 +51,9 @@
 <p>如果對文章中提到的<code>閉包（closure）</code>有看沒有懂，
 可以參考TonyQ（Ptt soft_job版主）在javascript.tw聚會中對closure相關的變數scope常見問題說明。
 影片後半段也對jQuery的原始碼做了解析，是講<strong>繁體中文</strong>的喔！（咦） 看影片吧！</p>
+
+<!--more-->
+
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/KxItux9ZeA8?rel=0" frameborder="0" allowfullscreen></iframe>
 
