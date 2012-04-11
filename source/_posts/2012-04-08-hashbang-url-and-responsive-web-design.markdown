@@ -4,7 +4,7 @@ title: Web豆知識：網址後面帶個#!xxx（井號驚嘆號）就顯示對�
 date: 2012-04-08 13:17
 comments: true
 published: false
-categories: JS, hashbang, responsive, jQuery, ExtJS
+categories: [JS, hashbang, responsive, jQuery, ExtJS]
 ---
 累了嗎？先來聽一首關於Shebang的歌吧！（請先看標題自行斟酌是否按下去XD）
 <iframe width="420" height="315" src="http://www.youtube.com/embed/5ihtX86JzmA?rel=0" frameborder="0" allowfullscreen></iframe>
