@@ -4,7 +4,7 @@
   <title><![CDATA[Category: impress.js | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/impress-js/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-04T04:23:44+08:00</updated>
+  <updated>2012-04-11T01:40:56+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -202,7 +202,8 @@ free</div>
     <link href="http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js/"/>
     <updated>2012-03-25T13:17:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js</id>
-    <content type="html"><![CDATA[<p>一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光阿(遠目)<br /></p>
+    <content type="html"><![CDATA[<p>一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，
+向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光，也是多麼糟糕的時光阿(遠目)<br /></p>
 
 <br />
 
@@ -358,7 +359,11 @@ freemium模式</div>
 
 <h2>延伸閱讀</h2>
 
-<p>tutorialzine（大推此站）：<a href="http://tutorialzine.com/2012/02/css3-product-showcase/">用impress.js製作產品展示</a></p>
+<ul>
+<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">用impress.js製作產品展示網站</a> - tutorialzine（大推此站）</li>
+<li>（2012/04/05更新）<a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">使用jmpress.js製作商品展示網站</a> - codrops</li>
+</ul>
+
 ]]></content>
   </entry>
   

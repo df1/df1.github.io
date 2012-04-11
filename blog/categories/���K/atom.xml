@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 網摘 | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/網摘/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-04-11T01:40:56+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[網摘分享：jQuery到底是何方神聖？別怕，將他打回原形！]]></title>
+    <link href="http://df1.github.com/blog/2012/04/09/jquery-striptease/"/>
+    <updated>2012-04-09T23:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/09/jquery-striptease</id>
+    <content type="html"><![CDATA[<p>（此文章參加<a href="http://ithelp.ithome.com.tw/js-ninja/">JavaScript忍之道</a>的『網摘分享』活動）</p>
+
+<p>不知道當大家第一次聽到jQuery這個詞時，在心中浮現的第一個畫面是什麼？
+是一個Java-base的query language？是一個java寫成的搜尋引擎？<del>還是一位超萌的小羅莉？（好像還沒人把它擬人化XD）</del></p>
+
+<p>無論你聽見它芳名時候的第一印象為何，當你真正見到它的容貌時，想必心中那種悸動到現在還是難以忘懷吧！讓我們再來回顧一下：</p>
+
+<p><code>$("p.neat").addClass("ohmy").show("slow");</code></p>
+
+<p>如果場景是企業的主管正抉擇是否導入jQuery的當下，看到第一個字是大大的<code>$</code>時，心中立即的疑問就是『那這套solution的license要多少錢？』
+這時，你就會非常自信專業地答道
+『老闆，jQuery是不用錢的啊！只要在<code>$</code>括號裡面打上您想選擇的條件，傳回來的就是<strong>jQuery物件</strong>。選出來之後，您想要對它做啥都不成問題！』</p>
+
+<br/>
+
+
+<p>沒錯，你想把它抓去阿魯巴都可以。（請自己寫plugin）</p>
+
+<br/> 
+
+
+<p>但問題來了，jQuery物件到底是啥？為啥它可以用<code>$</code>？為啥可以像上面那樣一直串下去？為啥它可以那麼強大？</p>
+
+<h3>青菜底家啦</h3>
+
+<p>這時候，就要看對岸同胞的原始碼解析了－－<a href="http://xiaofei85390656-163-com.iteye.com/blog/1449221">jQuery1.7系列一：jQuery 對象的實質</a></p>
+
+<p>裡面將整個jQuery的最外圍架構拿出來討論。除了可以找到上面那些問題的解答之外，他也提到了jQuery作者使用的一些小trick
+（browser不支援<code>undefined</code>？沒關係，啥都不要傳進去就是了…之類的）；另外也讓我們了解jQuery plugin的撰寫原理。</p>
+
+<p>如果對文章中提到的<code>閉包（closure）</code>有看沒有懂，
+可以參考TonyQ（Ptt soft_job版主）在javascript.tw聚會中對closure相關的變數scope常見問題說明。
+影片後半段也對jQuery的原始碼做了解析，是講<strong>繁體中文</strong>的喔！（咦） 看影片吧！</p>
+
+<!--more-->
+
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/KxItux9ZeA8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>參考連結</h2>
+
+<ul>
+<li><a href="http://xiaofei85390656-163-com.iteye.com/blog/1449221">jQuery1.7系列一：jQuery 對象的實質</a>（簡） - 晨曦的朝陽</li>
+<li><a href="http://jquery.com/">jQuery官網</a></li>
+<li><a href="http://ithelp.ithome.com.tw/js-ninja/">JavaScript忍之道</a></li>
+<li><a href="http://js-tw.blogspot.com/">JavaScript.tw</a>及其<a href="https://www.facebook.com/groups/javascript.tw/">FB社團</a>（biweekly JS小聚）</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
