@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: OSDC.TW | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/osdc-tw/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-04-18T02:04:54+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[OSDC.TW 2012: Summary & Impressions]]></title>
+    <link href="http://df1.github.com/blog/2012/04/17/osdc-2012-impressions/"/>
+    <updated>2012-04-17T23:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/17/osdc-2012-impressions</id>
+    <content type="html"><![CDATA[<p><img src="/attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png">
+Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>. (linked, may blackout if out of date). This article is a brief summary for myself, and it also covers certain impressions that I had got, if any, in each agenda.</p>
+
+<p>(To be finished)</p>
+
+<!--more-->
+
+
+<h1>Day 1</h1>
+
+<h2>Keynote: Mozilla B2G: Breaking Mobile Monopolies</h2>
+
+<ul>
+<li>Speaker: Dr. 宮力 (MOZILLA)</li>
+<li><a href="http://osdc.tw/assets/contents/BreakingMobileMonopolies.pdf">Slide Link</a></li>
+</ul>
+
+
+<h2>Keynote: Cocktails -- Shaken, Not Stirred</h2>
+
+<ul>
+<li>Speaker: Eric Chuang (YAHOO)</li>
+</ul>
+
+
+<h2>Keynote: Samsung S Pen SDK</h2>
+
+<ul>
+<li>Chinese Topic: 從手寫筆、滑掌截圖、陀螺儀等應用看Android應用程式開發</li>
+<li>Speaker: 史憲軍 (SAMSUNG)</li>
+</ul>
+
+
+<h2>Keynote: Lessons Learned from "Taiwan Weather" iPhone App Development</h2>
+
+<ul>
+<li>Chinese Topic: 談手機 Internet Client 開發：我從「台灣天氣」學到的事情</li>
+<li>Speaker: zonble (KKBOX)</li>
+</ul>
+
+
+<h2>DIY Open Source Self-Propelled Artillery</h2>
+
+<ul>
+<li>Chinese Topic: DIY Open Source 無人自走砲</li>
+<li>Speaker: mikimoto</li>
+<li><a href="http://speakerdeck.com/u/mikimoto/p/diy-open-source-osdctw-2012">Slide Link</a></li>
+</ul>
+
+
+<h2>Let's Enjoy NodeJS -- All Development in JavaScript</h2>
+
+<ul>
+<li>Speaker: fred chien</li>
+</ul>
+
+
+<h2>EtherCalc: A Real-Time Collaborated Spreadsheet</h2>
+
+<ul>
+<li>Chinese Topic: EtherCalc: 多人即時協作試算表</li>
+<li>Speaker: audrey</li>
+<li><a href="http://www.slideshare.net/autang/ethercalc">Slide Link</a></li>
+</ul>
+
+
+<h2>Apps on HTML5 and the new WebAPIs</h2>
+
+<ul>
+<li>Speaker: Thinker (Mozilla)</li>
+</ul>
+
+
+<h2>Automated Trading Toolkit</h2>
+
+<ul>
+<li>Speaker: clkao</li>
+</ul>
+
+
+<h2>Missed Sessions</h2>
+
+<h3>Introduction to LuaJIT &amp; How to bind complex C++ codebase using LuaJIT FFI</h3>
+
+<ul>
+<li>Speaker: johnson lin</li>
+<li><a href="http://speakerdeck.com/u/igdshare/p/introduction-to-luajit-how-to-bind-cpp-code-base-using-luajit-ffi">Slide Link</a></li>
+</ul>
+
+
+<h3>The Ecosystems of PHP and Perl</h3>
+
+<ul>
+<li>Speaker: c9s</li>
+<li><a href="http://speakerdeck.com/u/c9s/p/osdctw-2012-the-ecosystems-of-php-and-perl">Slide Link</a></li>
+</ul>
+
+
+<h1>Day 2</h1>
+
+<h2>Rails 3.1 : Asset Pipeline</h2>
+
+<ul>
+<li>Speaker: 小蟹</li>
+</ul>
+
+
+<h2>Dependency Management -- Taking Ruby Development for Example</h2>
+
+<ul>
+<li>Speaker: yc ling</li>
+</ul>
+
+
+<h2>Functional Programming and What It Has Taught Me</h2>
+
+<ul>
+<li>Chinese Topic: 那些 Functional Programming 教我的事</li>
+<li>Speaker: ihower</li>
+<li><a href="http://www.slideshare.net/ihower/fp-osdc2012v2">Slide Link</a></li>
+</ul>
+
+
+<h2>JavaScript Essential Patterns</h2>
+
+<ul>
+<li>Speaker: Othree</li>
+<li><a href="http://www.slideshare.net/othree/javascript-essentialpattern">Slide Link</a></li>
+</ul>
+
+
+<h2>Keynote: Good collaboration in open source projects</h2>
+
+<ul>
+<li>Speaker: Allison Randal</li>
+</ul>
+
+
+<h2>Keynote: Pix Table, The ORM from PIXNET</h2>
+
+<ul>
+<li>Chinese Topic: PIXNET 的 ORM，Pix Table</li>
+<li>Speaker: ronnywang (PIXNET)</li>
+</ul>
+
+
+<h2>Embedded Virtualization in Daily Life</h2>
+
+<ul>
+<li>Speaker: jserv (0xlab)</li>
+</ul>
+
+
+<h2>Missed Sessions</h2>
+
+<p>Actually, it was my very first experience to an open-source community event, and it should be the doorstep for my commencement / commitment to this fascinating area. Though it's late, it will never be too late, hopefully :p</p>
+]]></content>
+  </entry>
+  
+</feed>
