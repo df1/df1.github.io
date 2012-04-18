@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: OSDC.TW | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/osdc-tw/atom.xml" rel="self"/>
+  <title><![CDATA[Category: OSDC | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/osdc/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
   <updated>2012-04-19T02:13:30+08:00</updated>
   <id>http://df1.github.com/</id>

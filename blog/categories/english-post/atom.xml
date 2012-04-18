@@ -4,7 +4,7 @@
   <title><![CDATA[Category: English Post | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/english-post/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-18T02:04:54+08:00</updated>
+  <updated>2012-04-19T02:13:30+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -21,12 +21,16 @@
     <content type="html"><![CDATA[<p><img src="/attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png">
 Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>. (linked, may blackout if out of date). This article is a brief summary for myself, and it also covers certain impressions that I had got, if any, in each agenda.</p>
 
-<p>(To be finished)</p>
-
 <!--more-->
 
 
 <h1>Day 1</h1>
+
+<p>When I took highway bus and made to transit to Nangang, it was almost 9:30 AM. I felt regretful since the session opened at 9, and since the truth that I did not plan it well. Then I took another 15 minutes walking, which Google Map told me to do so, to Sinica Academia. Anyway, it was a deadly cloudy morning with regrets for missing the first keynote speech.</p>
+
+<p>After taking the attendee's badge and a crappy nonwoven Samsung bag, I managed to enter the main conference hall. The second session was just about to begin.</p>
+
+<p>(To be finished, photos will be updated)</p>
 
 <h2>Keynote: Mozilla B2G: Breaking Mobile Monopolies</h2>
 
@@ -34,6 +38,23 @@ Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Dev
 <li>Speaker: Dr. 宮力 (MOZILLA)</li>
 <li><a href="http://osdc.tw/assets/contents/BreakingMobileMonopolies.pdf">Slide Link</a></li>
 </ul>
+
+
+<h3>Impressions</h3>
+
+<p>It was the session I missed. What's worse, there wasn't much discussion on IRC for me to catch up, so I could only took a glance on the slide.
+It looks like that this talk was more of a general overview about what Mizilla's current endaevour than a technical talk. The summary was wrapped-up in the end of slide:</p>
+
+<pre><code>*   Mozilla is committed to keep the mobile web free and open as it did to the desktop web
+*   Join the project and/or partner with Mozilla to break the looming mobile monopoly!
+*   Mozilla Taiwan is a key driver for B2G, and they are hiring
+</code></pre>
+
+<h3>Updated! Video</h3>
+
+<p>Talk start @06:00</p>
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/iPTgAhgbB7M?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 <h2>Keynote: Cocktails -- Shaken, Not Stirred</h2>
@@ -278,7 +299,7 @@ Design Usability</div>
 Very friendly UI with its prevailing "<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
 </td>
   <td colspan="2"><div style="text-align: left;">
-You must have HTML skill!</div>
+You must have HTML skill! <font color="red">(Update 04/18: Not now, see [this][impressionist] for impress.js)</font></div>
 </td>
  </tr>
 <tr>
@@ -357,6 +378,15 @@ free</div>
 
 
 <br />
+
+
+<h2>Related Links</h2>
+
+<ul>
+<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">Making an Impressive Product Showcase with CSS3</a> - tutorialzine</li>
+<li>(updated 2012/04/05) <a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">SLIDESHOW WITH JMPRESS.JS</a> - codrops</li>
+<li>(updated 2012/04/18) Impressionist -- <a href="https://github.com/hsivaramx/Impressionist">Online Visual Editing Tool</a> for Impress.js (latest: <a href="http://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>)</li>
+</ul>
 
 ]]></content>
   </entry>
