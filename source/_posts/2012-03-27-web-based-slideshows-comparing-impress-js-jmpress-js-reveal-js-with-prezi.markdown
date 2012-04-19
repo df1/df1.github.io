@@ -95,7 +95,7 @@ Design Usability</div>
 Very friendly UI with its prevailing "<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
 </td>
   <td colspan="2"><div style="text-align: left;">
-You must have HTML skill!</div>
+You must have HTML skill! <font color="red">(Update 04/18: Not now, see [this][impressionist] for impress.js)</font></div>
 </td>
  </tr>
 <tr>
@@ -170,3 +170,12 @@ free</div>
 </tbody></table>
 <br />
 <br />
+
+Related Links
+----
+*	[Making an Impressive Product Showcase with CSS3](http://tutorialzine.com/2012/02/css3-product-showcase/) - tutorialzine
+*	(updated 2012/04/05) [SLIDESHOW WITH JMPRESS.JS](http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/) - codrops
+*	(updated 2012/04/18) Impressionist -- [Online Visual Editing Tool][impressionist] for Impress.js (latest: [Alpha3][])
+
+[impressionist]:https://github.com/hsivaramx/Impressionist
+[Alpha3]:http://www.hsivaram.com/impressionist/alpha3/
