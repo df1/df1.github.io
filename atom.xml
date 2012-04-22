@@ -4,7 +4,7 @@
   <title><![CDATA[Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-22T15:30:59+08:00</updated>
+  <updated>2012-04-22T15:35:46+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -187,16 +187,18 @@ Yahoo has been yelling about their Mojito, Cocktails, and Manhattan for months (
 
 <h2>Lightning Talks</h2>
 
-<p>All ligntning talks are in youtube now! [Check this channel (macpaullin)][macpaullin]
-*   <a href="http://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="http://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)
-*   <a href="http://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore
-*   <a href="http://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥
-*   <a href="http://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="http://www.plurk.com/p/g51aoe">Slide</a>)
-*   <a href="http://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT
-*   <a href="http://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen
-*   <a href="http://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a>
-*   <a href="">JVM as the universal Language runtime</a> - Sunny Chan
-*   <a href="http://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</p>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="http://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)</li>
+<li><a href="http://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore</li>
+<li><a href="http://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥</li>
+<li><a href="http://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="http://www.plurk.com/p/g51aoe">Slide</a>)</li>
+<li><a href="http://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT</li>
+<li><a href="http://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen</li>
+<li><a href="http://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a></li>
+<li><a href="">JVM as the universal Language runtime</a> - Sunny Chan</li>
+<li><a href="http://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</li>
+</ul>
+
 
 <h1>Impressions in General</h1>
 
