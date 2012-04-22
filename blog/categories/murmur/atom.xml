@@ -4,7 +4,7 @@
   <title><![CDATA[Category: murmur | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/murmur/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-22T13:52:21+08:00</updated>
+  <updated>2012-04-22T15:27:02+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -19,7 +19,7 @@
     <updated>2012-04-17T23:17:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/04/17/osdc-2012-impressions</id>
     <content type="html"><![CDATA[<p><img src="/attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png">
-Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn't much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got, if any, in each session.</p>
+Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn't much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got in each session. (I will fill them up if I have time)</p>
 
 <h1>Update: Videos and slides of each session <a href="http://osdc.tw/schedule#day1">RELEASED</a>!</h1>
 
@@ -54,7 +54,18 @@ It looks like that this talk was more of a general overview about what Mizilla's
 <h2>Keynote: Cocktails -- Shaken, Not Stirred</h2>
 
 <ul>
-<li>Speaker: Eric Chuang (YAHOO)</li>
+<li>Speaker: Eric Chuang (YAHOO)
+
+<h3>Impressions</h3>
+
+Yahoo has been yelling about their Mojito, Cocktails, and Manhattan for months (in chinese: 只聞樓梯響, only hear sound from staircase but no one comes), and finally, they are being released and open-source'd. This talk is a introduction and slight demonstration about their Mojito MVC framework based on node.js, and the Cocktails idea of an ecosystem mixing HTML5, node.js, CSS3, YUI3.
+
+<h3>Links</h3>
+
+<ul>
+<li><a href="http://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/">Yahoo!’s Mojito is Now Open Source</a></li>
+</ul>
+</li>
 </ul>
 
 
@@ -62,7 +73,11 @@ It looks like that this talk was more of a general overview about what Mizilla's
 
 <ul>
 <li>Chinese Topic: 從手寫筆、滑掌截圖、陀螺儀等應用看Android應用程式開發</li>
-<li>Speaker: 史憲軍 (SAMSUNG)</li>
+<li>Speaker: 史憲軍 (SAMSUNG)
+
+<h3>Impressions</h3>
+
+<p>I get impressed when someone get Samaung's face slapped in the Q&amp;A time lol. Okay I still hope these, how to say, legacy enterprices, to somehow dedicate some effort for the entire technology community to grow. But I do not think they ought to be criticized that way. At least they sponsored, man. Anyway it's just hilarious LOL</p></li>
 </ul>
 
 
@@ -94,7 +109,7 @@ It looks like that this talk was more of a general overview about what Mizilla's
 <ul>
 <li>Chinese Topic: EtherCalc: 多人即時協作試算表</li>
 <li>Speaker: audrey
-It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who's known as one of the "10  greats of Taiwanese computing."</li>
+It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who's known as one of the "10  greats of Taiwanese computing." You should check the video out, seriously!</li>
 </ul>
 
 
@@ -139,8 +154,12 @@ It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">
 <h2>Keynote: Good collaboration in open source projects</h2>
 
 <ul>
-<li>Speaker: Allison Randal</li>
+<li>Speaker: Allison Randal
+This is a talk given by the goddess of open source community -- Allison, and can make us open source programmers much happier. When Allison was speaking, Audrey was doing a real-time transcripting in IRC!! Here is the hidden cam (by eddie Kao)</li>
 </ul>
+
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/dQ6nK_Yz14Q?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 <h2>Keynote: Pix Table, The ORM from PIXNET</h2>
@@ -158,7 +177,20 @@ It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">
 </ul>
 
 
-<h1>Impressions</h1>
+<h2>Lightning Talks</h2>
+
+<p>All ligntning talks are in youtube now! [Check this channel (macpaullin)][macpaullin]
+*   <a href="http://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="http://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)
+*   <a href="http://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore
+*   <a href="http://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥
+*   <a href="http://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="http://www.plurk.com/p/g51aoe">Slide</a>)
+*   <a href="http://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT
+*   <a href="http://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen
+*   <a href="http://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a>
+*   <a href="">JVM as the universal Language runtime</a> - Sunny Chan
+*   <a href="http://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</p>
+
+<h1>Impressions in General</h1>
 
 <p>This conference was held in the Academy of Anthropology &amp; Sociology (or whatever lol), whose building and facilities are so brand new. Each seat is with embedded power/network plug, erecting(?) microphone, and vote buttons. Their international conference hall, where all keynote speeches took place, is an ideal place indeed for developer events like this. We could listen to the speech and do live coding along with the speaker very well too. As I observed, the coverage of MacBook is over 70%. (I'd really want to buy one too if only I can afford orz.) Besides, the screen of each computer was almost consentient! Coding window, IRC chatting window, Plurk (I wonder why so many Taiwan developers uses this, I can almost identify them by their Plurk avatar on theit screen lol), few Facebooks, and nothing else! It was so AMAZING to see so many "nicknames" from the internet, who may be my idols or <del>my "cyber-stalkees"</del> the ones I followed on Twitter/Plurk for long, to gather and sit around me! The only thing that I would complain was the crappy Wi-Fi that was unable to handle simultaneous trafffic of 500 people. I brought my wire next day and it was so much better then orz. Btw, it's my first chance to show off a <code>140.109.*</code> IP!</p>
 
@@ -171,6 +203,12 @@ It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">
 <p>COSCUP, I'm coming!</p>
 
 <h2>Reference Links</h2>
+
+<ul>
+<li><a href="http://osdc.tw">OSDC.TW 2012</a></li>
+<li><a href="https://gist.github.com/2393705">IRC Log</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
