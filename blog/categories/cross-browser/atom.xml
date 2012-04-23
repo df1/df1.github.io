@@ -4,7 +4,7 @@
   <title><![CDATA[Category: cross-browser | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/cross-browser/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-04T04:23:44+08:00</updated>
+  <updated>2012-04-23T02:34:09+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -18,7 +18,11 @@
     <link href="http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework/"/>
     <updated>2012-02-26T13:17:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework</id>
-    <content type="html"><![CDATA[<p>最近想寫一個增進工作效率的add-on，自用之餘也打算寫好之後拿來送禮餽贈同事(XD)。稍微<a href="http://stackoverflow.com/questions/4913123/cross-browser-extensions-api" style="background-color: white; font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; text-align: left;" target="_blank">survey了一下</a>之後，目前cross-browser add-on framework大概有幾種選擇：<br /></p>
+    <content type="html"><![CDATA[<p>最近想寫一個增進工作效率的add-on，自用之餘也打算寫好之後拿來送禮餽贈同事(XD)。
+不過我希望對各種不同瀏覽器可以只maintain一支code，有點類似瀏覽器版的PhoneGap的概念。
+（好像真的有<a href="https://github.com/joaoe/BrowserGap/">BrowserGap</a>這東西，不過似乎已經沒有再maintain？）
+稍微<a href="http://stackoverflow.com/questions/4913123/cross-browser-extensions-api">survey了一下</a>，
+目前community有推薦的cross-browser add-on framework大概有幾種選擇：<br /></p>
 
 <br />
 

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: OSDC.TW | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/osdc-tw/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-04-23T02:34:09+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[OSDC.TW 2012: My Summary & Impressions]]></title>
+    <link href="http://df1.github.com/blog/2012/04/17/osdc-2012-impressions/"/>
+    <updated>2012-04-17T23:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/17/osdc-2012-impressions</id>
+    <content type="html"><![CDATA[<p><img src="/attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png">
+Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn't much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got in each session. (I will fill them up if I have time)</p>
+
+<h1>Update: Videos and slides of each session <a href="http://osdc.tw/schedule#day1">RELEASED</a>!</h1>
+
+<!--more-->
+
+
+<p>(Photos will be updated <strong>later</strong>)</p>
+
+<h1>Day 1</h1>
+
+<p>When I took highway bus and made to transit to Nangang, it was almost 9:30 AM. I felt regretful since the session opened at 9, and since the truth that I did not plan it well. Then I took another 15 minutes walking, which Google Map told me to do so, to Sinica Academia. Anyway, it was a deadly cloudy morning with regrets for missing the first keynote speech.</p>
+
+<p>After taking the attendee's badge and a crappy nonwoven Samsung bag from the multi-threaded registration desks, I managed to enter the main conference hall. The second session was just about to begin.</p>
+
+<h2>Keynote: Mozilla B2G: Breaking Mobile Monopolies</h2>
+
+<ul>
+<li>Speaker: Dr. 宮力 (MOZILLA)</li>
+</ul>
+
+
+<p>It was the session I missed. What's worse, there wasn't much discussion on IRC for me to catch up, so I could only took a glance on the slide.
+It looks like that this talk was more of a general overview about what Mizilla's current endaevour than a technical talk. The summary was wrapped-up in the end of slide:</p>
+
+<pre><code>*   Mozilla is committed to keep the mobile web free and open as it did to the desktop web
+*   Join the project and/or partner with Mozilla to break the looming mobile monopoly!
+*   Mozilla Taiwan is a key driver for B2G, and they are hiring!
+</code></pre>
+
+<h2>Keynote: Cocktails -- Shaken, Not Stirred</h2>
+
+<ul>
+<li>Speaker: Eric Chuang (YAHOO)</li>
+</ul>
+
+
+<p>Yahoo has been yelling about their Mojito, Cocktails, and Manhattan for months (in chinese: 只聞樓梯響, only hear sound from staircase but no one comes), and finally, they are being released and open-source'd. This talk is a introduction and slight demonstration about their Mojito MVC framework based on node.js, and the Cocktails idea of an ecosystem mixing HTML5, node.js, CSS3, YUI3.</p>
+
+<h3>Links</h3>
+
+<pre><code>*   [Yahoo!’s Mojito is Now Open Source](http://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/)
+</code></pre>
+
+<h2>Keynote: Samsung S Pen SDK</h2>
+
+<ul>
+<li>Chinese Topic: 從手寫筆、滑掌截圖、陀螺儀等應用看Android應用程式開發</li>
+<li>Speaker: 史憲軍 (SAMSUNG)</li>
+</ul>
+
+
+<p>I get impressed when someone get Samaung's face slapped in the Q&amp;A time lol. Okay I still hope these, how to say, legacy enterprices, to somehow dedicate some effort for the entire technology community to grow. But I do not think they ought to be criticized that way. At least they sponsored, man. Anyway it's just hilarious LOL</p>
+
+<h2>Keynote: Lessons Learned from "Taiwan Weather" iPhone App Development</h2>
+
+<ul>
+<li>Chinese Topic: 談手機 Internet Client 開發：我從「台灣天氣」學到的事情</li>
+<li>Speaker: zonble (KKBOX)</li>
+</ul>
+
+
+<h2>DIY Open Source Self-Propelled Artillery</h2>
+
+<ul>
+<li>Chinese Topic: DIY Open Source 無人自走砲</li>
+<li>Speaker: mikimoto</li>
+</ul>
+
+
+<h2>Let's Enjoy NodeJS -- All Development in JavaScript</h2>
+
+<ul>
+<li>Speaker: fred chien</li>
+</ul>
+
+
+<h2>EtherCalc: A Real-Time Collaborated Spreadsheet</h2>
+
+<ul>
+<li>Chinese Topic: EtherCalc: 多人即時協作試算表</li>
+<li>Speaker: audrey</li>
+</ul>
+
+
+<p>It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who's known as one of the "10  greats of Taiwanese computing." You should check the video out, seriously!</p>
+
+<h2>Apps on HTML5 and the new WebAPIs</h2>
+
+<ul>
+<li>Speaker: Thinker (Mozilla)</li>
+</ul>
+
+
+<h2>Automated trading toolkit</h2>
+
+<ul>
+<li>Speaker: clkao</li>
+</ul>
+
+
+<p>He introduced his Perl-based open-source trading toolkit called TradeSpring, enabling us to define the rule for our investments. Well though I have no knowledge to the stock stuff yet, I was still impressed and will give it a try whenever I am entering this area. "If you don't have time to make up your strategy, don't do investment," said the speaker.</p>
+
+<h3>Links</h3>
+
+<ul>
+<li><a href="https://github.com/tradespring/TradeSpring">TradeSpring</a></li>
+</ul>
+
+
+<h1>Day 2</h1>
+
+<h2>Rails 3.1 : Asset Pipeline</h2>
+
+<ul>
+<li>Speaker: 小蟹</li>
+</ul>
+
+
+<h2>Dependency Management -- Taking Ruby Development for Example</h2>
+
+<ul>
+<li>Speaker: yc ling</li>
+</ul>
+
+
+<h2>Functional Programming and What It Has Taught Me</h2>
+
+<ul>
+<li>Chinese Topic: 那些 Functional Programming 教我的事</li>
+<li>Speaker: ihower</li>
+</ul>
+
+
+<h2>JavaScript Essential Patterns</h2>
+
+<ul>
+<li>Speaker: Othree</li>
+</ul>
+
+
+<h2>Keynote: Good collaboration in open source projects</h2>
+
+<ul>
+<li>Speaker: Allison Randal</li>
+</ul>
+
+
+<p>This is a talk given by the goddess of open source community -- Allison, and can make us open source programmers much happier. When Allison was speaking, Audrey was doing a real-time transcripting in IRC!! Here is the hidden cam (by eddie Kao)</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/dQ6nK_Yz14Q?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Keynote: Pix Table, The ORM from PIXNET</h2>
+
+<ul>
+<li>Chinese Topic: PIXNET 的 ORM，Pix Table</li>
+<li>Speaker: ronnywang (PIXNET)</li>
+</ul>
+
+
+<p>Ronnywang is former moderator of PTT's Joke forum! This topic is about how they implement their own ORM in PHP.</p>
+
+<h2>Embedded Virtualization in Daily Life</h2>
+
+<ul>
+<li>Speaker: jserv (0xlab)</li>
+</ul>
+
+
+<p>Frankly speaking, I am too foreign to embedded system so I could barely understand those details. But it really sounded very interesting and lots of fun lol</p>
+
+<h2>Lightning Talks</h2>
+
+<ul>
+<li><a href="http://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="http://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)</li>
+<li><a href="http://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore</li>
+<li><a href="http://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥</li>
+<li><a href="http://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="http://www.plurk.com/p/g51aoe">Slide</a>)</li>
+<li><a href="http://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT</li>
+<li><a href="http://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen</li>
+<li><a href="http://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a></li>
+<li><a href="">JVM as the universal Language runtime</a> - Sunny Chan</li>
+<li><a href="http://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</li>
+</ul>
+
+
+<h1>Impressions in General</h1>
+
+<p>This conference was held in the Academy of Anthropology &amp; Sociology (or whatever lol), whose building and facilities are so brand new. Each seat is with embedded power/network plug, erecting(?) microphone, and vote buttons. Their international conference hall, where all keynote speeches took place, is an ideal place indeed for developer events like this. We could listen to the speech and do live coding along with the speaker very well too. As I observed, the coverage of MacBook is over 70%. (I'd really want to buy one too if only I can afford orz.) Besides, the screen of each computer was almost consentient! Coding window, IRC chatting window, Plurk (I wonder why so many Taiwan developers uses this, I can almost identify them by their Plurk avatar on theit screen lol), few Facebooks, and nothing else! It was so AMAZING to see so many "screennames (in chinese: 大大)" from the internet, who may be my idols or <del>my "cyber-stalkees"</del> the ones I followed on Twitter/Plurk for long, to gather and sit around me! The only thing that I would complain was the crappy Wi-Fi that was unable to handle simultaneous trafffic of 500 people. I brought my wire next day and it was so much better then orz. Btw, it's my first chance to show off a <code>140.109.*</code> IP!</p>
+
+<p><img src="/attachments/2012-04-16-osdc-2012-impressions/seat.jpg" width="300" title="&#34;The seat table filled by attendees, I think we should EtherCalc next time XD&#34;" alt="&#34;The seat table filled by attendees, I think we should EtherCalc next time XD&#34;"></p>
+
+<p>Outside the conference hall/rooms, there were 2 extremely long bars of de-luxe foods and drinks in 2 hallways respectively, and booths from many sponsors: Samsung, KKBOX, Pixnet, Trend Micro, Mozilla, Cookpad, Etu, OpenFoundry... etc. It's just all the same, trade your namecards or fill questionnaire for those gifts. The only difference is that, those head-hunting questionnaires asked for a list of your ever-contributed open projects, and your Github account. Github account dude!! lol</p>
+
+<p><img src="/attachments/2012-04-16-osdc-2012-impressions/trophy.JPG" width="300" title="&#34;All my trophies&#34;" alt="&#34;All my trophies&#34;"></p>
+
+<p>Actually, it was my very first experience to an open-source community event, and it should be the doorstep for my commencement / commitment to this fascinating area. Though it's late, it will never be too late, hopefully :p</p>
+
+<p>COSCUP, I'm coming!</p>
+
+<h2>Reference Links</h2>
+
+<ul>
+<li><a href="http://osdc.tw">OSDC.TW 2012</a></li>
+<li><a href="https://gist.github.com/2393705">IRC Log</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

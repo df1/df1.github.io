@@ -4,7 +4,7 @@
   <title><![CDATA[Category: prezi | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/prezi/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-04T04:23:44+08:00</updated>
+  <updated>2012-04-23T02:34:09+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -114,7 +114,7 @@ Design Usability</div>
 Very friendly UI with its prevailing "<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
 </td>
   <td colspan="2"><div style="text-align: left;">
-You must have HTML skill!</div>
+You must have HTML skill! <font color="red">(Update 04/18: Not now, see [this][impressionist] for impress.js)</font></div>
 </td>
  </tr>
 <tr>
@@ -194,6 +194,15 @@ free</div>
 
 <br />
 
+
+<h2>Related Links</h2>
+
+<ul>
+<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">Making an Impressive Product Showcase with CSS3</a> - tutorialzine</li>
+<li>(updated 2012/04/05) <a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">SLIDESHOW WITH JMPRESS.JS</a> - codrops</li>
+<li>(updated 2012/04/18) Impressionist -- <a href="https://github.com/hsivaramx/Impressionist">Online Visual Editing Tool</a> for Impress.js (latest: <a href="http://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>)</li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -202,7 +211,8 @@ free</div>
     <link href="http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js/"/>
     <updated>2012-03-25T13:17:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js</id>
-    <content type="html"><![CDATA[<p>一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光阿(遠目)<br /></p>
+    <content type="html"><![CDATA[<p>一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，
+向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光，也是多麼糟糕的時光阿(遠目)<br /></p>
 
 <br />
 
@@ -309,7 +319,7 @@ CSS3 + JS</div>
   <td style="background: #CCCCCC;">製作難度</td>
   <td>提供功能相當完整的設計介面，可方便地編輯整個大畫布。他主打的「<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">斑馬環</a>」(移動/旋轉/放大縮小工具，就是prezi的logo那個圓形怪怪的東西)也是此介面的一大特色</td>
   <td colspan="2">需有HTML基礎方能看懂其原理。目前入門的門檻相對高很多。(如：一個&lt;div
-  class=”slide”&gt;&lt;/div&gt;為一張投影片)</td>
+  class=”slide”&gt;&lt;/div&gt;為一張投影片)<font color="red">(4/18更新：已經有人製作[impress線上編輯工具][impressionist])</font></td>
  </tr>
 <tr>
   <td style="background: #CCCCCC;">擴充性</td>
@@ -358,7 +368,12 @@ freemium模式</div>
 
 <h2>延伸閱讀</h2>
 
-<p>tutorialzine（大推此站）：<a href="http://tutorialzine.com/2012/02/css3-product-showcase/">用impress.js製作產品展示</a></p>
+<ul>
+<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">用impress.js製作產品展示網站</a> - tutorialzine（大推此站）</li>
+<li>（2012/04/05更新）<a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">使用jmpress.js製作商品展示網站</a> - codrops</li>
+<li>（2012/04/18更新）Impressionist -- Impress.js的<a href="https://github.com/hsivaramx/Impressionist">線上編輯工具</a>（目前版本<a href="http://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>）</li>
+</ul>
+
 ]]></content>
   </entry>
   

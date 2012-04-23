@@ -4,7 +4,7 @@
   <title><![CDATA[Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-04T04:23:44+08:00</updated>
+  <updated>2012-04-23T02:34:09+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -12,6 +12,533 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OSDC.TW 2012: My Summary & Impressions]]></title>
+    <link href="http://df1.github.com/blog/2012/04/17/osdc-2012-impressions/"/>
+    <updated>2012-04-17T23:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/17/osdc-2012-impressions</id>
+    <content type="html"><![CDATA[<p><img src="http://df1.github.com/attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png">
+Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers&#8217; Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn&#8217;t much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got in each session. (I will fill them up if I have time)</p>
+
+<h1>Update: Videos and slides of each session <a href="http://osdc.tw/schedule#day1">RELEASED</a>!</h1>
+
+<!--more-->
+
+
+<p>(Photos will be updated <strong>later</strong>)</p>
+
+<h1>Day 1</h1>
+
+<p>When I took highway bus and made to transit to Nangang, it was almost 9:30 AM. I felt regretful since the session opened at 9, and since the truth that I did not plan it well. Then I took another 15 minutes walking, which Google Map told me to do so, to Sinica Academia. Anyway, it was a deadly cloudy morning with regrets for missing the first keynote speech.</p>
+
+<p>After taking the attendee&#8217;s badge and a crappy nonwoven Samsung bag from the multi-threaded registration desks, I managed to enter the main conference hall. The second session was just about to begin.</p>
+
+<h2>Keynote: Mozilla B2G: Breaking Mobile Monopolies</h2>
+
+<ul>
+<li>Speaker: Dr. 宮力 (MOZILLA)</li>
+</ul>
+
+
+<p>It was the session I missed. What&#8217;s worse, there wasn&#8217;t much discussion on IRC for me to catch up, so I could only took a glance on the slide.
+It looks like that this talk was more of a general overview about what Mizilla&#8217;s current endaevour than a technical talk. The summary was wrapped-up in the end of slide:</p>
+
+<pre><code>*   Mozilla is committed to keep the mobile web free and open as it did to the desktop web
+*   Join the project and/or partner with Mozilla to break the looming mobile monopoly!
+*   Mozilla Taiwan is a key driver for B2G, and they are hiring!
+</code></pre>
+
+<h2>Keynote: Cocktails &#8211; Shaken, Not Stirred</h2>
+
+<ul>
+<li>Speaker: Eric Chuang (YAHOO)</li>
+</ul>
+
+
+<p>Yahoo has been yelling about their Mojito, Cocktails, and Manhattan for months (in chinese: 只聞樓梯響, only hear sound from staircase but no one comes), and finally, they are being released and open-source&#8217;d. This talk is a introduction and slight demonstration about their Mojito MVC framework based on node.js, and the Cocktails idea of an ecosystem mixing HTML5, node.js, CSS3, YUI3.</p>
+
+<h3>Links</h3>
+
+<pre><code>*   [Yahoo!’s Mojito is Now Open Source](http://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/)
+</code></pre>
+
+<h2>Keynote: Samsung S Pen SDK</h2>
+
+<ul>
+<li>Chinese Topic: 從手寫筆、滑掌截圖、陀螺儀等應用看Android應用程式開發</li>
+<li>Speaker: 史憲軍 (SAMSUNG)</li>
+</ul>
+
+
+<p>I get impressed when someone get Samaung&#8217;s face slapped in the Q&amp;A time lol. Okay I still hope these, how to say, legacy enterprices, to somehow dedicate some effort for the entire technology community to grow. But I do not think they ought to be criticized that way. At least they sponsored, man. Anyway it&#8217;s just hilarious LOL</p>
+
+<h2>Keynote: Lessons Learned from &#8220;Taiwan Weather&#8221; iPhone App Development</h2>
+
+<ul>
+<li>Chinese Topic: 談手機 Internet Client 開發：我從「台灣天氣」學到的事情</li>
+<li>Speaker: zonble (KKBOX)</li>
+</ul>
+
+
+<h2>DIY Open Source Self-Propelled Artillery</h2>
+
+<ul>
+<li>Chinese Topic: DIY Open Source 無人自走砲</li>
+<li>Speaker: mikimoto</li>
+</ul>
+
+
+<h2>Let&#8217;s Enjoy NodeJS &#8211; All Development in JavaScript</h2>
+
+<ul>
+<li>Speaker: fred chien</li>
+</ul>
+
+
+<h2>EtherCalc: A Real-Time Collaborated Spreadsheet</h2>
+
+<ul>
+<li>Chinese Topic: EtherCalc: 多人即時協作試算表</li>
+<li>Speaker: audrey</li>
+</ul>
+
+
+<p>It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who&#8217;s known as one of the &#8220;10  greats of Taiwanese computing.&#8221; You should check the video out, seriously!</p>
+
+<h2>Apps on HTML5 and the new WebAPIs</h2>
+
+<ul>
+<li>Speaker: Thinker (Mozilla)</li>
+</ul>
+
+
+<h2>Automated trading toolkit</h2>
+
+<ul>
+<li>Speaker: clkao</li>
+</ul>
+
+
+<p>He introduced his Perl-based open-source trading toolkit called TradeSpring, enabling us to define the rule for our investments. Well though I have no knowledge to the stock stuff yet, I was still impressed and will give it a try whenever I am entering this area. &#8220;If you don&#8217;t have time to make up your strategy, don&#8217;t do investment,&#8221; said the speaker.</p>
+
+<h3>Links</h3>
+
+<ul>
+<li><a href="https://github.com/tradespring/TradeSpring">TradeSpring</a></li>
+</ul>
+
+
+<h1>Day 2</h1>
+
+<h2>Rails 3.1 : Asset Pipeline</h2>
+
+<ul>
+<li>Speaker: 小蟹</li>
+</ul>
+
+
+<h2>Dependency Management &#8211; Taking Ruby Development for Example</h2>
+
+<ul>
+<li>Speaker: yc ling</li>
+</ul>
+
+
+<h2>Functional Programming and What It Has Taught Me</h2>
+
+<ul>
+<li>Chinese Topic: 那些 Functional Programming 教我的事</li>
+<li>Speaker: ihower</li>
+</ul>
+
+
+<h2>JavaScript Essential Patterns</h2>
+
+<ul>
+<li>Speaker: Othree</li>
+</ul>
+
+
+<h2>Keynote: Good collaboration in open source projects</h2>
+
+<ul>
+<li>Speaker: Allison Randal</li>
+</ul>
+
+
+<p>This is a talk given by the goddess of open source community &#8211; Allison, and can make us open source programmers much happier. When Allison was speaking, Audrey was doing a real-time transcripting in IRC!! Here is the hidden cam (by eddie Kao)</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/dQ6nK_Yz14Q?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Keynote: Pix Table, The ORM from PIXNET</h2>
+
+<ul>
+<li>Chinese Topic: PIXNET 的 ORM，Pix Table</li>
+<li>Speaker: ronnywang (PIXNET)</li>
+</ul>
+
+
+<p>Ronnywang is former moderator of PTT&#8217;s Joke forum! This topic is about how they implement their own ORM in PHP.</p>
+
+<h2>Embedded Virtualization in Daily Life</h2>
+
+<ul>
+<li>Speaker: jserv (0xlab)</li>
+</ul>
+
+
+<p>Frankly speaking, I am too foreign to embedded system so I could barely understand those details. But it really sounded very interesting and lots of fun lol</p>
+
+<h2>Lightning Talks</h2>
+
+<ul>
+<li><a href="http://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="http://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)</li>
+<li><a href="http://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore</li>
+<li><a href="http://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥</li>
+<li><a href="http://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="http://www.plurk.com/p/g51aoe">Slide</a>)</li>
+<li><a href="http://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT</li>
+<li><a href="http://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen</li>
+<li><a href="http://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a></li>
+<li><a href="">JVM as the universal Language runtime</a> - Sunny Chan</li>
+<li><a href="http://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</li>
+</ul>
+
+
+<h1>Impressions in General</h1>
+
+<p>This conference was held in the Academy of Anthropology &amp; Sociology (or whatever lol), whose building and facilities are so brand new. Each seat is with embedded power/network plug, erecting(?) microphone, and vote buttons. Their international conference hall, where all keynote speeches took place, is an ideal place indeed for developer events like this. We could listen to the speech and do live coding along with the speaker very well too. As I observed, the coverage of MacBook is over 70%. (I&#8217;d really want to buy one too if only I can afford orz.) Besides, the screen of each computer was almost consentient! Coding window, IRC chatting window, Plurk (I wonder why so many Taiwan developers uses this, I can almost identify them by their Plurk avatar on theit screen lol), few Facebooks, and nothing else! It was so AMAZING to see so many &#8220;screennames (in chinese: 大大)&#8221; from the internet, who may be my idols or <del>my &#8220;cyber-stalkees&#8221;</del> the ones I followed on Twitter/Plurk for long, to gather and sit around me! The only thing that I would complain was the crappy Wi-Fi that was unable to handle simultaneous trafffic of 500 people. I brought my wire next day and it was so much better then orz. Btw, it&#8217;s my first chance to show off a <code>140.109.*</code> IP!</p>
+
+<p><img src="http://df1.github.com/attachments/2012-04-16-osdc-2012-impressions/seat.jpg" width="300" title="&#34;The seat table filled by attendees, I think we should EtherCalc next time XD&#34;" alt="&#34;The seat table filled by attendees, I think we should EtherCalc next time XD&#34;"></p>
+
+<p>Outside the conference hall/rooms, there were 2 extremely long bars of de-luxe foods and drinks in 2 hallways respectively, and booths from many sponsors: Samsung, KKBOX, Pixnet, Trend Micro, Mozilla, Cookpad, Etu, OpenFoundry&#8230; etc. It&#8217;s just all the same, trade your namecards or fill questionnaire for those gifts. The only difference is that, those head-hunting questionnaires asked for a list of your ever-contributed open projects, and your Github account. Github account dude!! lol</p>
+
+<p><img src="http://df1.github.com/attachments/2012-04-16-osdc-2012-impressions/trophy.JPG" width="300" title="&#34;All my trophies&#34;" alt="&#34;All my trophies&#34;"></p>
+
+<p>Actually, it was my very first experience to an open-source community event, and it should be the doorstep for my commencement / commitment to this fascinating area. Though it&#8217;s late, it will never be too late, hopefully :p</p>
+
+<p>COSCUP, I&#8217;m coming!</p>
+
+<h2>Reference Links</h2>
+
+<ul>
+<li><a href="http://osdc.tw">OSDC.TW 2012</a></li>
+<li><a href="https://gist.github.com/2393705">IRC Log</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[網摘分享：jQuery到底是何方神聖？別怕，將他打回原形！]]></title>
+    <link href="http://df1.github.com/blog/2012/04/09/jquery-striptease/"/>
+    <updated>2012-04-09T23:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/09/jquery-striptease</id>
+    <content type="html"><![CDATA[<p>（此文章參加<a href="http://ithelp.ithome.com.tw/js-ninja/">JavaScript忍之道</a>的『網摘分享』活動）</p>
+
+<p>不知道當大家第一次聽到jQuery這個詞時，在心中浮現的第一個畫面是什麼？
+是一個Java-base的query language？是一個java寫成的搜尋引擎？<del>還是一位超萌的小羅莉？（好像還沒人把它擬人化XD）</del></p>
+
+<p>無論你聽見它芳名時候的第一印象為何，當你真正見到它的容貌時，想必心中那種悸動到現在還是難以忘懷吧！讓我們再來回顧一下：</p>
+
+<p><code>$("p.neat").addClass("ohmy").show("slow");</code></p>
+
+<p>如果場景是企業的主管正抉擇是否導入jQuery的當下，看到第一個字是大大的<code>$</code>時，心中立即的疑問就是『那這套solution的license要多少錢？』
+這時，你就會非常自信專業地答道
+『老闆，jQuery是不用錢的啊！只要在<code>$</code>括號裡面打上您想選擇的條件，傳回來的就是<strong>jQuery物件</strong>。選出來之後，您想要對它做啥都不成問題！』</p>
+
+<br/>
+
+
+<p>沒錯，你想把它抓去阿魯巴都可以。（請自己寫plugin）</p>
+
+<br/> 
+
+
+<p>但問題來了，jQuery物件到底是啥？為啥它可以用<code>$</code>？為啥可以像上面那樣一直串下去？為啥它可以那麼強大？</p>
+
+<h3>青菜底家啦</h3>
+
+<p>這時候，就要看對岸同胞的原始碼解析了－－<a href="http://xiaofei85390656-163-com.iteye.com/blog/1449221">jQuery1.7系列一：jQuery 對象的實質</a></p>
+
+<p>裡面將整個jQuery的最外圍架構拿出來討論。除了可以找到上面那些問題的解答之外，他也提到了jQuery作者使用的一些小trick
+（browser不支援<code>undefined</code>？沒關係，啥都不要傳進去就是了…之類的）；另外也讓我們了解jQuery plugin的撰寫原理。</p>
+
+<p>如果對文章中提到的<code>閉包（closure）</code>有看沒有懂，
+可以參考TonyQ（Ptt soft_job版主）在javascript.tw聚會中對closure相關的變數scope常見問題說明。
+影片後半段也對jQuery的原始碼做了解析，是講<strong>繁體中文</strong>的喔！（咦） 看影片吧！</p>
+
+<!--more-->
+
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/KxItux9ZeA8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>參考連結</h2>
+
+<ul>
+<li><a href="http://xiaofei85390656-163-com.iteye.com/blog/1449221">jQuery1.7系列一：jQuery 對象的實質</a>（簡） - 晨曦的朝陽</li>
+<li><a href="http://jquery.com/">jQuery官網</a></li>
+<li><a href="http://ithelp.ithome.com.tw/js-ninja/">JavaScript忍之道</a></li>
+<li><a href="http://js-tw.blogspot.com/">JavaScript.tw</a>及其<a href="https://www.facebook.com/groups/javascript.tw/">FB社團</a>（biweekly JS小聚）</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[突襲PiPoSea團隊：溫馨的Lean startup]]></title>
+    <link href="http://df1.github.com/blog/2012/04/07/piposea-raid/"/>
+    <updated>2012-04-07T13:18:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/07/piposea-raid</id>
+    <content type="html"><![CDATA[<p><img src="http://df1.github.com/attachments/2012-04-07-piposea-raid/pipo.jpg" title="&#34;PiPoSea首頁登入畫面&#34;" alt="&#34;PiPoSea首頁登入畫面&#34;"></p>
+
+<p>昨天（4/6）是傳說中的<a href="http://techorange.com/2012/04/06/appworks-demoday-4-2/">AppWorks Demo Day #4</a>，
+也是<a href="http://piposea.com"><strong>PiPoSea</strong></a>&#8211;由我當年同lab的同學兼室友還有兩位學弟組成的創業團隊所開發的全新概念社群網路&#8211;
+的Debut Day首度發表日！它受日本311大地震時那種地域性的關懷互助所啟發，以穿越陌生人群為中心思想，讓使用者在茫茫人海中，得以找尋生命中轉瞬即逝的緣分。話不多說，直接看看他們扣人心弦的介紹吧！</p>
+
+<!--more-->
+
+
+<iframe width="480" height="296" src="http://www.ustream.tv/embed/recorded/21626436" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>
+
+
+<p>AppWorks Demo Day #4實況錄影（大約從1:23:25開始）</p>
+
+<h2>突襲PiPoSea團隊紀錄</h2>
+
+<p>PiPoSea團隊目前創業的據點位於土城一處不起眼的大樓民宅內。
+上上上禮拜因為上台北又剛好沒事幹（=#3=），於是一通電話就約了出去吃個飯喇賽一下，順便參觀一下他們的公司。（雖然當時約得很不是時候，算是專案最後衝刺的非常時期吧XD）</p>
+
+<p>目前整個team的workspace，基本上就跟大家想像中的創業空間的畫面相去不遠：
+二三十坪的小小住宅內，大家都住在一起。客廳及餐廳為主要的工作空間，五人的team則睡在不同房間，可能有兩兩需要擠一間。光用想像的就覺得超溫馨！（<del>雖然我們大學時候可能更溫馨XD</del>）而工作空間內，有著每個開發人員心目中<a href="http://www.inside.com.tw/2012/02/16/programmer-productivity-tool">teamwork的基本配備</a>：沙發、電視、白板、強大的音響耳機、舒適的靠背椅、搭配雙螢幕的電腦、一台27&#8221; iMac、<del>還有電吉他</del>等等。整體的感覺差不多就<a href="http://jamesychen.tumblr.com/post/16956753149/waveface-inc">像這樣</a>（空間大概是縮小一半）。
+這樣有沒有精實到？光住在一起就省了每個人一大筆台北租屋開銷了吧！雖然<a href="http://www.kuobrothers.com/article.php?id=63">某郭家兄弟文章</a>認為創業不應該在家裡，需要將工作及生活劃清界線云云；不過我認為，在very first project的階段，尤其是有人剛畢業、剛回國、剛退伍的情況下，車庫模式或許是一個非常好的team building model也說不定。（不過最近聽說要搬到新office了！）</p>
+
+<p>當時也跟超屌的PM大大&#8211;Kirby在車上稍微小聊了一下他們當時的專案概況。接下先來介紹一下這個強大的團隊好了！</p>
+
+<h3>Team Members</h3>
+
+<ul>
+<li><strong>Kirby Hu</strong>：傳說中的PM大大，享受高薪工作一年後毅然決然投身PiPoSea。直接看上面的影片就知道有多強大了XD</li>
+<li><strong>Terry Huang</strong>：技術總監！沒話說的強大！想瞭解他的以後可以在<code>康熙來了</code>看專訪XD</li>
+<li><strong>Curtis Chen</strong>：當時實驗室學弟中的一哥XD 負責所有前端相關F2E技術！</li>
+<li><strong>Joe Tseng</strong>：帥到被找去拍廣告的學弟！ 負責後端python等開發！</li>
+<li><strong>Lenny Chen</strong>：剛回國的留洋碩士，在美國有工作經驗，而目前算freelancer形式持續領美國薪水中（某人表示：幹超爽）負責手機端app開發！</li>
+</ul>
+
+
+<p>以上除了兩位學弟外，跟我都是大學的室友；而除了Lenny之外，都是本系多媒體網路實驗室的成員。說起我們lab member的實力真的是不容小覷阿！至今已有兩位學長分別開了<a href="http://www.nuazure.com">湛天</a>(<a href="http://www.pubu.com.tw">Pubu電子書</a>)跟<a href="http://www.kdanmobile.com">凱鈿行動科技</a>兩家公司，已經不知道接受過多少新聞媒體跟平面雜誌專訪了。PiPoSea也快了！<br/>
+<img src="http://df1.github.com/attachments/2012-04-07-piposea-raid/hu1.jpg" title="&#34;Kirby在發表會上的英姿&#34;" alt="&#34;Kirby在發表會上的英姿&#34;">
+<img src="http://df1.github.com/attachments/2012-04-07-piposea-raid/hu2.jpg" title="&#34;左邊就是傳說中的Jamie&#34;" alt="&#34;左邊就是傳說中的Jamie&#34;"></p>
+
+<h3>使用技術</h3>
+
+<p>這部分雖然只是聽Kirby用喇賽的形式稍微cover了一下，不過聽了之後對整個stack還是有一點畫面啦，如果講錯或是要補充再糾正我吧XD</p>
+
+<p>Hosting部分，是使用皇家禮炮等級的Amazon EC2；server端是使用python（django／nginx等等）；DB則是使用mongo db；前端方面能用的工具技術就相當多了，至少有jQuery跟blueprint css（原本看prototype猜應該有bootstrap不過應該沒有XD）；在官網則是用wordpress跟drupal當CMS。行動端的技術就不太清楚，總之都很屌（靠）</p>
+
+<p>幹超羨慕的，基本上幾乎就是把最新最好玩的玩具都拿來玩了啊！反觀我本身是在大公司工作，所用的solution都比較是偏企業端的技術，思考模式也是。來了之後才知道<strong>貴的玩具跟好玩的玩具的差別</strong>（彷彿別人都在玩變形金剛，自己卻在拼很貴的樂高這樣無誤XD 改天再來寫個工作近兩年心得好了，應該有很多東西可以寫XD）</p>
+
+<p>美工設計部分的話，據說花了（可以講嗎？）找專業web designer做了<a href="http://allenhsudesign.com/web/web-piposea/">這個Mock-up</a>，我認為真的還算蠻便宜的啦XD</p>
+
+<p>如果之後還能像最近比較早下班的話，我會再寫一篇測試心得的XD！</p>
+
+<h3>以下是嘴砲</h3>
+
+<p>創業，真的不是那麼容易的事。除了十足的勇氣之外，還要面對來自各方面與自己的壓力。能熬到現在這樣的成果，想必每個已經克服了許多掙扎，也一定經過了許多難能可貴的歷程。相信不管是走哪條路，只要還有夢想，life就永遠是個struggle吧。（靠對不起我不會寫這種文 下次不敢了XDD）</p>
+
+<p>這次的發表會聽下來，確實可以感受到AppWorks對本土團隊培育的用心。除了培育了一批批成功deliver出很好很強大App的團隊之外，更重視的是每個team之後的獲利模式、去路、資金、還有整個大環境的發展及趨勢。現在網站一個一個開，一個比一個好用，揪竟是誰可以存活到最後？最好的結局就是被Google買走嗎？N年後會不會泡沫化？相信他們心中會有一套最佳解，解除每個app team心中所有的疑惑。而PiPoSea應該也已經思考過未來的方向，記得IPO Day時候要留點quota給我買就好（靠），到時候我會依約送一個<code>安必古思</code>匾額的（計算理論梗XDD）</p>
+
+<h2>參考連結</h2>
+
+<ul>
+<li><a href="http://piposea.com">PiPoSea網站</a>（目前封測中）</li>
+<li><a href="http://www.lirise.com">利昇</a><del>音響</del><a href="http://www.lirise.com">科技官網</a></li>
+<li><a href="http://appworks.tw/incubator/">appWorks Ventures 之初創投</a></li>
+<li>Inside - <a href="http://www.inside.com.tw/2012/02/16/programmer-productivity-tool">提升程式設計師生產力最好的工具是什麼？</a></li>
+<li>Mr.Jamie - <a href="http://mrjamie.cc/2011/08/01/venture-capital-lean-startup/">創投為什麼要教 Lean Startup？</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[波笛身世二三事]]></title>
+    <link href="http://df1.github.com/blog/2012/04/06/things-about-birdie/"/>
+    <updated>2012-04-06T13:18:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/06/things-about-birdie</id>
+    <content type="html"><![CDATA[<p>（傳說中欠了快兩年的文來了XD）</p>
+
+<p><img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0001.JPG" width="500" title="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;" alt="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;"></p>
+
+<p>來介紹一下我家的<code>波笛</code>，首先來個基本資料表好了！</p>
+
+<table style="border-spacing: 3px;">
+<tr>
+    <th>姓名</th>
+    <td>波笛、ボッディ、Birdie</td>
+</tr>
+<tr>
+    <th>性別</th>
+        <td>母</td>
+</tr>
+<tr>
+    <th>生日</th>
+    <td>2010年7月左右</td>
+</tr>
+<tr>
+    <th>出生地</th>
+    <td>新北市板橋車站附近巷弄內</td>
+</tr>
+<tr>
+    <th>居住地</th>
+    <td>新竹、台北、台中</td>
+</tr>
+<tr>
+    <th>品種</th>
+    <td style="line-height: 1;">
+        <table style="display:inline-block;border:none;background:none;margin:0;"><tr>
+            <td>三花貓，</td>
+            <td style="background:rgb(227,155,102);">褐</td>
+            <td style="background:white;">白</td>
+            <td style="background:black;">黑</td>
+        </tr></table>
+    </td>
+</tr>
+<tr><th>手掌顏色</th><td>粉紅</td></tr>
+<tr><th>結紮</th><td>是</td></tr>
+<tr><th>身高體重</th><td>30cm, 4kg （身材略瘦）</td></tr>
+<tr><th>其他特徵</th><td>右耳缺一角（母貓TNR標記）</td></tr>
+<tr><th>性格</th><td>平時相當聒噪、怕陌生人、極度愛玩、喜歡刺激事物、不愛吃</td></tr>
+</table>
+
+
+<p>一切要從我的高中正妹同學<code>關貝貝</code>講起，他是一位獸醫師，目前在台北市執業；
+而波笛呢，是他當時租屋處附近的一隻還蠻親人的流浪小貓。
+因為正妹同學佛心來的診所提供了限量的免費結紮名額（雖然免費，不過設備跟麻醉都是用最高檔的，夠佛心了吧），波笛就成為了內定的貓選。
+據說當時是個月黑風高的夜晚，而波笛就被裝在某個可憐的手提包內，直奔診所進行偉大的TNR計畫（TNR：trap, neuter, release 抓去結紮後再放回去原本棲息地）
+因為當時某人身上有跳蚤，肚子裡面也都是滿滿的寄生蟲，就在診所待了好一陣子。</p>
+
+<p>這是第一次進獸醫診所時的影片！當初第一眼看到他時候，就覺得實在有聒噪到。原本想說畢竟是小貓，長大之後應該會好一點，不過很遺憾…（ry</p>
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/nNCZwmXw3LI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>靠完全就狀況外阿！一般貓被帶離自己熟悉環境應該要很緊張才對吧，有人卻很享受獸醫院的住院鐵籠是怎樣XD？（當時樓下還住著一隻超大癩痢狗XD）
+正妹同學在那同時就在FB大肆宣傳，而我這個貓奴命的當然也是預設慫恿對象。
+『如果沒人要養的話，他就回街頭流浪了。<del>台北的冬天很冷的。</del>』（刪除線那句是我加的XDD）
+我陷入了天人交戰，畢竟這真的是人生大事。
+說時遲那時快，耳邊立刻傳來<strong>神</strong>的話語：『要有貓。』（艾涅爾‎：關我屁事）
+於是某人的20年人生（貓生）就這樣獻身給一個沒前途的宅宅工程師了。（誤啦XD 我真的認真考慮很久才決定）</p>
+
+<p>至於他是如何從親人的小小貓，變成現在這樣的大孬孬呢？中間又有甚麼不可告人的內幕呢？
+下集待續（靠）</p>
+
+<p>內收相簿圖多！</p>
+
+<!--more-->
+
+
+<h2>生活紀錄2010/11～2010/12</h2>
+
+<div class="gallery">
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0001.JPG" alt= 如果開閃光就不可能拍到他張開眼睛←結論" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0005.JPG" alt="冬天專用恆溫暖爐床(Eee PC)" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0006.JPG" alt="鍵盤也照躺的" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0011.JPG" alt="上方暖爐" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0016.JPG" alt="打瞌睡了" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0018.JPG" alt="白手套特寫" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0040.JPG" alt="撩人的姿勢" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0042.JPG" alt="嫵媚的眼神" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0046.JPG" alt="趴了XD" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0054.JPG" alt="企圖在我的螢幕上留下四道爪痕(?)" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0056.JPG" alt="有沒有這麼享受" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0060.JPG" alt="瘦臉的拍照角度" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0078.JPG" alt="小姐你睡相可以再好一點" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0079.JPG" alt="貓掌特寫" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0080.JPG" alt="粉紅的喔" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0083.JPG" alt="對照比例" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0086.JPG" alt="睡死了" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0097.JPG" alt="正妹拍照 燈光是很重要的" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0107.JPG" alt="玩具1號" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0109.JPG" alt="窗邊曬太陽+怒瞪外面的吱吱叫的麻雀ing" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0111.JPG" alt="曬太陽就是一副死魚眼" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0114.JPG" alt="衝蝦?" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0130.JPG" alt="這鬧鐘已經被他摔到掉秒針了 愛德阿爾哭哭" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0131.JPG" alt="從一開始就放在馬桶上的貓砂盆  訓練他用馬桶的學前課程" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0132.JPG" alt="若有所思" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0133.JPG" alt="睡著了" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0134.JPG" alt="硬撐中" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0136.JPG" alt="垮了" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0139.JPG" alt="應該可以幫他做睡相全集" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0140.JPG" alt="這角度拍就很肥XD" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0141.JPG" alt="大肥圓臉特寫" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0154.JPG" alt="抽屜內 大家來找碴" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG0156.JPG" alt="這樣也能鑽" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1212.JPG" alt="台中的太陽" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1213.JPG" alt="伸懶腰(爪子勾我牛仔褲= =" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1216.JPG" alt="全家夯呀夯貓咪" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1217.JPG" alt="慵懶度100%" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1218.JPG" alt="老娘曬太陽你是有意見逆?" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1221.JPG" alt="一面烤熟了 翻面" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1222.JPG" alt="還是敵不過相機吊繩的誘惑" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1225.JPG" alt="自掛東南枝 死狀悽慘 (其實當下很激烈)" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1226.JPG" alt="就為了他的逗貓棒" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1227.JPG" alt="逆轉裁判貓咪版" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1229.JPG" alt="嗯哼?" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1232.JPG" alt="一定要坐得那麼愜意嗎" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1233.JPG" alt="密切注意上頭蜂蜜罐的動態" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1234.JPG" alt="罩門2號 繩子" />
+<img src="http://locust.csie.ncku.edu.tw/~changch/gallery1/images/CIMG1235.JPG" alt="通常可以玩到啥鬼姿勢都出現" />
+</div>
+
+
+<p>之後還有多照片影片，不過都沒啥時間整理囧，也是之後待續吧XDD（這人沒誠意）</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[無聊分享：一篇在PTT Joke版潛力40推的文章之各項統計]]></title>
+    <link href="http://df1.github.com/blog/2012/04/05/ptt-joke-analytics/"/>
+    <updated>2012-04-05T22:18:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/05/ptt-joke-analytics</id>
+    <content type="html"><![CDATA[<p><code>眉批：昨天清明節放假，不過我老媽應該不知道我在家發廢文XD（誤）</code></p>
+
+<p>其實自從搬家之後，這個網誌的網址幾乎還沒有公開過。
+直到昨天，我打了一篇<a href="http://df1.github.com/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/">Rage Comics的熟面孔們</a>之後，
+中午就直接<a href="http://www.ptt.cc/bbs/joke/M.1333518102.A.6D4.html">PO上PTT就可版</a>，並附上該篇連結。</p>
+
+<p><img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/post.jpg" title="&#34;PTT文章資訊&#34;" alt="&#34;PTT文章資訊&#34;"></p>
+
+<p>以下是當天中午到半夜（約12小時內）的流量紀錄與各項統計，僅供參考，不保證準確度跟參考價值。</p>
+
+<!--more-->
+
+
+<h2>訪客總覽</h2>
+
+<p><img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/overview.jpg" title="&#34;這是12小時內的數據，第二天整天造訪人數只剩3000出頭。估計一篇40推的文章可以吸引一萬人以上點閱網誌連結。&#34;" alt="&#34;這是12小時內的數據，第二天整天造訪人數只剩3000出頭。估計一篇40推的文章可以吸引一萬人以上點閱網誌連結。&#34;"></p>
+
+<h2>客層</h2>
+
+<p><img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/g01.jpg">
+<img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/g02.jpg">
+<img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/g03.jpg"></p>
+
+<h2>系統</h2>
+
+<p><img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/d01.jpg">
+<img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/d02.jpg">
+<img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/d03.jpg"></p>
+
+<h2>行動裝置</h2>
+
+<p><img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/m01.jpg">
+<img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/m02.jpg">
+<img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/m03.jpg"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[無聊分享：Rage Comics的熟面孔們]]></title>
@@ -29,7 +556,7 @@
 <table>
 <tr>
     <td>對照圖</td>
-    <td>常用使用場合(?)</td>
+    <td>常見使用場合(?)</td>
     <td>元捏他</td>
 </tr>
 <tr>
@@ -268,7 +795,7 @@ Design Usability</div>
 Very friendly UI with its prevailing &#8221;<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>&#8221;</div>
 </td>
   <td colspan="2"><div style="text-align: left;">
-You must have HTML skill!</div>
+You must have HTML skill! <font color="red">(Update 04/18: Not now, see [this][impressionist] for impress.js)</font></div>
 </td>
  </tr>
 <tr>
@@ -348,6 +875,15 @@ free</div>
 
 <br />
 
+
+<h2>Related Links</h2>
+
+<ul>
+<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">Making an Impressive Product Showcase with CSS3</a> - tutorialzine</li>
+<li>(updated 2012/04/05) <a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">SLIDESHOW WITH JMPRESS.JS</a> - codrops</li>
+<li>(updated 2012/04/18) Impressionist &#8211; <a href="https://github.com/hsivaramx/Impressionist">Online Visual Editing Tool</a> for Impress.js (latest: <a href="http://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>)</li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -356,7 +892,8 @@ free</div>
     <link href="http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js/"/>
     <updated>2012-03-25T13:17:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js</id>
-    <content type="html"><![CDATA[<p>一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光阿(遠目)<br /></p>
+    <content type="html"><![CDATA[<p>一年多前，咱們team用了一個flash-base的簡報工具－－<a href="http://www.prezi.com/" target="_blank">Prezi</a>，
+向老闆報告某雲端應用的讀書會sharing。那是個多麼美好的時光，也是多麼糟糕的時光阿(遠目)<br /></p>
 
 <br />
 
@@ -463,7 +1000,7 @@ CSS3 + JS</div>
   <td style="background: #CCCCCC;">製作難度</td>
   <td>提供功能相當完整的設計介面，可方便地編輯整個大畫布。他主打的「<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">斑馬環</a>」(移動/旋轉/放大縮小工具，就是prezi的logo那個圓形怪怪的東西)也是此介面的一大特色</td>
   <td colspan="2">需有HTML基礎方能看懂其原理。目前入門的門檻相對高很多。(如：一個&lt;div
-  class=”slide”&gt;&lt;/div&gt;為一張投影片)</td>
+  class=”slide”&gt;&lt;/div&gt;為一張投影片)<font color="red">(4/18更新：已經有人製作[impress線上編輯工具][impressionist])</font></td>
  </tr>
 <tr>
   <td style="background: #CCCCCC;">擴充性</td>
@@ -512,7 +1049,12 @@ freemium模式</div>
 
 <h2>延伸閱讀</h2>
 
-<p>tutorialzine（大推此站）：<a href="http://tutorialzine.com/2012/02/css3-product-showcase/">用impress.js製作產品展示</a></p>
+<ul>
+<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">用impress.js製作產品展示網站</a> - tutorialzine（大推此站）</li>
+<li>（2012/04/05更新）<a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">使用jmpress.js製作商品展示網站</a> - codrops</li>
+<li>（2012/04/18更新）Impressionist &#8211; Impress.js的<a href="https://github.com/hsivaramx/Impressionist">線上編輯工具</a>（目前版本<a href="http://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>）</li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -919,7 +1461,11 @@ SharePoint Designer內部的所有東西也可以透過在Visual Studio的ShareP
     <link href="http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework/"/>
     <updated>2012-02-26T13:17:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework</id>
-    <content type="html"><![CDATA[<p>最近想寫一個增進工作效率的add-on，自用之餘也打算寫好之後拿來送禮餽贈同事(XD)。稍微<a href="http://stackoverflow.com/questions/4913123/cross-browser-extensions-api" style="background-color: white; font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px; text-align: left;" target="_blank">survey了一下</a>之後，目前cross-browser add-on framework大概有幾種選擇：<br /></p>
+    <content type="html"><![CDATA[<p>最近想寫一個增進工作效率的add-on，自用之餘也打算寫好之後拿來送禮餽贈同事(XD)。
+不過我希望對各種不同瀏覽器可以只maintain一支code，有點類似瀏覽器版的PhoneGap的概念。
+（好像真的有<a href="https://github.com/joaoe/BrowserGap/">BrowserGap</a>這東西，不過似乎已經沒有再maintain？）
+稍微<a href="http://stackoverflow.com/questions/4913123/cross-browser-extensions-api">survey了一下</a>，
+目前community有推薦的cross-browser add-on framework大概有幾種選擇：<br /></p>
 
 <br />
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CSS3 | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/css3/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-04T04:23:44+08:00</updated>
+  <updated>2012-04-23T02:34:09+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -114,7 +114,7 @@ Design Usability</div>
 Very friendly UI with its prevailing "<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
 </td>
   <td colspan="2"><div style="text-align: left;">
-You must have HTML skill!</div>
+You must have HTML skill! <font color="red">(Update 04/18: Not now, see [this][impressionist] for impress.js)</font></div>
 </td>
  </tr>
 <tr>
@@ -193,6 +193,15 @@ free</div>
 
 
 <br />
+
+
+<h2>Related Links</h2>
+
+<ul>
+<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">Making an Impressive Product Showcase with CSS3</a> - tutorialzine</li>
+<li>(updated 2012/04/05) <a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">SLIDESHOW WITH JMPRESS.JS</a> - codrops</li>
+<li>(updated 2012/04/18) Impressionist -- <a href="https://github.com/hsivaramx/Impressionist">Online Visual Editing Tool</a> for Impress.js (latest: <a href="http://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>)</li>
+</ul>
 
 ]]></content>
   </entry>
