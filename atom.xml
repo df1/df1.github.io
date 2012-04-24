@@ -4,7 +4,7 @@
   <title><![CDATA[Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2012-04-23T02:34:09+08:00</updated>
+  <updated>2012-04-25T01:09:03+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -60,8 +60,10 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 
 <h3>Links</h3>
 
-<pre><code>*   [Yahoo!’s Mojito is Now Open Source](http://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/)
-</code></pre>
+<ul>
+<li><a href="http://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/">Yahoo!’s Mojito is Now Open Source</a></li>
+</ul>
+
 
 <h2>Keynote: Samsung S Pen SDK</h2>
 
@@ -104,14 +106,17 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 </ul>
 
 
-<p>It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who&#8217;s known as one of the &#8220;10  greats of Taiwanese computing.&#8221; You should check the video out, seriously!</p>
+<p>It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who&#8217;s known as one of the &#8220;10  greats of Taiwanese computing.&#8221; You should check <a href="http://www.youtube.com/watch?v=osJxSgbJuzY">the video</a> out, seriously!</p>
 
 <h2>Apps on HTML5 and the new WebAPIs</h2>
 
 <ul>
-<li>Speaker: Thinker (Mozilla)</li>
+<li>Speaker: Thinker (Mozilla)
+This sessions is an introduction and demonstration to M2G&#8217;s Web API. The entire development model is very much like the development of a web-based browser extension. After that talk, so many people rushed into the booth of Mozilla, and unfortunately, I was at the booth too and left an evidence in their press photo. lol</li>
 </ul>
 
+
+<p><img src="http://df1.github.com/attachments/2012-04-16-osdc-2012-impressions/seat.jpg" width="300" title="&#34;Le me, and the Mozilla website&#34;" alt="&#34;Le me, and the Mozilla website&#34;"></p>
 
 <h2>Automated trading toolkit</h2>
 
@@ -210,7 +215,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 
 <p>This conference was held in the Academy of Anthropology &amp; Sociology (or whatever lol), whose building and facilities are so brand new. Each seat is with embedded power/network plug, erecting(?) microphone, and vote buttons. Their international conference hall, where all keynote speeches took place, is an ideal place indeed for developer events like this. We could listen to the speech and do live coding along with the speaker very well too. As I observed, the coverage of MacBook is over 70%. (I&#8217;d really want to buy one too if only I can afford orz.) Besides, the screen of each computer was almost consentient! Coding window, IRC chatting window, Plurk (I wonder why so many Taiwan developers uses this, I can almost identify them by their Plurk avatar on theit screen lol), few Facebooks, and nothing else! It was so AMAZING to see so many &#8220;screennames (in chinese: 大大)&#8221; from the internet, who may be my idols or <del>my &#8220;cyber-stalkees&#8221;</del> the ones I followed on Twitter/Plurk for long, to gather and sit around me! The only thing that I would complain was the crappy Wi-Fi that was unable to handle simultaneous trafffic of 500 people. I brought my wire next day and it was so much better then orz. Btw, it&#8217;s my first chance to show off a <code>140.109.*</code> IP!</p>
 
-<p><img src="http://df1.github.com/attachments/2012-04-16-osdc-2012-impressions/seat.jpg" width="300" title="&#34;The seat table filled by attendees, I think we should EtherCalc next time XD&#34;" alt="&#34;The seat table filled by attendees, I think we should EtherCalc next time XD&#34;"></p>
+<p><img src="http://df1.github.com/attachments/2012-04-16-osdc-2012-impressions/seat.jpg" width="300" title="&#34;The seat table filled by attendees, I think we should try EtherCalc next time XD&#34;" alt="&#34;The seat table filled by attendees, I think we should try EtherCalc next time XD&#34;"></p>
 
 <p>Outside the conference hall/rooms, there were 2 extremely long bars of de-luxe foods and drinks in 2 hallways respectively, and booths from many sponsors: Samsung, KKBOX, Pixnet, Trend Micro, Mozilla, Cookpad, Etu, OpenFoundry&#8230; etc. It&#8217;s just all the same, trade your namecards or fill questionnaire for those gifts. The only difference is that, those head-hunting questionnaires asked for a list of your ever-contributed open projects, and your Github account. Github account dude!! lol</p>
 
