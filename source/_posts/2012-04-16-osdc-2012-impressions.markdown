@@ -65,7 +65,7 @@ It was an EPIC talk given by [Audery Tang](http://en.wikipedia.org/wiki/Audrey_T
 ##Apps on HTML5 and the new WebAPIs
 *	Speaker: Thinker (Mozilla)
 
-This session is an introduction and with live demonstrations to B2G's Web API. The entire development model is very much like the development of a web-based browser extension. After that talk, so many people rushed into the booth of Mozilla, and unfortunately, I was at the booth too and left an evidence in their press photo. lol
+This session was an introduction and live demonstration to B2G's Web API. The entire B2G development model is very much like the development of a web-based browser extension. After that talk, so many people rushed into the booth of Mozilla, and unfortunately, I was at the booth too and left an evidence in their press photo. lol
 
 {%img /attachments/2012-04-16-osdc-2012-impressions/me.png  "Le me, and the Mozilla website"%}
 
