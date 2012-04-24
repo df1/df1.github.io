@@ -98,7 +98,7 @@ He introduced his Perl-based open-source trading toolkit called TradeSpring, ena
 *	Speaker: Allison Randal
 
 
-This is a talk given by the goddess of open source community -- Allison, and can make us open source programmers much happier. When Allison was speaking, Audrey was doing a real-time transcripting in IRC!! Here is the hidden cam (by eddie Kao)
+This was a talk given by the goddess of open source community -- Allison, and made us open source programmers much happier. When Allison was speaking, Audrey was doing a real-time transcripting in IRC!! Here is the hidden cam (by eddie Kao)
 <iframe width="560" height="315" src="http://www.youtube.com/embed/dQ6nK_Yz14Q?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ##Keynote: Pix Table, The ORM from PIXNET
@@ -106,7 +106,7 @@ This is a talk given by the goddess of open source community -- Allison, and can
 *	Speaker: ronnywang (PIXNET)
 
 
-Ronnywang is former moderator of PTT's Joke forum! This topic is about how they implement their own ORM in PHP.
+Ronnywang is former moderator of PTT's Joke forum! This topic was about how they implement their own ORM in PHP.
 
 ##Embedded Virtualization in Daily Life
 *	Speaker: jserv (0xlab)
@@ -136,7 +136,7 @@ Outside the conference hall/rooms, there were 2 extremely long bars of de-luxe f
 
 Actually, it was my very first experience to an open-source community event, and it should be the doorstep for my commencement / commitment to this fascinating area. Though it's late, it will never be too late, hopefully :p
 
-COSCUP, I'm coming!
+Open source rocks! COSCUP, I'm coming!
 
 ##Reference Links
 *	[OSDC.TW 2012][osdc]
