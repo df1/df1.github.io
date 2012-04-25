@@ -42,8 +42,7 @@ Yahoo has been yelling about their Mojito, Cocktails, and Manhattan for months (
 *	Chinese Topic: 從手寫筆、滑掌截圖、陀螺儀等應用看Android應用程式開發
 *	Speaker: 史憲軍 (SAMSUNG)
 
-
-I get impressed when someone get Samaung's face slapped in the Q&A time lol. Okay I still hope these, how to say, legacy enterprices, to somehow dedicate some effort for the entire technology community to grow. But I do not think they ought to be criticized that way. At least they sponsored, man. Anyway it's just hilarious LOL
+I was impressed by the awkwardness when someone got Samaung's face slapped by asking their open-source plan during the Q&A time lol. Okay I still hope these, how to say, legacy enterprices, to somehow dedicate their effort for the entire technology community to grow. But I did not think they ought to be criticized that way though. At least they sponsored, man. Anyway it's just hilarious LOL
 
 ##Keynote: Lessons Learned from "Taiwan Weather" iPhone App Development
 *	Chinese Topic: 談手機 Internet Client 開發：我從「台灣天氣」學到的事情
