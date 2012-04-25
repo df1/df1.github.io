@@ -2,7 +2,7 @@
 layout: post
 date: 2012-02-16 13:17
 comments: true
-categories: [Eclipse, Ext Designer, ExtJS, Sencha Designer, English Post]
+categories: [Eclipse, Ext Designer, ExtJS, Sencha Designer, English Post, Sencha Architect]
 ---
 The mysterious <a href="http://www.sencha.com/products/designer/" target="_blank">Sencha Designer </a>2.0 announced in last year's SenchaCon has finally <a href="http://www.sencha.com/blog/sencha-designer-2-beta-announcement/" target="_blank">released the Beta version</a> last week (without trial period limitation!) Besides the Sencha Touch support, which has been their focus, what really attracts me is it finally supports ExtJS 4 MVC, and in-line event definition.
 <br />
