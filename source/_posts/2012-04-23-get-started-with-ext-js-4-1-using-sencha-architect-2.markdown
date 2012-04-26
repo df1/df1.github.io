@@ -88,7 +88,7 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 [run-jetty-run]:http://code.google.com/p/run-jetty-run/
 
 ##IE8效能問題
-這年頭很多人都喜歡用Firefox或Chrome進行開發，但是別忘了，你的user可沒那麼先進。更令人沮喪的是Ext JS 4.0.0~4.0.7版本在IE6~8都有嚴重的效能問題。Sencha的解釋如下：
+這年頭很多人都喜歡用Firefox或Chrome進行開發，但是別忘了，user可沒那麼先進。更令人沮喪的是Ext JS 4.0.0~4.0.7版本在IE6~8都有嚴重的效能問題。Sencha的解釋如下：
 >	Ext JS 4 features a brand new rendering pipeline that is significantly more structured and extensible than the rendering process in Ext JS 3. All Components now render the same way, and are driven by XTemplates. They also follow a common hook point regime, enabling the framework and developers to extend or hook into the render process for each Component.
 >	
 >	While the new rendering architecture is a big step forward, it did create slow performance in some cases. In 4.0.1 and before the order of operations in the rendering process was not as efficient as it could have been, resulting in many more DOM updates than are actually needed. In 4.0.2 we have corrected this behavior, yielding significant render speed improvements.
