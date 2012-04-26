@@ -18,7 +18,7 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 ###[先看看官方提供的範例長怎樣吧！](http://dev.sencha.com/deploy/ext-4.1.0-gpl/examples/)
 {%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/feed.png "官方的範例之一：Feed Viewer，阿就藍藍的，非常的『2007』" %}
 
-簡而言之，Ext JS是[Sencha][]公司推出的一個純Java Script的Web前端框架，提供一般Web App會用到的UI元件（按鈕、表格、Tab…）讓你實作出想要的user flow；且便於繼承擴充，定義出自己客製的元件；另外也提供許多好用的JS utility及Ajax Data Source支援，跟後端CRUD做完美的配合。在外觀上，預設主題是簡單但有點過時的淡藍色，不過他的主題是以SASS/Compass實作，因此只要找對美工（<del>還看別人！？就是你！</del>），也是可以盡情揮灑的。目前它大多應用於企業端的內部Web Application based的資訊系統（至少敝公司將它視為標準orz，另外不知道為啥，在大陸跟日本的開發者社群似乎都相當發達）。我個人認為它的優點在於良好的繼承架構、便於快速開發及擴充，還有完整豐富的社群、官方支援及API（官方支援的好處就在於任何奇怪的問題只要PO個版就有解，瀏覽器相容等問題都不用自己去搞）；但是相對的，跟jQuery+jQuery UI的方便性比起來，它的缺點是架構較為固定，很難去把它的架構翻掉自己重新設計；另外最重要的，它在某些情況可能**要錢**。
+簡而言之，Ext JS是[Sencha][]公司推出的一個純JS的Web前端框架，提供一般Web App會用到的UI元件（按鈕、表格、Tab…）讓你實作出想要的user flow；且便於繼承擴充，定義出自己客製的元件；另外也提供許多好用的JS utility及Ajax Data Source支援，跟後端CRUD做完美的配合。在外觀上，預設主題是簡單但有點過時的淡藍色，不過他的主題是以SASS/Compass實作，因此只要找對美工（<del>還看別人！？就是你！</del>），也是可以盡情揮灑的。目前它大多應用於企業端的內部Web Application based的資訊系統（至少敝公司將它視為UI標準之一orz，另外不知道為啥，在大陸跟日本的開發者社群似乎都相當發達）。我個人認為它的優點在於良好的繼承架構、便於快速開發及擴充，還有完整豐富的社群、官方支援及API（用商業化套件的好處就在於任何奇怪、無恥的問題只要PO個版就有解，瀏覽器相容等問題都不用自己去搞，也不會叫你RTFM）；但是相對的，跟jQuery+jQuery UI的方便性比起來，它的缺點是架構較為固定，很難去把它的架構翻掉自己重新設計；另外最重要的，它在某些情況可能**要錢**。
 
 
 {%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/kitchensink.png "Ext JS 4.1 提供的Nepune主題" %}
@@ -26,7 +26,7 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 <!--more-->
 
 ###授權
-其實寫這篇文章真的有點掙扎，因為真的像是業配文orz。還是先來講講[授權][license]的部分：[Ext Core][]是Ext JS的核心，提供類似於jQuery的DOM操作等功能，是免費的且使用[MIT License][]；做個比喻：Ext Core之於Ext JS，就如同jQuery之於jQuery UI。雖然Ext JS也算是開源的，但它的授權就比較複雜。如果你也是用於open source開發，則適用[GPLv3][]；如果是商業用途且將原始碼視為公司proprietary，則適用[Sencha Commercial License][]；如果是要把它做成另外的商業化SDK（如[Ext.NET][]），Sencha也提供OEM License。而今天要講的Sencha Architect，則是Sencha推出的架構設計工具，[一套要價$399鎂][architect license]，但提供免費試用。
+其實寫這篇文章真的有點掙扎，因為真的像是業配文orz。還是先來講講[授權][license]的部分：[Ext Core][]是Ext JS的核心，提供類似於jQuery的DOM操作等功能，是免費的且使用[MIT License][]；打個比方：Ext Core之於Ext JS，就如同jQuery之於jQuery UI。雖然Ext JS也算是開源的，但它的授權就比較複雜。如果你也是用於open source開發，則適用[GPLv3][]；如果是商業用途且將原始碼視為公司proprietary，則適用[Sencha Commercial License][]；如果是要把它做成另外的商業化SDK（如[Ext.NET][]），Sencha也提供OEM License。而今天要講的Sencha Architect，則是Sencha推出的架構設計工具，[一套要價$399鎂][architect license]，但提供免費試用。
 
 [Sencha]:http://www.sencha.com
 [license]:http://www.sencha.com/products/extjs/license/
@@ -49,56 +49,98 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 **PS. 按圖片都可以放大**
 
 ###下載並安裝
-[載點在此][architect]，試用前須註冊[Sencha Forum](http://www.sencha.com/forum/)的帳號。它本身是以QT及其內建Webkit寫成的跨平台程式，可以在Windows/MacOS/Linux上執行。將程式打開之後，可以看到一個很熟悉的WYSIWYG形式編輯器：左邊是工具箱、中間是畫布、右上是階層圖、右下是一欄欄的屬性。
+[載點在此][architect]，試用前須註冊[Sencha Forum](http://www.sencha.com/forum/)的帳號。它本身是以QT及其內建Webkit寫成的跨平台程式，可以在Windows/MacOS/Linux上執行。將程式打開之後，可以看到一個很熟悉的WYSIWYG所見及所得編輯器：左邊是工具箱、中間是畫布、右上是階層圖、右下是一欄欄的屬性。
 
 {%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/wysiwyg.png "Sencha Architect跑起來的樣子"%}
 
 
 ###開始拉UI
-
-
+迫不及待要從左邊拉東西進來了吧？首先，身為一個web app，你會需要的是一個`viewport`。它可以把整個網頁的畫面撐開，讓你在裡面做layout。
 {%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/viewport.png "把整個Web App畫面撐開的東西是Viewport"%}
 
+繼續瘋狂拉東西進來之前，還是要先對Ext JS所提供的各種layout有基本的認識。這個[Ext Layout Browser](http://dev.sencha.com/deploy/ext-4.1.0-gpl/examples/layout-browser/layout-browser.html)裡面有各種layout的DEMO及基本介紹。一般來說，我們常常在web app的最外面使用Border Layout，將畫面分成東南西北中<del>發板</del>幾塊（region）。
 
-{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/region.png ""%}
+要設定這個viewport的layout類型，可以在右邊屬性中找到layout下拉選取，或是在畫布上的藍色齒輪跳出的快速設定popup中選取。接下來真的就可以從左邊亂拉元件了。要注意的是，若是在一個border layout的container裡面，它需要有一個`region: 'center'	（中央）的子元件；其他東西南北則不一定要有。[拉完之後可能長這樣](http://dev.sencha.com/deploy/ext-4.1.0-gpl/examples/layout/complex.html)。
+
+{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/region.png "Border Layout的示意圖，紅色框起來的地方套用了border layout"%}
+
+以下面的圖為例，我西邊放了一個`Tree Panel`，將它的`collapsible`（可收合）及`split`（邊緣分割線）屬性設為`true`；中間則放了一個包含三個tab的`Tab Panel`。在第一個Tab，我將它的layout設為absolute，這時候畫面上會出現格線方便我們直接拖拉調整子元件的位置。若要將表單欄位貼到最右邊，可以將`anchor`屬性設為100%。
+
+在我們拉表單的時候，可以在畫布上的元件按右鍵使用duplicate功能快速複製；複製後可用transform將其轉為其他類別的元件（如：將combo box下拉選單欄位轉為date field日期欄位。它們都是繼承`Ext.form.field.Base`）。
 
 
-{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/id.png ""%}
+###看看內建的API文件
+Sencha Architect的一大優點就是它本身整合了Ext的documentation，大幅減少了設計時翻文件的痛苦。如下圖，在左邊的工具箱中點每個元件後，下方都會出現簡單說明；另外，在屬性視窗中的每個屬性旁都有一個問號，滑鼠移上去也會秀出簡單說明。若是想看完整的document，也可以點連結直接跳到線上API去看。
+{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/api.png "Sencha Architect中內建的documentation功能"%}
 
-{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/event.png ""%}
+###[看看很好很強大的線上API文件吧！](http://docs.sencha.com/ext-js/4-1/)
+Ext的原始碼本身是以JS Doc形式做self-documentation的。Sencha也開發了一個工具叫JS Duck將原始碼直接變成像這樣的API網站。裡面可以看到它提供所有的功能，元件Class的繼承hierarchy，還有範例以及別人的評論。這裡面真的很值得探索！
 
-{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/code.png ""%}
+###事件處理
+若是我想讓user按按鈕之後，將左邊的tree收起來，該怎麼做？（例子很爛請包涵XD）
+首先我們先將左邊的tree panel取一個ID叫`myTreePanel`。有了ID之後，在任何地方都可以使用`Ext.getCmp('元件ID')`來取得該元件，並進行操作。（題外話，當然這不是唯一方法。若是熟悉CSS selector，也可以用類似jQuery的方法來取得元件，如`query`、`up`、`down`等等。這種寫法相當適合controller使用。）
 
+{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/id.png "給咱們Tree panel一個ID"%}
+
+接下來，在button的屬性視窗中加入一個event handler如下圖。一個按鈕所有可能觸發的event全部在下拉選單列給你看了！很直覺地，click應該就是我們要的（通常試試看就知道是不是我們要的了）。
+{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/event.png "給button加一個click的event"%}
+
+然後就可以開始寫code了！這一行是利用剛剛設定的ID來拿到左邊的tree，並將它收合。
+{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/code.png "將左邊的tree收合"%}
+簡單吧！到這邊已經可以lay出複雜且會動的UI了！
+
+###Data Model與Store
+在企業的web application中，前端需要的資料大多從後端DB過來。只要是有『吃資料』的元件，都需指定一個Store給它，裡面存有前端畫面需要的所有資料。在store裡面需定義該store所需要存取的欄位（可以直接在store的fields屬性中定義欄位，也可以指定一個定義好的Data Model給它。）。以combo box（下拉選單）為例，它通常需要兩個欄位：顯示文字與實際值。
+
+依照與後端溝通的方式，Ext提供了各種不同的Proxy供Store使用。另外根據回傳的資料形式不同，也提供了不同的Reader供Proxy使用。像我最常用的應該是Ajax Proxy搭配Json Reader。舉例來說，若是我們要做一個性別的選單，而資料由後端某個URL傳回來的Json格式如下：（又是個爛例子XD）
+	{
+		"total": 2,
+		"data": [
+			{"gender": "M", "genderText": "男性"},
+			{"gender": "F", "genderText": "女性"}
+		]
+	}
+則需在store新增兩個field：
+
+
+{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/store.jpg "建立一個Json Store，在field內加兩個欄位。並在data裡面hard-code我們的資料。"%}
+{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/combo.jpg ""%}
 
 ###佈署到local並預覽
 
 {%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/settings.png "專案設定畫面"%}
 
-##看API
-
-{%img /attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/api.png "API"%}
 
 ##Application及MVC架構
-###參考連結
-*	[MVC Architecture]:http://docs.sencha.com/ext-js/4-1/#!/guide/application_architecture
+當你的Web App規模大到一定程度時，想必會開始思考如何組織程式碼、方便maintain、動態載入等等架構面的問題。若是有看過backbone.js、require.js、knockout.js等工具的介紹文，應該會對現在流行的架構概念有所認識。
+Ext.TaskManager
+
+###好文分享
+*	[Ext JS 4的Application/MVC架構概觀](http://docs.sencha.com/ext-js/4-1/#!/guide/application_architecture)
+*	[Deft JS: Loosely Coupled MVC through Dependency Injection](http://www.sencha.com/blog/deftjs-loosely-coupled-mvc-through-dependency-injection) -- John Yanarella
+
+下面這幾個archticture tool相關文章也非常值得看看，但跟Ext沒關係
+*	[Backbone.js X RequireJS Quick Guide](http://speakerdeck.com/u/jaceju/p/backbonejs-x-requirejs-quick-guide) -- 大澤木小鐵
+*	介紹Knockout.js的MVVM：[Understanding MVVM – A Guide For JavaScript Developers](http://addyosmani.com/blog/understanding-mvvm-a-guide-for-javascript-developers/) -- Addy Osmani
 
 ##整合後端開發
 在瞭解他匯出的行為之後，就會發現其實很容易跟後端開發的專案進行整合。其中會遇到的一個問題就是他跑AMD動態載入JS Class時的路徑是否跟專案中的目錄架構是一樣的，這時候就要對`Ext.application`中的`appFolder`屬性做調整。[我去年的一篇文章][eclipse]是以Java EE的Web project為例進行與Ext Designer 1.2進行整合，主要的技術堆疊大略是（純回憶，僅供參考）：前後端以REST進行溝通（JAX-RS）；Servlet及JAVA部分採用Spring 3來做DI及AOP；ORM使用JPA 2；local測試環境使用[run-jetty-run][]。
 [eclipse]:http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/
 [run-jetty-run]:http://code.google.com/p/run-jetty-run/
 
+
+###好文分享
+*	[Node.js+mongodb+EditGrid範例](http://docs.sencha.com/ext-js/4-1/#!/guide/editable_grid)
+
 ##IE8效能問題
-這年頭很多人都喜歡用Firefox或Chrome進行開發，但是別忘了，你的user可沒那麼先進。更令人沮喪的是Ext JS 4.0.0~4.0.7版本在IE6~8都有嚴重的效能問題。Sencha的解釋如下：
+這年頭很多人都愛用Firefox或Chrome進行開發，但是別忘了，你的user可沒那麼先進。更令人沮喪的是Ext JS 4.0至4.0.7版本在IE6~8都有嚴重的效能問題。Sencha的解釋如下：
 >	Ext JS 4 features a brand new rendering pipeline that is significantly more structured and extensible than the rendering process in Ext JS 3. All Components now render the same way, and are driven by XTemplates. They also follow a common hook point regime, enabling the framework and developers to extend or hook into the render process for each Component.
 >	
 >	While the new rendering architecture is a big step forward, it did create slow performance in some cases. In 4.0.1 and before the order of operations in the rendering process was not as efficient as it could have been, resulting in many more DOM updates than are actually needed. In 4.0.2 we have corrected this behavior, yielding significant render speed improvements.
 >	
 >	We have already identified further optimizations to the rendering pipeline that will be incorporated into Ext JS 4.0.3 and beyond. Performance is very important to all of us and making the framework as fast as we know it can be will remain a top priority for the team.
 
-Ext JS 4.1版本主要就是在解決在IE的效能問題，現在已經有改善許多。 但是，在開發期間，良心建議您偶爾還是把IE開來跑跑看，免得像我當初一樣，發現時已經距<del>引咎辭職</del>上線的時間不遠矣！
-
-
-Ext.TaskManager
+因此這次公開的4.1版主要就是focus在解決在IE的效能問題，現在已經有改善許多。 但是，在開發期間，良心建議您偶爾還是把IE開來跑跑看，免得像小弟當初一樣，發現時已經距<del>引咎辭職</del>上線的日子不遠矣！
 
 
 
