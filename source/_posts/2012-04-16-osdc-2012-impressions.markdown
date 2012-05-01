@@ -11,9 +11,55 @@ Last weekend I joined [OSDC.TW 2012][osdc] (Open Source Developers' Conference) 
 
 #Update: Videos and slides of each session [RELEASED][agenda]!
 
-<!--more-->
 
-(Photos will be updated **later**)
+<div class="gallery">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2407.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2408.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2409.JPG">
+</div>
+<!--more-->
+<div class="gallery" style="margin-top:0">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2410.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2411.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2412.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2413.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2414.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2415.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2416.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2417.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2418.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2420.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2421.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2422.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2423.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2424.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2425.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2426.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2427.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2428.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2429.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2430.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2431.PNG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2433.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2434.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2435.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2436.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2437.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2438.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2439.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2440.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2441.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2442.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2443.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2444.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2445.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2446.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2447.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2448.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2449.JPG">
+<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2450.JPG">
+</div>
+
 
 #Day 1
 When I took highway bus and made to transit to Nangang, it was almost 9:30 AM. I felt regretful since the session opened at 9, and since the truth that I did not plan it well. Then I took another 15 minutes walking, which Google Map told me to do so, to Sinica Academia. Anyway, it was a deadly cloudy morning with regrets for missing the first keynote speech.

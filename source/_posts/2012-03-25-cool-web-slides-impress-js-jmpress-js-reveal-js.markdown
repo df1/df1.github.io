@@ -84,7 +84,7 @@ CSS3 + JS</div>
   <td style="background: #CCCCCC;">製作難度</td>
   <td>提供功能相當完整的設計介面，可方便地編輯整個大畫布。他主打的「<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">斑馬環</a>」(移動/旋轉/放大縮小工具，就是prezi的logo那個圓形怪怪的東西)也是此介面的一大特色</td>
   <td colspan="2">需有HTML基礎方能看懂其原理。目前入門的門檻相對高很多。(如：一個&lt;div
-  class=”slide”&gt;&lt;/div&gt;為一張投影片)<font color="red">(4/18更新：已經有人製作[impress線上編輯工具][impressionist])</font></td>
+  class=”slide”&gt;&lt;/div&gt;為一張投影片)<font color="red">(4/18更新：已經有人製作impress線上編輯工具)</font></td>
  </tr>
 <tr>
   <td style="background: #CCCCCC;">擴充性</td>

@@ -2,92 +2,98 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://df1.github.com/blog/2012/02/14/its-time-to-blog/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>
             http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/
         </loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/02/24/ext-js-4-1b3-performance-optimization/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>
             http://df1.github.com/blog/2012/03/03/ext-js-4-1-bug-when-group-by-template-column/
         </loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-branding/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/03/21/be-a-rockstar-developer/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>
             http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js/
         </loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>
             http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/
         </loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/03/30/octocat/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/04/01/migration-completed/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>
             http://df1.github.com/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/
         </loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/04/05/ptt-joke-analytics/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/04/06/things-about-birdie/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/04/07/piposea-raid/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/04/09/jquery-striptease/</loc>
-        <lastmod>2012-04-23T23:47:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/2012/04/17/osdc-2012-impressions/</loc>
-        <lastmod>2012-04-25T02:12:09+08:00</lastmod>
+        <lastmod>2012-04-27T00:15:29+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://df1.github.com/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/
+        </loc>
+        <lastmod>2012-04-27T01:32:38+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/blog/archives/</loc>
-        <lastmod>2012-04-25T02:12:09+08:00</lastmod>
+        <lastmod>2012-04-27T01:32:38+08:00</lastmod>
     </url>
     <url>
         <loc>http://df1.github.com/</loc>
-        <lastmod>2012-04-25T02:12:09+08:00</lastmod>
+        <lastmod>2012-04-27T01:32:38+08:00</lastmod>
     </url>
 </urlset>

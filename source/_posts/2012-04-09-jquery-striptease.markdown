@@ -12,6 +12,7 @@ categories: [JS, jQuery, 網摘]
 
 無論你聽見它芳名時候的第一印象為何，當你真正見到它的容貌時，想必心中那種悸動到現在還是難以忘懷吧！讓我們再來回顧一下：  
 
+<!--more-->
 `$("p.neat").addClass("ohmy").show("slow");`
 
 如果場景是企業的主管正抉擇是否導入jQuery的當下，看到第一個字是大大的`$`時，心中立即的疑問就是『那這套solution的license要多少錢？』
@@ -33,7 +34,6 @@ categories: [JS, jQuery, 網摘]
 如果對文章中提到的`閉包（closure）`有看沒有懂，
 可以參考TonyQ（Ptt soft_job版主）在javascript.tw聚會中對closure相關的變數scope常見問題說明。
 影片後半段也對jQuery的原始碼做了解析，是講**繁體中文**的喔！（咦） 看影片吧！
-<!--more-->
 <iframe width="560" height="315" src="http://www.youtube.com/embed/KxItux9ZeA8?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ##參考連結
