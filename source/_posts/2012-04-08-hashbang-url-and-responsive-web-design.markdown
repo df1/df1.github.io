@@ -57,3 +57,5 @@ location.hash與onhashchange event (Ext.history/jQuery.history)
 [ext]: http://docs.sencha.com/ext-js/4-0/#!/api/Ext.util.History
 [thoughts]: http://www.adequatelygood.com/2011/2/Thoughts-on-the-Hashbang
 [breaking]: http://isolani.co.uk/blog/javascript/BreakingTheWebWithHashBangs
+http://shkspr.mobi/blog/index.php/2012/05/interesting-twitter-hashbang-bug/
+http://www.adequatelygood.com/2011/2/Thoughts-on-the-Hashbang
