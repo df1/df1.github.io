@@ -17,10 +17,10 @@ Pipes的一大特點就是他的視覺化畫布，讓你對資料的『管路』
 <!--more-->
 {%img /attachments/2012-05-07-notify-me-when-theres-guitar-giveaway-in-ptt/pipes.png "專門PTT送吉他的Pipe" %}
 ###小解說
-1	資料來源有兩個：give板與guitar板。
-2	give板過濾標題關鍵字有『吉他』的；guitar板過濾有『送』的
-3	取聯集
-4	一一去撈對應的PTT Web板頁面內容，把它塞進`item.description`中方便即時觀看（沒辦法，公司不能上orz）
+1.	資料來源有兩個：give板與guitar板。
+2.	give板過濾標題關鍵字有『吉他』的；guitar板過濾有『送』的
+3.	取聯集
+4.	一一去撈對應的PTT Web板頁面內容，把它塞進`item.description`中方便即時觀看（沒辦法，公司不能上orz）
 
 
 做完之後，在頁面上有一堆格式的輸出可以隨便拿，例如可以拿RSS再加上自己chrome的RSS通知外掛，若有新資料就自動彈出小視窗；或是直接點`Results by Email or Phone`讓Yahoo Alert傳email或簡訊通知。

@@ -2,8 +2,8 @@
 	<li><a href="{{ root_url }}/" title="回首頁">Home</a></li>
 	<li><a href="{{ root_url }}/blog/archives" title="網誌存檔">Archives</a></li>
 	<li><a href="{{ root_url }}/blog/categories/english-post/" title="View English Posts">English</a></li>
-	<li><a href="{{ root_url }}/blog/categories/cat/" title="波笛">ボッディ</a></li>
-	<li><a href="#" title="最近的文章">Recent</a>		
+	<li><a href="{{ root_url }}/blog/categories/cat/" title="波笛">Cat</a></li>
+	<li><a href="#" title="最近的文章">Recent</a>
 	  <ul id="recent_posts">
 	    {% for post in site.posts limit: site.recent_posts %}
 	      <li class="post">
