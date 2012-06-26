@@ -1,0 +1,82 @@
+---
+layout: post
+title: "2012 Event Log"
+date: 2012-06-21 20:50
+comments: true
+categories: [event, note]
+---
+
+This post is an information/note aggregation from all the events that I have joined in 2012.
+<!--more-->
+
+#April 2012
+##[OSDC.TW 2012](http://osdc.tw)
+*   Date: 2012/04/14~2012/04/15
+*   Location: 中研院人社館
+*   [My blog post](/blog/2012/04/17/osdc-2012-impressions/)
+
+##JavaScript.tw [JS Group 台中場](http://registrano.com/events/jstw-tc-20120428)
+*   Date: 2012/04/28
+*   Location: 永慶房屋會議室
+
+
+
+
+
+#May 2012
+##[JSDC.TW 2012](http://jsdc.tw/2012/)
+*   志工 - 紀錄組 (會前會2012/05/06、2012/05/18)
+*   Date: 2012/05/19 (Sat)
+*   Location: 中研院人社館
+*   [My blog post](/blog/2012/05/29/jsdc-gaia-keynote-transcript/)
+
+
+
+##Mozilla Taiwan [Firefox Add-on 附加元件入門班](http://registrano.com/events/mozilla-addon-workshop)
+*   Date: 2012/05/20 10:00 ~ 05/20 13:00
+*   [Slide](http://littleb.tc/slides/2012/mozilla-tw/addon-sdk.html)
+*   [Firefox附加元件開發大軍，又增新血](http://blog.mozilla.com.tw/posts/528/firefox-%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6%E9%96%8B%E7%99%BC%E5%A4%A7%E8%BB%8D%EF%BC%8C%E5%8F%88%E5%A2%9E%E6%96%B0%E8%A1%80%EF%BC%81)
+
+##NodeJS Taiwan [Node.js Taiwan Party 新竹場](http://registrano.com/events/a490b5)
+*   Date: 2012/05/26
+*   Location: Jack Bean 傑克豆豆
+
+##MozTW x Ubuntu-TW [Firefox x Ubuntu 12(.04) Release Party](http://registrano.com/events/fxu12rp)
+*   Date: 2012/05/27
+*   My plurk [1](http://www.plurk.com/p/ghi116) [2](http://www.plurk.com/p/ghsykd)  
+{%img http://cdn.registrano.com/upload_images/8452/Ubuntu_x_Firefox_12_.04__Release_Party_-_Landscape_520.png 200 %}
+
+
+
+#June 2012
+##JavaScript.tw [JS Group 台中場](http://registrano.com/events/jstw-tc-20120428)
+*   Date: 2012/06/02
+*   Location: 永慶房屋會議室
+
+##[Fedora 17 發行派對 @ 台中](http://registrano.com/events/8c4b43)
+*   Date: 2012/06/03
+*   Location: 黑貓月亮咖啡館
+
+##PyHUG [June Meeting](http://www.meetup.com/pythonhug/events/61065022/)
+*   Date: 2012/06/20
+*   Location: 清大創新育成中心115  
+{%img http://photos1.meetupstatic.com/photos/event/5/8/0/e/global_76882542.jpeg %}
+
+##新竹碼農聚會[(Hsinchu Coding Serfs Meeting)](http://registrano.com/events/c1c1cb)
+*   Date: 2012/06/21
+*   Location: Book11
+*   [Express](http://expressjs.com/guide.html)
+*   [socket.io](http://socket.io/)
+*   [mongoose](http://www.mongoose.com/)
+*   [Node.js 台灣社群協作電子書](http://book.nodejs.tw/)
+*   [BUILD A TODO LIST USING EXPRESS](http://nodejs.tw/post/24896137291/build-a-todo-list-using-express-node-js-taiwan-party)
+*   [websockify](https://github.com/kanaka/websockify)
+*   [Derby](http://derbyjs.com/)
+*   [Meteor](http://docs.meteor.com/#quickstart)
+*   [APPS跨界交流協會](http://www.xapps.tw)
+
+
+
+
+
+

@@ -3,7 +3,7 @@ layout: post
 title: "JSDC.TW Transcript: Building Mobile Devices with the Open Web "
 date: 2012-05-29 22:33
 comments: true
-categories: [English Post, JSDC, Mozilla, B2G, Gaia, transcript]
+categories: [English Post, JSDC, Mozilla, B2G, Gaia, transcript, event]
 ---
 {% img http://jsdc.tw/2012/img/logo.png %}
 

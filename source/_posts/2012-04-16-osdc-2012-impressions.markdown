@@ -3,7 +3,7 @@ layout: post
 title: "OSDC.TW 2012: My Summary & Impressions"
 date: 2012-04-17 23:17
 comments: true
-categories: [OSDC, OSDC.TW, murmur, English Post]
+categories: [OSDC, OSDC.TW, event, English Post]
 ---
 
 {%img /attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png %}
@@ -13,51 +13,51 @@ Last weekend I joined [OSDC.TW 2012][osdc] (Open Source Developers' Conference) 
 
 
 <div class="gallery">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2407.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2408.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2409.JPG">
+<img src="http://i.imgur.com/ITjm1.jpg">
+<img src="http://i.imgur.com/2QN4w.jpg">
+<img src="http://i.imgur.com/uS6se.jpg">
 </div>
 <!--more-->
 <div class="gallery" style="margin-top:0">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2410.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2411.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2412.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2413.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2414.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2415.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2416.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2417.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2418.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2420.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2421.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2422.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2423.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2424.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2425.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2426.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2427.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2428.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2429.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2430.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2431.PNG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2433.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2434.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2435.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2436.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2437.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2438.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2439.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2440.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2441.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2442.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2443.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2444.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2445.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2446.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2447.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2448.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2449.JPG">
-<img src="http://locust.csie.ncku.edu.tw/~changch/photos/osdc2012/CIMG2450.JPG">
+<img src="http://i.imgur.com/95OOu.jpg">
+<img src="http://i.imgur.com/Wbmqy.jpg">
+<img src="http://i.imgur.com/JayZt.jpg">
+<img src="http://i.imgur.com/xRzBm.jpg">
+<img src="http://i.imgur.com/Tra7g.jpg">
+<img src="http://i.imgur.com/bcfnF.jpg">
+<img src="http://i.imgur.com/Jtvko.jpg">
+<img src="http://i.imgur.com/5xZdc.jpg">
+<img src="http://i.imgur.com/JooSn.jpg">
+<img src="http://i.imgur.com/ShhYW.jpg">
+<img src="http://i.imgur.com/tsK6L.jpg">
+<img src="http://i.imgur.com/B9VBK.jpg">
+<img src="http://i.imgur.com/L6kac.jpg">
+<img src="http://i.imgur.com/Lrrv7.jpg">
+<img src="http://i.imgur.com/QFqSy.jpg">
+<img src="http://i.imgur.com/IxzRN.jpg">
+<img src="http://i.imgur.com/0jjry.jpg">
+<img src="http://i.imgur.com/mFXtW.jpg">
+<img src="http://i.imgur.com/unRfn.jpg">
+<img src="http://i.imgur.com/lHIl0.jpg">
+<img src="http://i.imgur.com/27wuM.png">
+<img src="http://i.imgur.com/c2Nck.jpg">
+<img src="http://i.imgur.com/bozDW.jpg">
+<img src="http://i.imgur.com/RwKcs.jpg">
+<img src="http://i.imgur.com/VehJp.jpg">
+<img src="http://i.imgur.com/mwAtU.jpg">
+<img src="http://i.imgur.com/LmsJP.jpg">
+<img src="http://i.imgur.com/4y1qL.jpg">
+<img src="http://i.imgur.com/4Jepm.jpg">
+<img src="http://i.imgur.com/hjybH.jpg">
+<img src="http://i.imgur.com/BOZ2x.jpg">
+<img src="http://i.imgur.com/WHYoG.jpg">
+<img src="http://i.imgur.com/yUFWV.jpg">
+<img src="http://i.imgur.com/etB9C.jpg">
+<img src="http://i.imgur.com/eLC3S.jpg">
+<img src="http://i.imgur.com/fvIw0.jpg">
+<img src="http://i.imgur.com/2i9vD.jpg">
+<img src="http://i.imgur.com/5vynj.jpg">
+<img src="http://i.imgur.com/U3JDo.jpg">
 </div>
 
 
