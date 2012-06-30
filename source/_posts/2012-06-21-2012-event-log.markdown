@@ -5,6 +5,7 @@ date: 2012-06-21 20:50
 comments: true
 categories: [event, note]
 ---
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/BDfd1/embed"></iframe>
 
 This post is an information/note aggregation from all the events that I have joined in 2012.
 <!--more-->
@@ -14,6 +15,7 @@ This post is an information/note aggregation from all the events that I have joi
 *   Date: 2012/04/14~2012/04/15
 *   Location: 中研院人社館
 *   [My blog post](/blog/2012/04/17/osdc-2012-impressions/)
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/vuaRA/embed"></iframe>
 
 ##JavaScript.tw [JS Group 台中場](http://registrano.com/events/jstw-tc-20120428)
 *   Date: 2012/04/28
@@ -45,7 +47,7 @@ This post is an information/note aggregation from all the events that I have joi
 *   Date: 2012/05/27
 *   My plurk [1](http://www.plurk.com/p/ghi116) [2](http://www.plurk.com/p/ghsykd)  
 {%img http://cdn.registrano.com/upload_images/8452/Ubuntu_x_Firefox_12_.04__Release_Party_-_Landscape_520.png 200 %}
-
+*   [Etherpad Note](https://etherpad.mozilla.org/furp-slide)
 
 
 #June 2012
