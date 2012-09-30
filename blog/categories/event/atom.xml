@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: event | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/event/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-09-30T13:34:37+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Web Dev Party #5 活動小記]]></title>
+    <link href="http://df1.github.com/blog/2012/07/20/web-dev-party-5/"/>
+    <updated>2012-07-20T19:40:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/07/20/web-dev-party-5</id>
+    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/Cnu9x.jpg" alt="閃光洽 - Rsponsive WAT Design" /></p>
+
+<p><img src="http://i.imgur.com/8QbM1.jpg" alt="保哥 - HTML5 JavaScript APIs" /></p>
+
+<p>今天請假北上參加了年度的<a href="https://service.ithome.com.tw/20120720Java/">Java大拜拜</a>，剛好有機會參加這次在蛙.咖啡 (frog.cofe)舉辦的<a href="http://registrano.com/events/webdev-party-05">Web Dev Party #5</a>！這可是傳說中全台最有梗、一票難求，大大、神人、正妹(!)一次到位的熱鬧技術趴，快來一探究竟吧！</p>
+
+<p>這次的主題是關於現正快速崛起的新的Web標準-- <a href="http://zh.wikipedia.org/wiki/Html5">HTML5</a>的應用，一共有兩個講題：Responsive WAT Design 與 HTML5 JavaScript APIs。還是要先提醒的是，如果您用的是IE且版本是10以前，還是先換個瀏覽器再來玩下面的東西吧<code>&gt;_^</code></p>
+
+<!--more-->
+
+
+<h2>Responsive WAT Design</h2>
+
+<ul>
+<li>講者：<a href="http://about.me/hinablue">閃光洽</a></li>
+<li>部落格：<a href="http://blog.hinablue.me">HINA::工程幼稚園</a></li>
+<li>噗浪：<a href="http://www.plurk.com/hinablue">Cain Chen</a></li>
+</ul>
+
+
+<p>由<strong>大澤木小鐵</strong>大大簡單的開場後，首先登場的是<strong>閃光洽</strong>大大分享的Responsive WAT Design。
+據說這次開場前投影片發生了<em>杯具</em>，於是破天荒的直接開vim當投影片用（驚）！</p>
+
+<p>(雖然沒有正式的投影片，講者還是講了不少<a href="http://rwd.hinablue.me/">疑似之前分享過的投影片(?)</a>←投影片本身也是responsive，可以用手機觸控喔！)</p>
+
+<h3>WAT is Responsive Web Design!?</h3>
+
+<p>Responsive Web Design (RWD) 從字面上看來是指「會依環境而反應的網頁設計」(Web design that responds to the environment)。這個UX議題最近愈來愈廣泛地被討論，其中也包含<a href="https://speakerdeck.com/u/kneath/p/responsive-web-design-from-the-future">許多不同面向</a>，
+不過最基本也最常提到的一項，還是要讓網頁在不同螢幕大小、不同裝置類型、橫向或縱向切換時，能有相對應的顯示方式。</p>
+
+<p>要做到這功能，除了自己用<a href="http://www.w3.org/TR/css3-mediaqueries/">CSS3的media query</a>硬刻以外，講者也推薦了一些好用的現成工具，如<a href="http://www.initializr.com/">Initialzr</a>與Twitter的<a href="http://twitter.github.com/bootstrap/">bootstrap</a>等等。另外也秀了一個經典的responsive + fluid範例：<a href="http://goldengridsystem.com/">Golden Grid System</a>，裡面提供以網格為基礎的許多responsive設計細節（看了一下..有點難懂囧）</p>
+
+<h2>HTML5 JavaScript APIs</h2>
+
+<ul>
+<li>講者：Will保哥</li>
+<li>部落格：<a href="http://blog.miniasp.com/">The Will Will Web</a></li>
+<li>FB粉絲團：<a href="http://www.facebook.com/will.fans">Will 保哥的技術交流中心</a></li>
+</ul>
+
+
+<p>中場休息吃吃喝喝閒聊過後，接下來這個主題的範圍就更廣了，保哥即將為我們介紹HTML5所有新標準還有對應的JS寫法！</p>
+
+<p>可惜的是投影片似乎還沒公開，不過<a href="http://www.microsoft.com/taiwan/events/learn/?id=6d9b008a0aa5">保哥在微軟大拜拜的講題</a>中有一些類似的內容！
+（<a href="http://content3.catalog.video.msn.com/e2/ds/b29005d2-4459-42d4-9b80-7af66875bf50.mp4">直接下載影片</a>）</p>
+
+<p>以下是我的零星小筆記：</p>
+
+<h3>async</h3>
+
+<p>以前的script tag就可以使用<a href="http://www.w3schools.com/tags/att_script_defer.asp">defer</a>的屬性，讓頁面載入完成之後才執行script tag內的code：</p>
+
+<pre><code>&lt;script src...
+&lt;script defer src...
+</code></pre>
+
+<p>現在多了新的<a href="http://www.w3schools.com/html5/att_script_async.asp">async</a>屬性。因為預設瀏覽器載入、執行script tag的行為是會block住整個頁面載入的process；
+但套用了async之後，script tag載入就會變成非同步，不會阻擋畫面的載入。</p>
+
+<pre><code>&lt;script async...
+&lt;script async defer ...
+</code></pre>
+
+<p><a href="http://ie.microsoft.com/testdrive/Performance/AsyncScripts/Default.html">async的範例(微軟網站)</a>
+在第一個範例中，可以很清楚的看出當欲載入的JS檔過大時使用async屬性的好處。
+第二個範例是示範在JS裡面生出來的script tag（範例是動態生成外部script tag來顯示圖片）。在每個script在載入時間不同的情況下，原本JS執行是非同步的特性會造成他呈現的圖片順序無法控制；如果在這時候把async屬性設成false，script才會乖乖的一個接一個載入。</p>
+
+<h3>Sandbox</h3>
+
+<pre><code>&lt;iframe sandbox="allow-forms allow-same-origin" ...
+</code></pre>
+
+<p><del>如果你有跟IE簽下契約成為XSS少女</del>...
+阿不是啦，是說例如我們在部落格裡面常常會有許多的iframe（你的初音時鐘還有噗浪徽章啥的），
+這些iframe常常成為XSS攻擊的隱患。
+如果將iframe設定sandbox沙盒模式屬性，iframe裡面的網頁就會被視為cross-domain且無法執行script、plugin、form等等行為。當然如果要允許其中某些行為也是都可以設定的，如上面範例就可以允許iframe裡的form submit且不會強制當常cross-domain。</p>
+
+<p><a href="http://ie.microsoft.com/testdrive/HTML5/sandbox/Default.html">sandbox範例(微軟網站)</a></p>
+
+<h3>離線WebApp: Application Cache</h3>
+
+<pre><code>&lt;html manifest="clock.appcache"
+
+mime: text-cache-manifest
+</code></pre>
+
+<p>這部分講者分享了許多他自己使用這個離線快取實作的經驗，還有許多的悲劇跟實務上的大陷阱。
+不過我...我...那時候聽得太入神忘了做筆記了囧，等有研究到這塊應該會想起來，到時候再補上吧！（喂喂喂來人阿把他帶走）</p>
+
+<h3>Web Storage: local storage + session storage</h3>
+
+<p>當我們要在用戶端存資料時，通常會想到使用cookie。
+但它有些限制：每個domain最多300個、最大4K、效能不彰、無法在client區分不同視窗等等。
+Web storage克服了以上的cookie做不到的事；
+另外在安全性上，web storage的內容server side是抓不到的。
+API中提供以下兩種類型的web storage：
+*   sessionStorage：同域名下、在同一視窗存取資料
+*   localStorage：跨視窗存取資料</p>
+
+<p>不過Web Storage還是有一些限制如：W3C建議不超過5MB、只能存字串等等。</p>
+
+<h3>Web DB</h3>
+
+<p>W3C放棄了SQLite規格，之後會改往IndexedDB發展。
+Indexed DB：key是字串，value可以是object
+<a href="http://www.html5rocks.com/en/tutorials/indexeddb/todo/">使用Web DB實作的TODO List範例</a></p>
+
+<h3>Geolocation</h3>
+
+<p>地理位置的API不是在window下，而是在navigator下。有兩個主要功能：<br/>
+1.  取得當前座標資訊<br/>
+2.  持續追蹤座標資訊</p>
+
+<p><a href="http://html5demos.com/geo/">DEMO</a></p>
+
+<h3>Web Audio</h3>
+
+<p><img src="http://www.html5audio.org/item_images/plucked-de.png" alt="HTML5 Audio Editor" />
+講者示範了一個令人大為驚豔的作品：<a href="http://plucked.de">html5 audio editor</a>。
+這個web app竟然在網頁上實現了一個混音軟體，而且還是學生的作品！
+（<a href="http://plucked.de">網址</a>、<a href="https://github.com/plucked/html5-audio-editor">Github上的原始碼</a>）</p>
+
+<h2>Ending</h2>
+
+<p>快樂的時光總是特別快，因為場地時間限制的關係，趴踢還是得散場Q_Q。
+但講了那麼多，實際上還講不到一半的投影片內容（驚）！
+話說以現在Web的天下大勢可說是瞬息萬變，即使是大神如估狗、巨人如M$，也是都看不準的。
+若之後有機會聽到完整版，想必又會有許許多多不同的梗、不同的感受吧！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Node.JS Hsinchu Party 2012/06/30]]></title>
+    <link href="http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/"/>
+    <updated>2012-07-01T20:50:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30</id>
+    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/zFjtc.png" alt="" /></p>
+
+<p>這次Node.JS Hsinchu Party，除了有<a href="http://blog.jackbean.tw">JackBean</a>提供的免費場地、Nausca大大熱情贊助的飲料外，
+還有大家期待已久的、一樣是由<a href="http://storiii.com/">storiii</a>的Yusen大大來分享的兩個主題：<a href="https://github.com/visionmedia/ejs#readme">EJS</a>與<a href="http://en.wikipedia.org/wiki/Y_Combinator#Y_combinator">Y-combinator</a>。</p>
+
+<!--more-->
+
+
+<h2><a href="https://github.com/visionmedia/ejs#readme">EJS</a></h2>
+
+<p><a href="https://github.com/visionmedia/ejs#readme">EJS</a>是一個以JavaScript實作的Template Engine，基本用法跟ASP、JSP的tag library很類似：</p>
+
+<pre><code>&lt;% if(user.name) {%&gt;
+    &lt;h2&gt;&lt;%= user.name %&gt;&lt;/h2&gt;
+&lt;% } %&gt;
+</code></pre>
+
+<p>它可以直接在NODE以<a href="http://npmjs.org/">NPM</a>安裝使用（可以完美配合<a href="http://expressjs.com/">express.js</a>），也可以在broswer端呼叫使用。
+基本的介紹其實到這邊就講完了（咦!?）</p>
+
+<h3>Use case</h3>
+
+<p>EJS看似一個簡單的工具，要如何把它用到出神入化的境界呢？
+講者舉了像iPad上flipboard上可依內容做出的動態排版為例，
+提到了「設計師心目中的排版」與「工程師心目中的排版」觀念上的落差。</p>
+
+<p>若只討論單純的切割畫面，可以是一種程式先決的過程；
+而設計先決，是請設計師先決定怎樣叫好看的方塊：例如設計出大塊/中塊/小塊三種不同的方塊外觀，
+對應到重要性或關聯性為高、中、低的文章，
+然後再設計填充畫面的演算法。在範例中，講者將整個畫面切成grid，
+對應到程式上的二維陣列，再請設計師用小格子去排，
+把排版問題轉換成排積木問題：laout problem -> packing problem。
+最後，計算造成多少破洞，找出第一個符合標準的排版組合，進行layout。</p>
+
+<!--
+慧眼挑金eat people
+cinder: C++做到JS的感覺
+-->
+
+
+<h2>Y Combinator</h2>
+
+<p>第二個主題是大家耳熟能詳的Y-combinator。
+但要講的不是那間國外有名的創投，而是那個傳說中的functional programming技巧！
+（現場三個人裡面也是有兩個以為是要講創投，不過謎底揭曉後，大家興致更高昂了XD）</p>
+
+<p>YuSen大大用最經典的費伯納西遞迴函式開始進行推導，經過curry等技巧的一番最佳化之後，
+最後生成的是一個讓人看不懂的Y函式，還有分離出來費氏數列邏輯的函式。</p>
+
+<h3><a href="http://storiii.com/player.html">詳細推導過程請見YuSen大大的網站投影片</a></h3>
+
+<p>雖然Y combinator本身是經過層層推導出的結果，無法讓人一眼看懂，
+不過可以將它理解成「遞迴引擎」。只要將邏輯傳進去，就可以利用它生成一個單一參數的遞迴函式。
+這樣做的優點是可以減少撰寫遞迴函式犯錯的機會；另外更實用的，
+我們可以透過改善Y遞迴函式引擎，讓所有使用它的函式得到加速的效果。</p>
+
+<p>在投影片中Memorized Y的範例，藉由將Y導入快取機制來避開重複運算，達到神級的效能增益：
+加速前<code>fib(50)</code>要耗時520秒；使用加速後的<code>fibM()</code>後，執行速度快到無法以毫秒單位估計，
+直到‵fibM(1000)`才終於花了1毫秒，但是此時計算出的數值已經大到超越JS提供的精準度了！</p>
+
+<!--
+functor
+functional composition?
+-->
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2012 Event Log]]></title>
+    <link href="http://df1.github.com/blog/2012/06/21/2012-event-log/"/>
+    <updated>2012-06-21T20:50:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/06/21/2012-event-log</id>
+    <content type="html"><![CDATA[<p>{%img http://i.imgur.com/Gq3Gp.png %}</p>
+
+<p>This post is an information/note aggregation from all the events that I have joined in 2012.</p>
+
+<!--more-->
+
+
+<h1>April 2012</h1>
+
+<h2><a href="http://osdc.tw">OSDC.TW 2012</a></h2>
+
+<ul>
+<li>Date: 2012/04/14~2012/04/15</li>
+<li>Location: 中研院人社館</li>
+<li><a href="/blog/2012/04/17/osdc-2012-impressions/">My blog post</a></li>
+</ul>
+
+
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/vuaRA/embed"></iframe>
+
+
+<h2>JavaScript.tw <a href="http://registrano.com/events/jstw-tc-20120428">JS Group 台中場</a></h2>
+
+<ul>
+<li>Date: 2012/04/28</li>
+<li>Location: 永慶房屋會議室</li>
+</ul>
+
+
+<h1>May 2012</h1>
+
+<h2><a href="http://jsdc.tw/2012/">JSDC.TW 2012</a></h2>
+
+<ul>
+<li>志工 - 紀錄組 (會前會2012/05/06、2012/05/18)</li>
+<li>Date: 2012/05/19 (Sat)</li>
+<li>Location: 中研院人社館</li>
+<li><a href="/blog/2012/05/29/jsdc-gaia-keynote-transcript/">My blog post</a></li>
+</ul>
+
+
+<h2>Mozilla Taiwan <a href="http://registrano.com/events/mozilla-addon-workshop">Firefox Add-on 附加元件入門班</a></h2>
+
+<ul>
+<li>Date: 2012/05/20 10:00 ~ 05/20 13:00</li>
+<li><a href="http://littleb.tc/slides/2012/mozilla-tw/addon-sdk.html">Slide</a></li>
+<li><a href="http://blog.mozilla.com.tw/posts/528/firefox-%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6%E9%96%8B%E7%99%BC%E5%A4%A7%E8%BB%8D%EF%BC%8C%E5%8F%88%E5%A2%9E%E6%96%B0%E8%A1%80%EF%BC%81">Firefox附加元件開發大軍，又增新血</a></li>
+</ul>
+
+
+<h2>NodeJS Taiwan <a href="http://registrano.com/events/a490b5">Node.js Taiwan Party 新竹場</a></h2>
+
+<ul>
+<li>Date: 2012/05/26</li>
+<li>Location: Jack Bean 傑克豆豆</li>
+</ul>
+
+
+<h2>MozTW x Ubuntu-TW <a href="http://registrano.com/events/fxu12rp">Firefox x Ubuntu 12(.04) Release Party</a></h2>
+
+<ul>
+<li>Date: 2012/05/27</li>
+<li>My plurk <a href="http://www.plurk.com/p/ghi116">1</a> <a href="http://www.plurk.com/p/ghsykd">2</a><br/>
+{%img http://cdn.registrano.com/upload_images/8452/Ubuntu_x_Firefox_12<em>.04__Release_Party</em>-_Landscape_520.png 200 %}</li>
+<li><a href="https://etherpad.mozilla.org/furp-slide">Etherpad Note</a></li>
+</ul>
+
+
+<h1>June 2012</h1>
+
+<h2>JavaScript.tw <a href="http://registrano.com/events/jstw-tc-20120428">JS Group 台中場</a></h2>
+
+<ul>
+<li>Date: 2012/06/02</li>
+<li>Location: 永慶房屋會議室</li>
+</ul>
+
+
+<h2><a href="http://registrano.com/events/8c4b43">Fedora 17 發行派對 @ 台中</a></h2>
+
+<ul>
+<li>Date: 2012/06/03</li>
+<li>Location: 黑貓月亮咖啡館</li>
+<li><a href="https://docs.google.com/open?id=0B2o5fiqQwyn-Zjh4bkh2UU5aR0E">Fedora 17 Release Party Slide</a> <a href="http://www.slideshare.net/Chengchiatseng/fedora-17-release-party">slideshare</a>- 真正加</li>
+<li><a href="http://fedora.linux.org.tw/systemd/template.html">Systemd - Boot Faster</a> - WM</li>
+<li><a href="http://www.dedoimedo.com/computers/systemd-blame.html">Slow boot? Blame systemd!</a></li>
+</ul>
+
+
+<h2>PyHUG <a href="http://www.meetup.com/pythonhug/events/61065022/">June Meeting</a></h2>
+
+<ul>
+<li>Date: 2012/06/20</li>
+<li>Location: 清大創新育成中心115<br/>
+{%img http://photos1.meetupstatic.com/photos/event/5/8/0/e/global_76882542.jpeg %}</li>
+</ul>
+
+
+<h2>新竹碼農聚會<a href="http://registrano.com/events/c1c1cb">(Hsinchu Coding Serfs Meeting)</a></h2>
+
+<ul>
+<li>Date: 2012/06/21</li>
+<li>Location: Book11</li>
+<li><a href="http://expressjs.com/guide.html">Express</a></li>
+<li><a href="http://socket.io/">socket.io</a></li>
+<li><a href="http://www.mongoose.com/">mongoose</a></li>
+<li><a href="http://book.nodejs.tw/">Node.js 台灣社群協作電子書</a></li>
+<li><a href="http://nodejs.tw/post/24896137291/build-a-todo-list-using-express-node-js-taiwan-party">BUILD A TODO LIST USING EXPRESS</a></li>
+<li><a href="https://github.com/kanaka/websockify">websockify</a></li>
+<li><a href="http://derbyjs.com/">Derby</a></li>
+<li><a href="http://docs.meteor.com/#quickstart">Meteor</a></li>
+<li><a href="http://www.xapps.tw">APPS跨界交流協會</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[JSDC.TW Transcript: Building Mobile Devices with the Open Web ]]></title>
+    <link href="http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript/"/>
+    <updated>2012-05-29T22:33:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript</id>
+    <content type="html"><![CDATA[<p>{% img http://jsdc.tw/2012/img/logo.png %}</p>
+
+<p>Last week I worked at JSDC.TW 2012 as a volunteer. I was extremely exited about this since it was the first JavaScript conference in Taiwan! <a href="http://www.plurk.com/p/gflmfl">Here</a> is my brief summary during the entire conference, and also the preparation on the day before the conference.</p>
+
+<h3><a href="http://jsdc.tw/2012/Sessions">Full agenda with slides and videos</a></h3>
+
+<p>And here I'm gonna add caption for one of these video, which might be the hardest one to deal with. It's still in progress, and <strong>needs your help!</strong></p>
+
+<p>My current progress is right below, with most of them already synced into YouTube. If you can help me out, please contact me directly with DISQUS comment! Either transcripting, proofreading, or syncing are all appreciated! Thanks!</p>
+
+<h2>The Video</h2>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9_uTJ2iTovg?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<ul>
+<li>Speaker: Andreas Gal (R&amp;D Director of Mozilla)</li>
+<li>Session Topic: Building Mobile Devices with the Open Web</li>
+<li>Original Topic: Gaia: A modern smartphone user interface in HTML5 and JavaScript</li>
+</ul>
+
+
+<!--more-->
+
+
+<h2>Transcript (Done, need proofreading)</h2>
+
+<script src="https://gist.github.com/2836502.js?file=transcript.txt"></script>
+
+
+<h2>Synced Caption</h2>
+
+<script src="https://gist.github.com/2787823.js?file=captions_zh-TW.srt"></script>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OSDC.TW 2012: My Summary & Impressions]]></title>
+    <link href="http://df1.github.com/blog/2012/04/17/osdc-2012-impressions/"/>
+    <updated>2012-04-17T23:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/17/osdc-2012-impressions</id>
+    <content type="html"><![CDATA[<p>{%img /attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png %}
+Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn't much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got in each session. (I will fill them up if I have time)</p>
+
+<h1>Update: Videos and slides of each session <a href="http://osdc.tw/schedule#day1">RELEASED</a>!</h1>
+
+<div class="gallery">
+<img src="http://i.imgur.com/ITjm1.jpg">
+<img src="http://i.imgur.com/2QN4w.jpg">
+<img src="http://i.imgur.com/uS6se.jpg">
+</div>
+
+
+<!--more-->
+
+
+<div class="gallery" style="margin-top:0">
+<img src="http://i.imgur.com/95OOu.jpg">
+<img src="http://i.imgur.com/Wbmqy.jpg">
+<img src="http://i.imgur.com/JayZt.jpg">
+<img src="http://i.imgur.com/xRzBm.jpg">
+<img src="http://i.imgur.com/Tra7g.jpg">
+<img src="http://i.imgur.com/bcfnF.jpg">
+<img src="http://i.imgur.com/Jtvko.jpg">
+<img src="http://i.imgur.com/5xZdc.jpg">
+<img src="http://i.imgur.com/JooSn.jpg">
+<img src="http://i.imgur.com/ShhYW.jpg">
+<img src="http://i.imgur.com/tsK6L.jpg">
+<img src="http://i.imgur.com/B9VBK.jpg">
+<img src="http://i.imgur.com/L6kac.jpg">
+<img src="http://i.imgur.com/Lrrv7.jpg">
+<img src="http://i.imgur.com/QFqSy.jpg">
+<img src="http://i.imgur.com/IxzRN.jpg">
+<img src="http://i.imgur.com/0jjry.jpg">
+<img src="http://i.imgur.com/mFXtW.jpg">
+<img src="http://i.imgur.com/unRfn.jpg">
+<img src="http://i.imgur.com/lHIl0.jpg">
+<img src="http://i.imgur.com/27wuM.png">
+<img src="http://i.imgur.com/c2Nck.jpg">
+<img src="http://i.imgur.com/bozDW.jpg">
+<img src="http://i.imgur.com/RwKcs.jpg">
+<img src="http://i.imgur.com/VehJp.jpg">
+<img src="http://i.imgur.com/mwAtU.jpg">
+<img src="http://i.imgur.com/LmsJP.jpg">
+<img src="http://i.imgur.com/4y1qL.jpg">
+<img src="http://i.imgur.com/4Jepm.jpg">
+<img src="http://i.imgur.com/hjybH.jpg">
+<img src="http://i.imgur.com/BOZ2x.jpg">
+<img src="http://i.imgur.com/WHYoG.jpg">
+<img src="http://i.imgur.com/yUFWV.jpg">
+<img src="http://i.imgur.com/etB9C.jpg">
+<img src="http://i.imgur.com/eLC3S.jpg">
+<img src="http://i.imgur.com/fvIw0.jpg">
+<img src="http://i.imgur.com/2i9vD.jpg">
+<img src="http://i.imgur.com/5vynj.jpg">
+<img src="http://i.imgur.com/U3JDo.jpg">
+</div>
+
+
+<h1>Day 1</h1>
+
+<p>When I took highway bus and made to transit to Nangang, it was almost 9:30 AM. I felt regretful since the session opened at 9, and since the truth that I did not plan it well. Then I took another 15 minutes walking, which Google Map told me to do so, to Sinica Academia. Anyway, it was a deadly cloudy morning with regrets for missing the first keynote speech.</p>
+
+<p>After taking the attendee's badge and a crappy nonwoven Samsung bag from the multi-threaded registration desks, I managed to enter the main conference hall. The second session was just about to begin.</p>
+
+<h2>Keynote: Mozilla B2G: Breaking Mobile Monopolies</h2>
+
+<ul>
+<li>Speaker: Dr. 宮力 (MOZILLA)</li>
+</ul>
+
+
+<p>It was the session I missed. What's worse, there wasn't much discussion on IRC for me to catch up, so I could only took a glance on the slide.
+It looks like that this talk was more of a general overview about what Mizilla's current endaevour than a technical talk. The summary was wrapped-up in the end of slide:</p>
+
+<pre><code>*   Mozilla is committed to keep the mobile web free and open as it did to the desktop web
+*   Join the project and/or partner with Mozilla to break the looming mobile monopoly!
+*   Mozilla Taiwan is a key driver for B2G, and they are hiring!
+</code></pre>
+
+<h2>Keynote: Cocktails -- Shaken, Not Stirred</h2>
+
+<ul>
+<li>Speaker: Eric Chuang (YAHOO)</li>
+</ul>
+
+
+<p>Yahoo has been yelling about their Mojito, Cocktails, and Manhattan for months (in chinese: 只聞樓梯響, only hear sound from staircase but no one comes), and finally, they are being released and open-source'd. This talk is a introduction and slight demonstration about their Mojito MVC framework based on node.js, and the Cocktails idea of an ecosystem mixing HTML5, node.js, CSS3, YUI3.</p>
+
+<h3>Links</h3>
+
+<ul>
+<li><a href="http://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/">Yahoo!’s Mojito is Now Open Source</a></li>
+</ul>
+
+
+<h2>Keynote: Samsung S Pen SDK</h2>
+
+<ul>
+<li>Chinese Topic: 從手寫筆、滑掌截圖、陀螺儀等應用看Android應用程式開發</li>
+<li>Speaker: 史憲軍 (SAMSUNG)</li>
+</ul>
+
+
+<p>I was impressed by the awkwardness when someone got Samaung's face slapped by asking their open-source plan during the Q&amp;A time lol. Okay I still hope these, how to say, legacy enterprices, to somehow dedicate their effort for the entire technology community to grow. But I did not think they ought to be criticized that way though. At least they sponsored, man. Anyway it's just hilarious LOL</p>
+
+<h2>Keynote: Lessons Learned from "Taiwan Weather" iPhone App Development</h2>
+
+<ul>
+<li>Chinese Topic: 談手機 Internet Client 開發：我從「台灣天氣」學到的事情</li>
+<li>Speaker: zonble (KKBOX)</li>
+</ul>
+
+
+<h2>DIY Open Source Self-Propelled Artillery</h2>
+
+<ul>
+<li>Chinese Topic: DIY Open Source 無人自走砲</li>
+<li>Speaker: mikimoto</li>
+</ul>
+
+
+<h2>Let's Enjoy NodeJS -- All Development in JavaScript</h2>
+
+<ul>
+<li>Speaker: fred chien</li>
+</ul>
+
+
+<h2>EtherCalc: A Real-Time Collaborated Spreadsheet</h2>
+
+<ul>
+<li>Chinese Topic: EtherCalc: 多人即時協作試算表</li>
+<li>Speaker: audrey</li>
+</ul>
+
+
+<p>It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who's known as one of the "10  greats of Taiwanese computing." You should check <a href="http://www.youtube.com/watch?v=osJxSgbJuzY">the video</a> out, seriously!</p>
+
+<h2>Apps on HTML5 and the new WebAPIs</h2>
+
+<ul>
+<li>Speaker: Thinker (Mozilla)</li>
+</ul>
+
+
+<p>This session was an introduction and live demonstration to B2G's Web API. The entire B2G development model is very much like the development of a web-based browser extension. After that talk, so many people rushed into the booth of Mozilla, and unfortunately, I was at the booth too and left an evidence in their press photo. lol</p>
+
+<p>{%img /attachments/2012-04-16-osdc-2012-impressions/me.png  "Le me, and the Mozilla website"%}</p>
+
+<h2>Automated trading toolkit</h2>
+
+<ul>
+<li>Speaker: clkao</li>
+</ul>
+
+
+<p>He introduced his Perl-based open-source trading toolkit called TradeSpring, enabling us to define the rule for our investments. Well though I have no knowledge to the stock stuff yet, I was still impressed and will give it a try whenever I am entering this area. "If you don't have time to make up your strategy, don't do investment," said the speaker.</p>
+
+<h3>Links</h3>
+
+<ul>
+<li><a href="https://github.com/tradespring/TradeSpring">TradeSpring</a></li>
+</ul>
+
+
+<h1>Day 2</h1>
+
+<h2>Rails 3.1 : Asset Pipeline</h2>
+
+<ul>
+<li>Speaker: 小蟹</li>
+</ul>
+
+
+<h2>Dependency Management -- Taking Ruby Development for Example</h2>
+
+<ul>
+<li>Speaker: yc ling</li>
+</ul>
+
+
+<h2>Functional Programming and What It Has Taught Me</h2>
+
+<ul>
+<li>Chinese Topic: 那些 Functional Programming 教我的事</li>
+<li>Speaker: ihower</li>
+</ul>
+
+
+<h2>JavaScript Essential Patterns</h2>
+
+<ul>
+<li>Speaker: Othree</li>
+</ul>
+
+
+<h2>Keynote: Good collaboration in open source projects</h2>
+
+<ul>
+<li>Speaker: Allison Randal</li>
+</ul>
+
+
+<p>This was a talk given by the goddess of open source community -- Allison, and made us open source programmers much happier. When Allison was speaking, Audrey was doing a real-time transcripting in IRC!! Here is the hidden cam (by eddie Kao)</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/dQ6nK_Yz14Q?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Keynote: Pix Table, The ORM from PIXNET</h2>
+
+<ul>
+<li>Chinese Topic: PIXNET 的 ORM，Pix Table</li>
+<li>Speaker: ronnywang (PIXNET)</li>
+</ul>
+
+
+<p>Ronnywang is former moderator of PTT's Joke forum! This topic was about how they implement their own ORM in PHP.</p>
+
+<h2>Embedded Virtualization in Daily Life</h2>
+
+<ul>
+<li>Speaker: jserv (0xlab)</li>
+</ul>
+
+
+<p>Frankly speaking, I am too foreign to embedded system so I could barely understand those details. But it really sounded very interesting and lots of fun lol</p>
+
+<h2>Lightning Talks</h2>
+
+<ul>
+<li><a href="http://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="http://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)</li>
+<li><a href="http://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore</li>
+<li><a href="http://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥</li>
+<li><a href="http://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="http://www.plurk.com/p/g51aoe">Slide</a>)</li>
+<li><a href="http://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT</li>
+<li><a href="http://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen</li>
+<li><a href="http://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a></li>
+<li><a href="">JVM as the universal Language runtime</a> - Sunny Chan</li>
+<li><a href="http://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</li>
+</ul>
+
+
+<h1>Impressions in General</h1>
+
+<p>This conference was held in the Academy of Anthropology &amp; Sociology (or whatever lol), whose building and facilities are so brand new. Each seat is with embedded power/network plug, erecting(?) microphone, and vote buttons. Their international conference hall, where all keynote speeches took place, is an ideal place indeed for developer events like this. We could listen to the speech and do live coding along with the speaker very well too. As I observed, the coverage of MacBook is over 70%. (I'd really want to buy one too if only I can afford orz.) Besides, the screen of each computer was almost consentient! Coding window, IRC chatting window, Plurk (I wonder why so many Taiwan developers uses this, I can almost identify them by their Plurk avatar on theit screen lol), few Facebooks, and nothing else! It was so AMAZING to see so many "screennames (in chinese: 大大)" from the internet, who may be my idols or <del>my "cyber-stalkees"</del> the ones I followed on Twitter/Plurk for long, to gather and sit around me! The only thing that I would complain was the crappy Wi-Fi that was unable to handle simultaneous trafffic of 500 people. I brought my wire next day and it was so much better then orz. Btw, it's my first chance to show off a <code>140.109.*</code> IP!</p>
+
+<p>{%img /attachments/2012-04-16-osdc-2012-impressions/seat.jpg 300 "The seat table filled by attendees, I think we should try EtherCalc next time XD" %}</p>
+
+<p>Outside the conference hall/rooms, there were 2 extremely long bars of de-luxe foods and drinks in 2 hallways respectively, and booths from many sponsors: Samsung, KKBOX, Pixnet, Trend Micro, Mozilla, Cookpad, Etu, OpenFoundry... etc. It's just all the same, trade your namecards or fill questionnaire for those gifts. The only difference is that, those head-hunting questionnaires asked for a list of your ever-contributed open projects, and your Github account. Github account dude!! lol</p>
+
+<p>{%img /attachments/2012-04-16-osdc-2012-impressions/trophy.JPG 300 "All my trophies" %}</p>
+
+<p>Actually, it was my very first experience to an open-source community event, and it should be the doorstep for my commencement / commitment to this fascinating area. Though it's late, it will never be too late, hopefully :p</p>
+
+<p>Open source rocks! COSCUP, I'm coming!</p>
+
+<h2>Reference Links</h2>
+
+<ul>
+<li><a href="http://osdc.tw">OSDC.TW 2012</a></li>
+<li><a href="https://gist.github.com/2393705">IRC Log</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

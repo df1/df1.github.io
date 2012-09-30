@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sencha Designer | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/sencha-designer/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-09-30T13:34:37+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Integrate Ext Designer With Java Web Project In Eclipse]]></title>
+    <link href="http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/"/>
+    <updated>2012-02-16T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse</id>
+    <content type="html"><![CDATA[<p>The mysterious <a href="http://www.sencha.com/products/designer/" target="_blank">Sencha Designer </a>2.0 announced in last year's SenchaCon has finally <a href="http://www.sencha.com/blog/sencha-designer-2-beta-announcement/" target="_blank">released the Beta version</a> last week (without trial period limitation!) Besides the Sencha Touch support, which has been their focus, what really attracts me is it finally supports ExtJS 4 MVC, and in-line event definition.</p>
+
+<br />
+
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s640/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">M, V, C, and S (Store)</td></tr>
+</tbody></table>
+
+
+<p>For this time, I'm gonna share how I integrated Ext Designer to my Eclipse web project in the 1.2.2 era.<br /></p>
+
+<br />
+
+
+<h2>Ext Designer hands-on</h2>
+
+<p>This video from Sencha Learning covers all its features in a nutshell.<br /></p>
+
+<!--more-->
+
+
+<iframe allowfullscreen="" frameborder="0" height="225" mozallowfullscreen="" src="http://player.vimeo.com/video/17921733?title=0&amp;byline=0&amp;portrait=0&amp;color=4CC208" webkitallowfullscreen="" width="400"></iframe>
+
+
+<br />
+
+
+<p><a href="http://vimeo.com/17921733">SenchaCon 2010: Advanced Techniques for Ext Designer</a> from <a href="http://vimeo.com/sencha">Sencha</a>.<br /></p>
+
+<br />
+
+
+<h1>Eclipse Integration</h1>
+
+<hr />
+
+<p>Sorry for the sparse text content. I will give more comments later on.<br /></p>
+
+<br />
+
+
+<h2>
+<span style="font-size: large;">
+
+Code Organization</span></h2>
+
+
+<table style="background:white;"><tbody>
+<tr><td style="vertical-align: top;">&nbsp;Recommended way with ExtJS 4 &nbsp;MVC architecture<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="400" src="http://4.bp.blogspot.com/-QkWQrN0RY4Q/Tzviw7k01LI/AAAAAAAABZ4/0EYodH8mEn0/s400/%E5%9C%96%E7%89%871.png" width="265" /></div>
+<div>
+<br /></div>
+</td><td>VS</td><td style="vertical-align: top;">&nbsp;&nbsp;My way with Ext Designer integrated to entire project<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="400" src="http://4.bp.blogspot.com/-yb6xljyfnnw/Tzviyi9J-vI/AAAAAAAABaA/lwNK-BzC2C8/s400/%25E5%259C%2596%25E7%2589%25872.png" width="233" /></div>
+<br /></td></tr>
+</tbody></table>
+
+
+<h2>
+<span style="font-size: large;">
+Project Settings in Designer</span></h2>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="185" src="http://3.bp.blogspot.com/-XOJI49R0plk/TzvjLizOFnI/AAAAAAAABaQ/_SqsnBmCE7M/s320/%25E5%259C%2596%25E7%2589%25874.png" width="320" /></div>
+
+
+<div>
+<h2>
+
+<span style="font-size: large;">
+
+Project Structure in Eclipse</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="398" src="http://4.bp.blogspot.com/-7caurFKVcGM/TzvjNGGlNnI/AAAAAAAABaY/N6R3cLRZHzw/s640/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D1.png" width="640" /></div>
+<br />
+<h2>
+
+<span style="font-size: large;">
+In case of accidental tragedies…</span></h2>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><img border="0" height="262" src="http://1.bp.blogspot.com/-4Db_YUl385U/TzvdS5mFMaI/AAAAAAAABZw/URYCLc7XFoM/s320/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="320" /></td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><span style="font-size: small; text-align: -webkit-auto;">Eclipse asks you if you want to modify read-only files. Just say no.</span>
+</td></tr>
+</tbody></table>
+<br />
+<h2>
+
+<span style="font-size: large;">
+The HTML</span></h2>
+<h2>
+<img border="0" width="400" src="http://4.bp.blogspot.com/-hOFqIkTWuV4/Tzvko2-a_PI/AAAAAAAABag/53ksQ-X5gD4/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></h2>
+<br />
+<h2>
+
+<span style="font-size: large;">
+
+The designer.js</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://2.bp.blogspot.com/-TbaHWwi4wC4/TzvlTceXs2I/AAAAAAAABao/HorkoNvoeys/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<br />
+<h2>
+
+
+<span style="font-size: large;">
+
+The Implementation</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://3.bp.blogspot.com/-pFRDeiJtD5w/Tzvlnu44T7I/AAAAAAAABaw/3acOgGijilU/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<br />
+<h2>
+<span style="font-size: large;">
+
+Debugging</span></h2>
+<br />
+Use Chrome’s debugging tool to debug ExtJS 4 dynamic-loaded classes<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://4.bp.blogspot.com/-OgBbM-VqceI/Tzvl2L5zZ1I/AAAAAAAABa4/eizszoym99I/s1600/%E5%9C%96%E7%89%875.png" /></div>
+<div>
+<br /></div>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

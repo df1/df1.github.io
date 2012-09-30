@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: CSS | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/css/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-09-30T13:34:37+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SharePoint 2010 Branding 十訣]]></title>
+    <link href="http://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-branding/"/>
+    <updated>2012-03-04T13:17:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-branding</id>
+    <content type="html"><![CDATA[<p>最近突然接到一個消息：我們部門將為另外一個處（division）開設一系列的SharePoint Sharing課程（有點拗口）。而我負責的兩個主題其中一個是關於UI Design &amp; Branding，於是便寫了這篇文節錄一些我比較有心得的部分。<br /></p>
+
+<br />
+
+
+<p>SharePoint 2010這東西，是大約去年的五月，我被徵召當UI救火隊時候開始碰的。說實在的，在這之前對於微軟的企業端solution、CMS、還有ASP.NET都完全沒有任何的接觸；不過也是因為這個task，我才算真正進入CSS以及jQuery的大門（算是一個蠻神奇的進入點orz）。<br /></p>
+
+<br />
+
+
+<p>首先簡介一下我們系統。它本身是跨公司內外的網站，但並不是一個內容取向的網站；而是主要由一個個partner-collaboration性質的AP（在這邊當然是web part形式）所構成
+－－<strike>看起來純粹是因為政治及某些人的KPI等等不關我事的因素而採用此solution</strike>。先說說我負責的範圍：<br /></p>
+
+<br />
+
+
+<ol>
+<li><b>整體UI設計及Branding：</b>意思就是把它變成完全不像SharePoint，並且可以讓客戶留下好印象、每個畫面截圖都可以拿來發press release的站。</li>
+<li><b>首頁中所有功能：</b>跟user談了首頁layout、carousel（圖文輪播）、登入框、還有額外的佈告系統。</li>
+<li><b>實作其中一個AP：</b>使用ASP.NET加上DevExpress套件的報表/圖表系統。</li>
+</ol>
+
+
+<br />
+
+
+<br />
+
+
+<p>而今天要講的就是看似最簡單，但實際上最難上手的UI這部分。當時是處於前一個assignee開天窗，進度正火燒屁股的狀態。首先，我們整個UI救火團隊一共有3人：我老闆（負責coordinate）、我（萬用programmer）、還有從其他部門借調來part-time support的美工（也是剛工作不久的）。以下是我們大略的工作流程（沒錯幾乎就是waterfall，或是你可以叫他always-sprint的一人scrum）：<br /></p>
+
+<!--more-->
+
+
+<br />
+
+
+<ul>
+<li>Identify stakeholder（老闆）、Skill pickup （我，持續進行貫串全文）</li>
+<li>Benchmarking：survey所有類似特性的網站
+（我）&nbsp;並拿出來討論（三人）</li>
+<li>談需求（三人、user），設計wireframe（我、美）</li>
+<li>設計多個design comps <span style="font-size: xx-small;">（
+純圖片的整體設計稿）</span>（美）</li>
+<li>User決定後，做出切好的HTML單一網頁及CSS
+（美）</li>
+<li>開始沒日沒夜的master page實作及fine-tune
+&nbsp;（我）</li>
+<li>開始製作首頁功能（我）<br /><br />主體大致OK後，開始AP端部分的工作（extremely lousy）</li>
+<li>制定AP的UI/Glossary Guideline及audit機制 （三人、AP團隊）</li>
+<li>DevExpress的CSS overriding （我、美）</li>
+<li>fine-tune再
+fine-tune（我）<br /><br />接下來是最後</li>
+<li>整合之後的master page再美化：如頁面對齊、stretching、footer等JS功能（我）</li>
+<li>Deployment（我）</li>
+</ul>
+
+
+<p>其中，skill pickup無疑是最重要的部分。至少需要指派一個人來對整個架構流程進行全盤的瞭解：對於各種需求，必須知道哪些可以使用OOTB （out of the box，指原本package就有提供的功能）、哪些是需要自己慢慢刻、要如何刻等等；在真正開發過程中也須由他來扮演SD lead以及其他team的consult對象。在此我先來推一本我當初唯一的參考書：<br /></p>
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-3wYSwPCtbL4/T1NOjxjsL1I/AAAAAAAABgY/S9gQ3kP3Jto/s1600/%E5%9C%96%E7%89%8710.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="320" src="http://4.bp.blogspot.com/-3wYSwPCtbL4/T1NOjxjsL1I/AAAAAAAABgY/S9gQ3kP3Jto/s320/%E5%9C%96%E7%89%8710.png" width="253" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">書名：Professional SharePoint 2010 Branding and User Interface Design<br />
+作者：Randy Drisgill等<br />
+出版商：Wrox</td></tr>
+</tbody></table>
+
+
+<p>（P.S. 這本書看著看著會很想吃鬆餅XD）<br /></p>
+
+<br />
+
+
+<p>說十訣什麼的其實有點自以為是，不過以下這些都是綜合許多專家還有我的經驗整理出來的一些小tip，希望能減輕生master page時的痛苦。<br /></p>
+
+<br />
+
+
+<h2>Tip #1：導覽列（Navigation）</h2>
+
+
+<p>在SharePoint2007時代，上方的navigation是以巢狀表格方式render；到了2010，預設是使用&lt;ul&gt;&lt;li&gt;的形式（UseSimpleRendering=true情況下）。這使得CSS的撰寫簡單了許多。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-lLEnQbR3QrI/T1NRZDdgxdI/AAAAAAAABgg/grgW4iqvuX0/s1600/%E5%9C%96%E7%89%871.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-lLEnQbR3QrI/T1NRZDdgxdI/AAAAAAAABgg/grgW4iqvuX0/s1600/%E5%9C%96%E7%89%871.png" /></a></div>
+
+
+<br />
+
+
+<h2>Tip #2：彈出式選單</h2>
+
+
+<p>在master page可以用MaximumDynamicDisplayLevels定義最大的彈出層數。在每個sharepoint的site裡面可以個別設定navigation的形式，另外也有許多內建的sitemap可以選擇。在我們user的需求中，他們不使用彈出的形式；而是希望將所有子節點已樹狀形式攤平顯示，而這只要override少許CSS就可以搞定。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://4.bp.blogspot.com/-D31iEE60sUQ/T1NE27YgohI/AAAAAAAABfY/zY9LC0dGw6o/s1600/%E5%9C%96%E7%89%872.png" width="500" /></div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+
+
+<h2>Tip #3：不要再去發明輪子</h2>
+
+
+<p>可以使用微軟或許多前輩提供的starter master page開始做branding。裡面有非常詳盡的註解，可以讓你了解每個區段到你是做啥用的。<br /></p>
+
+<ul>
+<li>Microsoft’s Starter master page: &nbsp;http://code.msdn.microsoft.com/odcSP14StarterMaster. This Starter master page was built for SharePoint &nbsp;Foundation 2010, &nbsp;SharePoint Server 2010</li>
+<li>Randy Drisgill’s Starter master pages: &nbsp;（http://startermasterpages.codeplex.com）&nbsp;</li>
+<li>Heather's Base Master Page: http://www.heathersolomon.com/downloads/heathersbasemasterpage.zip</li>
+</ul>
+
+
+<br />
+
+
+<div>
+<h2>Tip #4：不要亂砍master page的區段</h2>
+</div>
+
+
+<div>
+就算是不需要用的元件，也不要貿然將它直接砍掉，否則可能會造成整個站壞掉的悲劇（還是有辦法復原就是了）。可以將用不到的區段移到下圖的<span style="font-family: 'Courier New';">&lt;</span><span style="font-family: 'Courier New';">asp:Panel</span><span style="font-family: 'Courier New';">
+</span><span style="font-family: 'Courier New';">runat</span><span style="font-family: 'Courier New';">=“server”
+visible=“false”&gt;</span>區塊裡面。</div>
+
+
+<br />
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-Y5U7PTf5aGs/T1NE5ZO1j9I/AAAAAAAABfg/1TUtoIETuOs/s1600/%E5%9C%96%E7%89%873.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-Y5U7PTf5aGs/T1NE5ZO1j9I/AAAAAAAABfg/1TUtoIETuOs/s1600/%E5%9C%96%E7%89%873.png" /></a></div>
+
+
+<br />
+
+
+<h2>Tip #5：Page Layouts</h2>
+
+
+<p>如果你用的是publishing site（我們只在布告欄功能有用到），記得設定一個預設的layout，並注意是否有設好<b>可用layout清單</b>。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="http://1.bp.blogspot.com/-qSVsKC9H-C8/T1NE6UWZsjI/AAAAAAAABfo/3C-kaU0Xcgg/s1600/%E5%9C%96%E7%89%874.png" width="500" /></div>
+
+
+<h2>Tip #6：參考欄位</h2>
+
+
+<p>很多東西可以用server-side control來減少maintain的effort。<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-dvCe8IZ_0XA/T1NE7nh8c5I/AAAAAAAABfw/CZ-AmAOZUPM/s1600/%E5%9C%96%E7%89%875.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-dvCe8IZ_0XA/T1NE7nh8c5I/AAAAAAAABfw/CZ-AmAOZUPM/s1600/%E5%9C%96%E7%89%875.png" /></a></div>
+
+
+<br />
+
+
+<h2>Tip #7：Web Part設計</h2>
+
+
+<p>儘量不要使用圓角設計<br />
+確定它們可以隨視窗放大縮小（這一句很短，但是可以想像工程非常大）<br /></p>
+
+<br />
+
+
+<h2>Tip #8：置中、延展</h2>
+
+
+<p>剛把master page做個雛型出來後雖然小有成就感，但是離<b>好看</b>可能還有一大段距離。其中最麻煩的就是每個頁面、每個user的螢幕大小都不一樣。<br />
+這是OOTB的置中方式：<br /></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-BK-tnGypq3k/T1NE9fSmZFI/AAAAAAAABf0/YmWefjew2os/s1600/%E5%9C%96%E7%89%876.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-BK-tnGypq3k/T1NE9fSmZFI/AAAAAAAABf0/YmWefjew2os/s1600/%E5%9C%96%E7%89%876.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+這是我在master page加上的script，目的是讓所有頁面、所有大小的螢幕上的footer都保持在最下面（僅供參考，裡面許多id是我的自己的DOM裡面定義的）<a href="http://1.bp.blogspot.com/-NzGQ14E8sEE/T1NE-AEICMI/AAAAAAAABf4/2hBubOsgKcs/s1600/%E5%9C%96%E7%89%877.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-NzGQ14E8sEE/T1NE-AEICMI/AAAAAAAABf4/2hBubOsgKcs/s1600/%E5%9C%96%E7%89%877.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+
+
+<h2>Tip #9：設成預設master page</h2>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+打勾的話， 此站台以下的所有子站master page都會被覆蓋為P.master。</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-bsxX9d-qSj8/T1NGZxii34I/AAAAAAAABgQ/p56N_3vYorI/s1600/%E5%9C%96%E7%89%879.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-bsxX9d-qSj8/T1NGZxii34I/AAAAAAAABgQ/p56N_3vYorI/s1600/%E5%9C%96%E7%89%879.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+注意到上圖的設定畫面並沒有套上我們設計的master page嗎？如果不想為了_layouts裡面一堆內建功能在另外設計一個master page的話，記得去站台設定將Master Page Setting for Application _Layouts&nbsp;Pages選項選No。</div>
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-HM61hWjzBXY/T1NYGROirzI/AAAAAAAABgo/DIfvBYhthWo/s1600/2012-03-04+19-37-37.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-HM61hWjzBXY/T1NYGROirzI/AAAAAAAABgo/DIfvBYhthWo/s1600/2012-03-04+19-37-37.png" /></a></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+
+
+<h2>Tip #10：部署</h2>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+因為我們的網站是一個大規模的對外站台，所有webpart程式碼都必須進SVN。上production時，deployment manager將根據deployment plan從SVN包裝wsp檔，透過指令上production。而我們的東西當然也不例外（想像一下，如果在上production時候，必須identify所有有改動的程式碼，然後用SharePoint Designer開啟UAT的站台，再將對應程式碼copy-paste到production，版本控管則由內建的document library機制紀錄之，這是何等的腦殘）。</div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+SharePoint Designer內部的所有東西也可以透過在Visual Studio的SharePoint Project形式包成wsp檔，在deploy時候會自動寫入對應資料夾。（要注意的是_layout裡面的資料無法使用此種方式部署，必須另尋它法）</div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+小結：雖然這個task距離我已經快要一年之遠，對於很多細節的印象跟許多數不清的怨言都已經開始模糊了，不過這整個過程對我來說算是相當寶貴且難忘的：我頭一次有了與美工cowork的機會，另外也讓我體會到enterprise端的龐大商機還有微軟對於這個市場所投注的心力。（附帶一提，我們部門有聘請微軟的consultant每周一天固定on-site support了大約半年之久，其一天的費用大約NT$30,000） =q=&nbsp;</div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+
+
+<div class="separator" style="clear: both; text-align: left;">
+參考資料：<a href="http://www.slideshare.net/cbpeters/making-sharepoint-look-good" target="_blank">Making SharePoint Look Good - Cory Peters</a></div>
+
+
+<br />
+
+]]></content>
+  </entry>
+  
+</feed>

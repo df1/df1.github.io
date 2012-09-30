@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Mozilla | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/mozilla/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-09-30T13:34:37+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[JSDC.TW Transcript: Building Mobile Devices with the Open Web ]]></title>
+    <link href="http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript/"/>
+    <updated>2012-05-29T22:33:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript</id>
+    <content type="html"><![CDATA[<p><img src="http://jsdc.tw/2012/img/logo.png"></p>
+
+<p>Last week I worked at JSDC.TW 2012 as a volunteer. I was extremely exited about this since it was the first JavaScript conference in Taiwan! <a href="http://www.plurk.com/p/gflmfl">Here</a> is my brief summary during the entire conference, and also the preparation on the day before the conference.</p>
+
+<h3><a href="http://jsdc.tw/2012/Sessions">Full agenda with slides and videos</a></h3>
+
+<p>And here I'm gonna add caption for one of these video, which might be the hardest one to deal with. It's still in progress, and <strong>needs your help!</strong></p>
+
+<p>My current progress is right below, with most of them already synced into YouTube. If you can help me out, please contact me directly with DISQUS comment! Either transcripting, proofreading, or syncing are all appreciated! Thanks!</p>
+
+<h2>The Video</h2>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9_uTJ2iTovg?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<ul>
+<li>Speaker: Andreas Gal (R&amp;D Director of Mozilla)</li>
+<li>Session Topic: Building Mobile Devices with the Open Web</li>
+<li>Original Topic: Gaia: A modern smartphone user interface in HTML5 and JavaScript</li>
+</ul>
+
+
+<!--more-->
+
+
+<h2>Transcript (Done, need proofreading)</h2>
+
+<script src="https://gist.github.com/2836502.js?file=transcript.txt"></script>
+
+
+<h2>Synced Caption</h2>
+
+<script src="https://gist.github.com/2787823.js?file=captions_zh-TW.srt"></script>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>

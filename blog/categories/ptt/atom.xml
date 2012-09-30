@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ptt | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/ptt/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2012-09-30T13:34:37+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[無聊分享：PTT有人在送吉他時候跟我說一聲]]></title>
+    <link href="http://df1.github.com/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/"/>
+    <updated>2012-05-07T22:24:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt</id>
+    <content type="html"><![CDATA[<p>又來做無聊分享了！話說PTT的give（贈送板）真的是個好地方，幾乎是什麼都送，什麼都不奇怪，連吉他、電吉他都有很多佛心來的版友大方割愛。不過對於工作忙碌、在公司又不能上PTT的的宅宅工程師而言，絕對是搶不贏那些全職鄉民的orz</p>
+
+<p>這時候若是有個機器人可以隨時幫我爬文通知該有多好！不過機器人其實不用自己寫，有個N年前發表之後一直維持冷門狀態的服務--<a href="http://pipes.yahoo.com">Yahoo Pipes</a>可以派上用場！</p>
+
+<h2>製作Pipe</h2>
+
+<p>其實Pipes功能相當多，但其最終的目的就是幫我們從許多資料來源中擷取出我們自己想要的內容。這裡我就不對詳細使用方法多作介紹，若有興趣網路上有許多相關資料。</p>
+
+<p>Pipes的一大特點就是他的視覺化畫布，讓你對資料的『管路』一目瞭然。看圖就可以知道我在做啥：</p>
+
+<!--more-->
+
+
+<p><img src="/attachments/2012-05-07-notify-me-when-theres-guitar-giveaway-in-ptt/pipes.png" title="&#34;專門PTT送吉他的Pipe&#34;" alt="&#34;專門PTT送吉他的Pipe&#34;"></p>
+
+<h3>小解說</h3>
+
+<ol>
+<li>資料來源有兩個：give板與guitar板。</li>
+<li>give板過濾標題關鍵字有『吉他』的；guitar板過濾有『送』的</li>
+<li>取聯集</li>
+<li>一一去撈對應的PTT Web板頁面內容，把它塞進<code>item.description</code>中方便即時觀看（沒辦法，公司不能上orz）</li>
+</ol>
+
+
+<p>做完之後，在頁面上有一堆格式的輸出可以隨便拿，例如可以拿RSS再加上自己chrome的RSS通知外掛，若有新資料就自動彈出小視窗；或是直接點<code>Results by Email or Phone</code>讓Yahoo Alert傳email或簡訊通知。
+欸，至於收到通知後若是在上班怎辦？當然是直接call萬能的老弟叫他幫忙丟水球回站內信囉XD</p>
+
+<p><img src="/attachments/2012-05-07-notify-me-when-theres-guitar-giveaway-in-ptt/reader.png" title="&#34;將RSS餵給Google Reader&#34;" alt="&#34;將RSS餵給Google Reader&#34;"></p>
+
+<h3>Pipe連結：<a href="http://pipes.yahoo.com/s911131/pttguitar">PTT送吉他</a>，歡迎fork！</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[無聊分享：一篇在PTT Joke版潛力40推的文章之各項統計]]></title>
+    <link href="http://df1.github.com/blog/2012/04/05/ptt-joke-analytics/"/>
+    <updated>2012-04-05T22:18:00+08:00</updated>
+    <id>http://df1.github.com/blog/2012/04/05/ptt-joke-analytics</id>
+    <content type="html"><![CDATA[<p><code>眉批：昨天清明節放假，不過我老媽應該不知道我在家發廢文XD（誤）</code></p>
+
+<p>其實自從搬家之後，這個網誌的網址幾乎還沒有公開過。
+直到昨天，我打了一篇<a href="/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/">Rage Comics的熟面孔們</a>之後，
+中午就直接<a href="http://www.ptt.cc/bbs/joke/M.1333518102.A.6D4.html">PO上PTT就可版</a>，並附上該篇連結。</p>
+
+<p><img src="/attachments/2012-04-05-ptt-joke-analytics/post.jpg" title="&#34;PTT文章資訊&#34;" alt="&#34;PTT文章資訊&#34;"></p>
+
+<p>以下是當天中午到半夜（約12小時內）的流量紀錄與各項統計，僅供參考，不保證準確度跟參考價值。</p>
+
+<!--more-->
+
+
+<h2>訪客總覽</h2>
+
+<p><img src="/attachments/2012-04-05-ptt-joke-analytics/overview.jpg" title="&#34;這是12小時內的數據，第二天整天造訪人數只剩3000出頭。估計一篇40推的文章可以吸引一萬人以上點閱網誌連結。&#34;" alt="&#34;這是12小時內的數據，第二天整天造訪人數只剩3000出頭。估計一篇40推的文章可以吸引一萬人以上點閱網誌連結。&#34;"></p>
+
+<h2>客層</h2>
+
+<p><img src="/attachments/2012-04-05-ptt-joke-analytics/g01.jpg">
+<img src="/attachments/2012-04-05-ptt-joke-analytics/g02.jpg">
+<img src="/attachments/2012-04-05-ptt-joke-analytics/g03.jpg"></p>
+
+<h2>系統</h2>
+
+<p><img src="/attachments/2012-04-05-ptt-joke-analytics/d01.jpg">
+<img src="/attachments/2012-04-05-ptt-joke-analytics/d02.jpg">
+<img src="/attachments/2012-04-05-ptt-joke-analytics/d03.jpg"></p>
+
+<h2>行動裝置</h2>
+
+<p><img src="/attachments/2012-04-05-ptt-joke-analytics/m01.jpg">
+<img src="/attachments/2012-04-05-ptt-joke-analytics/m02.jpg">
+<img src="/attachments/2012-04-05-ptt-joke-analytics/m03.jpg"></p>
+]]></content>
+  </entry>
+  
+</feed>

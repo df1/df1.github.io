@@ -1,0 +1,524 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Orokana Pekoponjin</title>
+    <meta name="author" content="df1">
+
+    
+    <meta name="description" content="使用Sencha Architect 2快速上手Ext JS 4.1 號外！所有美工（Designer）可以就地升級為架構師（Architect）！（梗等下講）
+Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，加上最新工具的輔助，讓你立刻懂得如何踏上Ext JS學習之路 &hellip;">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="/atom.xml" rel="alternate" title="Orokana Pekoponjin" type="application/atom+xml">
+    <link rel="canonical" href="">
+    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="/javascripts/jquery-1.7.1.min.js"></script>
+    
+    
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30403561-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body>
+	<header class="inner"><h1 class="left"><a href="/">Orokana Pekoponjin</a><span>crazy cat, boring human</span></h1>
+<nav class="menu left">﻿<ul class="main">
+	<li><a href="/" title="回首頁">Home</a></li>
+	<li><a href="/blog/archives" title="網誌存檔">Archives</a></li>
+	<li><a href="/blog/categories/english-post/" title="View English Posts">English</a></li>
+	<li><a href="/blog/categories/cat/" title="波笛">Cat</a></li>
+	<li><a href="#" title="最近的文章">Recent</a>
+	  <ul id="recent_posts">
+	    
+	      <li class="post">
+	        <a href="/blog/2012/09/11/js-group-taichung-meetup-september-2012/">JS Group Taichung Meetup September 2012</a>
+	      </li>
+	    
+	      <li class="post">
+	        <a href="/blog/2012/07/20/web-dev-party-5/">Web Dev Party #5 活動小記</a>
+	      </li>
+	    
+	      <li class="post">
+	        <a href="/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/">Node.JS Hsinchu Party 2012/06/30</a>
+	      </li>
+	    
+	      <li class="post">
+	        <a href="/blog/2012/06/21/2012-event-log/">2012 Event Log</a>
+	      </li>
+	    
+	      <li class="post">
+	        <a href="/blog/2012/05/29/jsdc-gaia-keynote-transcript/">JSDC.TW Transcript: Building Mobile Devices with the Open Web </a>
+	      </li>
+	    
+	      <li class="post">
+	        <a href="/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/">無聊分享：PTT有人在送吉他時候跟我說一聲</a>
+	      </li>
+	    
+	      <li class="post">
+	        <a href="/blog/2012/05/01/cat-wheel-diy/">自製波笛跑步機</a>
+	      </li>
+	    
+	      <li class="post">
+	        <a href="/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/">使用Sencha Architect 2快速上手Ext JS 4.1</a>
+	      </li>
+	    
+	      <li class="post">
+	        <a href="/blog/2012/04/17/osdc-2012-impressions/">OSDC.TW 2012: My Summary & Impressions</a>
+	      </li>
+	    
+	      <li class="post">
+	        <a href="/blog/2012/04/09/jquery-striptease/">網摘分享：jQuery到底是何方神聖？別怕，將他打回原形！</a>
+	      </li>
+	    
+	  </ul>
+	</li>
+	<li><a href="#" title="類別標籤">Categories</a>
+		<ul id="category-list"><li><a href='/blog/categories/analytics'>Analytics (1)</a></li><li><a href='/blog/categories/b2g'>B2g (1)</a></li><li><a href='/blog/categories/boring'>Boring (3)</a></li><li><a href='/blog/categories/career'>Career (2)</a></li><li><a href='/blog/categories/cat'>Cat (3)</a></li><li><a href='/blog/categories/chrome-extension'>Chrome extension (1)</a></li><li><a href='/blog/categories/cool'>Cool (2)</a></li><li><a href='/blog/categories/cross-browser'>Cross-browser (1)</a></li><li><a href='/blog/categories/css'>Css (1)</a></li><li><a href='/blog/categories/css3'>Css3 (1)</a></li><li><a href='/blog/categories/design'>Design (1)</a></li><li><a href='/blog/categories/diy'>Diy (1)</a></li><li><a href='/blog/categories/eclipse'>Eclipse (1)</a></li><li><a href='/blog/categories/english-post'>English post (5)</a></li><li><a href='/blog/categories/event'>Event (5)</a></li><li><a href='/blog/categories/events'>Events (1)</a></li><li><a href='/blog/categories/ext-designer'>Ext designer (3)</a></li><li><a href='/blog/categories/extjs'>Extjs (5)</a></li><li><a href='/blog/categories/firefox-add-on'>Firefox add-on (1)</a></li><li><a href='/blog/categories/gaia'>Gaia (1)</a></li><li><a href='/blog/categories/html5'>Html5 (1)</a></li><li><a href='/blog/categories/ie'>Ie (2)</a></li><li><a href='/blog/categories/impress-js'>Impress.js (2)</a></li><li><a href='/blog/categories/jmpress-js'>Jmpress.js (2)</a></li><li><a href='/blog/categories/jquery'>Jquery (3)</a></li><li><a href='/blog/categories/js'>Js (6)</a></li><li><a href='/blog/categories/js-group'>Js group (1)</a></li><li><a href='/blog/categories/jsdc'>Jsdc (1)</a></li><li><a href='/blog/categories/mashup'>Mashup (1)</a></li><li><a href='/blog/categories/memes'>Memes (1)</a></li><li><a href='/blog/categories/mozilla'>Mozilla (1)</a></li><li><a href='/blog/categories/murmur'>Murmur (4)</a></li><li><a href='/blog/categories/nodejs'>Nodejs (1)</a></li><li><a href='/blog/categories/note'>Note (2)</a></li><li><a href='/blog/categories/octocat'>Octocat (1)</a></li><li><a href='/blog/categories/octopress'>Octopress (1)</a></li><li><a href='/blog/categories/osdc'>Osdc (1)</a></li><li><a href='/blog/categories/osdc-tw'>Osdc.tw (1)</a></li><li><a href='/blog/categories/pipes'>Pipes (1)</a></li><li><a href='/blog/categories/piposea'>Piposea (1)</a></li><li><a href='/blog/categories/prezi'>Prezi (2)</a></li><li><a href='/blog/categories/programming'>Programming (1)</a></li><li><a href='/blog/categories/ptt'>Ptt (2)</a></li><li><a href='/blog/categories/rage-comics'>Rage comics (1)</a></li><li><a href='/blog/categories/reveal-js'>Reveal.js (2)</a></li><li><a href='/blog/categories/rss'>Rss (1)</a></li><li><a href='/blog/categories/sencha-architect'>Sencha architect (2)</a></li><li><a href='/blog/categories/sencha-designer'>Sencha designer (1)</a></li><li><a href='/blog/categories/sharepoint'>Sharepoint (1)</a></li><li><a href='/blog/categories/startup'>Startup (1)</a></li><li><a href='/blog/categories/transcript'>Transcript (1)</a></li><li><a href='/blog/categories/web-slide'>Web slide (2)</a></li><li><a href='/blog/categories/波笛'>波笛 (2)</a></li><li><a href='/blog/categories/網摘'>網摘 (1)</a></li></ul>
+	</li>
+</ul>
+</nav>
+<div class="right">
+	<form class="search right" action="http://google.com/search" method="get">
+		<input class="left" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:df1.github.com">
+	</form>
+	<div class="social right">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/bl_" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/df1" title="GitHub">GitHub</a>
+		
+		
+		<a class="pinterest" href="http://www.pinterest.com/orokana" title="Pinterest">Pinterest</a>
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</div>
+</header>
+	
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/bl_">bl_</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('bl_', 4, false);
+	})(jQuery);
+</script>
+
+	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/">使用Sencha Architect 2快速上手Ext JS 4.1</a></h1>
+    <div class="entry">
+        <p><img src="/attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/architect.png"></p>
+
+<p><del>號外！所有美工（Designer）可以就地升級為架構師（Architect）！</del>（梗等下講）
+Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，加上最新工具的輔助，讓你立刻懂得如何踏上Ext JS學習之路，並快速開發一個Web Application的前端介面。（此文章也有PO在ITHome）</p>
+
+
+        
+        <a href="/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-23T23:17:00+08:00" pubdate data-updated="true">Apr 23<span>rd</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/ext-designer/'>Ext Designer</a>, <a class='category' href='/blog/categories/extjs/'>ExtJS</a>, <a class='category' href='/blog/categories/js/'>JS</a>, <a class='category' href='/blog/categories/sencha-architect/'>Sencha Architect</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/04/17/osdc-2012-impressions/">OSDC.TW 2012: My Summary & Impressions</a></h1>
+    <div class="entry">
+        <p><img src="/attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png">
+Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers&#8217; Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn&#8217;t much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got in each session. (I will fill them up if I have time)</p>
+
+<h1>Update: Videos and slides of each session <a href="http://osdc.tw/schedule#day1">RELEASED</a>!</h1>
+
+<div class="gallery">
+<img src="http://i.imgur.com/ITjm1.jpg">
+<img src="http://i.imgur.com/2QN4w.jpg">
+<img src="http://i.imgur.com/uS6se.jpg">
+</div>
+
+
+
+        
+        <a href="/blog/2012/04/17/osdc-2012-impressions/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-17T23:17:00+08:00" pubdate data-updated="true">Apr 17<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/english-post/'>English Post</a>, <a class='category' href='/blog/categories/osdc/'>OSDC</a>, <a class='category' href='/blog/categories/osdc-tw/'>OSDC.TW</a>, <a class='category' href='/blog/categories/event/'>event</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/04/09/jquery-striptease/">網摘分享：jQuery到底是何方神聖？別怕，將他打回原形！</a></h1>
+    <div class="entry">
+        <p>（此文章參加<a href="http://ithelp.ithome.com.tw/js-ninja/">JavaScript忍之道</a>的『網摘分享』活動）</p>
+
+<p>不知道當大家第一次聽到jQuery這個詞時，在心中浮現的第一個畫面是什麼？
+是一個Java-base的query language？是一個java寫成的搜尋引擎？<del>還是一位超萌的小羅莉？（好像還沒人把它擬人化XD）</del></p>
+
+<p>無論你聽見它芳名時候的第一印象為何，當你真正見到它的容貌時，想必心中那種悸動到現在還是難以忘懷吧！讓我們再來回顧一下：</p>
+
+
+        
+        <a href="/blog/2012/04/09/jquery-striptease/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-09T23:17:00+08:00" pubdate data-updated="true">Apr 9<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/js/'>JS</a>, <a class='category' href='/blog/categories/jquery/'>jQuery</a>, <a class='category' href='/blog/categories/網摘/'>網摘</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/04/07/piposea-raid/">突襲PiPoSea團隊：溫馨的Lean Startup</a></h1>
+    <div class="entry">
+        <p><img src="/attachments/2012-04-07-piposea-raid/pipo.jpg" title="&#34;PiPoSea首頁登入畫面&#34;" alt="&#34;PiPoSea首頁登入畫面&#34;"></p>
+
+<p>昨天（4/6）是傳說中的<a href="http://techorange.com/2012/04/06/appworks-demoday-4-2/">AppWorks Demo Day #4</a>，
+也是<a href="http://piposea.com"><strong>PiPoSea</strong></a>&#8211;由我當年同lab的同學兼室友還有兩位學弟組成的創業團隊所開發的全新概念社群網路&#8211;
+的Debut Day首度發表日！它受日本311大地震時那種地域性的關懷互助所啟發，以穿越陌生人群為中心思想，讓使用者在茫茫人海中，得以找尋生命中轉瞬即逝的緣分。話不多說，直接看看他們扣人心弦的介紹吧！</p>
+
+
+        
+        <a href="/blog/2012/04/07/piposea-raid/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-07T13:18:00+08:00" pubdate data-updated="true">Apr 7<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/career/'>career</a>, <a class='category' href='/blog/categories/murmur/'>murmur</a>, <a class='category' href='/blog/categories/piposea/'>piposea</a>, <a class='category' href='/blog/categories/startup/'>startup</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/04/06/things-about-birdie/">波笛身世二三事</a></h1>
+    <div class="entry">
+        <p>（傳說中欠了快兩年的文來了XD）</p>
+
+<p><img src="http://i.imgur.com/GjHBv.jpg" width="500" title="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;" alt="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;"></p>
+
+<p>來介紹一下我家的<code>波笛</code>，首先來個基本資料表好了！</p>
+
+<table style="border-spacing: 3px;">
+<tr>
+    <th>姓名</th>
+    <td>波笛、ボッディ、Birdie</td>
+</tr>
+<tr>
+    <th>性別</th>
+        <td>母</td>
+</tr>
+<tr>
+    <th>生日</th>
+    <td>2010年7月左右</td>
+</tr>
+<tr>
+    <th>出生地</th>
+    <td>新北市板橋車站附近巷弄內</td>
+</tr>
+<tr>
+    <th>居住地</th>
+    <td>新竹、台北、台中</td>
+</tr>
+<tr>
+    <th>品種</th>
+    <td style="line-height: 1;">
+        <table style="display:inline-block;border:none;background:none;margin:0;"><tr>
+            <td>三花貓，</td>
+            <td style="background:rgb(227,155,102);">褐</td>
+            <td style="background:white;">白</td>
+            <td style="background:black;">黑</td>
+        </tr></table>
+    </td>
+</tr>
+<tr><th>手掌顏色</th><td>粉紅</td></tr>
+<tr><th>結紮</th><td>是</td></tr>
+<tr><th>身高體重</th><td>30cm, 4kg （身材略瘦）</td></tr>
+<tr><th>其他特徵</th><td>右耳缺一角（母貓TNR標記）</td></tr>
+<tr><th>性格</th><td>平時相當聒噪、怕陌生人、極度愛玩、喜歡刺激事物、不愛吃</td></tr>
+</table>
+
+
+<p>一切要從我的高中正妹同學<code>關貝貝</code>講起，他是一位獸醫師，目前在台北市執業；
+而波笛呢，是他當時租屋處附近的一隻還蠻親人的流浪小貓。
+因為正妹同學佛心來的診所提供了限量的免費結紮名額（雖然免費，不過設備跟麻醉都是用最高檔的，夠佛心了吧），波笛就成為了內定的貓選。
+據說當時是個月黑風高的夜晚，而波笛就被裝在某個可憐的手提包內，直奔診所進行偉大的TNR計畫（TNR：trap, neuter, release 抓去結紮後再放回去原本棲息地）
+因為當時某人身上有跳蚤，肚子裡面也都是滿滿的寄生蟲，就在診所待了好一陣子。</p>
+
+<p>這是第一次進獸醫診所時的影片！當初第一眼看到他時候，就覺得實在有聒噪到。原本想說畢竟是小貓，長大之後應該會好一點，不過很遺憾…（ry</p>
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/nNCZwmXw3LI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>靠完全就狀況外阿！一般貓被帶離自己熟悉環境應該要很緊張才對吧，有人卻很享受獸醫院的住院鐵籠是怎樣XD？（當時樓下還住著一隻超大癩痢狗XD）
+正妹同學在那同時就在FB大肆宣傳，而我這個貓奴命的當然也是預設慫恿對象。
+『如果沒人要養的話，他就回街頭流浪了。<del>台北的冬天很冷的。</del>』（刪除線那句是我加的XDD）
+我陷入了天人交戰，畢竟這真的是人生大事。
+說時遲那時快，耳邊立刻傳來<strong>神</strong>的話語：『要有貓。』（艾涅爾‎：關我屁事）
+於是某人的20年人生（貓生）就這樣獻身給一個沒前途的宅宅工程師了。（誤啦XD 我真的認真考慮很久才決定）</p>
+
+<p>至於他是如何從親人的小小貓，變成現在這樣的大孬孬呢？中間又有甚麼不可告人的內幕呢？
+下集待續（靠）</p>
+
+<p>內收相簿圖多！</p>
+
+
+        
+        <a href="/blog/2012/04/06/things-about-birdie/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-06T13:18:00+08:00" pubdate data-updated="true">Apr 6<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/cat/'>cat</a>, <a class='category' href='/blog/categories/波笛/'>波笛</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/04/05/ptt-joke-analytics/">無聊分享：一篇在PTT Joke版潛力40推的文章之各項統計</a></h1>
+    <div class="entry">
+        <p><code>眉批：昨天清明節放假，不過我老媽應該不知道我在家發廢文XD（誤）</code></p>
+
+<p>其實自從搬家之後，這個網誌的網址幾乎還沒有公開過。
+直到昨天，我打了一篇<a href="/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/">Rage Comics的熟面孔們</a>之後，
+中午就直接<a href="http://www.ptt.cc/bbs/joke/M.1333518102.A.6D4.html">PO上PTT就可版</a>，並附上該篇連結。</p>
+
+<p><img src="/attachments/2012-04-05-ptt-joke-analytics/post.jpg" title="&#34;PTT文章資訊&#34;" alt="&#34;PTT文章資訊&#34;"></p>
+
+<p>以下是當天中午到半夜（約12小時內）的流量紀錄與各項統計，僅供參考，不保證準確度跟參考價值。</p>
+
+
+        
+        <a href="/blog/2012/04/05/ptt-joke-analytics/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-05T22:18:00+08:00" pubdate data-updated="true">Apr 5<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/analytics/'>analytics</a>, <a class='category' href='/blog/categories/boring/'>boring</a>, <a class='category' href='/blog/categories/ptt/'>ptt</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/">無聊分享：Rage Comics的熟面孔們</a></h1>
+    <div class="entry">
+        <p>剛無聊去找了Rage Comics熟面孔的<strong>元捏他</strong>（先估狗了一下，似乎沒人跟我一樣無聊到一個一個去找=3=），簡單整理如下表。</p>
+
+<p>P.S.因為怕有肖像權問題，所以下面都是翻攝自網路（XD）。
+是說最近電視台真的很超過，整天youtube找新聞就算了，播NBA Linsanity畫面都直接翻攝不用錢的&#8230;</p>
+
+
+        
+        <a href="/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/" class="more-link">Read on &rarr;</a>
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-03T23:18:00+08:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/boring/'>boring</a>, <a class='category' href='/blog/categories/memes/'>memes</a>, <a class='category' href='/blog/categories/rage-comics/'>rage comics</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+<nav id="pagenavi">
+    
+        <a href="/" class="prev">Prev</a>
+    
+    
+        <a href="/blog/page/3/" class="next">Next</a>
+    
+    <a href="/blog/archives" class="center">Blog Archives</a>
+</nav></div>
+	<footer class="inner">Copyright &copy; 2012 Orokana Pekoponjin Powered by Octopress &amp; Github</footer>
+	<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/slash.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'orokana';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+</html>
