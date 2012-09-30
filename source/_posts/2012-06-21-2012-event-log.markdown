@@ -5,7 +5,7 @@ date: 2012-06-21 20:50
 comments: true
 categories: [event, note]
 ---
-<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/BDfd1/embed"></iframe>
+{%img http://i.imgur.com/Gq3Gp.png %}
 
 This post is an information/note aggregation from all the events that I have joined in 2012.
 <!--more-->
@@ -58,6 +58,9 @@ This post is an information/note aggregation from all the events that I have joi
 ##[Fedora 17 發行派對 @ 台中](http://registrano.com/events/8c4b43)
 *   Date: 2012/06/03
 *   Location: 黑貓月亮咖啡館
+*   [Fedora 17 Release Party Slide](https://docs.google.com/open?id=0B2o5fiqQwyn-Zjh4bkh2UU5aR0E) [slideshare](http://www.slideshare.net/Chengchiatseng/fedora-17-release-party)- 真正加
+*   [Systemd - Boot Faster](http://fedora.linux.org.tw/systemd/template.html) - WM
+*   [Slow boot? Blame systemd!](http://www.dedoimedo.com/computers/systemd-blame.html)
 
 ##PyHUG [June Meeting](http://www.meetup.com/pythonhug/events/61065022/)
 *   Date: 2012/06/20

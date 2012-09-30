@@ -2,6 +2,7 @@
 .DS_Store
 .sass-cache
 .gist-cache
+.swp
 .pygments-cache
 _deploy
 public
