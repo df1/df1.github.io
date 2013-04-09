@@ -3,7 +3,6 @@ layout: post
 title: "2012秋 日本山陽道、北九州、關西之旅"
 date: 2013-03-02 17:40
 comments: true
-published: false
 categories: ["travel","japan"]
 ---
 
