@@ -4,7 +4,7 @@
   <title><![CDATA[Category: JS Group | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/js-group/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2013-04-17T01:53:28+08:00</updated>
+  <updated>2013-04-17T01:56:33+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -22,12 +22,12 @@
 
 <p>TonyQ本身因為工作的關係，對jQuery等前端技術相當有經驗，所以大多分享還是會以jQuery為主。不過這個活動中大家討論的內容還是可以跳脫jQuery、跳脫library，廣泛地去討論所有JS或前端技術。今日主題就是網站裡很本質的要素：JS表單驗證、彈出式視窗。</p>
 
-<p><img src="http://www.xapps.tw/files/node_image/52/js.png" alt="FB上的盛況XD" /></p>
-
 <!--more-->
 
 
 <p></p>
+
+<p><img src="http://www.xapps.tw/files/node_image/52/js.png" alt="FB上的盛況XD" /></p>
 
 <h2>甚麼是表單驗證？</h2>
 

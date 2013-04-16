@@ -3,7 +3,7 @@
   <title><![CDATA[Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2013-04-17T01:53:28+08:00</updated>
+  <updated>2013-04-17T01:56:33+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -784,12 +784,12 @@ $$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
 
 <p>TonyQ本身因為工作的關係，對jQuery等前端技術相當有經驗，所以大多分享還是會以jQuery為主。不過這個活動中大家討論的內容還是可以跳脫jQuery、跳脫library，廣泛地去討論所有JS或前端技術。今日主題就是網站裡很本質的要素：JS表單驗證、彈出式視窗。</p>
 
-<p><img src="http://www.xapps.tw/files/node_image/52/js.png" alt="FB上的盛況XD" /></p>
-
 <!--more-->
 
 
 <p></p>
+
+<p><img src="http://www.xapps.tw/files/node_image/52/js.png" alt="FB上的盛況XD" /></p>
 
 <h2>甚麼是表單驗證？</h2>
 
@@ -965,16 +965,16 @@ function validate(){
     <link href="http://df1.github.com/blog/2012/07/20/web-dev-party-5/"/>
     <updated>2012-07-20T19:40:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/07/20/web-dev-party-5</id>
-    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/Cnu9x.jpg" alt="閃光洽 - Rsponsive WAT Design" /></p>
-
-<p><img src="http://i.imgur.com/8QbM1.jpg" alt="保哥 - HTML5 JavaScript APIs" /></p>
-
-<p>今天請假北上參加了年度的<a href="https://service.ithome.com.tw/20120720Java/">Java大拜拜</a>，剛好有機會參加這次在蛙.咖啡 (frog.cofe)舉辦的<a href="http://registrano.com/events/webdev-party-05">Web Dev Party #5</a>！這可是傳說中全台最有梗、一票難求，大大、神人、正妹(!)一次到位的熱鬧技術趴，快來一探究竟吧！</p>
+    <content type="html"><![CDATA[<p>今天請假北上參加了年度的<a href="https://service.ithome.com.tw/20120720Java/">Java大拜拜</a>，剛好有機會參加這次在蛙.咖啡 (frog.cofe)舉辦的<a href="http://registrano.com/events/webdev-party-05">Web Dev Party #5</a>！這可是傳說中全台最有梗、一票難求，大大、神人、正妹(!)一次到位的熱鬧技術趴，快來一探究竟吧！</p>
 
 <p>這次的主題是關於現正快速崛起的新的Web標準&#8211; <a href="http://zh.wikipedia.org/wiki/Html5">HTML5</a>的應用，一共有兩個講題：Responsive WAT Design 與 HTML5 JavaScript APIs。還是要先提醒的是，如果您用的是IE且版本是10以前，還是先換個瀏覽器再來玩下面的東西吧<code>&gt;_^</code></p>
 
 <!--more-->
 
+
+<p><img src="http://i.imgur.com/Cnu9x.jpg" alt="閃光洽 - Rsponsive WAT Design" /></p>
+
+<p><img src="http://i.imgur.com/8QbM1.jpg" alt="保哥 - HTML5 JavaScript APIs" /></p>
 
 <h2>Responsive WAT Design</h2>
 
@@ -1101,13 +1101,13 @@ Indexed DB：key是字串，value可以是object
     <link href="http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/"/>
     <updated>2012-07-01T20:50:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30</id>
-    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/zFjtc.png" alt="" /></p>
-
-<p>這次Node.JS Hsinchu Party，除了有<a href="http://blog.jackbean.tw">JackBean</a>提供的免費場地、Nausca大大熱情贊助的飲料外，
+    <content type="html"><![CDATA[<p>這次Node.JS Hsinchu Party，除了有<a href="http://blog.jackbean.tw">JackBean</a>提供的免費場地、Nausca大大熱情贊助的飲料外，
 還有大家期待已久的、一樣是由<a href="http://storiii.com/">storiii</a>的Yusen大大來分享的兩個主題：<a href="https://github.com/visionmedia/ejs#readme">EJS</a>與<a href="http://en.wikipedia.org/wiki/Y_Combinator#Y_combinator">Y-combinator</a>。</p>
 
 <!--more-->
 
+
+<p><img src="http://i.imgur.com/zFjtc.png" alt="" /></p>
 
 <h2><a href="https://github.com/visionmedia/ejs#readme">EJS</a></h2>
 
