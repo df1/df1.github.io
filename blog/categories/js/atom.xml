@@ -4,7 +4,7 @@
   <title><![CDATA[Category: js | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/js/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2013-04-17T00:30:15+08:00</updated>
+  <updated>2013-04-17T01:53:28+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -48,7 +48,8 @@ var handler = function () {
 $$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
 </code></pre>
 
-<p>欸...亂寫的需要就用用看吧，有空再來解釋XD (靠)</p>
+<p>只要進到秀照片的theater模式（就是四周都會變黑的模式）就可以跑囉！
+欸...亂寫的需要就用用看吧，有空再來解釋XD (靠)</p>
 ]]></content>
   </entry>
   
