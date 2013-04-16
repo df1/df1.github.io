@@ -29,6 +29,30 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='/stylesheets/' rel='stylesheet' type='text/css'>
+<style>
+#custom_img{
+}
+header hgroup img{
+    background-position: 0px 0px;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+    top:24px;
+    left:10px;
+}
+header hgroup img:hover{
+    background-position: 0px -200px;
+    opacity:1;
+    left:15px;
+}
+.gallery img{
+    width: 30%;
+}
+</style>
 
   
   <script type="text/javascript">
@@ -48,8 +72,10 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <img src="/images/ah_frame_transparent.png" />
-  <h1><a href="/">Orokana Pekoponjin</a></h1>
+<div id="custom_img">
+<img src="/favicon.png">
+</div>
+<h1><a href="/">Orokana Pekoponjin</a></h1>
 </hgroup>
 
 </header>
@@ -203,6 +229,14 @@ functional composition?
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/16/error-handling-in-aspect-of-ux/">Error Handling in Aspect of UX</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/05/code-snippet-for-dumping-facebook-album/">Code Snippet for Dumping Facebook Album</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/03/02/2012-japan-trip/">2012秋 日本山陽道、北九州、關西之旅</a>
       </li>
     
@@ -234,14 +268,6 @@ functional composition?
         <a href="/blog/2012/05/01/cat-wheel-diy/">自製波笛跑步機</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/">使用Sencha Architect 2快速上手Ext JS 4.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/04/17/osdc-2012-impressions/">OSDC.TW 2012: My Summary & Impressions</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -254,7 +280,7 @@ functional composition?
   <a href="https://github.com/df1">@df1</a> on GitHub
   
   <script type="text/javascript">
-    $.domReady(function(){
+    $(function(){
         if (!window.jXHR){
             var jxhr = document.createElement('script');
             jxhr.type = 'text/javascript';
@@ -281,7 +307,7 @@ functional composition?
     <li class="loading">Status updating...</li>
   </ul>
   <script type="text/javascript">
-    $.domReady(function(){
+    $(function(){
       getTwitterFeed("bl_", 4, false);
     });
   </script>
@@ -364,6 +390,15 @@ functional composition?
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="/javascripts/aharris.js"></script>
+<script src="/javascripts/jquery.lazyload.min.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(function function_name () {
+	$('.gallery img').lazyload();
+});
+</script>
+<script src="/javascripts/slash.js"></script>
+
 
 </body>
 </html>

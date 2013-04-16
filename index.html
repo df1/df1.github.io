@@ -9,8 +9,8 @@
   <meta name="author" content="df1">
 
   
-  <meta name="description" content="Your browser does not support the video tag. 『蝦密？這是你第一次出國玩？』 『嘿阿，嚴格來說是啦XD』 如果是說狹義的第一次出國，那是在研究所時候的馬來西亞行，基本上是去做正事的。
-當時過的是有點瘋狂、不太正常的一個多禮拜生活，而且沒有照片可供查證囧 &hellip;">
+  <meta name="description" content="Error Handling in Aspect of UX Apr 16th, 2013 exception handling, java, ux 最近接了一個project，主要工作是重新設計一個web-based的『百年系統』。
+對企業來說，下這種re-engineering決定是一個難題 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -29,6 +29,30 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='/stylesheets/' rel='stylesheet' type='text/css'>
+<style>
+#custom_img{
+}
+header hgroup img{
+    background-position: 0px 0px;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+    top:24px;
+    left:10px;
+}
+header hgroup img:hover{
+    background-position: 0px -200px;
+    opacity:1;
+    left:15px;
+}
+.gallery img{
+    width: 30%;
+}
+</style>
 
   
   <script type="text/javascript">
@@ -48,8 +72,10 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <img src="/images/ah_frame_transparent.png" />
-  <h1><a href="/">Orokana Pekoponjin</a></h1>
+<div id="custom_img">
+<img src="/favicon.png">
+</div>
+<h1><a href="/">Orokana Pekoponjin</a></h1>
 </hgroup>
 
 </header>
@@ -57,6 +83,144 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/04/16/error-handling-in-aspect-of-ux/">Error Handling in Aspect of UX</a></h1>
+    
+  </header>
+
+
+  
+    <p class="meta">
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-16T22:53:00+08:00" pubdate data-updated="true">Apr 16<span>th</span>, 2013</time>
+      
+    </p>
+  
+  
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/exception-handling/'>exception handling</a>, <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/ux/'>ux</a>
+  
+</span>
+
+
+  <div class="entry entry-content"><p>最近接了一個project，主要工作是重新設計一個web-based的『百年系統』。
+對企業來說，下這種re-engineering決定是一個難題，但這種需求卻很常見。
+支持這決策的關鍵考量可能有幾項：</p>
+
+<ul>
+<li>舊系統code base難以維護，或是年久、失傳等歷史因素</li>
+<li>舊系統架構已經無法滿足新的商業需求</li>
+<li>舊系統Operation Support的Effort過於龐大</li>
+<li>族繁不及備載XD</li>
+</ul>
+
+
+<p>如果是談軟體工程等架構面的問題，應該發個100篇文章也講不完吧XD
+所以今天只來講講最後一項的Operation。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/04/16/error-handling-in-aspect-of-ux/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/04/05/code-snippet-for-dumping-facebook-album/">Code Snippet for Dumping Facebook Album</a></h1>
+    
+  </header>
+
+
+  
+    <p class="meta">
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-05T21:14:00+08:00" pubdate data-updated="true">Apr 5<span>th</span>, 2013</time>
+      
+    </p>
+  
+  
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/facebook/'>facebook</a>, <a class='category' href='/blog/categories/js/'>js</a>
+  
+</span>
+
+
+  <div class="entry entry-content"><p>最近終於有一點點動力來寫上次日本行的遊記，但是苦於免費圖床難找難用，又不想用facebook網誌功能來寫，所以一直富堅至今XD
+後來熊熊想到，其實我還是可以用以經上傳好的FB相簿，然後把權限公開來當圖床使用，還有免費的CDN，真是賺翻了XDD
+<del>（未來有一天就突然消失就囂張不起來了XD  FB表示：怪我囉？）</del></p>
+
+<p>總之我要做的事就是dump出所有相簿裡的照片URL還有我打好的comment，於是在chrome按<code>F12</code>敲了以下snippet：</p>
+
+<pre><code>var lastSrc = '';
+var dumpArr = [];
+var handler = function () {
+    var img = $$('.spotlight')[0];
+    if (dumpArr.length &gt; 0 &amp;&amp; img.src == dumpArr[0].src) {
+        $$('.fbPhotosPhotoCaption')[0].removeEventListener('DOMSubtreeModified', handler);
+        return;
+    }
+    if (img != null &amp;&amp; img.src != lastSrc) {
+        setTimeout(function () {
+            lastSrc = img.src;
+            dumpArr.push({
+                src: img.src,
+                comment: ($$('.hasCaption').length &gt; 0 ? '' : $$('.hasCaption')[0].innerHTML)
+            });
+            console.log(dumpArr[dumpArr.length - 1]);
+            $$('.snowliftPager.next')[0].click();
+        }, 500);
+    }
+};
+
+$$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
+</code></pre>
+
+<p>欸&#8230;亂寫的需要就用用看吧，有空再來解釋XD (靠)</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -95,9 +259,9 @@
 </span>
 
 
-  <div class="entry-content"><p><video controls autoplay>
-  <source src="/attachments/2013-03-02-2012-japan-trip/Japan%202012.mp4" type="video/mp4">
-  <source src="/attachments/2013-03-02-2012-japan-trip/Japan%202012.WebM" type="video/webm">
+  <div class="entry entry-content"><p><video  autoplay>
+  <source src="/images/grey.gif" data-original="/attachments/2013-03-02-2012-japan-trip/Japan%202012.mp4" type="video/mp4">
+  <source src="/images/grey.gif" data-original="/attachments/2013-03-02-2012-japan-trip/Japan%202012.WebM" type="video/webm">
   Your browser does not support the video tag.
 </video></p>
 
@@ -105,7 +269,7 @@
 
 <p>『嘿阿，嚴格來說是啦XD』</p>
 
-<p>如果是說狹義的第一次出國，那是在研究所時候的馬來西亞行，基本上是去做正事的。
+<p>如果是說狹義的第一次出國，那是在研究所時候的馬來西亞行，是去做正事的。
 當時過的是有點瘋狂、不太正常的一個多禮拜生活，而且沒有照片可供查證囧。</p>
 
 <p>而這次，才是我第一次靠自己力量、花自己積蓄的旅行。就在我吃頭路兩年後，終於要成行了！</p>
@@ -166,7 +330,7 @@
 </span>
 
 
-  <div class="entry-content"><p>這次是<a href="http://javascript.tw">JS Group</a>在台中舉辦的第五次聚會。這個聚會除了每隔週在台北之外，通常選在每個月的第一個禮拜六下午會來到台中舉行。今天大家一樣是在老地方的水舞饌三樓，一起吃吃喝喝、coding、聊天。而這次的講者就是主辦的TonyQ大大。</p>
+  <div class="entry entry-content"><p>這次是<a href="http://javascript.tw">JS Group</a>在台中舉辦的第五次聚會。這個聚會除了每隔週在台北之外，通常選在每個月的第一個禮拜六下午會來到台中舉行。今天大家一樣是在老地方的水舞饌三樓，一起吃吃喝喝、coding、聊天。而這次的講者就是主辦的TonyQ大大。</p>
 
 <p>TonyQ本身因為工作的關係，對jQuery等前端技術相當有經驗，所以大多分享還是會以jQuery為主。不過這個活動中大家討論的內容還是可以跳脫jQuery、跳脫library，廣泛地去討論所有JS或前端技術。今日主題就是網站裡很本質的要素：JS表單驗證、彈出式視窗。</p>
 
@@ -220,7 +384,7 @@
 </span>
 
 
-  <div class="entry-content"><p><img src="http://i.imgur.com/Cnu9x.jpg" alt="閃光洽 - Rsponsive WAT Design" /></p>
+  <div class="entry entry-content"><p><img src="http://i.imgur.com/Cnu9x.jpg" alt="閃光洽 - Rsponsive WAT Design" /></p>
 
 <p><img src="http://i.imgur.com/8QbM1.jpg" alt="保哥 - HTML5 JavaScript APIs" /></p>
 
@@ -276,7 +440,7 @@
 </span>
 
 
-  <div class="entry-content"><p><img src="http://i.imgur.com/zFjtc.png" alt="" /></p>
+  <div class="entry entry-content"><p><img src="http://i.imgur.com/zFjtc.png" alt="" /></p>
 
 <p>這次Node.JS Hsinchu Party，除了有<a href="http://blog.jackbean.tw">JackBean</a>提供的免費場地、Nausca大大熱情贊助的飲料外，
 還有大家期待已久的、一樣是由<a href="http://storiii.com/">storiii</a>的Yusen大大來分享的兩個主題：<a href="https://github.com/visionmedia/ejs#readme">EJS</a>與<a href="http://en.wikipedia.org/wiki/Y_Combinator#Y_combinator">Y-combinator</a>。</p>
@@ -329,7 +493,7 @@
 </span>
 
 
-  <div class="entry-content"><p><img src="http://i.imgur.com/Gq3Gp.png"></p>
+  <div class="entry entry-content"><p><img src="http://i.imgur.com/Gq3Gp.png"></p>
 
 <p>This post is an information/note aggregation from all the events that I have joined in 2012.</p>
 
@@ -338,134 +502,6 @@
   
     <footer>
       <a rel="full-article" href="/blog/2012/06/21/2012-event-log/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/05/29/jsdc-gaia-keynote-transcript/">JSDC.TW Transcript: Building Mobile Devices With the Open Web</a></h1>
-    
-  </header>
-
-
-  
-    <p class="meta">
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-29T22:33:00+08:00" pubdate data-updated="true">May 29<span>th</span>, 2012</time>
-      
-    </p>
-  
-  
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/b2g/'>B2G</a>, <a class='category' href='/blog/categories/english-post/'>English Post</a>, <a class='category' href='/blog/categories/gaia/'>Gaia</a>, <a class='category' href='/blog/categories/jsdc/'>JSDC</a>, <a class='category' href='/blog/categories/mozilla/'>Mozilla</a>, <a class='category' href='/blog/categories/event/'>event</a>, <a class='category' href='/blog/categories/transcript/'>transcript</a>
-  
-</span>
-
-
-  <div class="entry-content"><p><img src="http://jsdc.tw/2012/img/logo.png"></p>
-
-<p>Last week I worked at JSDC.TW 2012 as a volunteer. I was extremely exited about this since it was the first JavaScript conference in Taiwan! <a href="http://www.plurk.com/p/gflmfl">Here</a> is my brief summary during the entire conference, and also the preparation on the day before the conference.</p>
-
-<h3><a href="http://jsdc.tw/2012/Sessions">Full agenda with slides and videos</a></h3>
-
-<p>And here I&#8217;m gonna add caption for one of these video, which might be the hardest one to deal with. It&#8217;s still in progress, and <strong>needs your help!</strong></p>
-
-<p>My current progress is right below, with most of them already synced into YouTube. If you can help me out, please contact me directly with DISQUS comment! Either transcripting, proofreading, or syncing are all appreciated! Thanks!</p>
-
-<h2>The Video</h2>
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9_uTJ2iTovg?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
-<ul>
-<li>Speaker: Andreas Gal (R&amp;D Director of Mozilla)</li>
-<li>Session Topic: Building Mobile Devices with the Open Web</li>
-<li>Original Topic: Gaia: A modern smartphone user interface in HTML5 and JavaScript</li>
-</ul>
-
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2012/05/29/jsdc-gaia-keynote-transcript/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/">無聊分享：PTT有人在送吉他時候跟我說一聲</a></h1>
-    
-  </header>
-
-
-  
-    <p class="meta">
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-07T22:24:00+08:00" pubdate data-updated="true">May 7<span>th</span>, 2012</time>
-      
-    </p>
-  
-  
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/boring/'>boring</a>, <a class='category' href='/blog/categories/mashup/'>mashup</a>, <a class='category' href='/blog/categories/pipes/'>pipes</a>, <a class='category' href='/blog/categories/ptt/'>ptt</a>, <a class='category' href='/blog/categories/rss/'>rss</a>
-  
-</span>
-
-
-  <div class="entry-content"><p>又來做無聊分享了！話說PTT的give（贈送板）真的是個好地方，幾乎是什麼都送，什麼都不奇怪，連吉他、電吉他都有很多佛心來的版友大方割愛。不過對於工作忙碌、在公司又不能上PTT的的宅宅工程師而言，絕對是搶不贏那些全職鄉民的orz</p>
-
-<p>這時候若是有個機器人可以隨時幫我爬文通知該有多好！不過機器人其實不用自己寫，有個N年前發表之後一直維持冷門狀態的服務&#8211;<a href="http://pipes.yahoo.com">Yahoo Pipes</a>可以派上用場！</p>
-
-<h2>製作Pipe</h2>
-
-<p>其實Pipes功能相當多，但其最終的目的就是幫我們從許多資料來源中擷取出我們自己想要的內容。這裡我就不對詳細使用方法多作介紹，若有興趣網路上有許多相關資料。</p>
-
-<p>Pipes的一大特點就是他的視覺化畫布，讓你對資料的『管路』一目瞭然。看圖就可以知道我在做啥：</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/">Read on &rarr;</a>
     </footer>
   
 
@@ -493,6 +529,14 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/04/16/error-handling-in-aspect-of-ux/">Error Handling in Aspect of UX</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/05/code-snippet-for-dumping-facebook-album/">Code Snippet for Dumping Facebook Album</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/03/02/2012-japan-trip/">2012秋 日本山陽道、北九州、關西之旅</a>
@@ -526,14 +570,6 @@
         <a href="/blog/2012/05/01/cat-wheel-diy/">自製波笛跑步機</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/">使用Sencha Architect 2快速上手Ext JS 4.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/04/17/osdc-2012-impressions/">OSDC.TW 2012: My Summary & Impressions</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -546,7 +582,7 @@
   <a href="https://github.com/df1">@df1</a> on GitHub
   
   <script type="text/javascript">
-    $.domReady(function(){
+    $(function(){
         if (!window.jXHR){
             var jxhr = document.createElement('script');
             jxhr.type = 'text/javascript';
@@ -573,7 +609,7 @@
     <li class="loading">Status updating&#8230;</li>
   </ul>
   <script type="text/javascript">
-    $.domReady(function(){
+    $(function(){
       getTwitterFeed("bl_", 4, false);
     });
   </script>
@@ -652,6 +688,15 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="/javascripts/aharris.js"></script>
+<script src="/javascripts/jquery.lazyload.min.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(function function_name () {
+	$('.gallery img').lazyload();
+});
+</script>
+<script src="/javascripts/slash.js"></script>
+
 
 </body>
 </html>

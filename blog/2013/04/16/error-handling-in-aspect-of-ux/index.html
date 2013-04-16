@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Error Handling in Aspect of UX - Orokana Pekoponjin</title>
+  <meta name="author" content="df1">
+
+  
+  <meta name="description" content="最近接了一個project，主要工作是重新設計一個web-based的『百年系統』。
+對企業來說，下這種re-engineering決定是一個難題，但這種需求卻很常見。
+支持這決策的關鍵考量可能有幾項： 舊系統code base難以維護，或是年久、失傳等歷史因素
+舊系統架構已經無法滿足新的商業需求 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Orokana Pekoponjin" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='/stylesheets/' rel='stylesheet' type='text/css'>
+<style>
+#custom_img{
+}
+header hgroup img{
+    background-position: 0px 0px;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+    top:24px;
+    left:10px;
+}
+header hgroup img:hover{
+    background-position: 0px -200px;
+    opacity:1;
+    left:15px;
+}
+.gallery img{
+    width: 30%;
+}
+</style>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30403561-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+<div id="custom_img">
+<img src="/favicon.png">
+</div>
+<h1><a href="/">Orokana Pekoponjin</a></h1>
+</hgroup>
+
+</header>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Error Handling in Aspect of UX</h1>
+    
+  </header>
+
+
+
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/exception-handling/'>exception handling</a>, <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/ux/'>ux</a>
+  
+</span>
+
+
+<div class="entry-content"><p>最近接了一個project，主要工作是重新設計一個web-based的『百年系統』。
+對企業來說，下這種re-engineering決定是一個難題，但這種需求卻很常見。
+支持這決策的關鍵考量可能有幾項：</p>
+
+<ul>
+<li>舊系統code base難以維護，或是年久、失傳等歷史因素</li>
+<li>舊系統架構已經無法滿足新的商業需求</li>
+<li>舊系統Operation Support的Effort過於龐大</li>
+<li>族繁不及備載XD</li>
+</ul>
+
+
+<p>如果是談軟體工程等架構面的問題，應該發個100篇文章也講不完吧XD
+所以今天只來講講最後一項的Operation。</p>
+
+<!-- more -->
+
+
+<h2>設計想法</h2>
+
+<p>Case：今天user遇到一些問題，發現該動的功能不能動，或是不知道要怎麼操作，於是求助OS Team。
+所以如果要降低Operation case的量，最先想到的可能就是Exception Handling與fail-over機制。
+我認為既然case來源是user，就需要從user experience的角度來考量設計Exception Handling機制。</p>
+
+<h2>想得到的幾項設計＆大略實作的方式（待補）</h2>
+
+<h3>1. 在程式出錯時，要讓user知道發生什麼事，以方便向OS Team報案</h3>
+
+<ul>
+<li>UX考量：
+
+<ul>
+<li>出錯時前端要有對應訊息，不能讓整個網頁就hang在那邊</li>
+<li>錯誤訊息一定要讓user看得懂，不能是一些&#8221;Null Pointer Exception&#8221;、&#8221;Internal Server Error&#8221;之類會讓人霧煞煞的字眼。</li>
+<li>要讓user知道該聯絡誰</li>
+<li>如果是內部系統，可以考慮將stack trace放在一個縮起來的field set （不要直接秀在畫面上），user可以將它展開並複製給OS人員，方便後續處理。</li>
+</ul>
+</li>
+<li>後端設計：</li>
+<li>前端設計：</li>
+</ul>
+
+
+<h3>2. Partial-Reliable的系統：就算一些minor功能crash掉，也不影響正常操作流程</h3>
+
+<ul>
+<li>UX考量：
+
+<ul>
+<li>如題，系統可能會有些外來的不穩因素（比如說連別人家的web service取得資料時出錯）</li>
+<li>應跳出警告訊息，告知哪些部分出錯</li>
+</ul>
+</li>
+<li>後端設計：</li>
+<li>前端設計：</li>
+</ul>
+
+
+<h3>3. 資料量大時的因應</h3>
+
+<ul>
+<li>UX考量：
+
+<ul>
+<li>在企業或工程系統常有大量資料需傳至前端的情況（user下的query條件太寬，但是user偏偏就是要那麼寬，且不要分批/分頁)</li>
+<li>讓user知道這樣query下去要等多久</li>
+<li>讓user知道，如果他電腦不夠強大，前端可能當掉(喂！)</li>
+</ul>
+</li>
+<li>後端設計：</li>
+<li>前端設計：</li>
+</ul>
+
+
+<p>看能不能再想到一些XD
+有空再補上圖＆一些practice！</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">df1</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-16T22:53:00+08:00" pubdate data-updated="true">Apr 16<span>th</span>, 2013</time>
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/" data-via="bl_" data-counturl="http://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/04/05/code-snippet-for-dumping-facebook-album/" title="Previous Post: Code Snippet for Dumping Facebook Album">&laquo; Code Snippet for Dumping Facebook Album</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/04/16/error-handling-in-aspect-of-ux/">Error Handling in Aspect of UX</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/05/code-snippet-for-dumping-facebook-album/">Code Snippet for Dumping Facebook Album</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/02/2012-japan-trip/">2012秋 日本山陽道、北九州、關西之旅</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/11/js-group-taichung-meetup-september-2012/">JS Group Taichung Meetup September 2012</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/20/web-dev-party-5/">Web Dev Party #5 活動小記</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/">Node.JS Hsinchu Party 2012/06/30</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/21/2012-event-log/">2012 Event Log</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/05/29/jsdc-gaia-keynote-transcript/">JSDC.TW Transcript: Building Mobile Devices with the Open Web </a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/">無聊分享：PTT有人在送吉他時候跟我說一聲</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/05/01/cat-wheel-diy/">自製波笛跑步機</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/df1">@df1</a> on GitHub
+  
+  <script type="text/javascript">
+    $(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'df1',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $(function(){
+      getTwitterFeed("bl_", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/bl_" class="twitter-follow-button" data-show-count="false">Follow @bl_</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - df1 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'orokana';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/';
+        var disqus_url = 'http://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/javascripts/aharris.js"></script>
+<script src="/javascripts/jquery.lazyload.min.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(function function_name () {
+	$('.gallery img').lazyload();
+});
+</script>
+<script src="/javascripts/slash.js"></script>
+
+
+</body>
+</html>

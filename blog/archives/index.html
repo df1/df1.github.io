@@ -9,9 +9,9 @@
   <meta name="author" content="df1">
 
   
-  <meta name="description" content="Blog Archive 2013 2012秋 日本山陽道、北九州、關西之旅
-Mar 02 2013 japan, travel 2012 JS Group Taichung Meetup September 2012
-Sep 11 2012 Events, JS, JS Group Web &hellip;">
+  <meta name="description" content="Blog Archive 2013 Error Handling in Aspect of UX
+Apr 16 2013 exception handling, java, ux Code Snippet for Dumping Facebook Album
+Apr 05 2013 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -30,6 +30,30 @@ Sep 11 2012 Events, JS, JS Group Web &hellip;">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='/stylesheets/' rel='stylesheet' type='text/css'>
+<style>
+#custom_img{
+}
+header hgroup img{
+    background-position: 0px 0px;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+    top:24px;
+    left:10px;
+}
+header hgroup img:hover{
+    background-position: 0px -200px;
+    opacity:1;
+    left:15px;
+}
+.gallery img{
+    width: 30%;
+}
+</style>
 
   
   <script type="text/javascript">
@@ -49,8 +73,10 @@ Sep 11 2012 Events, JS, JS Group Web &hellip;">
 
 <body   >
   <header role="banner"><hgroup>
-  <img src="/images/ah_frame_transparent.png" />
-  <h1><a href="/">Orokana Pekoponjin</a></h1>
+<div id="custom_img">
+<img src="/favicon.png">
+</div>
+<h1><a href="/">Orokana Pekoponjin</a></h1>
 </hgroup>
 
 </header>
@@ -70,6 +96,34 @@ Sep 11 2012 Events, JS, JS Group Web &hellip;">
 
   
   <h2>2013</h2>
+
+<article>
+  
+<h1><a href="/blog/2013/04/16/error-handling-in-aspect-of-ux/">Error Handling in Aspect of UX</a></h1>
+<time datetime="2013-04-16T22:53:00+08:00" pubdate><span class='month'>Apr</span> <span class='day'>16</span> <span class='year'>2013</span></time>
+
+<footer>
+  <span class="categories"><a class='category' href='/blog/categories/exception-handling/'>exception handling</a>, <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/ux/'>ux</a></span>
+</footer>
+
+
+</article>
+
+
+
+<article>
+  
+<h1><a href="/blog/2013/04/05/code-snippet-for-dumping-facebook-album/">Code Snippet for Dumping Facebook Album</a></h1>
+<time datetime="2013-04-05T21:14:00+08:00" pubdate><span class='month'>Apr</span> <span class='day'>05</span> <span class='year'>2013</span></time>
+
+<footer>
+  <span class="categories"><a class='category' href='/blog/categories/facebook/'>facebook</a>, <a class='category' href='/blog/categories/js/'>js</a></span>
+</footer>
+
+
+</article>
+
+
 
 <article>
   
@@ -464,6 +518,14 @@ Sep 11 2012 Events, JS, JS Group Web &hellip;">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/16/error-handling-in-aspect-of-ux/">Error Handling in Aspect of UX</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/05/code-snippet-for-dumping-facebook-album/">Code Snippet for Dumping Facebook Album</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/03/02/2012-japan-trip/">2012秋 日本山陽道、北九州、關西之旅</a>
       </li>
     
@@ -495,14 +557,6 @@ Sep 11 2012 Events, JS, JS Group Web &hellip;">
         <a href="/blog/2012/05/01/cat-wheel-diy/">自製波笛跑步機</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/">使用Sencha Architect 2快速上手Ext JS 4.1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/04/17/osdc-2012-impressions/">OSDC.TW 2012: My Summary & Impressions</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -515,7 +569,7 @@ Sep 11 2012 Events, JS, JS Group Web &hellip;">
   <a href="https://github.com/df1">@df1</a> on GitHub
   
   <script type="text/javascript">
-    $.domReady(function(){
+    $(function(){
         if (!window.jXHR){
             var jxhr = document.createElement('script');
             jxhr.type = 'text/javascript';
@@ -542,7 +596,7 @@ Sep 11 2012 Events, JS, JS Group Web &hellip;">
     <li class="loading">Status updating...</li>
   </ul>
   <script type="text/javascript">
-    $.domReady(function(){
+    $(function(){
       getTwitterFeed("bl_", 4, false);
     });
   </script>
@@ -622,6 +676,15 @@ Sep 11 2012 Events, JS, JS Group Web &hellip;">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="/javascripts/aharris.js"></script>
+<script src="/javascripts/jquery.lazyload.min.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(function function_name () {
+	$('.gallery img').lazyload();
+});
+</script>
+<script src="/javascripts/slash.js"></script>
+
 
 </body>
 </html>

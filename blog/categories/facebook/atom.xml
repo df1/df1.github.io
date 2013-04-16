@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: facebook | Orokana Pekoponjin]]></title>
+  <link href="http://df1.github.com/blog/categories/facebook/atom.xml" rel="self"/>
+  <link href="http://df1.github.com/"/>
+  <updated>2013-04-17T00:25:35+08:00</updated>
+  <id>http://df1.github.com/</id>
+  <author>
+    <name><![CDATA[df1]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Code Snippet for Dumping Facebook Album]]></title>
+    <link href="http://df1.github.com/blog/2013/04/05/code-snippet-for-dumping-facebook-album/"/>
+    <updated>2013-04-05T21:14:00+08:00</updated>
+    <id>http://df1.github.com/blog/2013/04/05/code-snippet-for-dumping-facebook-album</id>
+    <content type="html"><![CDATA[<p>最近終於有一點點動力來寫上次日本行的遊記，但是苦於免費圖床難找難用，又不想用facebook網誌功能來寫，所以一直富堅至今XD
+後來熊熊想到，其實我還是可以用以經上傳好的FB相簿，然後把權限公開來當圖床使用，還有免費的CDN，真是賺翻了XDD
+<del>（未來有一天就突然消失就囂張不起來了XD  FB表示：怪我囉？）</del></p>
+
+<p>總之我要做的事就是dump出所有相簿裡的照片URL還有我打好的comment，於是在chrome按<code>F12</code>敲了以下snippet：</p>
+
+<pre><code>var lastSrc = '';
+var dumpArr = [];
+var handler = function () {
+    var img = $$('.spotlight')[0];
+    if (dumpArr.length &gt; 0 &amp;&amp; img.src == dumpArr[0].src) {
+        $$('.fbPhotosPhotoCaption')[0].removeEventListener('DOMSubtreeModified', handler);
+        return;
+    }
+    if (img != null &amp;&amp; img.src != lastSrc) {
+        setTimeout(function () {
+            lastSrc = img.src;
+            dumpArr.push({
+                src: img.src,
+                comment: ($$('.hasCaption').length &gt; 0 ? '' : $$('.hasCaption')[0].innerHTML)
+            });
+            console.log(dumpArr[dumpArr.length - 1]);
+            $$('.snowliftPager.next')[0].click();
+        }, 500);
+    }
+};
+
+$$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
+</code></pre>
+
+<p>欸...亂寫的需要就用用看吧，有空再來解釋XD (靠)</p>
+]]></content>
+  </entry>
+  
+</feed>
