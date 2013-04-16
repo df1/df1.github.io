@@ -6,16 +6,16 @@ comments: true
 categories: [event, html5] 
 ---
 
-![閃光洽 - Rsponsive WAT Design](http://i.imgur.com/Cnu9x.jpg)
-
-![保哥 - HTML5 JavaScript APIs](http://i.imgur.com/8QbM1.jpg)
-
-
 今天請假北上參加了年度的[Java大拜拜](https://service.ithome.com.tw/20120720Java/)，剛好有機會參加這次在蛙.咖啡 (frog.cofe)舉辦的[Web Dev Party #5](http://registrano.com/events/webdev-party-05)！這可是傳說中全台最有梗、一票難求，大大、神人、正妹(!)一次到位的熱鬧技術趴，快來一探究竟吧！
 
 這次的主題是關於現正快速崛起的新的Web標準-- [HTML5](http://zh.wikipedia.org/wiki/Html5)的應用，一共有兩個講題：Responsive WAT Design 與 HTML5 JavaScript APIs。還是要先提醒的是，如果您用的是IE且版本是10以前，還是先換個瀏覽器再來玩下面的東西吧`>_^`
 
 <!--more-->
+
+![閃光洽 - Rsponsive WAT Design](http://i.imgur.com/Cnu9x.jpg)
+
+![保哥 - HTML5 JavaScript APIs](http://i.imgur.com/8QbM1.jpg)
+
 
 ##Responsive WAT Design
 *   講者：[閃光洽](http://about.me/hinablue)

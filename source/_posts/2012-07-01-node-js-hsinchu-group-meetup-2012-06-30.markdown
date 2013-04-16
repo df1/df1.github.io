@@ -5,7 +5,6 @@ date: 2012-07-01 20:50
 comments: true
 categories: [nodejs, event, note]
 ---
-![](http://i.imgur.com/zFjtc.png)
 
 這次Node.JS Hsinchu Party，除了有[JackBean][jack]提供的免費場地、Nausca大大熱情贊助的飲料外，
 還有大家期待已久的、一樣是由[storiii][]的Yusen大大來分享的兩個主題：[EJS][]與[Y-combinator][Y]。
@@ -18,6 +17,7 @@ categories: [nodejs, event, note]
 [exp]:http://expressjs.com/
 
 <!--more-->
+![](http://i.imgur.com/zFjtc.png)
 
 ##[EJS][]
 [EJS][]是一個以JavaScript實作的Template Engine，基本用法跟ASP、JSP的tag library很類似：

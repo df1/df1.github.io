@@ -9,10 +9,10 @@ categories: [JS, JS Group, Events]
 
 TonyQ本身因為工作的關係，對jQuery等前端技術相當有經驗，所以大多分享還是會以jQuery為主。不過這個活動中大家討論的內容還是可以跳脫jQuery、跳脫library，廣泛地去討論所有JS或前端技術。今日主題就是網站裡很本質的要素：JS表單驗證、彈出式視窗。
 
+<!--more--> 
+
 
 ![FB上的盛況XD](http://www.xapps.tw/files/node_image/52/js.png)
-
-<!--more--> 
 
 ##甚麼是表單驗證？
 
