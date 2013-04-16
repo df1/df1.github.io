@@ -1,0 +1,15 @@
+{% comment %}
+  Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
+{% endcomment %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="{{ root_url }}/javascripts/aharris.js"></script>
+<script src="{{ root_url }}/javascripts/jquery.lazyload.min.js"></script>
+<script src="{{ root_url }}/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(function function_name () {
+	$('.gallery img').lazyload();
+});
+</script>
+<script src="{{ root_url }}/javascripts/slash.js"></script>
