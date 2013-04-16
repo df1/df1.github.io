@@ -36,5 +36,5 @@ categories: ["js","facebook"]
 
 	$$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
 
-
+只要進到秀照片的theater模式（就是四周都會變黑的模式）就可以跑囉！
 欸...亂寫的需要就用用看吧，有空再來解釋XD (靠)
