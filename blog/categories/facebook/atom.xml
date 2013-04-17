@@ -4,7 +4,7 @@
   <title><![CDATA[Category: facebook | Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/blog/categories/facebook/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2013-04-17T01:56:33+08:00</updated>
+  <updated>2013-04-18T01:58:01+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -37,7 +37,7 @@ var handler = function () {
             lastSrc = img.src;
             dumpArr.push({
                 src: img.src,
-                comment: ($$('.hasCaption').length &gt; 0 ? '' : $$('.hasCaption')[0].innerHTML)
+                comment: ($$('.hasCaption').length &gt; 0 ? $$('.hasCaption')[0].innerHTML : '')
             });
             console.log(dumpArr[dumpArr.length - 1]);
             $$('.snowliftPager.next')[0].click();
@@ -48,8 +48,21 @@ var handler = function () {
 $$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
 </code></pre>
 
-<p>只要進到秀照片的theater模式（就是四周都會變黑的模式）就可以跑囉！
-欸...亂寫的需要就用用看吧，有空再來解釋XD (靠)</p>
+<p>只要進到秀照片的theater模式（就是四周都會變黑的模式）就可以跑囉！</p>
+
+<p>然後再轉成markdown或是圖片語法的字串：</p>
+
+<pre><code>dumpArr.map(function(o){
+    /* markdown語法 */
+    return '!(' + o.comment + ')[' + o.src + ']';
+
+    /* img tag */
+    return '&lt;img alt="'+o.comment+'" src="' + o.src +'"&gt;';
+
+}).join('\n');
+</code></pre>
+
+<p>欸...亂寫的需要就用用看吧，有空再來解釋XD (靠)</p>
 ]]></content>
   </entry>
   
