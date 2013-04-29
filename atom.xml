@@ -3,7 +3,7 @@
   <title><![CDATA[Orokana Pekoponjin]]></title>
   <link href="http://df1.github.com/atom.xml" rel="self"/>
   <link href="http://df1.github.com/"/>
-  <updated>2013-04-22T22:27:17+08:00</updated>
+  <updated>2013-04-30T00:53:00+08:00</updated>
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
@@ -150,7 +150,7 @@ $$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[2012秋 日本山陽道、北九州、關西之旅]]></title>
+    <title type="html"><![CDATA[2012 Japan Trip: Sanyo, Kansai, North-Kyushu]]></title>
     <link href="http://df1.github.com/blog/2013/03/02/2012-japan-trip/"/>
     <updated>2013-03-02T17:40:00+08:00</updated>
     <id>http://df1.github.com/blog/2013/03/02/2012-japan-trip</id>
