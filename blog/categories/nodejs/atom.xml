@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: nodejs | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/nodejs/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/nodejs/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
 
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <generator uri="https://octopress.org/">Octopress</generator>
 
 
   <entry>
     <title type="html"><![CDATA[Node.JS Hsinchu Party 2012/06/30]]></title>
-    <link href="http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/"/>
+    <link href="https://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/"/>
     <updated>2012-07-01T20:50:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30</id>
-    <content type="html"><![CDATA[<p>這次Node.JS Hsinchu Party，除了有<a href="http://blog.jackbean.tw">JackBean</a>提供的免費場地、Nausca大大熱情贊助的飲料外，
-還有大家期待已久的、一樣是由<a href="http://storiii.com/">storiii</a>的Yusen大大來分享的兩個主題：<a href="https://github.com/visionmedia/ejs#readme">EJS</a>與<a href="http://en.wikipedia.org/wiki/Y_Combinator#Y_combinator">Y-combinator</a>。</p>
+    <id>https://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30</id>
+    <content type="html"><![CDATA[<p>這次Node.JS Hsinchu Party，除了有<a href="https://blog.jackbean.tw">JackBean</a>提供的免費場地、Nausca大大熱情贊助的飲料外，
+還有大家期待已久的、一樣是由<a href="https://storiii.com/">storiii</a>的Yusen大大來分享的兩個主題：<a href="https://github.com/visionmedia/ejs#readme">EJS</a>與<a href="https://en.wikipedia.org/wiki/Y_Combinator#Y_combinator">Y-combinator</a>。</p>
 
 <!--more-->
 
@@ -35,7 +35,7 @@
 &lt;% } %&gt;
 </code></pre>
 
-<p>它可以直接在NODE以<a href="http://npmjs.org/">NPM</a>安裝使用（可以完美配合<a href="http://expressjs.com/">express.js</a>），也可以在broswer端呼叫使用。
+<p>它可以直接在NODE以<a href="https://npmjs.org/">NPM</a>安裝使用（可以完美配合<a href="https://expressjs.com/">express.js</a>），也可以在broswer端呼叫使用。
 基本的介紹其實到這邊就講完了（咦!?）</p>
 
 <h3>Use case</h3>
@@ -67,7 +67,7 @@ cinder: C++做到JS的感覺
 <p>YuSen大大用最經典的費伯納西遞迴函式開始進行推導，經過curry等技巧的一番最佳化之後，
 最後生成的是一個讓人看不懂的Y函式，還有分離出來費氏數列邏輯的函式。</p>
 
-<h3><a href="http://storiii.com/player.html">詳細推導過程請見YuSen大大的網站投影片</a></h3>
+<h3><a href="https://storiii.com/player.html">詳細推導過程請見YuSen大大的網站投影片</a></h3>
 
 <p>雖然Y combinator本身是經過層層推導出的結果，無法讓人一眼看懂，
 不過可以將它理解成「遞迴引擎」。只要將邏輯傳進去，就可以利用它生成一個單一參數的遞迴函式。

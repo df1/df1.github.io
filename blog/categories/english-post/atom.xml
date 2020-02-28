@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: English Post | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/english-post/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/english-post/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
 
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <generator uri="https://octopress.org/">Octopress</generator>
 
 
   <entry>
     <title type="html"><![CDATA[JSDC.TW Transcript: Building Mobile Devices with the Open Web ]]></title>
-    <link href="http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript/"/>
+    <link href="https://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript/"/>
     <updated>2012-05-29T22:33:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript</id>
-    <content type="html"><![CDATA[<p><img src="http://jsdc.tw/2012/img/logo.png"></p>
+    <id>https://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript</id>
+    <content type="html"><![CDATA[<p><img src="https://jsdc.tw/2012/img/logo.png"></p>
 
-<p>Last week I worked at JSDC.TW 2012 as a volunteer. I was extremely exited about this since it was the first JavaScript conference in Taiwan! <a href="http://www.plurk.com/p/gflmfl">Here</a> is my brief summary during the entire conference, and also the preparation on the day before the conference.</p>
+<p>Last week I worked at JSDC.TW 2012 as a volunteer. I was extremely exited about this since it was the first JavaScript conference in Taiwan! <a href="https://www.plurk.com/p/gflmfl">Here</a> is my brief summary during the entire conference, and also the preparation on the day before the conference.</p>
 
-<h3><a href="http://jsdc.tw/2012/Sessions">Full agenda with slides and videos</a></h3>
+<h3><a href="https://jsdc.tw/2012/Sessions">Full agenda with slides and videos</a></h3>
 
 <p>And here I'm gonna add caption for one of these video, which might be the hardest one to deal with. It's still in progress, and <strong>needs your help!</strong></p>
 
@@ -30,7 +30,7 @@
 
 <h2>The Video</h2>
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9_uTJ2iTovg?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_uTJ2iTovg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 <ul>
@@ -59,13 +59,13 @@
 
   <entry>
     <title type="html"><![CDATA[OSDC.TW 2012: My Summary & Impressions]]></title>
-    <link href="http://df1.github.com/blog/2012/04/17/osdc-2012-impressions/"/>
+    <link href="https://df1.github.com/blog/2012/04/17/osdc-2012-impressions/"/>
     <updated>2012-04-17T23:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/04/17/osdc-2012-impressions</id>
+    <id>https://df1.github.com/blog/2012/04/17/osdc-2012-impressions</id>
     <content type="html"><![CDATA[<p><img src="/attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png">
-Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn't much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got in each session. (I will fill them up if I have time)</p>
+Last weekend I joined <a href="https://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="https://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn't much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got in each session. (I will fill them up if I have time)</p>
 
-<h1>Update: Videos and slides of each session <a href="http://osdc.tw/schedule#day1">RELEASED</a>!</h1>
+<h1>Update: Videos and slides of each session <a href="https://osdc.tw/schedule#day1">RELEASED</a>!</h1>
 
 <div class="gallery">
 <img src="https://i.imgur.com/ITjm1.jpg">
@@ -153,7 +153,7 @@ It looks like that this talk was more of a general overview about what Mizilla's
 <h3>Links</h3>
 
 <ul>
-<li><a href="http://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/">Yahoo!’s Mojito is Now Open Source</a></li>
+<li><a href="https://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/">Yahoo!’s Mojito is Now Open Source</a></li>
 </ul>
 
 
@@ -198,7 +198,7 @@ It looks like that this talk was more of a general overview about what Mizilla's
 </ul>
 
 
-<p>It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who's known as one of the "10  greats of Taiwanese computing." You should check <a href="http://www.youtube.com/watch?v=osJxSgbJuzY">the video</a> out, seriously!</p>
+<p>It was an EPIC talk given by <a href="https://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who's known as one of the "10  greats of Taiwanese computing." You should check <a href="https://www.youtube.com/watch?v=osJxSgbJuzY">the video</a> out, seriously!</p>
 
 <h2>Apps on HTML5 and the new WebAPIs</h2>
 
@@ -267,7 +267,7 @@ It looks like that this talk was more of a general overview about what Mizilla's
 
 <p>This was a talk given by the goddess of open source community -- Allison, and made us open source programmers much happier. When Allison was speaking, Audrey was doing a real-time transcripting in IRC!! Here is the hidden cam (by eddie Kao)</p>
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/dQ6nK_Yz14Q?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQ6nK_Yz14Q?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 <h2>Keynote: Pix Table, The ORM from PIXNET</h2>
@@ -292,15 +292,15 @@ It looks like that this talk was more of a general overview about what Mizilla's
 <h2>Lightning Talks</h2>
 
 <ul>
-<li><a href="http://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="http://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)</li>
-<li><a href="http://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore</li>
-<li><a href="http://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥</li>
-<li><a href="http://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="http://www.plurk.com/p/g51aoe">Slide</a>)</li>
-<li><a href="http://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT</li>
-<li><a href="http://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen</li>
-<li><a href="http://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a></li>
+<li><a href="https://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="https://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)</li>
+<li><a href="https://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore</li>
+<li><a href="https://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥</li>
+<li><a href="https://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="https://www.plurk.com/p/g51aoe">Slide</a>)</li>
+<li><a href="https://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT</li>
+<li><a href="https://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen</li>
+<li><a href="https://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a></li>
 <li><a href="">JVM as the universal Language runtime</a> - Sunny Chan</li>
-<li><a href="http://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</li>
+<li><a href="https://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</li>
 </ul>
 
 
@@ -321,7 +321,7 @@ It looks like that this talk was more of a general overview about what Mizilla's
 <h2>Reference Links</h2>
 
 <ul>
-<li><a href="http://osdc.tw">OSDC.TW 2012</a></li>
+<li><a href="https://osdc.tw">OSDC.TW 2012</a></li>
 <li><a href="https://gist.github.com/2393705">IRC Log</a></li>
 </ul>
 
@@ -330,16 +330,16 @@ It looks like that this talk was more of a general overview about what Mizilla's
 
   <entry>
     <title type="html"><![CDATA[Web-based Slideshows --Comparing impress.js, jmpress.js and reveal.js]]></title>
-    <link href="http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/"/>
+    <link href="https://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/"/>
     <updated>2012-03-27T13:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi</id>
-    <content type="html"><![CDATA[<p>The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="http://bartaz.github.com/impress.js">impress.js</a>, <a href="http://shama.github.com/jmpress.js">jmpress.js</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. "Why not give it a crack?" said them. And I decided to try impress.js out.<br /></p>
+    <id>https://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi</id>
+    <content type="html"><![CDATA[<p>The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="https://bartaz.github.com/impress.js">impress.js</a>, <a href="https://shama.github.com/jmpress.js">jmpress.js</a> and <a href="https://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. "Why not give it a crack?" said them. And I decided to try impress.js out.<br /></p>
 
 <br />
 
 
 <div class="separator" style="clear: both; text-align: center;">
-<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>
+<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="https://www.blogger.com/"></a>
 </div>
 
 
@@ -426,7 +426,7 @@ Can be linked</div>
 Design Usability</div>
 </td>
   <td><div style="text-align: left;">
-Very friendly UI with its prevailing "<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
+Very friendly UI with its prevailing "<a href="https://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
 </td>
   <td colspan="2"><div style="text-align: left;">
 You must have HTML skill! <font color="red">(Update 04/18: Not now, see [this][impressionist] for impress.js)</font></div>
@@ -513,9 +513,9 @@ free</div>
 <h2>Related Links</h2>
 
 <ul>
-<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">Making an Impressive Product Showcase with CSS3</a> - tutorialzine</li>
-<li>(updated 2012/04/05) <a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">SLIDESHOW WITH JMPRESS.JS</a> - codrops</li>
-<li>(updated 2012/04/18) Impressionist -- <a href="https://github.com/hsivaramx/Impressionist">Online Visual Editing Tool</a> for Impress.js (latest: <a href="http://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>)</li>
+<li><a href="https://tutorialzine.com/2012/02/css3-product-showcase/">Making an Impressive Product Showcase with CSS3</a> - tutorialzine</li>
+<li>(updated 2012/04/05) <a href="https://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">SLIDESHOW WITH JMPRESS.JS</a> - codrops</li>
+<li>(updated 2012/04/18) Impressionist -- <a href="https://github.com/hsivaramx/Impressionist">Online Visual Editing Tool</a> for Impress.js (latest: <a href="https://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>)</li>
 </ul>
 
 ]]></content>
@@ -523,9 +523,9 @@ free</div>
 
   <entry>
     <title type="html"><![CDATA[Ext JS 4.0.7 (4.1b2) IE8 Performance Issue]]></title>
-    <link href="http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/"/>
+    <link href="https://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/"/>
     <updated>2012-02-17T13:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8</id>
+    <id>https://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8</id>
     <content type="html"><![CDATA[<p><span>Our project is an Ext 4 application built with Ext Designer 1.2.2, with the 4.0.7 library. Inevitably, we faced the performance issue in IE8, while firefox and chrome work just fine and smooth. (the bad news is our company is IE8-dominating)&nbsp;</span><br />
 <span>We've tried out the latest ExtJS 4.1 beta 2, beside dozens of layout distortions, we still find no performance improvement.&nbsp;</span><br /></p>
 
@@ -533,7 +533,7 @@ free</div>
 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s1600/2012-02-26+2-23-42.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="244" src="http://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s320/2012-02-26+2-23-42.png" width="320" /></a></td></tr>
+<tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s1600/2012-02-26+2-23-42.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="244" src="https://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s320/2012-02-26+2-23-42.png" width="320" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">oh and the support period is gonna expire</td></tr>
 </tbody></table>
 
@@ -576,7 +576,7 @@ free</div>
 <span>To provide an accurate answer, we would need to see a small working example that display the problem that you see.&nbsp;</span><br />
 <span>One thing that you may try, is to create generic form that has numerous controls (including populate combos, array driven) to see if you have the same problem.&nbsp;</span><br />
 <br />
-<span>I have attached <a href="http://support.extjs.com/download.php/reply/36915/t7210.zip" target="_blank">an example</a> that you can use as a template. Please see how this renders on IE8, Please make sure to update the path to Ext in the html file.&nbsp;</span><br />
+<span>I have attached <a href="https://support.extjs.com/download.php/reply/36915/t7210.zip" target="_blank">an example</a> that you can use as a template. Please see how this renders on IE8, Please make sure to update the path to Ext in the html file.&nbsp;</span><br />
 <br />
 <span>If you have any further questions, please let us know.&nbsp;</span></blockquote>
 
@@ -591,16 +591,16 @@ free</div>
 
   <entry>
     <title type="html"><![CDATA[Integrate Ext Designer With Java Web Project In Eclipse]]></title>
-    <link href="http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/"/>
+    <link href="https://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/"/>
     <updated>2012-02-16T13:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse</id>
-    <content type="html"><![CDATA[<p>The mysterious <a href="http://www.sencha.com/products/designer/" target="_blank">Sencha Designer </a>2.0 announced in last year's SenchaCon has finally <a href="http://www.sencha.com/blog/sencha-designer-2-beta-announcement/" target="_blank">released the Beta version</a> last week (without trial period limitation!) Besides the Sencha Touch support, which has been their focus, what really attracts me is it finally supports ExtJS 4 MVC, and in-line event definition.</p>
+    <id>https://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse</id>
+    <content type="html"><![CDATA[<p>The mysterious <a href="https://www.sencha.com/products/designer/" target="_blank">Sencha Designer </a>2.0 announced in last year's SenchaCon has finally <a href="https://www.sencha.com/blog/sencha-designer-2-beta-announcement/" target="_blank">released the Beta version</a> last week (without trial period limitation!) Besides the Sencha Touch support, which has been their focus, what really attracts me is it finally supports ExtJS 4 MVC, and in-line event definition.</p>
 
 <br />
 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s640/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="640" /></a></td></tr>
+<tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="https://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s640/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">M, V, C, and S (Store)</td></tr>
 </tbody></table>
 
@@ -617,13 +617,13 @@ free</div>
 <!--more-->
 
 
-<iframe allowfullscreen="" frameborder="0" height="225" mozallowfullscreen="" src="http://player.vimeo.com/video/17921733?title=0&amp;byline=0&amp;portrait=0&amp;color=4CC208" webkitallowfullscreen="" width="400"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="225" mozallowfullscreen="" src="https://player.vimeo.com/video/17921733?title=0&amp;byline=0&amp;portrait=0&amp;color=4CC208" webkitallowfullscreen="" width="400"></iframe>
 
 
 <br />
 
 
-<p><a href="http://vimeo.com/17921733">SenchaCon 2010: Advanced Techniques for Ext Designer</a> from <a href="http://vimeo.com/sencha">Sencha</a>.<br /></p>
+<p><a href="https://vimeo.com/17921733">SenchaCon 2010: Advanced Techniques for Ext Designer</a> from <a href="https://vimeo.com/sencha">Sencha</a>.<br /></p>
 
 <br />
 
@@ -646,12 +646,12 @@ Code Organization</span></h2>
 <table style="background:white;"><tbody>
 <tr><td style="vertical-align: top;">&nbsp;Recommended way with ExtJS 4 &nbsp;MVC architecture<br />
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" height="400" src="http://4.bp.blogspot.com/-QkWQrN0RY4Q/Tzviw7k01LI/AAAAAAAABZ4/0EYodH8mEn0/s400/%E5%9C%96%E7%89%871.png" width="265" /></div>
+<img border="0" height="400" src="https://4.bp.blogspot.com/-QkWQrN0RY4Q/Tzviw7k01LI/AAAAAAAABZ4/0EYodH8mEn0/s400/%E5%9C%96%E7%89%871.png" width="265" /></div>
 <div>
 <br /></div>
 </td><td>VS</td><td style="vertical-align: top;">&nbsp;&nbsp;My way with Ext Designer integrated to entire project<br />
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" height="400" src="http://4.bp.blogspot.com/-yb6xljyfnnw/Tzviyi9J-vI/AAAAAAAABaA/lwNK-BzC2C8/s400/%25E5%259C%2596%25E7%2589%25872.png" width="233" /></div>
+<img border="0" height="400" src="https://4.bp.blogspot.com/-yb6xljyfnnw/Tzviyi9J-vI/AAAAAAAABaA/lwNK-BzC2C8/s400/%25E5%259C%2596%25E7%2589%25872.png" width="233" /></div>
 <br /></td></tr>
 </tbody></table>
 
@@ -662,7 +662,7 @@ Project Settings in Designer</span></h2>
 
 
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" height="185" src="http://3.bp.blogspot.com/-XOJI49R0plk/TzvjLizOFnI/AAAAAAAABaQ/_SqsnBmCE7M/s320/%25E5%259C%2596%25E7%2589%25874.png" width="320" /></div>
+<img border="0" height="185" src="https://3.bp.blogspot.com/-XOJI49R0plk/TzvjLizOFnI/AAAAAAAABaQ/_SqsnBmCE7M/s320/%25E5%259C%2596%25E7%2589%25874.png" width="320" /></div>
 
 
 <div>
@@ -672,14 +672,14 @@ Project Settings in Designer</span></h2>
 
 Project Structure in Eclipse</span></h2>
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" height="398" src="http://4.bp.blogspot.com/-7caurFKVcGM/TzvjNGGlNnI/AAAAAAAABaY/N6R3cLRZHzw/s640/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D1.png" width="640" /></div>
+<img border="0" height="398" src="https://4.bp.blogspot.com/-7caurFKVcGM/TzvjNGGlNnI/AAAAAAAABaY/N6R3cLRZHzw/s640/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D1.png" width="640" /></div>
 <br />
 <h2>
 
 <span style="font-size: large;">
 In case of accidental tragedies…</span></h2>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><img border="0" height="262" src="http://1.bp.blogspot.com/-4Db_YUl385U/TzvdS5mFMaI/AAAAAAAABZw/URYCLc7XFoM/s320/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="320" /></td></tr>
+<tr><td style="text-align: center;"><img border="0" height="262" src="https://1.bp.blogspot.com/-4Db_YUl385U/TzvdS5mFMaI/AAAAAAAABZw/URYCLc7XFoM/s320/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="320" /></td></tr>
 <tr><td class="tr-caption" style="text-align: center;"><span style="font-size: small; text-align: -webkit-auto;">Eclipse asks you if you want to modify read-only files. Just say no.</span>
 </td></tr>
 </tbody></table>
@@ -689,7 +689,7 @@ In case of accidental tragedies…</span></h2>
 <span style="font-size: large;">
 The HTML</span></h2>
 <h2>
-<img border="0" width="400" src="http://4.bp.blogspot.com/-hOFqIkTWuV4/Tzvko2-a_PI/AAAAAAAABag/53ksQ-X5gD4/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></h2>
+<img border="0" width="400" src="https://4.bp.blogspot.com/-hOFqIkTWuV4/Tzvko2-a_PI/AAAAAAAABag/53ksQ-X5gD4/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></h2>
 <br />
 <h2>
 
@@ -697,7 +697,7 @@ The HTML</span></h2>
 
 The designer.js</span></h2>
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" src="http://2.bp.blogspot.com/-TbaHWwi4wC4/TzvlTceXs2I/AAAAAAAABao/HorkoNvoeys/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<img border="0" src="https://2.bp.blogspot.com/-TbaHWwi4wC4/TzvlTceXs2I/AAAAAAAABao/HorkoNvoeys/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
 <br />
 <h2>
 
@@ -706,7 +706,7 @@ The designer.js</span></h2>
 
 The Implementation</span></h2>
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" src="http://3.bp.blogspot.com/-pFRDeiJtD5w/Tzvlnu44T7I/AAAAAAAABaw/3acOgGijilU/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<img border="0" src="https://3.bp.blogspot.com/-pFRDeiJtD5w/Tzvlnu44T7I/AAAAAAAABaw/3acOgGijilU/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
 <br />
 <h2>
 <span style="font-size: large;">
@@ -715,7 +715,7 @@ Debugging</span></h2>
 <br />
 Use Chrome’s debugging tool to debug ExtJS 4 dynamic-loaded classes<br />
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" src="http://4.bp.blogspot.com/-OgBbM-VqceI/Tzvl2L5zZ1I/AAAAAAAABa4/eizszoym99I/s1600/%E5%9C%96%E7%89%875.png" /></div>
+<img border="0" src="https://4.bp.blogspot.com/-OgBbM-VqceI/Tzvl2L5zZ1I/AAAAAAAABa4/eizszoym99I/s1600/%E5%9C%96%E7%89%875.png" /></div>
 <div>
 <br /></div>
 </div>

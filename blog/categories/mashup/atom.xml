@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: mashup | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/mashup/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/mashup/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[無聊分享：PTT有人在送吉他時候跟我說一聲]]></title>
-    <link href="http://df1.github.com/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/"/>
+    <link href="https://df1.github.com/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/"/>
     <updated>2012-05-07T22:24:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt</id>
+    <id>https://df1.github.com/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt</id>
     <content type="html"><![CDATA[<p>又來做無聊分享了！話說PTT的give（贈送板）真的是個好地方，幾乎是什麼都送，什麼都不奇怪，連吉他、電吉他都有很多佛心來的版友大方割愛。不過對於工作忙碌、在公司又不能上PTT的的宅宅工程師而言，絕對是搶不贏那些全職鄉民的orz</p>
 
-<p>這時候若是有個機器人可以隨時幫我爬文通知該有多好！不過機器人其實不用自己寫，有個N年前發表之後一直維持冷門狀態的服務--<a href="http://pipes.yahoo.com">Yahoo Pipes</a>可以派上用場！</p>
+<p>這時候若是有個機器人可以隨時幫我爬文通知該有多好！不過機器人其實不用自己寫，有個N年前發表之後一直維持冷門狀態的服務--<a href="https://pipes.yahoo.com">Yahoo Pipes</a>可以派上用場！</p>
 
 <h2>製作Pipe</h2>
 
@@ -48,8 +48,8 @@
 
 <p><img src="/attachments/2012-05-07-notify-me-when-theres-guitar-giveaway-in-ptt/reader.png" title="&#34;將RSS餵給Google Reader&#34;" alt="&#34;將RSS餵給Google Reader&#34;"></p>
 
-<h3>Pipe連結：<a href="http://pipes.yahoo.com/s911131/pttguitar">PTT送吉他</a>，歡迎fork！</h3>
+<h3>Pipe連結：<a href="https://pipes.yahoo.com/s911131/pttguitar">PTT送吉他</a>，歡迎fork！</h3>
 ]]></content>
   </entry>
-  
+
 </feed>

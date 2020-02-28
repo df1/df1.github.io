@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: programming | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/programming/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[Be a Rockstar Developer 當個搖滾開發人員]]></title>
-    <link href="http://df1.github.com/blog/2012/03/21/be-a-rockstar-developer/"/>
+    <link href="https://df1.github.com/blog/2012/03/21/be-a-rockstar-developer/"/>
     <updated>2012-03-21T13:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/03/21/be-a-rockstar-developer</id>
+    <id>https://df1.github.com/blog/2012/03/21/be-a-rockstar-developer</id>
     <content type="html"><![CDATA[<p>最近在幾篇文章裡看到了Rockstar Developer這個字眼（似乎有點LAG了），如果要翻的話就是『搖滾開發人員』這樣？
 就我的認知，指的可能是在技術社群內很活躍的名人；在一個團隊內類似『技術總監』的角色；或是簡單的說，就是你很崇拜的那種程式人員。<br /></p>
 
@@ -29,9 +29,9 @@
 <br />
 
 
-<h2><a href="http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">十大特質</a></h2>
+<h2><a href="https://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">十大特質</a></h2>
 
-<p>出處：<a href="http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">Top 10 Traits of a Rockstar Software Engineer</a> By Alex Iskold</p>
+<p>出處：<a href="https://www.readwriteweb.com/archives/top_10_software_engineer_traits.php">Top 10 Traits of a Rockstar Software Engineer</a> By Alex Iskold</p>
 
 <ol>
 <li><b>Loves To Code</b><br />-- 這不用說了，要有freak-out的精神！</li>
@@ -57,7 +57,7 @@
 
 <h2>What makes a ‘Rockstar’ Developer?</h2>
 
-<p>出處：<a href="http://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html">What makes a ‘Rockstar’ Developer?</a> By krotscheck</p>
+<p>出處：<a href="https://www.krotscheck.net/2010/01/10/what-makes-a-rockstar-developer.html">What makes a ‘Rockstar’ Developer?</a> By krotscheck</p>
 
 <ol>
 <li>They don’t think of themselves as rock stars.</li>
@@ -80,7 +80,7 @@
 
 <h2>如何成為明星開發人員?</h2>
 
-<p>出處：The question <a href="http://www.quora.com/How-does-one-become-a-rockstar-developer">"How does one become a "rockstar" developer?"</a> in Quora answered by Andrew Berman</p>
+<p>出處：The question <a href="https://www.quora.com/How-does-one-become-a-rockstar-developer">"How does one become a "rockstar" developer?"</a> in Quora answered by Andrew Berman</p>
 
 <div>
 <div>
@@ -107,5 +107,5 @@ API&nbsp;時，來回地學習它。如果正好是你學過的語言，並且�
 
 ]]></content>
   </entry>
-  
+
 </feed>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: cat | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/cat/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/cat/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
 
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <generator uri="https://octopress.org/">Octopress</generator>
 
 
   <entry>
     <title type="html"><![CDATA[自製波笛跑步機]]></title>
-    <link href="http://df1.github.com/blog/2012/05/01/cat-wheel-diy/"/>
+    <link href="https://df1.github.com/blog/2012/05/01/cat-wheel-diy/"/>
     <updated>2012-05-01T23:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/05/01/cat-wheel-diy</id>
-    <content type="html"><![CDATA[<p>之前在別人的網誌看到<a href="http://sepudesign.pixnet.net/blog/post/26003728-%E8%B2%93%E5%92%AA%E9%A3%9B%E8%BC%AA">這篇文</a></p>
+    <id>https://df1.github.com/blog/2012/05/01/cat-wheel-diy</id>
+    <content type="html"><![CDATA[<p>之前在別人的網誌看到<a href="https://sepudesign.pixnet.net/blog/post/26003728-%E8%B2%93%E5%92%AA%E9%A3%9B%E8%BC%AA">這篇文</a></p>
 
 <p><img src="/attachments/2012-05-01-cat-wheel-diy/pixnet.gif" title="&#34;貓咪飛輪&#34;" alt="&#34;貓咪飛輪&#34;"></p>
 
@@ -42,9 +42,9 @@
 
   <entry>
     <title type="html"><![CDATA[波笛身世二三事]]></title>
-    <link href="http://df1.github.com/blog/2012/04/06/things-about-birdie/"/>
+    <link href="https://df1.github.com/blog/2012/04/06/things-about-birdie/"/>
     <updated>2012-04-06T13:18:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/04/06/things-about-birdie</id>
+    <id>https://df1.github.com/blog/2012/04/06/things-about-birdie</id>
     <content type="html"><![CDATA[<p>（傳說中欠了快兩年的文來了XD）</p>
 
 <p><img src="https://i.imgur.com/GjHBv.jpg" width="500" title="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;" alt="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;"></p>
@@ -99,7 +99,7 @@
 
 <p>這是第一次進獸醫診所時的影片！當初第一眼看到他時候，就覺得實在有聒噪到。原本想說畢竟是小貓，長大之後應該會好一點，不過很遺憾…（ry</p>
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/nNCZwmXw3LI?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/nNCZwmXw3LI?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 <p>靠完全就狀況外阿！一般貓被帶離自己熟悉環境應該要很緊張才對吧，有人卻很享受獸醫院的住院鐵籠是怎樣XD？（當時樓下還住著一隻超大癩痢狗XD）
@@ -177,11 +177,11 @@
 
   <entry>
     <title type="html"><![CDATA[八爪波笛]]></title>
-    <link href="http://df1.github.com/blog/2012/03/30/octocat/"/>
+    <link href="https://df1.github.com/blog/2012/03/30/octocat/"/>
     <updated>2012-03-30T11:22:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/03/30/octocat</id>
+    <id>https://df1.github.com/blog/2012/03/30/octocat</id>
     <content type="html"><![CDATA[<p><img class="center" src="/attachments/2012-03-30-octocat/octocat.png"><br/>
-上禮拜看到了github的『八爪貓資料庫』 -- <a href="http://octodex.github.com/">octodex</a>，馬上決定要做一隻波笛版，於是就有這隻八爪波笛了XD</p>
+上禮拜看到了github的『八爪貓資料庫』 -- <a href="https://octodex.github.com/">octodex</a>，馬上決定要做一隻波笛版，於是就有這隻八爪波笛了XD</p>
 
 <p>各種格式需要請自取：
 <a href="/attachments/2012-03-30-octocat/octocat.ai"><code>Illustrator</code></a>, <a href="/attachments/2012-03-30-octocat/octocat.fla"><code>Flash</code></a>, <a href="/attachments/2012-03-30-octocat/octocat.svg"><code>SVG</code></a>, <a href="/attachments/2012-03-30-octocat/octocat.ico"><code>ICO</code></a></p>

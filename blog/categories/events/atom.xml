@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Events | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/events/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/events/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[JS Group Taichung Meetup September 2012]]></title>
-    <link href="http://df1.github.com/blog/2012/09/11/js-group-taichung-meetup-september-2012/"/>
+    <link href="https://df1.github.com/blog/2012/09/11/js-group-taichung-meetup-september-2012/"/>
     <updated>2012-09-11T14:39:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/09/11/js-group-taichung-meetup-september-2012</id>
-    <content type="html"><![CDATA[<p>這次是<a href="http://javascript.tw">JS Group</a>在台中舉辦的第五次聚會。這個聚會除了每隔週在台北之外，通常選在每個月的第一個禮拜六下午會來到台中舉行。今天大家一樣是在老地方的水舞饌三樓，一起吃吃喝喝、coding、聊天。而這次的講者就是主辦的TonyQ大大。</p>
+    <id>https://df1.github.com/blog/2012/09/11/js-group-taichung-meetup-september-2012</id>
+    <content type="html"><![CDATA[<p>這次是<a href="https://javascript.tw">JS Group</a>在台中舉辦的第五次聚會。這個聚會除了每隔週在台北之外，通常選在每個月的第一個禮拜六下午會來到台中舉行。今天大家一樣是在老地方的水舞饌三樓，一起吃吃喝喝、coding、聊天。而這次的講者就是主辦的TonyQ大大。</p>
 
 <p>TonyQ本身因為工作的關係，對jQuery等前端技術相當有經驗，所以大多分享還是會以jQuery為主。不過這個活動中大家討論的內容還是可以跳脫jQuery、跳脫library，廣泛地去討論所有JS或前端技術。今日主題就是網站裡很本質的要素：JS表單驗證、彈出式視窗。</p>
 
@@ -27,7 +27,7 @@
 
 <p></p>
 
-<p><img src="http://www.xapps.tw/files/node_image/52/js.png" alt="FB上的盛況XD" /></p>
+<p><img src="https://www.xapps.tw/files/node_image/52/js.png" alt="FB上的盛況XD" /></p>
 
 <h2>甚麼是表單驗證？</h2>
 
@@ -80,7 +80,7 @@ function validate(){
 再者，有多少欄位就要寫多少行的if clause，是一件很痛苦的事情。
 以下舉了一些現成的表單驗證工具，看別人怎麼簡化這個東西。</p>
 
-<h3><a href="http://jquery.bassistance.de/validate/demo/">jQuery Validation</a>：老字號(2006~2007就出現了)</h3>
+<h3><a href="https://jquery.bassistance.de/validate/demo/">jQuery Validation</a>：老字號(2006~2007就出現了)</h3>
 
 <pre><code>&lt;input id="name" type="text" minlength="2" required&gt;
 </code></pre>
@@ -140,15 +140,15 @@ function validate(){
 
 <p>常常會有十個以上的方法來解同一個問題。實務上，還是需要看需求及團隊skillset來調整實作方法。另外，表單驗證其實不限於有<code>&lt;form&gt;</code>的形式(如：FB社團加入成員功能，是由一個輸入框+按鈕構成的)</p>
 
-<p>表單設計好書推薦：<a href="http://www.pcstore.com.tw/69book/M07276721.htm">「Web表單設計:點石成金的藝術」</a></p>
+<p>表單設計好書推薦：<a href="https://www.pcstore.com.tw/69book/M07276721.htm">「Web表單設計:點石成金的藝術」</a></p>
 
 <h2>彈出式視窗</h2>
 
 <p>彈出式視窗說穿了就是在有限的畫面內浮出一個區間：其他的不重要啦，讓專業的來！</p>
 
 <ul>
-<li><a href="http://leandrovieira.com/projects/jquery/lightbox/">jQuery</a> lightbox：最常見的選擇</li>
-<li><a href="http://www.malsup.com/jquery/block/">Block UI</a></li>
+<li><a href="https://leandrovieira.com/projects/jquery/lightbox/">jQuery</a> lightbox：最常見的選擇</li>
+<li><a href="https://www.malsup.com/jquery/block/">Block UI</a></li>
 <li>jQuery Alert：做簡單的提示或確認視窗</li>
 </ul>
 
@@ -197,5 +197,5 @@ function validate(){
 <p>所有的瀏覽器(包含IE6)都可以這樣做，不過policy還是同網域才可以用<code>window.opener</code>。</p>
 ]]></content>
   </entry>
-  
+
 </feed>

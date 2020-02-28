@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: OSDC.TW | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/osdc-tw/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/osdc-tw/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
 
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <generator uri="https://octopress.org/">Octopress</generator>
 
 
   <entry>
     <title type="html"><![CDATA[OSDC.TW 2012: My Summary & Impressions]]></title>
-    <link href="http://df1.github.com/blog/2012/04/17/osdc-2012-impressions/"/>
+    <link href="https://df1.github.com/blog/2012/04/17/osdc-2012-impressions/"/>
     <updated>2012-04-17T23:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/04/17/osdc-2012-impressions</id>
+    <id>https://df1.github.com/blog/2012/04/17/osdc-2012-impressions</id>
     <content type="html"><![CDATA[<p><img src="/attachments/2012-04-16-osdc-2012-impressions/OSDC2012Banner.png">
-Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="http://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn't much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got in each session. (I will fill them up if I have time)</p>
+Last weekend I joined <a href="https://osdc.tw">OSDC.TW 2012</a> (Open Source Developers' Conference) in Sinica Academia, Taipei. It was a 2-day event (April 14-15, 2012) with 7 keynote speeches, 9 sessions (departed to 3 mini-confs for each, 27 topics in total), and 9 lightning talks. (Here is the <a href="https://osdc.tw/schedule#day1">official agenda</a>.) Since each talk lasted only for 30-40 minutes, there wasn't much practical coding stuff. Instead, many ideas and hilarious jokes were given in those introductory yet mind-blowing talks. This article is a brief summary for myself, and it also covers certain impressions that I had got in each session. (I will fill them up if I have time)</p>
 
-<h1>Update: Videos and slides of each session <a href="http://osdc.tw/schedule#day1">RELEASED</a>!</h1>
+<h1>Update: Videos and slides of each session <a href="https://osdc.tw/schedule#day1">RELEASED</a>!</h1>
 
 <div class="gallery">
 <img src="https://i.imgur.com/ITjm1.jpg">
@@ -109,7 +109,7 @@ It looks like that this talk was more of a general overview about what Mizilla's
 <h3>Links</h3>
 
 <ul>
-<li><a href="http://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/">Yahoo!’s Mojito is Now Open Source</a></li>
+<li><a href="https://developer.yahoo.com/blogs/ydn/posts/2012/04/yahoo%E2%80%99s-mojito-is-now-open-source/">Yahoo!’s Mojito is Now Open Source</a></li>
 </ul>
 
 
@@ -154,7 +154,7 @@ It looks like that this talk was more of a general overview about what Mizilla's
 </ul>
 
 
-<p>It was an EPIC talk given by <a href="http://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who's known as one of the "10  greats of Taiwanese computing." You should check <a href="http://www.youtube.com/watch?v=osJxSgbJuzY">the video</a> out, seriously!</p>
+<p>It was an EPIC talk given by <a href="https://en.wikipedia.org/wiki/Audrey_Tang">Audery Tang</a>, who's known as one of the "10  greats of Taiwanese computing." You should check <a href="https://www.youtube.com/watch?v=osJxSgbJuzY">the video</a> out, seriously!</p>
 
 <h2>Apps on HTML5 and the new WebAPIs</h2>
 
@@ -223,7 +223,7 @@ It looks like that this talk was more of a general overview about what Mizilla's
 
 <p>This was a talk given by the goddess of open source community -- Allison, and made us open source programmers much happier. When Allison was speaking, Audrey was doing a real-time transcripting in IRC!! Here is the hidden cam (by eddie Kao)</p>
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/dQ6nK_Yz14Q?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQ6nK_Yz14Q?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 <h2>Keynote: Pix Table, The ORM from PIXNET</h2>
@@ -248,15 +248,15 @@ It looks like that this talk was more of a general overview about what Mizilla's
 <h2>Lightning Talks</h2>
 
 <ul>
-<li><a href="http://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="http://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)</li>
-<li><a href="http://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore</li>
-<li><a href="http://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥</li>
-<li><a href="http://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="http://www.plurk.com/p/g51aoe">Slide</a>)</li>
-<li><a href="http://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT</li>
-<li><a href="http://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen</li>
-<li><a href="http://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a></li>
+<li><a href="https://www.youtube.com/watch?v=hMBzfggxCRo">如何在Hacker News攻佔前十名</a> - Dryman (Felix) (<a href="https://www.slideshare.net/ssuser5c831d/hacker-news">Slide</a>)</li>
+<li><a href="https://www.youtube.com/watch?v=EHhWpYmJqvo">又一個誤聽GAE的悲劇</a> - Toomore</li>
+<li><a href="https://www.youtube.com/watch?v=3W3NirrgssI">COOKPAD - AS YOUNG AS EVER</a> - 朴起煥</li>
+<li><a href="https://www.youtube.com/watch?v=kwFx2_rVQD0">需求變更的反覆模型</a> - Ben Lau (<a href="https://www.plurk.com/p/g51aoe">Slide</a>)</li>
+<li><a href="https://www.youtube.com/watch?v=-Zc-mgAhacM">GaiaSup - Spatial Pub/Sub Service for and kind of game or LBS apps</a> - BlueT</li>
+<li><a href="https://www.youtube.com/watch?v=pDopC2cCXrc">Meta Class and Singleton Pattern In Python</a> - Hychen</li>
+<li><a href="https://www.youtube.com/watch?v=NMtcmn2lkRA">中文Menu</a></li>
 <li><a href="">JVM as the universal Language runtime</a> - Sunny Chan</li>
-<li><a href="http://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</li>
+<li><a href="https://www.youtube.com/watch?v=i2uE_60DOac">簡單易懂的 Debian 打包魔法</a> - Yao Wei</li>
 </ul>
 
 
@@ -277,7 +277,7 @@ It looks like that this talk was more of a general overview about what Mizilla's
 <h2>Reference Links</h2>
 
 <ul>
-<li><a href="http://osdc.tw">OSDC.TW 2012</a></li>
+<li><a href="https://osdc.tw">OSDC.TW 2012</a></li>
 <li><a href="https://gist.github.com/2393705">IRC Log</a></li>
 </ul>
 

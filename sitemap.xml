@@ -1,141 +1,141 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+<urlset xmlns='https://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://df1.github.com/blog/2012/02/14/its-time-to-blog/</loc>
+        <loc>https://df1.github.com/blog/2012/02/14/its-time-to-blog/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/
+            https://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/
         </loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/</loc>
+        <loc>https://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/02/24/ext-js-4-1b3-performance-optimization/</loc>
+        <loc>https://df1.github.com/blog/2012/02/24/ext-js-4-1b3-performance-optimization/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/02/26/cross-browser-addon-framework/</loc>
+        <loc>https://df1.github.com/blog/2012/02/26/cross-browser-addon-framework/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://df1.github.com/blog/2012/03/03/ext-js-4-1-bug-when-group-by-template-column/
+            https://df1.github.com/blog/2012/03/03/ext-js-4-1-bug-when-group-by-template-column/
         </loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-branding/</loc>
+        <loc>https://df1.github.com/blog/2012/03/04/10-tips-for-sharepoint-branding/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/03/21/be-a-rockstar-developer/</loc>
+        <loc>https://df1.github.com/blog/2012/03/21/be-a-rockstar-developer/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js/
+            https://df1.github.com/blog/2012/03/25/cool-web-slides-impress-js-jmpress-js-reveal-js/
         </loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/
+            https://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/
         </loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/03/30/octocat/</loc>
+        <loc>https://df1.github.com/blog/2012/03/30/octocat/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/04/01/migration-completed/</loc>
+        <loc>https://df1.github.com/blog/2012/04/01/migration-completed/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://df1.github.com/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/
+            https://df1.github.com/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/
         </loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/04/05/ptt-joke-analytics/</loc>
+        <loc>https://df1.github.com/blog/2012/04/05/ptt-joke-analytics/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/04/06/things-about-birdie/</loc>
+        <loc>https://df1.github.com/blog/2012/04/06/things-about-birdie/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/04/07/piposea-raid/</loc>
+        <loc>https://df1.github.com/blog/2012/04/07/piposea-raid/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/04/09/jquery-striptease/</loc>
+        <loc>https://df1.github.com/blog/2012/04/09/jquery-striptease/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/04/17/osdc-2012-impressions/</loc>
+        <loc>https://df1.github.com/blog/2012/04/17/osdc-2012-impressions/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://df1.github.com/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/
+            https://df1.github.com/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/
         </loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/05/01/cat-wheel-diy/</loc>
+        <loc>https://df1.github.com/blog/2012/05/01/cat-wheel-diy/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://df1.github.com/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/
+            https://df1.github.com/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/
         </loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript/</loc>
+        <loc>https://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/06/21/2012-event-log/</loc>
+        <loc>https://df1.github.com/blog/2012/06/21/2012-event-log/</loc>
         <lastmod>2013-04-11T00:29:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/</loc>
+        <loc>https://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/</loc>
         <lastmod>2013-04-17T01:56:11+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/07/20/web-dev-party-5/</loc>
+        <loc>https://df1.github.com/blog/2012/07/20/web-dev-party-5/</loc>
         <lastmod>2013-04-17T01:56:19+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2012/09/11/js-group-taichung-meetup-september-2012/</loc>
+        <loc>https://df1.github.com/blog/2012/09/11/js-group-taichung-meetup-september-2012/</loc>
         <lastmod>2013-04-17T01:56:26+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2013/03/02/2012-japan-trip/</loc>
+        <loc>https://df1.github.com/blog/2013/03/02/2012-japan-trip/</loc>
         <lastmod>2013-04-30T00:52:06+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2013/04/05/code-snippet-for-dumping-facebook-album/</loc>
+        <loc>https://df1.github.com/blog/2013/04/05/code-snippet-for-dumping-facebook-album/</loc>
         <lastmod>2013-04-18T01:41:58+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/</loc>
+        <loc>https://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/</loc>
         <lastmod>2013-04-17T00:23:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/blog/archives/</loc>
+        <loc>https://df1.github.com/blog/archives/</loc>
         <lastmod>2013-04-30T00:52:06+08:00</lastmod>
     </url>
     <url>
-        <loc>http://df1.github.com/</loc>
+        <loc>https://df1.github.com/</loc>
         <lastmod>2013-04-30T00:52:06+08:00</lastmod>
     </url>
 </urlset>

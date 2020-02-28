@@ -64,7 +64,7 @@
   * https://github.com/fat/bean
   * MIT License
   * special thanks to:
-  * dean edwards: http://dean.edwards.name/
+  * dean edwards: https://dean.edwards.name/
   * dperini: https://github.com/dperini/nwevents
   * the entire mootools team: github.com/mootools/mootools-core
   */
@@ -439,7 +439,7 @@
 /*!
   * bonzo.js - copyright @dedfat 2011
   * https://github.com/ded/bonzo
-  * Follow our software http://twitter.com/dedfat
+  * Follow our software https://twitter.com/dedfat
   * MIT License
   */
 !function (context) {
@@ -1206,7 +1206,7 @@
 /*!
   * qwery.js - copyright @dedfat
   * https://github.com/ded/qwery
-  * Follow our software http://twitter.com/dedfat
+  * Follow our software https://twitter.com/dedfat
   * MIT License
   */
 

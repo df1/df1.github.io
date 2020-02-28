@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ux | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/ux/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/ux/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[Error Handling in Aspect of UX]]></title>
-    <link href="http://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/"/>
+    <link href="https://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/"/>
     <updated>2013-04-16T22:53:00+08:00</updated>
-    <id>http://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux</id>
+    <id>https://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux</id>
     <content type="html"><![CDATA[<p>最近接了一個project，主要工作是重新設計一個web-based的『百年系統』。
 對企業來說，下這種re-engineering決定是一個難題，但這種需求卻很常見。
 支持這決策的關鍵考量可能有幾項：</p>
@@ -96,5 +96,5 @@
 有空再補上圖＆一些practice！</p>
 ]]></content>
   </entry>
-  
+
 </feed>

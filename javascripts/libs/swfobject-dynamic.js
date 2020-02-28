@@ -1,5 +1,5 @@
-/*!	SWFObject v2.2 <http://code.google.com/p/swfobject/>
-	is released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
+/*!	SWFObject v2.2 <https://code.google.com/p/swfobject/>
+	is released under the MIT License <https://www.opensource.org/licenses/mit-license.php>
 */
 
 var swfobject = function() {
@@ -35,7 +35,7 @@ var swfobject = function() {
 			windows = p ? /win/.test(p) : /win/.test(u),
 			mac = p ? /mac/.test(p) : /mac/.test(u),
 			webkit = /webkit/.test(u) ? parseFloat(u.replace(/^.*webkit\/(\d+(\.\d+)?).*$/, "$1")) : false, // returns either the webkit version or false if not webkit
-			ie = !+"\v1", // feature detection based on Andrea Giammarchi's solution: http://webreflection.blogspot.com/2009/01/32-bytes-to-know-if-your-browser-is-ie.html
+			ie = !+"\v1", // feature detection based on Andrea Giammarchi's solution: https://webreflection.blogspot.com/2009/01/32-bytes-to-know-if-your-browser-is-ie.html
 			playerVersion = [0,0,0],
 			d = null;
 		if (typeof nav.plugins != UNDEF && typeof nav.plugins[SHOCKWAVE_FLASH] == OBJECT) {
@@ -218,7 +218,7 @@ var swfobject = function() {
 
 	return {
 		/* Public API
-			- Reference: http://code.google.com/p/swfobject/wiki/documentation
+			- Reference: https://code.google.com/p/swfobject/wiki/documentation
 		*/
 
 		embedSWF: function(swfUrlStr, replaceElemIdStr, widthStr, heightStr, swfVersionStr, flashvarsObj, parObj, attObj, callbackFn) {

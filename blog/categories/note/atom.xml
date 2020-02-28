@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: note | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/note/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/note/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
 
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <generator uri="https://octopress.org/">Octopress</generator>
 
 
   <entry>
     <title type="html"><![CDATA[Node.JS Hsinchu Party 2012/06/30]]></title>
-    <link href="http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/"/>
+    <link href="https://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/"/>
     <updated>2012-07-01T20:50:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30</id>
-    <content type="html"><![CDATA[<p>這次Node.JS Hsinchu Party，除了有<a href="http://blog.jackbean.tw">JackBean</a>提供的免費場地、Nausca大大熱情贊助的飲料外，
-還有大家期待已久的、一樣是由<a href="http://storiii.com/">storiii</a>的Yusen大大來分享的兩個主題：<a href="https://github.com/visionmedia/ejs#readme">EJS</a>與<a href="http://en.wikipedia.org/wiki/Y_Combinator#Y_combinator">Y-combinator</a>。</p>
+    <id>https://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30</id>
+    <content type="html"><![CDATA[<p>這次Node.JS Hsinchu Party，除了有<a href="https://blog.jackbean.tw">JackBean</a>提供的免費場地、Nausca大大熱情贊助的飲料外，
+還有大家期待已久的、一樣是由<a href="https://storiii.com/">storiii</a>的Yusen大大來分享的兩個主題：<a href="https://github.com/visionmedia/ejs#readme">EJS</a>與<a href="https://en.wikipedia.org/wiki/Y_Combinator#Y_combinator">Y-combinator</a>。</p>
 
 <!--more-->
 
@@ -35,7 +35,7 @@
 &lt;% } %&gt;
 </code></pre>
 
-<p>它可以直接在NODE以<a href="http://npmjs.org/">NPM</a>安裝使用（可以完美配合<a href="http://expressjs.com/">express.js</a>），也可以在broswer端呼叫使用。
+<p>它可以直接在NODE以<a href="https://npmjs.org/">NPM</a>安裝使用（可以完美配合<a href="https://expressjs.com/">express.js</a>），也可以在broswer端呼叫使用。
 基本的介紹其實到這邊就講完了（咦!?）</p>
 
 <h3>Use case</h3>
@@ -67,7 +67,7 @@ cinder: C++做到JS的感覺
 <p>YuSen大大用最經典的費伯納西遞迴函式開始進行推導，經過curry等技巧的一番最佳化之後，
 最後生成的是一個讓人看不懂的Y函式，還有分離出來費氏數列邏輯的函式。</p>
 
-<h3><a href="http://storiii.com/player.html">詳細推導過程請見YuSen大大的網站投影片</a></h3>
+<h3><a href="https://storiii.com/player.html">詳細推導過程請見YuSen大大的網站投影片</a></h3>
 
 <p>雖然Y combinator本身是經過層層推導出的結果，無法讓人一眼看懂，
 不過可以將它理解成「遞迴引擎」。只要將邏輯傳進去，就可以利用它生成一個單一參數的遞迴函式。
@@ -88,9 +88,9 @@ functional composition?
 
   <entry>
     <title type="html"><![CDATA[2012 Event Log]]></title>
-    <link href="http://df1.github.com/blog/2012/06/21/2012-event-log/"/>
+    <link href="https://df1.github.com/blog/2012/06/21/2012-event-log/"/>
     <updated>2012-06-21T20:50:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/06/21/2012-event-log</id>
+    <id>https://df1.github.com/blog/2012/06/21/2012-event-log</id>
     <content type="html"><![CDATA[<p>{%img https://i.imgur.com/Gq3Gp.png %}</p>
 
 <p>This post is an information/note aggregation from all the events that I have joined in 2012.</p>
@@ -100,7 +100,7 @@ functional composition?
 
 <h1>April 2012</h1>
 
-<h2><a href="http://osdc.tw">OSDC.TW 2012</a></h2>
+<h2><a href="https://osdc.tw">OSDC.TW 2012</a></h2>
 
 <ul>
 <li>Date: 2012/04/14~2012/04/15</li>
@@ -109,10 +109,10 @@ functional composition?
 </ul>
 
 
-<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/vuaRA/embed"></iframe>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/vuaRA/embed"></iframe>
 
 
-<h2>JavaScript.tw <a href="http://registrano.com/events/jstw-tc-20120428">JS Group 台中場</a></h2>
+<h2>JavaScript.tw <a href="https://registrano.com/events/jstw-tc-20120428">JS Group 台中場</a></h2>
 
 <ul>
 <li>Date: 2012/04/28</li>
@@ -122,7 +122,7 @@ functional composition?
 
 <h1>May 2012</h1>
 
-<h2><a href="http://jsdc.tw/2012/">JSDC.TW 2012</a></h2>
+<h2><a href="https://jsdc.tw/2012/">JSDC.TW 2012</a></h2>
 
 <ul>
 <li>志工 - 紀錄組 (會前會2012/05/06、2012/05/18)</li>
@@ -132,16 +132,16 @@ functional composition?
 </ul>
 
 
-<h2>Mozilla Taiwan <a href="http://registrano.com/events/mozilla-addon-workshop">Firefox Add-on 附加元件入門班</a></h2>
+<h2>Mozilla Taiwan <a href="https://registrano.com/events/mozilla-addon-workshop">Firefox Add-on 附加元件入門班</a></h2>
 
 <ul>
 <li>Date: 2012/05/20 10:00 ~ 05/20 13:00</li>
-<li><a href="http://littleb.tc/slides/2012/mozilla-tw/addon-sdk.html">Slide</a></li>
-<li><a href="http://blog.mozilla.com.tw/posts/528/firefox-%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6%E9%96%8B%E7%99%BC%E5%A4%A7%E8%BB%8D%EF%BC%8C%E5%8F%88%E5%A2%9E%E6%96%B0%E8%A1%80%EF%BC%81">Firefox附加元件開發大軍，又增新血</a></li>
+<li><a href="https://littleb.tc/slides/2012/mozilla-tw/addon-sdk.html">Slide</a></li>
+<li><a href="https://blog.mozilla.com.tw/posts/528/firefox-%E9%99%84%E5%8A%A0%E5%85%83%E4%BB%B6%E9%96%8B%E7%99%BC%E5%A4%A7%E8%BB%8D%EF%BC%8C%E5%8F%88%E5%A2%9E%E6%96%B0%E8%A1%80%EF%BC%81">Firefox附加元件開發大軍，又增新血</a></li>
 </ul>
 
 
-<h2>NodeJS Taiwan <a href="http://registrano.com/events/a490b5">Node.js Taiwan Party 新竹場</a></h2>
+<h2>NodeJS Taiwan <a href="https://registrano.com/events/a490b5">Node.js Taiwan Party 新竹場</a></h2>
 
 <ul>
 <li>Date: 2012/05/26</li>
@@ -149,19 +149,19 @@ functional composition?
 </ul>
 
 
-<h2>MozTW x Ubuntu-TW <a href="http://registrano.com/events/fxu12rp">Firefox x Ubuntu 12(.04) Release Party</a></h2>
+<h2>MozTW x Ubuntu-TW <a href="https://registrano.com/events/fxu12rp">Firefox x Ubuntu 12(.04) Release Party</a></h2>
 
 <ul>
 <li>Date: 2012/05/27</li>
-<li>My plurk <a href="http://www.plurk.com/p/ghi116">1</a> <a href="http://www.plurk.com/p/ghsykd">2</a><br/>
-{%img http://cdn.registrano.com/upload_images/8452/Ubuntu_x_Firefox_12<em>.04__Release_Party</em>-_Landscape_520.png 200 %}</li>
+<li>My plurk <a href="https://www.plurk.com/p/ghi116">1</a> <a href="https://www.plurk.com/p/ghsykd">2</a><br/>
+{%img https://cdn.registrano.com/upload_images/8452/Ubuntu_x_Firefox_12<em>.04__Release_Party</em>-_Landscape_520.png 200 %}</li>
 <li><a href="https://etherpad.mozilla.org/furp-slide">Etherpad Note</a></li>
 </ul>
 
 
 <h1>June 2012</h1>
 
-<h2>JavaScript.tw <a href="http://registrano.com/events/jstw-tc-20120428">JS Group 台中場</a></h2>
+<h2>JavaScript.tw <a href="https://registrano.com/events/jstw-tc-20120428">JS Group 台中場</a></h2>
 
 <ul>
 <li>Date: 2012/06/02</li>
@@ -169,40 +169,40 @@ functional composition?
 </ul>
 
 
-<h2><a href="http://registrano.com/events/8c4b43">Fedora 17 發行派對 @ 台中</a></h2>
+<h2><a href="https://registrano.com/events/8c4b43">Fedora 17 發行派對 @ 台中</a></h2>
 
 <ul>
 <li>Date: 2012/06/03</li>
 <li>Location: 黑貓月亮咖啡館</li>
-<li><a href="https://docs.google.com/open?id=0B2o5fiqQwyn-Zjh4bkh2UU5aR0E">Fedora 17 Release Party Slide</a> <a href="http://www.slideshare.net/Chengchiatseng/fedora-17-release-party">slideshare</a>- 真正加</li>
-<li><a href="http://fedora.linux.org.tw/systemd/template.html">Systemd - Boot Faster</a> - WM</li>
-<li><a href="http://www.dedoimedo.com/computers/systemd-blame.html">Slow boot? Blame systemd!</a></li>
+<li><a href="https://docs.google.com/open?id=0B2o5fiqQwyn-Zjh4bkh2UU5aR0E">Fedora 17 Release Party Slide</a> <a href="https://www.slideshare.net/Chengchiatseng/fedora-17-release-party">slideshare</a>- 真正加</li>
+<li><a href="https://fedora.linux.org.tw/systemd/template.html">Systemd - Boot Faster</a> - WM</li>
+<li><a href="https://www.dedoimedo.com/computers/systemd-blame.html">Slow boot? Blame systemd!</a></li>
 </ul>
 
 
-<h2>PyHUG <a href="http://www.meetup.com/pythonhug/events/61065022/">June Meeting</a></h2>
+<h2>PyHUG <a href="https://www.meetup.com/pythonhug/events/61065022/">June Meeting</a></h2>
 
 <ul>
 <li>Date: 2012/06/20</li>
 <li>Location: 清大創新育成中心115<br/>
-{%img http://photos1.meetupstatic.com/photos/event/5/8/0/e/global_76882542.jpeg %}</li>
+{%img https://photos1.meetupstatic.com/photos/event/5/8/0/e/global_76882542.jpeg %}</li>
 </ul>
 
 
-<h2>新竹碼農聚會<a href="http://registrano.com/events/c1c1cb">(Hsinchu Coding Serfs Meeting)</a></h2>
+<h2>新竹碼農聚會<a href="https://registrano.com/events/c1c1cb">(Hsinchu Coding Serfs Meeting)</a></h2>
 
 <ul>
 <li>Date: 2012/06/21</li>
 <li>Location: Book11</li>
-<li><a href="http://expressjs.com/guide.html">Express</a></li>
-<li><a href="http://socket.io/">socket.io</a></li>
-<li><a href="http://www.mongoose.com/">mongoose</a></li>
-<li><a href="http://book.nodejs.tw/">Node.js 台灣社群協作電子書</a></li>
-<li><a href="http://nodejs.tw/post/24896137291/build-a-todo-list-using-express-node-js-taiwan-party">BUILD A TODO LIST USING EXPRESS</a></li>
+<li><a href="https://expressjs.com/guide.html">Express</a></li>
+<li><a href="https://socket.io/">socket.io</a></li>
+<li><a href="https://www.mongoose.com/">mongoose</a></li>
+<li><a href="https://book.nodejs.tw/">Node.js 台灣社群協作電子書</a></li>
+<li><a href="https://nodejs.tw/post/24896137291/build-a-todo-list-using-express-node-js-taiwan-party">BUILD A TODO LIST USING EXPRESS</a></li>
 <li><a href="https://github.com/kanaka/websockify">websockify</a></li>
-<li><a href="http://derbyjs.com/">Derby</a></li>
-<li><a href="http://docs.meteor.com/#quickstart">Meteor</a></li>
-<li><a href="http://www.xapps.tw">APPS跨界交流協會</a></li>
+<li><a href="https://derbyjs.com/">Derby</a></li>
+<li><a href="https://docs.meteor.com/#quickstart">Meteor</a></li>
+<li><a href="https://www.xapps.tw">APPS跨界交流協會</a></li>
 </ul>
 
 ]]></content>

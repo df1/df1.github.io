@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: js | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/js/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/js/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[Code Snippet for Dumping Facebook Album]]></title>
-    <link href="http://df1.github.com/blog/2013/04/05/code-snippet-for-dumping-facebook-album/"/>
+    <link href="https://df1.github.com/blog/2013/04/05/code-snippet-for-dumping-facebook-album/"/>
     <updated>2013-04-05T21:14:00+08:00</updated>
-    <id>http://df1.github.com/blog/2013/04/05/code-snippet-for-dumping-facebook-album</id>
+    <id>https://df1.github.com/blog/2013/04/05/code-snippet-for-dumping-facebook-album</id>
     <content type="html"><![CDATA[<p>最近終於有一點點動力來寫上次日本行的遊記，但是苦於免費圖床難找難用，又不想用facebook網誌功能來寫，所以一直富堅至今XD
 後來熊熊想到，其實我還是可以用以經上傳好的FB相簿，然後把權限公開來當圖床使用，還有免費的CDN，真是賺翻了XDD
 <del>（未來有一天就突然消失就囂張不起來了XD  FB表示：怪我囉？）</del></p>
@@ -65,5 +65,5 @@ $$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
 <p>欸...亂寫的需要就用用看吧，有空再來解釋XD (靠)</p>
 ]]></content>
   </entry>
-  
+
 </feed>

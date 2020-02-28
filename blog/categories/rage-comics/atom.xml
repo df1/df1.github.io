@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: rage comics | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/rage-comics/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/rage-comics/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[無聊分享：Rage Comics的熟面孔們]]></title>
-    <link href="http://df1.github.com/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/"/>
+    <link href="https://df1.github.com/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/"/>
     <updated>2012-04-03T23:18:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes</id>
+    <id>https://df1.github.com/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes</id>
     <content type="html"><![CDATA[<p>剛無聊去找了Rage Comics熟面孔的<strong>元捏他</strong>（先估狗了一下，似乎沒人跟我一樣無聊到一個一個去找=3=），簡單整理如下表。</p>
 
 <p>P.S.因為怕有肖像權問題，所以下面都是翻攝自網路（XD）。
@@ -88,5 +88,5 @@
 <p>有沒有要補充的XDD</p>
 ]]></content>
   </entry>
-  
+
 </feed>

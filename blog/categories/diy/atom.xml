@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: DIY | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/diy/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/diy/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[自製波笛跑步機]]></title>
-    <link href="http://df1.github.com/blog/2012/05/01/cat-wheel-diy/"/>
+    <link href="https://df1.github.com/blog/2012/05/01/cat-wheel-diy/"/>
     <updated>2012-05-01T23:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/05/01/cat-wheel-diy</id>
-    <content type="html"><![CDATA[<p>之前在別人的網誌看到<a href="http://sepudesign.pixnet.net/blog/post/26003728-%E8%B2%93%E5%92%AA%E9%A3%9B%E8%BC%AA">這篇文</a></p>
+    <id>https://df1.github.com/blog/2012/05/01/cat-wheel-diy</id>
+    <content type="html"><![CDATA[<p>之前在別人的網誌看到<a href="https://sepudesign.pixnet.net/blog/post/26003728-%E8%B2%93%E5%92%AA%E9%A3%9B%E8%BC%AA">這篇文</a></p>
 
 <p><img src="/attachments/2012-05-01-cat-wheel-diy/pixnet.gif" title="&#34;貓咪飛輪&#34;" alt="&#34;貓咪飛輪&#34;"></p>
 
@@ -39,5 +39,5 @@
 只好等之後運回新竹再慢慢引導他，不然就要上拍賣了XDDD</p>
 ]]></content>
   </entry>
-  
+
 </feed>

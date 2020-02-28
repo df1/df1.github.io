@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ext Designer | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/ext-designer/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/ext-designer/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[使用Sencha Architect 2快速上手Ext JS 4.1]]></title>
-    <link href="http://df1.github.com/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/"/>
+    <link href="https://df1.github.com/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/"/>
     <updated>2012-04-23T23:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2</id>
+    <id>https://df1.github.com/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2</id>
     <content type="html"><![CDATA[<p><img src="/attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/architect.png"></p>
 
 <p><del>號外！所有美工（Designer）可以就地升級為架構師（Architect）！</del>（梗等下講）
@@ -28,19 +28,19 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 
 <h2>Ext JS是啥</h2>
 
-<p>首先簡單介紹一下Ext JS好了。不知道大家有沒有用過<a href="http://miroko.tw">miroko</a>？他是N年前我<del>跟水利系室友</del>非常愛用的免費服務，可以幫你掛BT並存到他所提供的網路硬碟空間內，對學術網路頻寬超級大，一秒可以衝到5~10Mb。（但是自從開始收費就跟它再會了） 它那種淡藍色UI，就是使用當時剛推出的Ext JS 1.0刻的。還是沒啥畫面嗎？<a href="http://www.freegroup.org/2009/06/free-online-storage-miroko/">這裡有真相</a>。</p>
+<p>首先簡單介紹一下Ext JS好了。不知道大家有沒有用過<a href="https://miroko.tw">miroko</a>？他是N年前我<del>跟水利系室友</del>非常愛用的免費服務，可以幫你掛BT並存到他所提供的網路硬碟空間內，對學術網路頻寬超級大，一秒可以衝到5~10Mb。（但是自從開始收費就跟它再會了） 它那種淡藍色UI，就是使用當時剛推出的Ext JS 1.0刻的。還是沒啥畫面嗎？<a href="https://www.freegroup.org/2009/06/free-online-storage-miroko/">這裡有真相</a>。</p>
 
-<h3>進入正題前，<a href="http://dev.sencha.com/deploy/ext-4.1.0-gpl/examples/">先看看官方提供的範例長怎樣吧！</a></h3>
+<h3>進入正題前，<a href="https://dev.sencha.com/deploy/ext-4.1.0-gpl/examples/">先看看官方提供的範例長怎樣吧！</a></h3>
 
 <p><img src="/attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/feed.png" title="&#34;官方的範例之一：Feed Viewer，阿就藍藍的，非常的『2007』&#34;" alt="&#34;官方的範例之一：Feed Viewer，阿就藍藍的，非常的『2007』&#34;"></p>
 
-<p>簡而言之，Ext JS是<a href="http://www.sencha.com">Sencha</a>公司推出的一個純JS的Web前端框架，提供一般Web App會用到的UI元件（按鈕、表格、Tab…）讓你實作出想要的user flow；且便於繼承擴充，定義出自己客製的元件；另外也提供許多好用的JS utility及Ajax Data Source支援，跟後端CRUD做完美的配合。在外觀上，預設主題是簡單但有點過時的淡藍色，不過他的主題是以SASS/Compass實作，因此只要找對美工（<del>還看別人！？就是你！</del>），也是可以盡情揮灑的。目前它大多應用於企業端的內部Web Application based的資訊系統（至少敝公司將它視為UI標準之一orz，另外不知道為啥，在大陸跟日本的開發者社群似乎都相當發達）。我個人認為它的優點在於良好的繼承架構、便於快速開發及擴充，還有完整豐富的社群、官方支援及API（用商業化套件的好處就在於任何奇怪、無恥的問題只要PO個版就有解，瀏覽器相容等問題都不用自己去搞，也不會叫你RTFM）；但是相對的，跟jQuery+jQuery UI的方便性比起來，它的缺點是架構較為固定，很難去把它的架構翻掉自己重新設計；另外最重要的，它在某些情況可能<strong>要錢</strong>。</p>
+<p>簡而言之，Ext JS是<a href="https://www.sencha.com">Sencha</a>公司推出的一個純JS的Web前端框架，提供一般Web App會用到的UI元件（按鈕、表格、Tab…）讓你實作出想要的user flow；且便於繼承擴充，定義出自己客製的元件；另外也提供許多好用的JS utility及Ajax Data Source支援，跟後端CRUD做完美的配合。在外觀上，預設主題是簡單但有點過時的淡藍色，不過他的主題是以SASS/Compass實作，因此只要找對美工（<del>還看別人！？就是你！</del>），也是可以盡情揮灑的。目前它大多應用於企業端的內部Web Application based的資訊系統（至少敝公司將它視為UI標準之一orz，另外不知道為啥，在大陸跟日本的開發者社群似乎都相當發達）。我個人認為它的優點在於良好的繼承架構、便於快速開發及擴充，還有完整豐富的社群、官方支援及API（用商業化套件的好處就在於任何奇怪、無恥的問題只要PO個版就有解，瀏覽器相容等問題都不用自己去搞，也不會叫你RTFM）；但是相對的，跟jQuery+jQuery UI的方便性比起來，它的缺點是架構較為固定，很難去把它的架構翻掉自己重新設計；另外最重要的，它在某些情況可能<strong>要錢</strong>。</p>
 
 <p><img src="/attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/kitchensink.png" title="&#34;Ext JS 4.1 提供的Nepune主題&#34;" alt="&#34;Ext JS 4.1 提供的Nepune主題&#34;"></p>
 
 <h3>授權</h3>
 
-<p>其實寫這篇文章真的有點掙扎，因為真的像是業配文orz。還是先來講講<a href="http://www.sencha.com/products/extjs/license/">授權</a>的部分：<a href="http://www.sencha.com/products/extcore">Ext Core</a>是Ext JS的核心，提供類似於jQuery的DOM操作等功能，是免費的且使用<a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>；打個比方：Ext Core之於Ext JS，就如同jQuery之於jQuery UI。雖然Ext JS也算是開源的，但它的授權就比較複雜。如果也是用於open source開發，則適用<a href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>；如果是商業用途且將原始碼視為公司proprietary，則適用<a href="http://www.sencha.com/legal/sencha-commercial-software-license-agreement/">Sencha Commercial License</a>；如果是要把它做成另外的商業化SDK（如<a href="http://www.ext.net/">Ext.NET</a>），Sencha也提供OEM License。而今天要講的Sencha Architect，則是Sencha推出的架構設計工具，<a href="http://www.sencha.com/products/architect/license/">一套要價$399鎂</a>，但提供免費試用。</p>
+<p>其實寫這篇文章真的有點掙扎，因為真的像是業配文orz。還是先來講講<a href="https://www.sencha.com/products/extjs/license/">授權</a>的部分：<a href="https://www.sencha.com/products/extcore">Ext Core</a>是Ext JS的核心，提供類似於jQuery的DOM操作等功能，是免費的且使用<a href="https://www.opensource.org/licenses/mit-license.php">MIT License</a>；打個比方：Ext Core之於Ext JS，就如同jQuery之於jQuery UI。雖然Ext JS也算是開源的，但它的授權就比較複雜。如果也是用於open source開發，則適用<a href="https://www.gnu.org/copyleft/gpl.html">GPLv3</a>；如果是商業用途且將原始碼視為公司proprietary，則適用<a href="https://www.sencha.com/legal/sencha-commercial-software-license-agreement/">Sencha Commercial License</a>；如果是要把它做成另外的商業化SDK（如<a href="https://www.ext.net/">Ext.NET</a>），Sencha也提供OEM License。而今天要講的Sencha Architect，則是Sencha推出的架構設計工具，<a href="https://www.sencha.com/products/architect/license/">一套要價$399鎂</a>，但提供免費試用。</p>
 
 <h2>開始使用Sencha Architect做第一個Ext JS的UI</h2>
 
@@ -50,7 +50,7 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 
 <h3>下載並安裝</h3>
 
-<p><a href="http://www.sencha.com/products/architect/">載點在此</a>，試用前須註冊<a href="http://www.sencha.com/forum/">Sencha Forum</a>的帳號。它本身是以QT及其內建Webkit寫成的跨平台程式，可以在Windows/MacOS/Linux上執行。將程式打開之後，可以看到一個很熟悉的WYSIWYG所見及所得編輯器：左邊是工具箱、中間是畫布、右上是階層圖、右下是一欄欄的屬性。</p>
+<p><a href="https://www.sencha.com/products/architect/">載點在此</a>，試用前須註冊<a href="https://www.sencha.com/forum/">Sencha Forum</a>的帳號。它本身是以QT及其內建Webkit寫成的跨平台程式，可以在Windows/MacOS/Linux上執行。將程式打開之後，可以看到一個很熟悉的WYSIWYG所見及所得編輯器：左邊是工具箱、中間是畫布、右上是階層圖、右下是一欄欄的屬性。</p>
 
 <p><img src="/attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/wysiwyg.png" title="&#34;Sencha Architect跑起來的樣子&#34;" alt="&#34;Sencha Architect跑起來的樣子&#34;"></p>
 
@@ -59,9 +59,9 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 <p>迫不及待要從左邊拉東西進來了吧？首先，身為一個web app，會需要的是一個<code>viewport</code>。它可以把整個網頁的畫面撐開，讓我們在裡面做layout。
 <img src="/attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/viewport.png" title="&#34;把整個Web App畫面撐開的東西是Viewport&#34;" alt="&#34;把整個Web App畫面撐開的東西是Viewport&#34;"></p>
 
-<p>繼續瘋狂拉東西進來之前，還是要先對Ext JS所提供的各種layout有基本的認識。這個<a href="http://dev.sencha.com/deploy/ext-4.1.0-gpl/examples/layout-browser/layout-browser.html">Ext Layout Browser</a>裡面有各種layout的DEMO及基本介紹。一般來說，我們常常在web app的最外面使用Border Layout，將畫面分成東南西北中<del>發板</del>幾塊（region）。</p>
+<p>繼續瘋狂拉東西進來之前，還是要先對Ext JS所提供的各種layout有基本的認識。這個<a href="https://dev.sencha.com/deploy/ext-4.1.0-gpl/examples/layout-browser/layout-browser.html">Ext Layout Browser</a>裡面有各種layout的DEMO及基本介紹。一般來說，我們常常在web app的最外面使用Border Layout，將畫面分成東南西北中<del>發板</del>幾塊（region）。</p>
 
-<p>要設定這個viewport的layout類型，可以在右邊屬性中找到layout下拉選取，或是在畫布上的藍色齒輪跳出的快速設定popup中選取。接下來真的就可以從左邊亂拉元件了。要注意的是，若是在一個border layout的container裡面，它需要有一個<code>region: 'center'</code>   （中央）的子元件；其他東西南北則不一定要有。<a href="http://dev.sencha.com/deploy/ext-4.1.0-gpl/examples/layout/complex.html">拉完之後可能長這樣</a>。</p>
+<p>要設定這個viewport的layout類型，可以在右邊屬性中找到layout下拉選取，或是在畫布上的藍色齒輪跳出的快速設定popup中選取。接下來真的就可以從左邊亂拉元件了。要注意的是，若是在一個border layout的container裡面，它需要有一個<code>region: 'center'</code>   （中央）的子元件；其他東西南北則不一定要有。<a href="https://dev.sencha.com/deploy/ext-4.1.0-gpl/examples/layout/complex.html">拉完之後可能長這樣</a>。</p>
 
 <p><img src="/attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/region.png" title="&#34;Border Layout的示意圖，紅色框起來的地方套用了border layout&#34;" alt="&#34;Border Layout的示意圖，紅色框起來的地方套用了border layout&#34;"></p>
 
@@ -74,7 +74,7 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 <p>Sencha Architect的一大優點就是它本身整合了Ext的documentation，大幅減少了設計時翻文件的痛苦。如下圖，在左邊的工具箱中點每個元件後，下方都會出現簡單說明；另外，在屬性視窗中的每個屬性旁都有一個問號，滑鼠移上去也會秀出簡單說明。若是想看完整的document，也可以點連結直接跳到線上API去看。
 <img src="/attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/api.png" title="&#34;Sencha Architect中內建的documentation功能&#34;" alt="&#34;Sencha Architect中內建的documentation功能&#34;"></p>
 
-<h3><a href="http://docs.sencha.com/ext-js/4-1/">看看很好很強大的線上API文件吧！</a></h3>
+<h3><a href="https://docs.sencha.com/ext-js/4-1/">看看很好很強大的線上API文件吧！</a></h3>
 
 <p>Ext的原始碼本身是以JS Doc形式做self-documentation的。Sencha也開發了一個工具叫JS Duck將原始碼直接變成像這樣的API網站。裡面可以看到它提供所有的功能，元件Class的繼承hierarchy，還有範例以及別人的評論。這裡面真的很值得探索！</p>
 
@@ -120,32 +120,32 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 
 <h3>佈署到local並預覽</h3>
 
-<p>剛看到Sencha Architect畫面時，一定會想試試看preview跟deploy按鈕到底是在做啥。其實也沒啥，就是幫我們deploy到web server再開啟瀏覽器預覽。須先在settings設定路徑如下圖。另外建議將Ext JS Path改成4.1的<code>http://extjs.cachefly.net/ext-4.1.0-gpl/</code>。
+<p>剛看到Sencha Architect畫面時，一定會想試試看preview跟deploy按鈕到底是在做啥。其實也沒啥，就是幫我們deploy到web server再開啟瀏覽器預覽。須先在settings設定路徑如下圖。另外建議將Ext JS Path改成4.1的<code>https://extjs.cachefly.net/ext-4.1.0-gpl/</code>。
 <img src="/attachments/2012-04-23-get-started-with-ext-js-4-1-using-sencha-architect-2/settings.png" title="&#34;專案設定畫面&#34;" alt="&#34;專案設定畫面&#34;"></p>
 
 <h2>Application及MVC架構</h2>
 
-<p>雖然這超出本文涵蓋的主題，但還是稍微談一下好了。當Web App規模大到一定程度時，想必會開始思考如何組織程式碼，讓它可讀性變高，還有方便maintain、動態載入及效能等等架構面的問題。若是有看過backbone.js、require.js、knockout.js等工具的介紹文，應該會對現在流行的架構概念有所認識。其實Ext JS也有它自己類似AMD的機制；如果要做類似backbone的hash routing，也可以透過<code>Ext.history</code>（但它還是用hidden iframe囧 要支援舊瀏覽器沒辦法）；最重要的，它的MVC架構設計也是相當優秀，值得另開專文深入討論之。若想瞭解，可以參考<a href="http://docs.sencha.com/ext-js/4-1/#!/guide/application_architecture">這篇官方介紹</a>。看完之後，相信會迫不及待地從左邊工具箱拖出controller來玩玩看吧！</p>
+<p>雖然這超出本文涵蓋的主題，但還是稍微談一下好了。當Web App規模大到一定程度時，想必會開始思考如何組織程式碼，讓它可讀性變高，還有方便maintain、動態載入及效能等等架構面的問題。若是有看過backbone.js、require.js、knockout.js等工具的介紹文，應該會對現在流行的架構概念有所認識。其實Ext JS也有它自己類似AMD的機制；如果要做類似backbone的hash routing，也可以透過<code>Ext.history</code>（但它還是用hidden iframe囧 要支援舊瀏覽器沒辦法）；最重要的，它的MVC架構設計也是相當優秀，值得另開專文深入討論之。若想瞭解，可以參考<a href="https://docs.sencha.com/ext-js/4-1/#!/guide/application_architecture">這篇官方介紹</a>。看完之後，相信會迫不及待地從左邊工具箱拖出controller來玩玩看吧！</p>
 
 <h3>好文分享</h3>
 
 <ul>
-<li><a href="http://docs.sencha.com/ext-js/4-1/#!/guide/application_architecture">Ext JS 4的Application/MVC架構概觀</a></li>
-<li><a href="http://www.sencha.com/blog/deftjs-loosely-coupled-mvc-through-dependency-injection">Deft JS: Loosely Coupled MVC through Dependency Injection</a> -- John Yanarella
+<li><a href="https://docs.sencha.com/ext-js/4-1/#!/guide/application_architecture">Ext JS 4的Application/MVC架構概觀</a></li>
+<li><a href="https://www.sencha.com/blog/deftjs-loosely-coupled-mvc-through-dependency-injection">Deft JS: Loosely Coupled MVC through Dependency Injection</a> -- John Yanarella
 下面這幾個archticture tool相關文章也非常值得看看，但跟Ext沒關係</li>
-<li><a href="http://speakerdeck.com/u/jaceju/p/backbonejs-x-requirejs-quick-guide">Backbone.js X RequireJS Quick Guide</a> -- 大澤木小鐵</li>
-<li>介紹Knockout.js的MVVM：<a href="http://addyosmani.com/blog/understanding-mvvm-a-guide-for-javascript-developers/">Understanding MVVM – A Guide For JavaScript Developers</a> -- Addy Osmani</li>
+<li><a href="https://speakerdeck.com/u/jaceju/p/backbonejs-x-requirejs-quick-guide">Backbone.js X RequireJS Quick Guide</a> -- 大澤木小鐵</li>
+<li>介紹Knockout.js的MVVM：<a href="https://addyosmani.com/blog/understanding-mvvm-a-guide-for-javascript-developers/">Understanding MVVM – A Guide For JavaScript Developers</a> -- Addy Osmani</li>
 </ul>
 
 
 <h2>整合後端開發</h2>
 
-<p>在瞭解他匯出的行為之後，就會發現其實很容易跟後端開發的專案進行整合。其中會遇到的一個問題就是他跑AMD動態載入JS Class時的路徑是否跟專案中的目錄架構是一樣的，這時候就要對<code>Ext.application</code>中的<code>appFolder</code>屬性做調整。<a href="http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/">我去年的一篇文章</a>是以Java EE的Web project為例，將Ext Designer 1.2整合Eclipse進行開發。印象中當時主要的技術堆疊大略是（純回憶，僅供參考）：前後端以REST進行溝通（JAX-RS）；Servlet及JAVA部分採用Spring來做DI及AOP；ORM使用JPA 2；local測試環境使用<a href="http://code.google.com/p/run-jetty-run/">run-jetty-run</a>。</p>
+<p>在瞭解他匯出的行為之後，就會發現其實很容易跟後端開發的專案進行整合。其中會遇到的一個問題就是他跑AMD動態載入JS Class時的路徑是否跟專案中的目錄架構是一樣的，這時候就要對<code>Ext.application</code>中的<code>appFolder</code>屬性做調整。<a href="https://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/">我去年的一篇文章</a>是以Java EE的Web project為例，將Ext Designer 1.2整合Eclipse進行開發。印象中當時主要的技術堆疊大略是（純回憶，僅供參考）：前後端以REST進行溝通（JAX-RS）；Servlet及JAVA部分採用Spring來做DI及AOP；ORM使用JPA 2；local測試環境使用<a href="https://code.google.com/p/run-jetty-run/">run-jetty-run</a>。</p>
 
 <h3>好文分享</h3>
 
 <ul>
-<li><a href="http://docs.sencha.com/ext-js/4-1/#!/guide/editable_grid">Node.js+mongodb+EditGrid範例</a></li>
+<li><a href="https://docs.sencha.com/ext-js/4-1/#!/guide/editable_grid">Node.js+mongodb+EditGrid範例</a></li>
 </ul>
 
 
@@ -164,18 +164,18 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 <h2>參考連結</h2>
 
 <ul>
-<li><a href="http://www.sencha.com/products/extjs/">Ext JS官網</a></li>
-<li><a href="http://www.sencha.com/products/architect/">Sencha Architect</a></li>
+<li><a href="https://www.sencha.com/products/extjs/">Ext JS官網</a></li>
+<li><a href="https://www.sencha.com/products/architect/">Sencha Architect</a></li>
 </ul>
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Ext JS 4.0.7 (4.1b2) IE8 Performance Issue]]></title>
-    <link href="http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/"/>
+    <link href="https://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8/"/>
     <updated>2012-02-17T13:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8</id>
+    <id>https://df1.github.com/blog/2012/02/17/ext-4-performance-issue-in-ie-8</id>
     <content type="html"><![CDATA[<p><span>Our project is an Ext 4 application built with Ext Designer 1.2.2, with the 4.0.7 library. Inevitably, we faced the performance issue in IE8, while firefox and chrome work just fine and smooth. (the bad news is our company is IE8-dominating)&nbsp;</span><br />
 <span>We've tried out the latest ExtJS 4.1 beta 2, beside dozens of layout distortions, we still find no performance improvement.&nbsp;</span><br /></p>
 
@@ -183,7 +183,7 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s1600/2012-02-26+2-23-42.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="244" src="http://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s320/2012-02-26+2-23-42.png" width="320" /></a></td></tr>
+<tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s1600/2012-02-26+2-23-42.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="244" src="https://1.bp.blogspot.com/-cf1TbR1PNa8/T0kov0y9u8I/AAAAAAAABco/pNDXBrqSeBQ/s320/2012-02-26+2-23-42.png" width="320" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">oh and the support period is gonna expire</td></tr>
 </tbody></table>
 
@@ -226,7 +226,7 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 <span>To provide an accurate answer, we would need to see a small working example that display the problem that you see.&nbsp;</span><br />
 <span>One thing that you may try, is to create generic form that has numerous controls (including populate combos, array driven) to see if you have the same problem.&nbsp;</span><br />
 <br />
-<span>I have attached <a href="http://support.extjs.com/download.php/reply/36915/t7210.zip" target="_blank">an example</a> that you can use as a template. Please see how this renders on IE8, Please make sure to update the path to Ext in the html file.&nbsp;</span><br />
+<span>I have attached <a href="https://support.extjs.com/download.php/reply/36915/t7210.zip" target="_blank">an example</a> that you can use as a template. Please see how this renders on IE8, Please make sure to update the path to Ext in the html file.&nbsp;</span><br />
 <br />
 <span>If you have any further questions, please let us know.&nbsp;</span></blockquote>
 
@@ -238,19 +238,19 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 <span><br /></span><br /></p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Integrate Ext Designer With Java Web Project In Eclipse]]></title>
-    <link href="http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/"/>
+    <link href="https://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse/"/>
     <updated>2012-02-16T13:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse</id>
-    <content type="html"><![CDATA[<p>The mysterious <a href="http://www.sencha.com/products/designer/" target="_blank">Sencha Designer </a>2.0 announced in last year's SenchaCon has finally <a href="http://www.sencha.com/blog/sencha-designer-2-beta-announcement/" target="_blank">released the Beta version</a> last week (without trial period limitation!) Besides the Sencha Touch support, which has been their focus, what really attracts me is it finally supports ExtJS 4 MVC, and in-line event definition.</p>
+    <id>https://df1.github.com/blog/2012/02/16/integrate-ext-designer-with-java-web-project-in-eclipse</id>
+    <content type="html"><![CDATA[<p>The mysterious <a href="https://www.sencha.com/products/designer/" target="_blank">Sencha Designer </a>2.0 announced in last year's SenchaCon has finally <a href="https://www.sencha.com/blog/sencha-designer-2-beta-announcement/" target="_blank">released the Beta version</a> last week (without trial period limitation!) Besides the Sencha Touch support, which has been their focus, what really attracts me is it finally supports ExtJS 4 MVC, and in-line event definition.</p>
 
 <br />
 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="http://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s640/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="640" /></a></td></tr>
+<tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="480" src="https://1.bp.blogspot.com/-LYWi2n6pROM/TzvYnjjwuNI/AAAAAAAABZo/mU7vwdea6Ag/s640/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">M, V, C, and S (Store)</td></tr>
 </tbody></table>
 
@@ -267,13 +267,13 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 <!--more-->
 
 
-<iframe allowfullscreen="" frameborder="0" height="225" mozallowfullscreen="" src="http://player.vimeo.com/video/17921733?title=0&amp;byline=0&amp;portrait=0&amp;color=4CC208" webkitallowfullscreen="" width="400"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="225" mozallowfullscreen="" src="https://player.vimeo.com/video/17921733?title=0&amp;byline=0&amp;portrait=0&amp;color=4CC208" webkitallowfullscreen="" width="400"></iframe>
 
 
 <br />
 
 
-<p><a href="http://vimeo.com/17921733">SenchaCon 2010: Advanced Techniques for Ext Designer</a> from <a href="http://vimeo.com/sencha">Sencha</a>.<br /></p>
+<p><a href="https://vimeo.com/17921733">SenchaCon 2010: Advanced Techniques for Ext Designer</a> from <a href="https://vimeo.com/sencha">Sencha</a>.<br /></p>
 
 <br />
 
@@ -296,12 +296,12 @@ Code Organization</span></h2>
 <table style="background:white;"><tbody>
 <tr><td style="vertical-align: top;">&nbsp;Recommended way with ExtJS 4 &nbsp;MVC architecture<br />
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" height="400" src="http://4.bp.blogspot.com/-QkWQrN0RY4Q/Tzviw7k01LI/AAAAAAAABZ4/0EYodH8mEn0/s400/%E5%9C%96%E7%89%871.png" width="265" /></div>
+<img border="0" height="400" src="https://4.bp.blogspot.com/-QkWQrN0RY4Q/Tzviw7k01LI/AAAAAAAABZ4/0EYodH8mEn0/s400/%E5%9C%96%E7%89%871.png" width="265" /></div>
 <div>
 <br /></div>
 </td><td>VS</td><td style="vertical-align: top;">&nbsp;&nbsp;My way with Ext Designer integrated to entire project<br />
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" height="400" src="http://4.bp.blogspot.com/-yb6xljyfnnw/Tzviyi9J-vI/AAAAAAAABaA/lwNK-BzC2C8/s400/%25E5%259C%2596%25E7%2589%25872.png" width="233" /></div>
+<img border="0" height="400" src="https://4.bp.blogspot.com/-yb6xljyfnnw/Tzviyi9J-vI/AAAAAAAABaA/lwNK-BzC2C8/s400/%25E5%259C%2596%25E7%2589%25872.png" width="233" /></div>
 <br /></td></tr>
 </tbody></table>
 
@@ -312,7 +312,7 @@ Project Settings in Designer</span></h2>
 
 
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" height="185" src="http://3.bp.blogspot.com/-XOJI49R0plk/TzvjLizOFnI/AAAAAAAABaQ/_SqsnBmCE7M/s320/%25E5%259C%2596%25E7%2589%25874.png" width="320" /></div>
+<img border="0" height="185" src="https://3.bp.blogspot.com/-XOJI49R0plk/TzvjLizOFnI/AAAAAAAABaQ/_SqsnBmCE7M/s320/%25E5%259C%2596%25E7%2589%25874.png" width="320" /></div>
 
 
 <div>
@@ -322,14 +322,14 @@ Project Settings in Designer</span></h2>
 
 Project Structure in Eclipse</span></h2>
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" height="398" src="http://4.bp.blogspot.com/-7caurFKVcGM/TzvjNGGlNnI/AAAAAAAABaY/N6R3cLRZHzw/s640/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D1.png" width="640" /></div>
+<img border="0" height="398" src="https://4.bp.blogspot.com/-7caurFKVcGM/TzvjNGGlNnI/AAAAAAAABaY/N6R3cLRZHzw/s640/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D1.png" width="640" /></div>
 <br />
 <h2>
 
 <span style="font-size: large;">
 In case of accidental tragedies…</span></h2>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><img border="0" height="262" src="http://1.bp.blogspot.com/-4Db_YUl385U/TzvdS5mFMaI/AAAAAAAABZw/URYCLc7XFoM/s320/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="320" /></td></tr>
+<tr><td style="text-align: center;"><img border="0" height="262" src="https://1.bp.blogspot.com/-4Db_YUl385U/TzvdS5mFMaI/AAAAAAAABZw/URYCLc7XFoM/s320/%E6%9C%AA%E5%91%BD%E5%90%8D.png" width="320" /></td></tr>
 <tr><td class="tr-caption" style="text-align: center;"><span style="font-size: small; text-align: -webkit-auto;">Eclipse asks you if you want to modify read-only files. Just say no.</span>
 </td></tr>
 </tbody></table>
@@ -339,7 +339,7 @@ In case of accidental tragedies…</span></h2>
 <span style="font-size: large;">
 The HTML</span></h2>
 <h2>
-<img border="0" width="400" src="http://4.bp.blogspot.com/-hOFqIkTWuV4/Tzvko2-a_PI/AAAAAAAABag/53ksQ-X5gD4/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></h2>
+<img border="0" width="400" src="https://4.bp.blogspot.com/-hOFqIkTWuV4/Tzvko2-a_PI/AAAAAAAABag/53ksQ-X5gD4/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></h2>
 <br />
 <h2>
 
@@ -347,7 +347,7 @@ The HTML</span></h2>
 
 The designer.js</span></h2>
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" src="http://2.bp.blogspot.com/-TbaHWwi4wC4/TzvlTceXs2I/AAAAAAAABao/HorkoNvoeys/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<img border="0" src="https://2.bp.blogspot.com/-TbaHWwi4wC4/TzvlTceXs2I/AAAAAAAABao/HorkoNvoeys/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
 <br />
 <h2>
 
@@ -356,7 +356,7 @@ The designer.js</span></h2>
 
 The Implementation</span></h2>
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" src="http://3.bp.blogspot.com/-pFRDeiJtD5w/Tzvlnu44T7I/AAAAAAAABaw/3acOgGijilU/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
+<img border="0" src="https://3.bp.blogspot.com/-pFRDeiJtD5w/Tzvlnu44T7I/AAAAAAAABaw/3acOgGijilU/s1600/%E6%9C%AA%E5%91%BD%E5%90%8D.png" /></div>
 <br />
 <h2>
 <span style="font-size: large;">
@@ -365,12 +365,12 @@ Debugging</span></h2>
 <br />
 Use Chrome’s debugging tool to debug ExtJS 4 dynamic-loaded classes<br />
 <div class="separator" style="clear: both; text-align: center;">
-<img border="0" src="http://4.bp.blogspot.com/-OgBbM-VqceI/Tzvl2L5zZ1I/AAAAAAAABa4/eizszoym99I/s1600/%E5%9C%96%E7%89%875.png" /></div>
+<img border="0" src="https://4.bp.blogspot.com/-OgBbM-VqceI/Tzvl2L5zZ1I/AAAAAAAABa4/eizszoym99I/s1600/%E5%9C%96%E7%89%875.png" /></div>
 <div>
 <br /></div>
 </div>
 
 ]]></content>
   </entry>
-  
+
 </feed>

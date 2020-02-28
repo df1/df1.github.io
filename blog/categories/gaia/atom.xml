@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Gaia | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/gaia/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/gaia/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[JSDC.TW Transcript: Building Mobile Devices with the Open Web ]]></title>
-    <link href="http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript/"/>
+    <link href="https://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript/"/>
     <updated>2012-05-29T22:33:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript</id>
-    <content type="html"><![CDATA[<p><img src="http://jsdc.tw/2012/img/logo.png"></p>
+    <id>https://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript</id>
+    <content type="html"><![CDATA[<p><img src="https://jsdc.tw/2012/img/logo.png"></p>
 
-<p>Last week I worked at JSDC.TW 2012 as a volunteer. I was extremely exited about this since it was the first JavaScript conference in Taiwan! <a href="http://www.plurk.com/p/gflmfl">Here</a> is my brief summary during the entire conference, and also the preparation on the day before the conference.</p>
+<p>Last week I worked at JSDC.TW 2012 as a volunteer. I was extremely exited about this since it was the first JavaScript conference in Taiwan! <a href="https://www.plurk.com/p/gflmfl">Here</a> is my brief summary during the entire conference, and also the preparation on the day before the conference.</p>
 
-<h3><a href="http://jsdc.tw/2012/Sessions">Full agenda with slides and videos</a></h3>
+<h3><a href="https://jsdc.tw/2012/Sessions">Full agenda with slides and videos</a></h3>
 
 <p>And here I'm gonna add caption for one of these video, which might be the hardest one to deal with. It's still in progress, and <strong>needs your help!</strong></p>
 
@@ -30,7 +30,7 @@
 
 <h2>The Video</h2>
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9_uTJ2iTovg?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_uTJ2iTovg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 <ul>
@@ -56,5 +56,5 @@
 
 ]]></content>
   </entry>
-  
+
 </feed>

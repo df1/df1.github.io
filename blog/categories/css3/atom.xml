@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CSS3 | Orokana Pekoponjin]]></title>
-  <link href="http://df1.github.com/blog/categories/css3/atom.xml" rel="self"/>
-  <link href="http://df1.github.com/"/>
+  <link href="https://df1.github.com/blog/categories/css3/atom.xml" rel="self"/>
+  <link href="https://df1.github.com/"/>
   <updated>2013-04-30T00:53:00+08:00</updated>
-  <id>http://df1.github.com/</id>
+  <id>https://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+  </author>
+  <generator uri="https://octopress.org/">Octopress</generator>
+
+
   <entry>
     <title type="html"><![CDATA[Web-based Slideshows --Comparing impress.js, jmpress.js and reveal.js]]></title>
-    <link href="http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/"/>
+    <link href="https://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/"/>
     <updated>2012-03-27T13:17:00+08:00</updated>
-    <id>http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi</id>
-    <content type="html"><![CDATA[<p>The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="http://bartaz.github.com/impress.js">impress.js</a>, <a href="http://shama.github.com/jmpress.js">jmpress.js</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. "Why not give it a crack?" said them. And I decided to try impress.js out.<br /></p>
+    <id>https://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi</id>
+    <content type="html"><![CDATA[<p>The story began when I was assigned with a jQuery sharing topic. Just few days before I heard the <strike><span style="color: #cccccc;">bad</span></strike> news, several cool web-slide things like <a href="https://bartaz.github.com/impress.js">impress.js</a>, <a href="https://shama.github.com/jmpress.js">jmpress.js</a> and <a href="https://lab.hakim.se/reveal-js/">reveal.js</a>&nbsp;ran across my screen. "Why not give it a crack?" said them. And I decided to try impress.js out.<br /></p>
 
 <br />
 
 
 <div class="separator" style="clear: both; text-align: center;">
-<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="http://www.blogger.com/"></a>
+<span id="goog_724297899"></span><span id="goog_724297900"></span><a href="https://www.blogger.com/"></a>
 </div>
 
 
@@ -111,7 +111,7 @@ Can be linked</div>
 Design Usability</div>
 </td>
   <td><div style="text-align: left;">
-Very friendly UI with its prevailing "<a href="http://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
+Very friendly UI with its prevailing "<a href="https://prezi.com/learn/transformation-zebra-move-scale-rotate/">Zebra</a>"</div>
 </td>
   <td colspan="2"><div style="text-align: left;">
 You must have HTML skill! <font color="red">(Update 04/18: Not now, see [this][impressionist] for impress.js)</font></div>
@@ -198,12 +198,12 @@ free</div>
 <h2>Related Links</h2>
 
 <ul>
-<li><a href="http://tutorialzine.com/2012/02/css3-product-showcase/">Making an Impressive Product Showcase with CSS3</a> - tutorialzine</li>
-<li>(updated 2012/04/05) <a href="http://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">SLIDESHOW WITH JMPRESS.JS</a> - codrops</li>
-<li>(updated 2012/04/18) Impressionist -- <a href="https://github.com/hsivaramx/Impressionist">Online Visual Editing Tool</a> for Impress.js (latest: <a href="http://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>)</li>
+<li><a href="https://tutorialzine.com/2012/02/css3-product-showcase/">Making an Impressive Product Showcase with CSS3</a> - tutorialzine</li>
+<li>(updated 2012/04/05) <a href="https://tympanus.net/codrops/2012/04/05/slideshow-with-jmpress-js/">SLIDESHOW WITH JMPRESS.JS</a> - codrops</li>
+<li>(updated 2012/04/18) Impressionist -- <a href="https://github.com/hsivaramx/Impressionist">Online Visual Editing Tool</a> for Impress.js (latest: <a href="https://www.hsivaram.com/impressionist/alpha3/">Alpha3</a>)</li>
 </ul>
 
 ]]></content>
   </entry>
-  
+
 </feed>
