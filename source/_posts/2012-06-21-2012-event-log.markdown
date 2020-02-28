@@ -15,7 +15,7 @@ This post is an information/note aggregation from all the events that I have joi
 *   Date: 2012/04/14~2012/04/15
 *   Location: 中研院人社館
 *   [My blog post](/blog/2012/04/17/osdc-2012-impressions/)
-<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/vuaRA/embed"></iframe>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="https://imgur.com/a/vuaRA/embed"></iframe>
 
 ##JavaScript.tw [JS Group 台中場](http://registrano.com/events/jstw-tc-20120428)
 *   Date: 2012/04/28
