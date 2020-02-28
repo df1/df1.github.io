@@ -7,11 +7,11 @@
   <id>http://df1.github.com/</id>
   <author>
     <name><![CDATA[df1]]></name>
-    
+
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+
   <entry>
     <title type="html"><![CDATA[Error Handling in Aspect of UX]]></title>
     <link href="http://df1.github.com/blog/2013/04/16/error-handling-in-aspect-of-ux/"/>
@@ -95,7 +95,7 @@
 有空再補上圖＆一些practice！</p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Code Snippet for Dumping Facebook Album]]></title>
     <link href="http://df1.github.com/blog/2013/04/05/code-snippet-for-dumping-facebook-album/"/>
@@ -148,7 +148,7 @@ $$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
 <p>欸&#8230;亂寫的需要就用用看吧，有空再來解釋XD (靠)</p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[2012 Japan Trip: Sanyo, Kansai, North-Kyushu]]></title>
     <link href="http://df1.github.com/blog/2013/03/02/2012-japan-trip/"/>
@@ -1154,7 +1154,7 @@ $$('.fbPhotosPhotoCaption')[0].addEventListener('DOMSubtreeModified', handler);
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[JS Group Taichung Meetup September 2012]]></title>
     <link href="http://df1.github.com/blog/2012/09/11/js-group-taichung-meetup-september-2012/"/>
@@ -1339,7 +1339,7 @@ function validate(){
 <p>所有的瀏覽器(包含IE6)都可以這樣做，不過policy還是同網域才可以用<code>window.opener</code>。</p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Web Dev Party #5 活動小記]]></title>
     <link href="http://df1.github.com/blog/2012/07/20/web-dev-party-5/"/>
@@ -1352,9 +1352,9 @@ function validate(){
 <!--more-->
 
 
-<p><img src="http://i.imgur.com/Cnu9x.jpg" alt="閃光洽 - Rsponsive WAT Design" /></p>
+<p><img src="https://i.imgur.com/Cnu9x.jpg" alt="閃光洽 - Rsponsive WAT Design" /></p>
 
-<p><img src="http://i.imgur.com/8QbM1.jpg" alt="保哥 - HTML5 JavaScript APIs" /></p>
+<p><img src="https://i.imgur.com/8QbM1.jpg" alt="保哥 - HTML5 JavaScript APIs" /></p>
 
 <h2>Responsive WAT Design</h2>
 
@@ -1475,7 +1475,7 @@ Indexed DB：key是字串，value可以是object
 若之後有機會聽到完整版，想必又會有許許多多不同的梗、不同的感受吧！</p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Node.JS Hsinchu Party 2012/06/30]]></title>
     <link href="http://df1.github.com/blog/2012/07/01/node-js-hsinchu-group-meetup-2012-06-30/"/>
@@ -1487,7 +1487,7 @@ Indexed DB：key是字串，value可以是object
 <!--more-->
 
 
-<p><img src="http://i.imgur.com/zFjtc.png" alt="" /></p>
+<p><img src="https://i.imgur.com/zFjtc.png" alt="" /></p>
 
 <h2><a href="https://github.com/visionmedia/ejs#readme">EJS</a></h2>
 
@@ -1548,13 +1548,13 @@ functional composition?
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[2012 Event Log]]></title>
     <link href="http://df1.github.com/blog/2012/06/21/2012-event-log/"/>
     <updated>2012-06-21T20:50:00+08:00</updated>
     <id>http://df1.github.com/blog/2012/06/21/2012-event-log</id>
-    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/Gq3Gp.png"></p>
+    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/Gq3Gp.png"></p>
 
 <p>This post is an information/note aggregation from all the events that I have joined in 2012.</p>
 
@@ -1670,7 +1670,7 @@ functional composition?
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[JSDC.TW Transcript: Building Mobile Devices with the Open Web ]]></title>
     <link href="http://df1.github.com/blog/2012/05/29/jsdc-gaia-keynote-transcript/"/>
@@ -1714,7 +1714,7 @@ functional composition?
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[無聊分享：PTT有人在送吉他時候跟我說一聲]]></title>
     <link href="http://df1.github.com/blog/2012/05/07/notify-me-when-theres-guitar-giveaway-in-ptt/"/>
@@ -1753,7 +1753,7 @@ functional composition?
 <h3>Pipe連結：<a href="http://pipes.yahoo.com/s911131/pttguitar">PTT送吉他</a>，歡迎fork！</h3>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[自製波笛跑步機]]></title>
     <link href="http://df1.github.com/blog/2012/05/01/cat-wheel-diy/"/>
@@ -1780,7 +1780,7 @@ functional composition?
 只好等之後運回新竹再慢慢引導他，不然就要上拍賣了XDDD</p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[使用Sencha Architect 2快速上手Ext JS 4.1]]></title>
     <link href="http://df1.github.com/blog/2012/04/23/get-started-with-ext-js-4-1-using-sencha-architect-2/"/>
@@ -1938,7 +1938,7 @@ Sencha在今天釋出了Ext JS 4.1版本。這篇文章將以新手的角度，�
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[OSDC.TW 2012: My Summary & Impressions]]></title>
     <link href="http://df1.github.com/blog/2012/04/17/osdc-2012-impressions/"/>
@@ -1950,9 +1950,9 @@ Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Dev
 <h1>Update: Videos and slides of each session <a href="http://osdc.tw/schedule#day1">RELEASED</a>!</h1>
 
 <div class="gallery">
-<img src="http://i.imgur.com/ITjm1.jpg">
-<img src="http://i.imgur.com/2QN4w.jpg">
-<img src="http://i.imgur.com/uS6se.jpg">
+<img src="https://i.imgur.com/ITjm1.jpg">
+<img src="https://i.imgur.com/2QN4w.jpg">
+<img src="https://i.imgur.com/uS6se.jpg">
 </div>
 
 
@@ -1960,45 +1960,45 @@ Last weekend I joined <a href="http://osdc.tw">OSDC.TW 2012</a> (Open Source Dev
 
 
 <div class="gallery" style="margin-top:0">
-<img src="http://i.imgur.com/95OOu.jpg">
-<img src="http://i.imgur.com/Wbmqy.jpg">
-<img src="http://i.imgur.com/JayZt.jpg">
-<img src="http://i.imgur.com/xRzBm.jpg">
-<img src="http://i.imgur.com/Tra7g.jpg">
-<img src="http://i.imgur.com/bcfnF.jpg">
-<img src="http://i.imgur.com/Jtvko.jpg">
-<img src="http://i.imgur.com/5xZdc.jpg">
-<img src="http://i.imgur.com/JooSn.jpg">
-<img src="http://i.imgur.com/ShhYW.jpg">
-<img src="http://i.imgur.com/tsK6L.jpg">
-<img src="http://i.imgur.com/B9VBK.jpg">
-<img src="http://i.imgur.com/L6kac.jpg">
-<img src="http://i.imgur.com/Lrrv7.jpg">
-<img src="http://i.imgur.com/QFqSy.jpg">
-<img src="http://i.imgur.com/IxzRN.jpg">
-<img src="http://i.imgur.com/0jjry.jpg">
-<img src="http://i.imgur.com/mFXtW.jpg">
-<img src="http://i.imgur.com/unRfn.jpg">
-<img src="http://i.imgur.com/lHIl0.jpg">
-<img src="http://i.imgur.com/27wuM.png">
-<img src="http://i.imgur.com/c2Nck.jpg">
-<img src="http://i.imgur.com/bozDW.jpg">
-<img src="http://i.imgur.com/RwKcs.jpg">
-<img src="http://i.imgur.com/VehJp.jpg">
-<img src="http://i.imgur.com/mwAtU.jpg">
-<img src="http://i.imgur.com/LmsJP.jpg">
-<img src="http://i.imgur.com/4y1qL.jpg">
-<img src="http://i.imgur.com/4Jepm.jpg">
-<img src="http://i.imgur.com/hjybH.jpg">
-<img src="http://i.imgur.com/BOZ2x.jpg">
-<img src="http://i.imgur.com/WHYoG.jpg">
-<img src="http://i.imgur.com/yUFWV.jpg">
-<img src="http://i.imgur.com/etB9C.jpg">
-<img src="http://i.imgur.com/eLC3S.jpg">
-<img src="http://i.imgur.com/fvIw0.jpg">
-<img src="http://i.imgur.com/2i9vD.jpg">
-<img src="http://i.imgur.com/5vynj.jpg">
-<img src="http://i.imgur.com/U3JDo.jpg">
+<img src="https://i.imgur.com/95OOu.jpg">
+<img src="https://i.imgur.com/Wbmqy.jpg">
+<img src="https://i.imgur.com/JayZt.jpg">
+<img src="https://i.imgur.com/xRzBm.jpg">
+<img src="https://i.imgur.com/Tra7g.jpg">
+<img src="https://i.imgur.com/bcfnF.jpg">
+<img src="https://i.imgur.com/Jtvko.jpg">
+<img src="https://i.imgur.com/5xZdc.jpg">
+<img src="https://i.imgur.com/JooSn.jpg">
+<img src="https://i.imgur.com/ShhYW.jpg">
+<img src="https://i.imgur.com/tsK6L.jpg">
+<img src="https://i.imgur.com/B9VBK.jpg">
+<img src="https://i.imgur.com/L6kac.jpg">
+<img src="https://i.imgur.com/Lrrv7.jpg">
+<img src="https://i.imgur.com/QFqSy.jpg">
+<img src="https://i.imgur.com/IxzRN.jpg">
+<img src="https://i.imgur.com/0jjry.jpg">
+<img src="https://i.imgur.com/mFXtW.jpg">
+<img src="https://i.imgur.com/unRfn.jpg">
+<img src="https://i.imgur.com/lHIl0.jpg">
+<img src="https://i.imgur.com/27wuM.png">
+<img src="https://i.imgur.com/c2Nck.jpg">
+<img src="https://i.imgur.com/bozDW.jpg">
+<img src="https://i.imgur.com/RwKcs.jpg">
+<img src="https://i.imgur.com/VehJp.jpg">
+<img src="https://i.imgur.com/mwAtU.jpg">
+<img src="https://i.imgur.com/LmsJP.jpg">
+<img src="https://i.imgur.com/4y1qL.jpg">
+<img src="https://i.imgur.com/4Jepm.jpg">
+<img src="https://i.imgur.com/hjybH.jpg">
+<img src="https://i.imgur.com/BOZ2x.jpg">
+<img src="https://i.imgur.com/WHYoG.jpg">
+<img src="https://i.imgur.com/yUFWV.jpg">
+<img src="https://i.imgur.com/etB9C.jpg">
+<img src="https://i.imgur.com/eLC3S.jpg">
+<img src="https://i.imgur.com/fvIw0.jpg">
+<img src="https://i.imgur.com/2i9vD.jpg">
+<img src="https://i.imgur.com/5vynj.jpg">
+<img src="https://i.imgur.com/U3JDo.jpg">
 </div>
 
 
@@ -2209,7 +2209,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[網摘分享：jQuery到底是何方神聖？別怕，將他打回原形！]]></title>
     <link href="http://df1.github.com/blog/2012/04/09/jquery-striptease/"/>
@@ -2236,7 +2236,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 
 <p>沒錯，你想把它抓去阿魯巴都可以。（請自己寫plugin）</p>
 
-<br/> 
+<br/>
 
 
 <p>但問題來了，jQuery物件到底是啥？為啥它可以用<code>$</code>？為啥可以像上面那樣一直串下去？為啥它可以那麼強大？</p>
@@ -2266,7 +2266,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[突襲PiPoSea團隊：溫馨的Lean startup]]></title>
     <link href="http://df1.github.com/blog/2012/04/07/piposea-raid/"/>
@@ -2342,7 +2342,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[波笛身世二三事]]></title>
     <link href="http://df1.github.com/blog/2012/04/06/things-about-birdie/"/>
@@ -2350,7 +2350,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
     <id>http://df1.github.com/blog/2012/04/06/things-about-birdie</id>
     <content type="html"><![CDATA[<p>（傳說中欠了快兩年的文來了XD）</p>
 
-<p><img src="http://i.imgur.com/GjHBv.jpg" width="500" title="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;" alt="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;"></p>
+<p><img src="https://i.imgur.com/GjHBv.jpg" width="500" title="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;" alt="&#34;波笛小時候（約4個月時）的處女拍（對我來說XD）&#34;"></p>
 
 <p>來介紹一下我家的<code>波笛</code>，首先來個基本資料表好了！</p>
 
@@ -2423,61 +2423,61 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 <h2>生活紀錄2010/11～2010/12</h2>
 
 <div class="gallery">
-<img src="http://i.imgur.com/GjHBv.jpg" alt= 如果開閃光就不可能拍到他張開眼睛←結論" />
-<img src="http://i.imgur.com/PCa3E.jpg" alt="冬天專用恆溫暖爐床(Eee PC)" />
-<img src="http://i.imgur.com/TWqqA.jpg" alt="鍵盤也照躺的" />
-<img src="http://i.imgur.com/WMWX2.jpg" alt="上方暖爐" />
-<img src="http://i.imgur.com/Njg9l.jpg" alt="打瞌睡了" />
-<img src="http://i.imgur.com/7VTdr.jpg" alt="白手套特寫" />
-<img src="http://i.imgur.com/scspb.jpg" alt="撩人的姿勢" />
-<img src="http://i.imgur.com/IIy7A.jpg" alt="嫵媚的眼神" />
-<img src="http://i.imgur.com/AAm56.jpg" alt="趴了XD" />
-<img src="http://i.imgur.com/I2Ai2.jpg" alt="企圖在我的螢幕上留下四道爪痕(?)" />
-<img src="http://i.imgur.com/XYyGP.jpg" alt="有沒有這麼享受" />
-<img src="http://i.imgur.com/C8IBl.jpg" alt="瘦臉的拍照角度" />
-<img src="http://i.imgur.com/GC3aM.jpg" alt="小姐你睡相可以再好一點" />
-<img src="http://i.imgur.com/kjvZa.jpg" alt="貓掌特寫" />
-<img src="http://i.imgur.com/B7LdS.jpg" alt="粉紅的喔" />
-<img src="http://i.imgur.com/z4fdm.jpg" alt="對照比例" />
-<img src="http://i.imgur.com/QuQnn.jpg" alt="睡死了" />
-<img src="http://i.imgur.com/xXwNO.jpg" alt="正妹拍照 燈光是很重要的" />
-<img src="http://i.imgur.com/A0kMr.jpg" alt="玩具1號" />
-<img src="http://i.imgur.com/Ds9Oz.jpg" alt="窗邊曬太陽+怒瞪外面的吱吱叫的麻雀ing" />
-<img src="http://i.imgur.com/sOyNG.jpg" alt="曬太陽就是一副死魚眼" />
-<img src="http://i.imgur.com/SS8OR.jpg" alt="衝蝦?" />
-<img src="http://i.imgur.com/vEbqs.jpg" alt="這鬧鐘已經被他摔到掉秒針了 愛德阿爾哭哭" />
-<img src="http://i.imgur.com/TLcWD.jpg" alt="左邊隱約看到從一開始就放在馬桶上的貓砂盆  訓練他用馬桶的學前課程" />
-<img src="http://i.imgur.com/njhw2.jpg" alt="若有所思" />
-<img src="http://i.imgur.com/qsTvz.jpg" alt="睡著了" />
-<img src="http://i.imgur.com/FyKf3.jpg" alt="硬撐中" />
-<img src="http://i.imgur.com/dB8Fj.jpg" alt="垮了" />
-<img src="http://i.imgur.com/iR9EU.jpg" alt="應該可以幫他做睡相全集" />
-<img src="http://i.imgur.com/kMIo4.jpg" alt="這角度拍就很肥XD" />
-<img src="http://i.imgur.com/ylJoR.jpg" alt="大肥圓臉特寫" />
-<img src="http://i.imgur.com/6jZX8.jpg" alt="抽屜內 大家來找碴" />
-<img src="http://i.imgur.com/yBbbc.jpg" alt="這樣也能鑽" />
-<img src="http://i.imgur.com/31pqk.jpg" alt="台中的太陽" />
-<img src="http://i.imgur.com/z7FFL.jpg" alt="伸懶腰(爪子勾我牛仔褲= =" />
-<img src="http://i.imgur.com/uxFlL.jpg" alt="全家夯呀夯貓咪" />
-<img src="http://i.imgur.com/xQ2cZ.jpg" alt="慵懶度100%" />
-<img src="http://i.imgur.com/Udqe6.jpg" alt="老娘曬太陽你是有意見逆?" />
-<img src="http://i.imgur.com/idW29.jpg" alt="一面烤熟了 翻面" />
-<img src="http://i.imgur.com/teRU0.jpg" alt="還是敵不過相機吊繩的誘惑" />
-<img src="http://i.imgur.com/ZzvjN.jpg" alt="自掛東南枝 死狀悽慘 (其實當下很激烈)" />
-<img src="http://i.imgur.com/1L7ZZ.jpg" alt="就為了他的逗貓棒" />
-<img src="http://i.imgur.com/WVg9j.jpg" alt="逆轉裁判貓咪版" />
-<img src="http://i.imgur.com/3ePMb.jpg" alt="嗯哼?" />
-<img src="http://i.imgur.com/LOdK3.jpg" alt="一定要坐得那麼愜意嗎" />
-<img src="http://i.imgur.com/5hrFL.jpg" alt="密切注意上頭蜂蜜罐的動態" />
-<img src="http://i.imgur.com/Gm3J1.jpg" alt="罩門2號 繩子" />
-<img src="http://i.imgur.com/6fNkY.jpg" alt="通常可以玩到啥鬼姿勢都出現" />
+<img src="https://i.imgur.com/GjHBv.jpg" alt= 如果開閃光就不可能拍到他張開眼睛←結論" />
+<img src="https://i.imgur.com/PCa3E.jpg" alt="冬天專用恆溫暖爐床(Eee PC)" />
+<img src="https://i.imgur.com/TWqqA.jpg" alt="鍵盤也照躺的" />
+<img src="https://i.imgur.com/WMWX2.jpg" alt="上方暖爐" />
+<img src="https://i.imgur.com/Njg9l.jpg" alt="打瞌睡了" />
+<img src="https://i.imgur.com/7VTdr.jpg" alt="白手套特寫" />
+<img src="https://i.imgur.com/scspb.jpg" alt="撩人的姿勢" />
+<img src="https://i.imgur.com/IIy7A.jpg" alt="嫵媚的眼神" />
+<img src="https://i.imgur.com/AAm56.jpg" alt="趴了XD" />
+<img src="https://i.imgur.com/I2Ai2.jpg" alt="企圖在我的螢幕上留下四道爪痕(?)" />
+<img src="https://i.imgur.com/XYyGP.jpg" alt="有沒有這麼享受" />
+<img src="https://i.imgur.com/C8IBl.jpg" alt="瘦臉的拍照角度" />
+<img src="https://i.imgur.com/GC3aM.jpg" alt="小姐你睡相可以再好一點" />
+<img src="https://i.imgur.com/kjvZa.jpg" alt="貓掌特寫" />
+<img src="https://i.imgur.com/B7LdS.jpg" alt="粉紅的喔" />
+<img src="https://i.imgur.com/z4fdm.jpg" alt="對照比例" />
+<img src="https://i.imgur.com/QuQnn.jpg" alt="睡死了" />
+<img src="https://i.imgur.com/xXwNO.jpg" alt="正妹拍照 燈光是很重要的" />
+<img src="https://i.imgur.com/A0kMr.jpg" alt="玩具1號" />
+<img src="https://i.imgur.com/Ds9Oz.jpg" alt="窗邊曬太陽+怒瞪外面的吱吱叫的麻雀ing" />
+<img src="https://i.imgur.com/sOyNG.jpg" alt="曬太陽就是一副死魚眼" />
+<img src="https://i.imgur.com/SS8OR.jpg" alt="衝蝦?" />
+<img src="https://i.imgur.com/vEbqs.jpg" alt="這鬧鐘已經被他摔到掉秒針了 愛德阿爾哭哭" />
+<img src="https://i.imgur.com/TLcWD.jpg" alt="左邊隱約看到從一開始就放在馬桶上的貓砂盆  訓練他用馬桶的學前課程" />
+<img src="https://i.imgur.com/njhw2.jpg" alt="若有所思" />
+<img src="https://i.imgur.com/qsTvz.jpg" alt="睡著了" />
+<img src="https://i.imgur.com/FyKf3.jpg" alt="硬撐中" />
+<img src="https://i.imgur.com/dB8Fj.jpg" alt="垮了" />
+<img src="https://i.imgur.com/iR9EU.jpg" alt="應該可以幫他做睡相全集" />
+<img src="https://i.imgur.com/kMIo4.jpg" alt="這角度拍就很肥XD" />
+<img src="https://i.imgur.com/ylJoR.jpg" alt="大肥圓臉特寫" />
+<img src="https://i.imgur.com/6jZX8.jpg" alt="抽屜內 大家來找碴" />
+<img src="https://i.imgur.com/yBbbc.jpg" alt="這樣也能鑽" />
+<img src="https://i.imgur.com/31pqk.jpg" alt="台中的太陽" />
+<img src="https://i.imgur.com/z7FFL.jpg" alt="伸懶腰(爪子勾我牛仔褲= =" />
+<img src="https://i.imgur.com/uxFlL.jpg" alt="全家夯呀夯貓咪" />
+<img src="https://i.imgur.com/xQ2cZ.jpg" alt="慵懶度100%" />
+<img src="https://i.imgur.com/Udqe6.jpg" alt="老娘曬太陽你是有意見逆?" />
+<img src="https://i.imgur.com/idW29.jpg" alt="一面烤熟了 翻面" />
+<img src="https://i.imgur.com/teRU0.jpg" alt="還是敵不過相機吊繩的誘惑" />
+<img src="https://i.imgur.com/ZzvjN.jpg" alt="自掛東南枝 死狀悽慘 (其實當下很激烈)" />
+<img src="https://i.imgur.com/1L7ZZ.jpg" alt="就為了他的逗貓棒" />
+<img src="https://i.imgur.com/WVg9j.jpg" alt="逆轉裁判貓咪版" />
+<img src="https://i.imgur.com/3ePMb.jpg" alt="嗯哼?" />
+<img src="https://i.imgur.com/LOdK3.jpg" alt="一定要坐得那麼愜意嗎" />
+<img src="https://i.imgur.com/5hrFL.jpg" alt="密切注意上頭蜂蜜罐的動態" />
+<img src="https://i.imgur.com/Gm3J1.jpg" alt="罩門2號 繩子" />
+<img src="https://i.imgur.com/6fNkY.jpg" alt="通常可以玩到啥鬼姿勢都出現" />
 </div>
 
 
 <p>之後還有多照片影片，不過都沒啥時間整理囧，也是之後待續吧XDD（這人沒誠意）</p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[無聊分享：一篇在PTT Joke版潛力40推的文章之各項統計]]></title>
     <link href="http://df1.github.com/blog/2012/04/05/ptt-joke-analytics/"/>
@@ -2519,7 +2519,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 <img src="http://df1.github.com/attachments/2012-04-05-ptt-joke-analytics/m03.jpg"></p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[無聊分享：Rage Comics的熟面孔們]]></title>
     <link href="http://df1.github.com/blog/2012/04/03/celebrities-from-rage-comics-and-internet-memes/"/>
@@ -2595,7 +2595,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 <p>有沒有要補充的XDD</p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[搬家完成！]]></title>
     <link href="http://df1.github.com/blog/2012/04/01/migration-completed/"/>
@@ -2657,7 +2657,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[八爪波笛]]></title>
     <link href="http://df1.github.com/blog/2012/03/30/octocat/"/>
@@ -2673,7 +2673,7 @@ It looks like that this talk was more of a general overview about what Mizilla&#
 下次再來介紹波笛好了XD</p>
 ]]></content>
   </entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Web-based Slideshows --Comparing impress.js, jmpress.js and reveal.js]]></title>
     <link href="http://df1.github.com/blog/2012/03/27/web-based-slideshows-comparing-impress-js-jmpress-js-reveal-js-with-prezi/"/>
@@ -2866,5 +2866,5 @@ free</div>
 
 ]]></content>
   </entry>
-  
+
 </feed>
