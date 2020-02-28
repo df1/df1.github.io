@@ -3,7 +3,7 @@ layout: post
 title: "Web Dev Party #5 活動小記"
 date: 2012-07-20 19:40
 comments: true
-categories: [event, html5] 
+categories: [event, html5]
 ---
 
 今天請假北上參加了年度的[Java大拜拜](https://service.ithome.com.tw/20120720Java/)，剛好有機會參加這次在蛙.咖啡 (frog.cofe)舉辦的[Web Dev Party #5](http://registrano.com/events/webdev-party-05)！這可是傳說中全台最有梗、一票難求，大大、神人、正妹(!)一次到位的熱鬧技術趴，快來一探究竟吧！
@@ -12,9 +12,9 @@ categories: [event, html5]
 
 <!--more-->
 
-![閃光洽 - Rsponsive WAT Design](http://i.imgur.com/Cnu9x.jpg)
+![閃光洽 - Rsponsive WAT Design](https://i.imgur.com/Cnu9x.jpg)
 
-![保哥 - HTML5 JavaScript APIs](http://i.imgur.com/8QbM1.jpg)
+![保哥 - HTML5 JavaScript APIs](https://i.imgur.com/8QbM1.jpg)
 
 
 ##Responsive WAT Design
@@ -35,8 +35,8 @@ Responsive Web Design (RWD) 從字面上看來是指「會依環境而反應的�
 
 
 ##HTML5 JavaScript APIs
-*   講者：Will保哥 
-*   部落格：[The Will Will Web](http://blog.miniasp.com/) 
+*   講者：Will保哥
+*   部落格：[The Will Will Web](http://blog.miniasp.com/)
 *   FB粉絲團：[Will 保哥的技術交流中心](http://www.facebook.com/will.fans)
 
 
@@ -100,9 +100,9 @@ Indexed DB：key是字串，value可以是object
 
 
 ###Geolocation
-地理位置的API不是在window下，而是在navigator下。有兩個主要功能：  
-1.  取得當前座標資訊  
-2.  持續追蹤座標資訊  
+地理位置的API不是在window下，而是在navigator下。有兩個主要功能：
+1.  取得當前座標資訊
+2.  持續追蹤座標資訊
 
 [DEMO](http://html5demos.com/geo/)
 

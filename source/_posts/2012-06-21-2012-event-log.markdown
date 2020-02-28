@@ -5,7 +5,7 @@ date: 2012-06-21 20:50
 comments: true
 categories: [event, note]
 ---
-{%img http://i.imgur.com/Gq3Gp.png %}
+{%img https://i.imgur.com/Gq3Gp.png %}
 
 This post is an information/note aggregation from all the events that I have joined in 2012.
 <!--more-->
@@ -45,7 +45,7 @@ This post is an information/note aggregation from all the events that I have joi
 
 ##MozTW x Ubuntu-TW [Firefox x Ubuntu 12(.04) Release Party](http://registrano.com/events/fxu12rp)
 *   Date: 2012/05/27
-*   My plurk [1](http://www.plurk.com/p/ghi116) [2](http://www.plurk.com/p/ghsykd)  
+*   My plurk [1](http://www.plurk.com/p/ghi116) [2](http://www.plurk.com/p/ghsykd)
 {%img http://cdn.registrano.com/upload_images/8452/Ubuntu_x_Firefox_12_.04__Release_Party_-_Landscape_520.png 200 %}
 *   [Etherpad Note](https://etherpad.mozilla.org/furp-slide)
 
@@ -64,7 +64,7 @@ This post is an information/note aggregation from all the events that I have joi
 
 ##PyHUG [June Meeting](http://www.meetup.com/pythonhug/events/61065022/)
 *   Date: 2012/06/20
-*   Location: 清大創新育成中心115  
+*   Location: 清大創新育成中心115
 {%img http://photos1.meetupstatic.com/photos/event/5/8/0/e/global_76882542.jpeg %}
 
 ##新竹碼農聚會[(Hsinchu Coding Serfs Meeting)](http://registrano.com/events/c1c1cb)

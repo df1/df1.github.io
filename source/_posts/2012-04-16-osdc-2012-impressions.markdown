@@ -13,58 +13,58 @@ Last weekend I joined [OSDC.TW 2012][osdc] (Open Source Developers' Conference) 
 
 
 <div class="gallery">
-<img src="http://i.imgur.com/ITjm1.jpg">
-<img src="http://i.imgur.com/2QN4w.jpg">
-<img src="http://i.imgur.com/uS6se.jpg">
+<img src="https://i.imgur.com/ITjm1.jpg">
+<img src="https://i.imgur.com/2QN4w.jpg">
+<img src="https://i.imgur.com/uS6se.jpg">
 </div>
 <!--more-->
 <div class="gallery" style="margin-top:0">
-<img src="http://i.imgur.com/95OOu.jpg">
-<img src="http://i.imgur.com/Wbmqy.jpg">
-<img src="http://i.imgur.com/JayZt.jpg">
-<img src="http://i.imgur.com/xRzBm.jpg">
-<img src="http://i.imgur.com/Tra7g.jpg">
-<img src="http://i.imgur.com/bcfnF.jpg">
-<img src="http://i.imgur.com/Jtvko.jpg">
-<img src="http://i.imgur.com/5xZdc.jpg">
-<img src="http://i.imgur.com/JooSn.jpg">
-<img src="http://i.imgur.com/ShhYW.jpg">
-<img src="http://i.imgur.com/tsK6L.jpg">
-<img src="http://i.imgur.com/B9VBK.jpg">
-<img src="http://i.imgur.com/L6kac.jpg">
-<img src="http://i.imgur.com/Lrrv7.jpg">
-<img src="http://i.imgur.com/QFqSy.jpg">
-<img src="http://i.imgur.com/IxzRN.jpg">
-<img src="http://i.imgur.com/0jjry.jpg">
-<img src="http://i.imgur.com/mFXtW.jpg">
-<img src="http://i.imgur.com/unRfn.jpg">
-<img src="http://i.imgur.com/lHIl0.jpg">
-<img src="http://i.imgur.com/27wuM.png">
-<img src="http://i.imgur.com/c2Nck.jpg">
-<img src="http://i.imgur.com/bozDW.jpg">
-<img src="http://i.imgur.com/RwKcs.jpg">
-<img src="http://i.imgur.com/VehJp.jpg">
-<img src="http://i.imgur.com/mwAtU.jpg">
-<img src="http://i.imgur.com/LmsJP.jpg">
-<img src="http://i.imgur.com/4y1qL.jpg">
-<img src="http://i.imgur.com/4Jepm.jpg">
-<img src="http://i.imgur.com/hjybH.jpg">
-<img src="http://i.imgur.com/BOZ2x.jpg">
-<img src="http://i.imgur.com/WHYoG.jpg">
-<img src="http://i.imgur.com/yUFWV.jpg">
-<img src="http://i.imgur.com/etB9C.jpg">
-<img src="http://i.imgur.com/eLC3S.jpg">
-<img src="http://i.imgur.com/fvIw0.jpg">
-<img src="http://i.imgur.com/2i9vD.jpg">
-<img src="http://i.imgur.com/5vynj.jpg">
-<img src="http://i.imgur.com/U3JDo.jpg">
+<img src="https://i.imgur.com/95OOu.jpg">
+<img src="https://i.imgur.com/Wbmqy.jpg">
+<img src="https://i.imgur.com/JayZt.jpg">
+<img src="https://i.imgur.com/xRzBm.jpg">
+<img src="https://i.imgur.com/Tra7g.jpg">
+<img src="https://i.imgur.com/bcfnF.jpg">
+<img src="https://i.imgur.com/Jtvko.jpg">
+<img src="https://i.imgur.com/5xZdc.jpg">
+<img src="https://i.imgur.com/JooSn.jpg">
+<img src="https://i.imgur.com/ShhYW.jpg">
+<img src="https://i.imgur.com/tsK6L.jpg">
+<img src="https://i.imgur.com/B9VBK.jpg">
+<img src="https://i.imgur.com/L6kac.jpg">
+<img src="https://i.imgur.com/Lrrv7.jpg">
+<img src="https://i.imgur.com/QFqSy.jpg">
+<img src="https://i.imgur.com/IxzRN.jpg">
+<img src="https://i.imgur.com/0jjry.jpg">
+<img src="https://i.imgur.com/mFXtW.jpg">
+<img src="https://i.imgur.com/unRfn.jpg">
+<img src="https://i.imgur.com/lHIl0.jpg">
+<img src="https://i.imgur.com/27wuM.png">
+<img src="https://i.imgur.com/c2Nck.jpg">
+<img src="https://i.imgur.com/bozDW.jpg">
+<img src="https://i.imgur.com/RwKcs.jpg">
+<img src="https://i.imgur.com/VehJp.jpg">
+<img src="https://i.imgur.com/mwAtU.jpg">
+<img src="https://i.imgur.com/LmsJP.jpg">
+<img src="https://i.imgur.com/4y1qL.jpg">
+<img src="https://i.imgur.com/4Jepm.jpg">
+<img src="https://i.imgur.com/hjybH.jpg">
+<img src="https://i.imgur.com/BOZ2x.jpg">
+<img src="https://i.imgur.com/WHYoG.jpg">
+<img src="https://i.imgur.com/yUFWV.jpg">
+<img src="https://i.imgur.com/etB9C.jpg">
+<img src="https://i.imgur.com/eLC3S.jpg">
+<img src="https://i.imgur.com/fvIw0.jpg">
+<img src="https://i.imgur.com/2i9vD.jpg">
+<img src="https://i.imgur.com/5vynj.jpg">
+<img src="https://i.imgur.com/U3JDo.jpg">
 </div>
 
 
 #Day 1
 When I took highway bus and made to transit to Nangang, it was almost 9:30 AM. I felt regretful since the session opened at 9, and since the truth that I did not plan it well. Then I took another 15 minutes walking, which Google Map told me to do so, to Sinica Academia. Anyway, it was a deadly cloudy morning with regrets for missing the first keynote speech.
 
-After taking the attendee's badge and a crappy nonwoven Samsung bag from the multi-threaded registration desks, I managed to enter the main conference hall. The second session was just about to begin. 
+After taking the attendee's badge and a crappy nonwoven Samsung bag from the multi-threaded registration desks, I managed to enter the main conference hall. The second session was just about to begin.
 
 ##Keynote: Mozilla B2G: Breaking Mobile Monopolies
 *	Speaker: Dr. 宮力 (MOZILLA)

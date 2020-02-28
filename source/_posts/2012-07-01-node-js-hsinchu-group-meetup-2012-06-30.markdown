@@ -17,7 +17,7 @@ categories: [nodejs, event, note]
 [exp]:http://expressjs.com/
 
 <!--more-->
-![](http://i.imgur.com/zFjtc.png)
+![](https://i.imgur.com/zFjtc.png)
 
 ##[EJS][]
 [EJS][]是一個以JavaScript實作的Template Engine，基本用法跟ASP、JSP的tag library很類似：
