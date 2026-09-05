@@ -35,25 +35,27 @@
     /* --- 攝影機畫面區 --- */
     #viewfinder {
       position: relative; flex: 1; width: 100%; height: 100%; background: #000; overflow: hidden;
-      display: flex; align-items: center; justify-content: center;
+      display: flex; align-items: center; justify-content: center; z-index: 1;
     }
     video, canvas { position: absolute; width: 100%; height: 100%; object-fit: cover; }
     .mirror { transform: scaleX(-1); }
 
-    /* --- 手動可調整的進球偵測 ROI 框 --- */
+    /* --- 手動可調整的進球偵測 ROI 框 (修正 z-index 確保在最上層) --- */
     #roi-box {
       position: absolute; border: 3px dashed #00ffcc; box-shadow: 0 0 15px rgba(0,255,204,0.4);
-      background: rgba(0, 255, 204, 0.15); cursor: move; z-index: 5;
+      background: rgba(0, 255, 204, 0.15); cursor: move; 
+      z-index: 30; /* 修正：設定最高的 z-index */
       display: flex; align-items: center; justify-content: center;
+      touch-action: none; /* 確保手勢不會被瀏覽器攔截 */
     }
     #roi-box::after {
       content: "對準籃框入口"; font-size: 11px; color: #fff; background: rgba(0,0,0,0.6);
       padding: 2px 5px; border-radius: 4px; pointer-events: none;
     }
     .resize-handle {
-      position: absolute; width: 22px; height: 22px; background: #00ffcc;
-      bottom: -11px; right: -11px; border-radius: 50%; cursor: se-resize;
-      border: 2px solid #000;
+      position: absolute; width: 26px; height: 26px; background: #00ffcc;
+      bottom: -13px; right: -13px; border-radius: 50%; cursor: se-resize;
+      border: 3px solid #000; z-index: 31;
     }
 
     /* --- 橫向模式 (Landscape Optimization) --- */
@@ -127,7 +129,6 @@
 <body>
 
   <div id="app-container">
-    <!-- 1. 遊戲實時 HUD -->
     <div id="header">
       <div>
         <div class="hud-title">PLAYER</div>
@@ -144,21 +145,17 @@
       <button class="btn-quit" id="btn-early-finish">提前結束 🏁</button>
     </div>
 
-    <!-- 2. 攝影機檢視與偵測區域 -->
     <div id="viewfinder">
       <video id="webcam" autoplay playsinline class="mirror"></video>
       <canvas id="canvas" style="display:none;"></canvas>
       
-      <!-- 調整區域時的提示浮點 -->
       <div id="align-hint" class="hidden">🎯 請拖曳與縮放綠框對準籃框入口</div>
 
-      <!-- 可拖曳與縮放的偵測框 -->
       <div id="roi-box" style="top: 35%; left: 35%; width: 130px; height: 80px;">
         <div class="resize-handle" id="resize-handle"></div>
       </div>
     </div>
 
-    <!-- 3. 選單：遊戲設定畫面 -->
     <div id="screen-setup" class="overlay-screen">
       <h2>🏀 籃球機設定</h2>
       
@@ -198,26 +195,22 @@
       <button class="btn" id="btn-start-game">開始遊戲 🏀</button>
     </div>
 
-    <!-- 4. 選單：校準模式確認按鈕 -->
-    <div id="align-controls" class="overlay-screen hidden" style="background: transparent; backdrop-filter: none; justify-content: flex-end; padding-bottom: 30px;">
-      <button class="btn btn-accent" id="btn-confirm-align" style="max-width: 280px;">完成調整，返回選單 👍</button>
+    <div id="align-controls" class="hidden" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); z-index: 25; display: flex; justify-content: center; align-items: center; padding-bottom: 20px; pointer-events: none;">
+      <button class="btn btn-accent" id="btn-confirm-align" style="max-width: 280px; margin-top: 0; pointer-events: auto;">完成調整，返回選單 👍</button>
     </div>
 
-    <!-- 5. 選單：準備 & 3-2-1 倒數畫面 -->
     <div id="screen-countdown" class="overlay-screen hidden">
       <div style="font-size: 1.4rem; color: #aaa;">準備好投籃！</div>
       <div id="next-player-name" style="font-size: 2rem; font-weight: bold; margin: 10px 0; color: #fff;"></div>
       <div id="countdown-display">3</div>
     </div>
 
-    <!-- 6. 選單：單人結束 / 換人過場畫面 -->
     <div id="screen-turn-result" class="overlay-screen hidden">
       <h2 style="color: #00ffcc;">時間到！</h2>
       <div id="turn-summary-text" style="font-size: 1.2rem; margin-bottom: 20px;"></div>
       <button class="btn" id="btn-next-turn">換下一位玩家 ➡️</button>
     </div>
 
-    <!-- 7. 選單：總排行榜 -->
     <div id="screen-leaderboard" class="overlay-screen hidden">
       <h2>🏆 最終排行榜</h2>
       <table class="leaderboard-table">
@@ -286,12 +279,17 @@
     document.getElementById('btn-align-roi').addEventListener('click', () => {
       document.getElementById('screen-setup').classList.add('hidden');
       document.getElementById('align-hint').classList.remove('hidden');
-      document.getElementById('align-controls').classList.remove('hidden');
+      // 修正：修正佈局後的調整控制列
+      const controls = document.getElementById('align-controls');
+      controls.classList.remove('hidden');
+      controls.style.display = 'flex'; 
     });
 
     document.getElementById('btn-confirm-align').addEventListener('click', () => {
       document.getElementById('align-hint').classList.add('hidden');
-      document.getElementById('align-controls').classList.add('hidden');
+      const controls = document.getElementById('align-controls');
+      controls.classList.add('hidden');
+      controls.style.display = 'none';
       document.getElementById('screen-setup').classList.remove('hidden');
     });
 
@@ -312,34 +310,49 @@
     selectPlayers.addEventListener('change', renderPlayerInputs);
     renderPlayerInputs();
 
-    // --- 4. 手動拖曳與縮放 ROI 綠框 ---
+    // --- 4. 手動拖曳與縮放 ROI 綠框 (修正 pointerDown 邏輯確保穩定性) ---
     let isDragging = false, isResizing = false;
     let startX, startY, startW, startH, startLeft, startTop;
 
-    roiBox.addEventListener('touchstart', handlePointerDown);
+    // 同時監聽 mouse 和 touch 事件，但避免重複觸發
     roiBox.addEventListener('mousedown', handlePointerDown);
+    roiBox.addEventListener('touchstart', handlePointerDown, { passive: false });
 
     function handlePointerDown(e) {
+      // 防止 touch 開始時捲動頁面
+      if (e.type === 'touchstart') e.preventDefault();
+      
       const p = e.touches ? e.touches[0] : e;
+      
       if (e.target.id === 'resize-handle') {
         isResizing = true;
+        isDragging = false;
         startW = roiBox.offsetWidth;
         startH = roiBox.offsetHeight;
       } else {
         isDragging = true;
+        isResizing = false;
         startLeft = roiBox.offsetLeft;
         startTop = roiBox.offsetTop;
       }
+      
       startX = p.clientX;
       startY = p.clientY;
       
-      window.addEventListener('touchmove', handlePointerMove);
-      window.addEventListener('mousemove', handlePointerMove);
-      window.addEventListener('touchend', handlePointerUp);
-      window.addEventListener('mouseup', handlePointerUp);
+      // 監聽全域事件
+      if (e.type === 'touchstart') {
+        window.addEventListener('touchmove', handlePointerMove, { passive: false });
+        window.addEventListener('touchend', handlePointerUp);
+      } else {
+        window.addEventListener('mousemove', handlePointerMove);
+        window.addEventListener('mouseup', handlePointerUp);
+      }
     }
 
     function handlePointerMove(e) {
+      if (!isDragging && !isResizing) return;
+      if (e.type === 'touchmove') e.preventDefault();
+      
       const p = e.touches ? e.touches[0] : e;
       const dx = p.clientX - startX;
       const dy = p.clientY - startY;
@@ -353,11 +366,14 @@
       }
     }
 
-    function handlePointerUp() {
+    function handlePointerUp(e) {
       isDragging = false;
       isResizing = false;
+      
       window.removeEventListener('touchmove', handlePointerMove);
       window.removeEventListener('mousemove', handlePointerMove);
+      window.removeEventListener('touchend', handlePointerUp);
+      window.removeEventListener('mouseup', handlePointerUp);
     }
 
     // --- 5. Web Audio 音效產生器 ---
