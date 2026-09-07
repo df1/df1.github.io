@@ -40,13 +40,13 @@
     video, canvas { position: absolute; width: 100%; height: 100%; object-fit: cover; }
     .mirror { transform: scaleX(-1); }
 
-    /* --- 手動可調整的進球偵測 ROI 框 (修正 z-index 確保在最上層) --- */
+    /* --- 手動可調整的進球偵測 ROI 框 --- */
     #roi-box {
       position: absolute; border: 3px dashed #00ffcc; box-shadow: 0 0 15px rgba(0,255,204,0.4);
       background: rgba(0, 255, 204, 0.15); cursor: move; 
-      z-index: 30; /* 修正：設定最高的 z-index */
+      z-index: 30;
       display: flex; align-items: center; justify-content: center;
-      touch-action: none; /* 確保手勢不會被瀏覽器攔截 */
+      touch-action: none;
     }
     #roi-box::after {
       content: "對準籃框入口"; font-size: 11px; color: #fff; background: rgba(0,0,0,0.6);
@@ -129,6 +129,7 @@
 <body>
 
   <div id="app-container">
+    <!-- 1. 遊戲實時 HUD -->
     <div id="header">
       <div>
         <div class="hud-title">PLAYER</div>
@@ -145,17 +146,21 @@
       <button class="btn-quit" id="btn-early-finish">提前結束 🏁</button>
     </div>
 
+    <!-- 2. 攝影機檢視與偵測區域 -->
     <div id="viewfinder">
       <video id="webcam" autoplay playsinline class="mirror"></video>
       <canvas id="canvas" style="display:none;"></canvas>
       
+      <!-- 調整區域時的提示浮點 -->
       <div id="align-hint" class="hidden">🎯 請拖曳與縮放綠框對準籃框入口</div>
 
+      <!-- 可拖曳與縮放的偵測框 -->
       <div id="roi-box" style="top: 35%; left: 35%; width: 130px; height: 80px;">
         <div class="resize-handle" id="resize-handle"></div>
       </div>
     </div>
 
+    <!-- 3. 選單：遊戲設定畫面 -->
     <div id="screen-setup" class="overlay-screen">
       <h2>🏀 籃球機設定</h2>
       
@@ -195,22 +200,26 @@
       <button class="btn" id="btn-start-game">開始遊戲 🏀</button>
     </div>
 
+    <!-- 4. 校準模式確認按鈕工具列 -->
     <div id="align-controls" class="hidden" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); z-index: 25; display: flex; justify-content: center; align-items: center; padding-bottom: 20px; pointer-events: none;">
       <button class="btn btn-accent" id="btn-confirm-align" style="max-width: 280px; margin-top: 0; pointer-events: auto;">完成調整，返回選單 👍</button>
     </div>
 
+    <!-- 5. 選單：準備 & 3-2-1 倒數畫面 -->
     <div id="screen-countdown" class="overlay-screen hidden">
       <div style="font-size: 1.4rem; color: #aaa;">準備好投籃！</div>
       <div id="next-player-name" style="font-size: 2rem; font-weight: bold; margin: 10px 0; color: #fff;"></div>
       <div id="countdown-display">3</div>
     </div>
 
+    <!-- 6. 選單：單人結束 / 換人過場畫面 -->
     <div id="screen-turn-result" class="overlay-screen hidden">
       <h2 style="color: #00ffcc;">時間到！</h2>
       <div id="turn-summary-text" style="font-size: 1.2rem; margin-bottom: 20px;"></div>
       <button class="btn" id="btn-next-turn">換下一位玩家 ➡️</button>
     </div>
 
+    <!-- 7. 選單：總排行榜 -->
     <div id="screen-leaderboard" class="overlay-screen hidden">
       <h2>🏆 最終排行榜</h2>
       <table class="leaderboard-table">
@@ -279,7 +288,6 @@
     document.getElementById('btn-align-roi').addEventListener('click', () => {
       document.getElementById('screen-setup').classList.add('hidden');
       document.getElementById('align-hint').classList.remove('hidden');
-      // 修正：修正佈局後的調整控制列
       const controls = document.getElementById('align-controls');
       controls.classList.remove('hidden');
       controls.style.display = 'flex'; 
@@ -310,16 +318,14 @@
     selectPlayers.addEventListener('change', renderPlayerInputs);
     renderPlayerInputs();
 
-    // --- 4. 手動拖曳與縮放 ROI 綠框 (修正 pointerDown 邏輯確保穩定性) ---
+    // --- 4. 手動拖曳與縮放 ROI 綠框 ---
     let isDragging = false, isResizing = false;
     let startX, startY, startW, startH, startLeft, startTop;
 
-    // 同時監聽 mouse 和 touch 事件，但避免重複觸發
     roiBox.addEventListener('mousedown', handlePointerDown);
     roiBox.addEventListener('touchstart', handlePointerDown, { passive: false });
 
     function handlePointerDown(e) {
-      // 防止 touch 開始時捲動頁面
       if (e.type === 'touchstart') e.preventDefault();
       
       const p = e.touches ? e.touches[0] : e;
@@ -339,7 +345,6 @@
       startX = p.clientX;
       startY = p.clientY;
       
-      // 監聽全域事件
       if (e.type === 'touchstart') {
         window.addEventListener('touchmove', handlePointerMove, { passive: false });
         window.addEventListener('touchend', handlePointerUp);
@@ -378,31 +383,35 @@
 
     // --- 5. Web Audio 音效產生器 ---
     function playSound(type) {
-      const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-      const osc = audioCtx.createOscillator();
-      const gain = audioCtx.createGain();
-      osc.connect(gain);
-      gain.connect(audioCtx.destination);
+      try {
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
 
-      if (type === 'goal') {
-        osc.type = 'sine';
-        osc.frequency.setValueAtTime(587.33, audioCtx.currentTime);
-        osc.frequency.exponentialRampToValueAtTime(880, audioCtx.currentTime + 0.15);
-        gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.15);
-        osc.start(); osc.stop(audioCtx.currentTime + 0.15);
-      } else if (type === 'beep') {
-        osc.type = 'triangle';
-        osc.frequency.setValueAtTime(440, audioCtx.currentTime);
-        gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
-        osc.start(); osc.stop(audioCtx.currentTime + 0.1);
-      } else if (type === 'end') {
-        osc.type = 'square';
-        osc.frequency.setValueAtTime(220, audioCtx.currentTime);
-        gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.5);
-        osc.start(); osc.stop(audioCtx.currentTime + 0.5);
+        if (type === 'goal') {
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(587.33, audioCtx.currentTime);
+          osc.frequency.exponentialRampToValueAtTime(880, audioCtx.currentTime + 0.15);
+          gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.15);
+          osc.start(); osc.stop(audioCtx.currentTime + 0.15);
+        } else if (type === 'beep') {
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(440, audioCtx.currentTime);
+          gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+          osc.start(); osc.stop(audioCtx.currentTime + 0.1);
+        } else if (type === 'end') {
+          osc.type = 'square';
+          osc.frequency.setValueAtTime(220, audioCtx.currentTime);
+          gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.5);
+          osc.start(); osc.stop(audioCtx.currentTime + 0.5);
+        }
+      } catch (e) {
+        console.log("Audio play error:", e);
       }
     }
 
@@ -447,6 +456,11 @@
     }
 
     function startPlaying() {
+      // 關鍵修復：重置舊玩家殘留的幀數資料與冷卻狀態
+      prevFrameData = null;
+      isCooldown = false;
+      roiBox.style.borderColor = '#00ffcc';
+
       isPlaying = true;
       currentScore = 0;
       timeLeft = gameTimeLimit;
@@ -455,6 +469,7 @@
       document.getElementById('hud-time').innerText = timeLeft;
       document.getElementById('hud-score').innerText = currentScore;
 
+      if (gameTimer) clearInterval(gameTimer);
       gameTimer = setInterval(() => {
         timeLeft--;
         document.getElementById('hud-time').innerText = timeLeft;
@@ -464,7 +479,6 @@
       }, 1000);
     }
 
-    // 提前結束按鈕處理
     document.getElementById('btn-early-finish').addEventListener('click', () => {
       if (isPlaying && confirm("確定要提前結束目前玩家的投籃嗎？")) {
         endTurn();
@@ -522,50 +536,58 @@
 
     // --- 7. 影像動態偵測 (ROI) ---
     function processFrame() {
-      if (video.readyState === video.HAVE_ENOUGH_DATA) {
-        canvas.width = video.videoWidth;
-        canvas.height = video.videoHeight;
+      try {
+        if (video.readyState === video.HAVE_ENOUGH_DATA) {
+          canvas.width = video.videoWidth;
+          canvas.height = video.videoHeight;
 
-        const viewRect = video.getBoundingClientRect();
-        const scaleX = video.videoWidth / viewRect.width;
-        const scaleY = video.videoHeight / viewRect.height;
+          const viewRect = video.getBoundingClientRect();
+          if (viewRect.width > 0 && viewRect.height > 0) {
+            const scaleX = video.videoWidth / viewRect.width;
+            const scaleY = video.videoHeight / viewRect.height;
 
-        const roiRect = roiBox.getBoundingClientRect();
-        const rx = (roiRect.left - viewRect.left) * scaleX;
-        const ry = (roiRect.top - viewRect.top) * scaleY;
-        const rw = roiRect.width * scaleX;
-        const rh = roiRect.height * scaleY;
+            const roiRect = roiBox.getBoundingClientRect();
+            // 計算 Canvas 上的相對位置並確保不越界
+            let rx = Math.max(0, (roiRect.left - viewRect.left) * scaleX);
+            let ry = Math.max(0, (roiRect.top - viewRect.top) * scaleY);
+            let rw = Math.min(canvas.width - rx, roiRect.width * scaleX);
+            let rh = Math.min(canvas.height - ry, roiRect.height * scaleY);
 
-        if (rw > 0 && rh > 0) {
-          ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-          const currentFrame = ctx.getImageData(rx, ry, rw, rh);
+            if (rw > 5 && rh > 5) {
+              ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+              const currentFrame = ctx.getImageData(rx, ry, rw, rh);
 
-          if (prevFrameData && isPlaying && !isCooldown) {
-            let diff = 0;
-            const len = currentFrame.data.length;
+              // 關鍵修復：確保舊幀長度與新幀一致才比對，防止崩潰
+              if (prevFrameData && prevFrameData.data.length === currentFrame.data.length && isPlaying && !isCooldown) {
+                let diff = 0;
+                const len = currentFrame.data.length;
 
-            for (let i = 0; i < len; i += 4) {
-              const rD = Math.abs(currentFrame.data[i] - prevFrameData.data[i]);
-              const gD = Math.abs(currentFrame.data[i+1] - prevFrameData.data[i+1]);
-              const bD = Math.abs(currentFrame.data[i+2] - prevFrameData.data[i+2]);
-              if (rD + gD + bD > 90) diff++;
-            }
+                for (let i = 0; i < len; i += 4) {
+                  const rD = Math.abs(currentFrame.data[i] - prevFrameData.data[i]);
+                  const gD = Math.abs(currentFrame.data[i+1] - prevFrameData.data[i+1]);
+                  const bD = Math.abs(currentFrame.data[i+2] - prevFrameData.data[i+2]);
+                  if (rD + gD + bD > 90) diff++;
+                }
 
-            if (diff > (rw * rh * 0.08)) { 
-              currentScore += 2;
-              document.getElementById('hud-score').innerText = currentScore;
-              playSound('goal');
+                if (diff > (rw * rh * 0.08)) { 
+                  currentScore += 2;
+                  document.getElementById('hud-score').innerText = currentScore;
+                  playSound('goal');
 
-              isCooldown = true;
-              roiBox.style.borderColor = '#ff0055';
-              setTimeout(() => {
-                isCooldown = false;
-                roiBox.style.borderColor = '#00ffcc';
-              }, 900);
+                  isCooldown = true;
+                  roiBox.style.borderColor = '#ff0055';
+                  setTimeout(() => {
+                    isCooldown = false;
+                    roiBox.style.borderColor = '#00ffcc';
+                  }, 900);
+                }
+              }
+              prevFrameData = currentFrame;
             }
           }
-          prevFrameData = currentFrame;
         }
+      } catch (err) {
+        console.error("Frame processing error:", err);
       }
       requestAnimationFrame(processFrame);
     }
