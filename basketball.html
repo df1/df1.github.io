@@ -18,7 +18,7 @@
       background: #12121c; display: flex; flex-direction: column; overflow: hidden;
     }
 
-    /* --- 直向模式 HUD (Portrait Mode) --- */
+    /* --- 直向模式 HUD --- */
     #header {
       padding: 10px; background: #1a1a2b; display: flex; justify-content: space-around; align-items: center;
       border-bottom: 2px solid #2a2a40; z-index: 10; flex-shrink: 0;
@@ -40,12 +40,11 @@
     video, canvas { position: absolute; width: 100%; height: 100%; object-fit: cover; }
     .mirror { transform: scaleX(-1); }
 
-    /* --- 手動可調整的進球偵測 ROI 框 --- */
+    /* --- 偵測框 ROI --- */
     #roi-box {
       position: absolute; border: 3px dashed #00ffcc; box-shadow: 0 0 15px rgba(0,255,204,0.4);
       background: rgba(0, 255, 204, 0.15); cursor: move; 
-      z-index: 30;
-      display: flex; align-items: center; justify-content: center;
+      z-index: 30; display: flex; align-items: center; justify-content: center;
       touch-action: none;
     }
     #roi-box::after {
@@ -58,7 +57,7 @@
       border: 3px solid #000; z-index: 31;
     }
 
-    /* --- 橫向模式 (Landscape Optimization) --- */
+    /* --- 橫向模式 --- */
     @media (orientation: landscape) {
       #app-container { flex-direction: row; }
       #header {
@@ -69,10 +68,10 @@
       .hud-value { font-size: 1.8rem; }
     }
 
-    /* --- 浮層選單 UI --- */
+    /* --- 浮層選單 UI (關鍵修正：移除 backdrop-filter 防止背景 video 渲染被凍結) --- */
     .overlay-screen {
       position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-      background: rgba(18, 18, 28, 0.94); backdrop-filter: blur(8px);
+      background: rgba(18, 18, 28, 0.96); /* 使用高不透明度替代 blur */
       z-index: 20; display: flex; flex-direction: column; padding: 20px;
       overflow-y: auto; justify-content: center; align-items: center;
     }
@@ -80,7 +79,6 @@
 
     h2 { font-size: 1.5rem; margin-top: 0; margin-bottom: 12px; color: #ff0055; letter-spacing: 1px; }
 
-    /* 表單與按鈕 */
     .form-grid {
       display: grid; grid-template-columns: 1fr; gap: 10px; width: 100%; max-width: 360px; text-align: left;
     }
@@ -105,21 +103,18 @@
     .btn-secondary { background: #2a2a40; box-shadow: none; border: 1px solid #4a4a65; }
     .btn-accent { background: linear-gradient(135deg, #00b894, #00cec9); box-shadow: 0 4px 15px rgba(0,206,201,0.3); }
 
-    /* 大字體倒數 */
     #countdown-display {
       font-size: 6rem; font-weight: 900; color: #00ffcc; text-shadow: 0 0 30px #00ffcc;
       animation: pulse 0.8s infinite alternate;
     }
     @keyframes pulse { from { transform: scale(0.9); } to { transform: scale(1.1); } }
 
-    /* 籃框校準模式提示浮層 */
     #align-hint {
       position: absolute; top: 15px; left: 50%; transform: translateX(-50%);
       background: rgba(0,0,0,0.75); border: 1px solid #00ffcc; padding: 8px 16px;
       border-radius: 20px; color: #00ffcc; font-size: 0.85rem; z-index: 15; pointer-events: none;
     }
 
-    /* 排行榜 */
     .leaderboard-table { width: 100%; max-width: 360px; border-collapse: collapse; margin: 15px 0; }
     .leaderboard-table th, .leaderboard-table td { padding: 8px; border-bottom: 1px solid #3a3a55; text-align: left; }
     .leaderboard-table th { color: #8a8aa0; font-size: 0.8rem; }
@@ -151,10 +146,8 @@
       <video id="webcam" autoplay playsinline class="mirror"></video>
       <canvas id="canvas" style="display:none;"></canvas>
       
-      <!-- 調整區域時的提示浮點 -->
       <div id="align-hint" class="hidden">🎯 請拖曳與縮放綠框對準籃框入口</div>
 
-      <!-- 可拖曳與縮放的偵測框 -->
       <div id="roi-box" style="top: 35%; left: 35%; width: 130px; height: 80px;">
         <div class="resize-handle" id="resize-handle"></div>
       </div>
@@ -162,7 +155,7 @@
 
     <!-- 3. 選單：遊戲設定畫面 -->
     <div id="screen-setup" class="overlay-screen">
-      <h2>🏀 籃球機設定 v1.1</h2>
+      <h2>🏀 籃球機設定</h2>
       
       <div class="form-grid">
         <div class="form-group">
@@ -268,6 +261,7 @@
           audio: false
         });
         video.srcObject = currentStream;
+        await video.play();
         
         if (facingMode === "user") {
           video.classList.add('mirror');
@@ -284,7 +278,7 @@
       initCamera();
     });
 
-    // --- 2. 獨立調整籃框區域 (ROI Alignment Mode) ---
+    // --- 2. 獨立調整籃框區域 ---
     document.getElementById('btn-align-roi').addEventListener('click', () => {
       document.getElementById('screen-setup').classList.add('hidden');
       document.getElementById('align-hint').classList.remove('hidden');
@@ -381,7 +375,7 @@
       window.removeEventListener('mouseup', handlePointerUp);
     }
 
-    // --- 5. Web Audio 音效產生器 ---
+    // --- 5. Web Audio 音效 ---
     function playSound(type) {
       try {
         const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -410,9 +404,7 @@
           gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.5);
           osc.start(); osc.stop(audioCtx.currentTime + 0.5);
         }
-      } catch (e) {
-        console.log("Audio play error:", e);
-      }
+      } catch (e) {}
     }
 
     // --- 6. 遊戲流程控制 ---
@@ -456,7 +448,12 @@
     }
 
     function startPlaying() {
-      // 關鍵修復：重置舊玩家殘留的幀數資料與冷卻狀態
+      // 關鍵修復：重新喚醒影片播放（防止行動裝置選單遮罩凍結影片）
+      if (video.paused) {
+        video.play().catch(e => console.log(e));
+      }
+
+      // 重置當前玩家狀態
       prevFrameData = null;
       isCooldown = false;
       roiBox.style.borderColor = '#00ffcc';
@@ -537,7 +534,8 @@
     // --- 7. 影像動態偵測 (ROI) ---
     function processFrame() {
       try {
-        if (video.readyState === video.HAVE_ENOUGH_DATA) {
+        // 只有在遊戲進行中才執行動態比對與畫面處置
+        if (isPlaying && video.readyState === video.HAVE_ENOUGH_DATA) {
           canvas.width = video.videoWidth;
           canvas.height = video.videoHeight;
 
@@ -547,7 +545,6 @@
             const scaleY = video.videoHeight / viewRect.height;
 
             const roiRect = roiBox.getBoundingClientRect();
-            // 計算 Canvas 上的相對位置並確保不越界
             let rx = Math.max(0, (roiRect.left - viewRect.left) * scaleX);
             let ry = Math.max(0, (roiRect.top - viewRect.top) * scaleY);
             let rw = Math.min(canvas.width - rx, roiRect.width * scaleX);
@@ -557,8 +554,7 @@
               ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
               const currentFrame = ctx.getImageData(rx, ry, rw, rh);
 
-              // 關鍵修復：確保舊幀長度與新幀一致才比對，防止崩潰
-              if (prevFrameData && prevFrameData.data.length === currentFrame.data.length && isPlaying && !isCooldown) {
+              if (prevFrameData && prevFrameData.data.length === currentFrame.data.length && !isCooldown) {
                 let diff = 0;
                 const len = currentFrame.data.length;
 
